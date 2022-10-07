@@ -1,0 +1,38 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "text": "\nThe man could have been poisoned by the abalone."
+    }
+  ],
+  "created": 1665122933,
+  "id": "cmpl-5yapR6CbntGljt5w5NkefkRnrgTsv",
+  "model": "text-davinci-002",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 12,
+    "prompt_tokens": 44,
+    "total_tokens": 56
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "text": "\nThe man could have read the article and known that a murder had been committed based on the headline and the information in the article."
+    }
+  ],
+  "created": 1665122934,
+  "id": "cmpl-5yapSUBFvBsDojpfcfgamfGqIWvjy",
+  "model": "text-davinci-002",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 50,
+    "total_tokens": 77
+  }
+}
