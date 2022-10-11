@@ -8,7 +8,8 @@
             "The man is very short and therefore unable to reach the buttons above the seventh floor. This presumes a button layout in descending order."
         ],
         "question": "Why does the man walk to the tenth floor from the seventh and not take the elevator all the way up to his floor?",
-        "follow-up-qa":[],
+        "follow-up-Q":[],
+        "follow-up-A":[],
         "hint":"As we said, there is nothing wrong with either the building or the elevator. There is, however, some feature of the man that causes him to take the stairs from the seventh floor."
     },
 
@@ -21,7 +22,8 @@
             "Pushing the cork into the bottle will dislodge it and allow you to shake out the coin."
         ],
         "question": "How can you remove the coin from the bottle without breaking the bottle or removing the cork?",
-        "follow-up-qa":[],
+        "follow-up-Q":[],
+        "follow-up-A":[],
         "hint":"You will need to do something to the cork other than taking it out."
     }
 
