@@ -1,8 +1,7 @@
 import os
 import openai
 import json
-openai.api_key = "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"
-
+openai.api_key = os.getenv("OPENAI_API_KEY")
 filename = "./qa.json"
 # out_filename= "./Lateral/Answer_predict.txt"
 discrib_prompt = "I am a chatbot that can answer questions from users based on scenario information."
