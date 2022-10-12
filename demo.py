@@ -1,22 +1,26 @@
+from curses import init_pair
 import os
 from unittest import result
 import openai
 import json
 import argparse
+# from similarity import compute_cosine_similarity
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
-example_data = {
-	"puzzle":"A man walks into a bar and asks the bartender for a drink of water. The bartender pulls out a qun, points it at the man and cocks it. The man pauses before saying \"Thank you\"and leaving. What happened?",
-	"solution":"The man had the hiccups. The bartender realized this and chose instead to cure the hiccups by frightening the man with the gun.",
-	"question_list":[
-		"Could the bartender hear him?",
-		"Did the man ask for water in an offensive way?"
-	],
-	"answer_list": [
-		"Yes",
-		"No"
-	]
-}
+example = {
+        "puzzle": ["A man walks into a bar and asks the bartender for a drink of water.",
+                    "The bartender pulls out a qun, points it at the man and cocks it. ",
+                    "The man pauses before saying \"Thank you\"and leaving.",
+                    "What happened?"
+        ],
+        "truth": ["The man had the hiccups."
+                  "The bartender realized this and chose instead to cure the hiccups by frightening the man with the gun."
+        ],
+        "follow-up-Q":["Could the bartender hear him?",
+                       "Did the man ask for water in an offensive way?"],
+        "follow-up-A":["Yes.","No."],
+        "hint":"As we said, there is nothing wrong with either the building or the elevator. There is, however, some feature of the man that causes him to take the stairs from the seventh floor."
+    }
 
 def load_data(data_path):
 	with open(data_path, 'r') as f:
@@ -25,11 +29,10 @@ def load_data(data_path):
 
 def extract_input_item(data):
     puzzle = "".join(data["puzzle"])
-    question = "".join(data["question"])
     truth = "".join(data["truth"])
-    fol_q = list(data["follow_up_Q"])
-    fol_a = list(data["follow_up_A"])
-    return [puzzle, question, truth, fol_q, fol_a]
+    fol_q = list(data["follow-up-Q"])
+    fol_a = list(data["follow-up-A"])
+    return puzzle, truth, fol_q, fol_a
 
 def get_response(prompt):
 	response = openai.Completion.create(
@@ -44,142 +47,94 @@ def get_response(prompt):
 		)
 	return response.get('choices')[0]['text'].split("\n")[0]
 
-def question_generation_prompt(data_example):
-    task_decription = ""
-    puzzle, question, truth, fol_q, fol_a = extract_input_item(data_example)
-    input_prefix = task_decription + '\n' + "puzzle:" + puzzle + question + "\n"
-    if fol_q and fol_a and len(fol_q) == len(fol_a):
-        input_prefix += "follow_up_QA:"
-        for q,a in fol_q, fol_a:
-            input_prefix += q
-            input_prefix += a
-    return input_prefix
+'''def get_response(prompt):
+    text = "okkkkkkkkkkkkkkkk"
+    return text
+'''
 
-def answer_generation_prompt(data_example):
+def question_generation_input(data_item):
     task_decription = ""
-    puzzle, question, truth, fol_q, fol_a = extract_input_item(data_example)
-    input_prefix = task_decription + '\n' + "truth:" + truth + "\n"
+    puzzle, truth, fol_q, fol_a = extract_input_item(data_item)
+    example_prefix = "puzzle:" + "".join(example["puzzle"]) + "\n"
+    example_prefix += "follow_up_QA:"+example["follow-up-Q"][0]+example["follow-up-A"][0] + "\n"
+    example_prefix += "follow_up_Q:"+example["follow-up-Q"][1] + "\n"
+    input_prefix = "puzzle:" + puzzle + "\n"  
+    input_prefix += "follow_up_QA:"
+    for fq,fa in zip(fol_q, fol_a):
+        input_prefix += fq + fa
+    input_prefix += "\n"+"follow_up_Q:"
+    final_prefix = task_decription + '\n' + example_prefix + input_prefix
+    print("---------- question generation ----------\n")
+    print(final_prefix)
+    return final_prefix
+
+def answer_generation_input(data_item):
+    task_decription = ""
+    puzzle, truth, fol_q, fol_a = extract_input_item(data_item)
+    example_prefix = "truth:" + "".join(example["truth"]) + "\n"
+    example_prefix += "follow_up_QA:"+example["follow-up-Q"][0]+example["follow-up-A"][0]+"\n"
+    example_prefix += "follow_up_Q:"+example["follow-up-Q"][1] + "\n"
+    example_prefix += "follow_up_A:"+example["follow-up-A"][1] + "\n"
+    input_prefix = "truth:" + truth + "\n"  
+    input_prefix += "follow_up_QA:"
     if fol_q and fol_a:
-        input_prefix += "follow_up_QA:"
-        for q,a in fol_q, fol_a:
-            input_prefix += q
-            input_prefix += a
-    return input_prefix
+        for fq,fa in zip(fol_q, fol_a):
+            input_prefix += fq + fa
+        input_prefix += "\n"+"follow_up_Q:" + data_item["follow-up-Q"][-1] 
+    input_prefix += "\n" + "follow_up_A:"
+    final_prefix = task_decription + '\n' + example_prefix + input_prefix
+    return final_prefix
 
-def convert_to_question_generation_prefix(item_dict):
-	task_description = "I am an intelligent bot that can play situation puzzles with user. A puzzle is given first, and the user begin to ask a \"yes/no\" question to ensure details."
-	result_prefix = task_description+'\n'+"Puzzle: "+example_data['puzzle']+'\n'
-	result_prefix += "Question: "+example_data["question_list"][0]+'\n'
-	result_prefix += "Answer: "+example_data["answer_list"][0]+'\n'
-	result_prefix += "Question: "+example_data["question_list"][1]+'\n'
-	result_prefix += '\n'
-	result_prefix += "Puzzle:"+item_dict['senario'][0]+' '+item_dict['question']+'\n'
-	if "question_list" in item_dict:
-		for question, answer in zip(item['question_list'], item['answer_list']):
-			result_prefix += "Question: "+question+'\n'
-			result_prefix += "Answer: "+answer+'\n'
-	result_prefix += "Question: "
-	return result_prefix
-
-
-def convert_to_answer_generation_prefix(item_dict):
-	task_description = "I am an intelligent bot that can play as judge in situation puzzles with user. A puzzle is given first, and the user begin to ask a \"yes/no\" question to ensure details, and I will give \"Yes/No/Irrelevent\" as answer to questions."
-	result_prefix = task_description+'\n'+"Puzzle: "+example_data['puzzle']+'\n'
-	result_prefix += "Solution: "+example_data["solution"]
-	result_prefix += "Question: "+example_data["question_list"][0]+'\n'
-	result_prefix += "Answer: "+example_data["answer_list"][0]+'\n'
-	result_prefix += "Question: "+example_data["question_list"][1]+'\n'
-	result_prefix += "Answer: "+example_data["answer_list"][1]+'\n'
-	result_prefix += '\n'
-	result_prefix += "Puzzle:"+item_dict['senario'][0]+' '+item_dict['question']+'\n'
-	if "question_list" in item_dict and "answer_list" in item_dict:
-		for question, answer in zip(item['question_list'], item['answer_list']):
-			result_prefix += "Question: "+question+'\n'
-			result_prefix += "Answer: "+answer+'\n'
-	result_prefix += "Question: "+item['question_list'][-1]+'\n'
-	result_prefix += "Answer: "
-	return result_prefix
-
-def convert_to_hint_generation_prefix(item_dict):
-	pass
-
-def convert_to_solution_generation_prefix(item_dict):
-	task_description = "I am an intelligent bot that can play situation puzzles with user. A puzzle is given first, and the user begin to ask \"yes/no\" question to ensure details, then I will give the question a\"yes/no/irrelevent\" answer. Finally user try to give solution for the puzzle."
-	result_prefix = task_description+'\n'+"Puzzle: "+example_data['puzzle']+'\n'
-	result_prefix += "Question: "+example_data["question_list"][0]+'\n'
-	result_prefix += "Answer: "+example_data["answer_list"][0]+'\n'
-	result_prefix += "Question: "+example_data["question_list"][1]+'\n'
-	result_prefix += "Answer: "+example_data["answer_list"][1]+'\n'
-	result_prefix += '\n'
-	result_prefix += "Puzzle:"+item_dict['senario'][0]+' '+item_dict['question']+'\n'
-	if "question_list" in item_dict and "answer_list" in item_dict:
-		for question, answer in zip(item['question_list'], item['answer_list']):
-			result_prefix += "Question: "+question+'\n'
-			result_prefix += "Answer: "+answer+'\n'
-	result_prefix += "Solution: "
-	return result_prefix
-
-def Jaccard_similarity(infer_sent, ref):
-	infer_sent_list = infer_sent.split(' ')
-	ref_list = ref.split(' ')
-	infer_sent_set = set(infer_sent_list)
-	ref_set = set(ref_list)
-	union_set = infer_sent_set.union(ref_set)
-	intersetion_set = infer_sent_set.intersection(ref_set)
-	jaccard_score = float(len(intersetion_set)/len(union_set))
-	return jaccard_score
-
-
-def get_response(prompt):
-	response = openai.Completion.create(
-		model="text-davinci-002",
-		prompt=prompt,
-		temperature=0.7,
-		max_tokens=100,
-		top_p=1,
-		frequency_penalty=0.0,
-		presence_penalty=0.0,
-		stop=["\n\n"]
-		)
-	return response.get('choices')[0]['text'].split("\n")[0]
+def solution_generate_input(data_item):
+    task_decription = ""
+    puzzle, truth, fol_q, fol_a = extract_input_item(data_item)
+    example_prefix = "puzzle:" + "".join(example["puzzle"]) + "\n"
+    example_prefix += "follow_up_QA:"+example["follow-up-Q"][0]+example["follow-up-A"][0]+"\n"
+    example_prefix += "solution:" + "".join(example["truth"]) + "\n"
+    input_prefix = "puzzle:" + puzzle + "\n"  
+    input_prefix += "follow_up_QA:"
+    if fol_q and fol_a:
+        for fq,fa in zip(fol_q, fol_a):
+            input_prefix += fq + fa
+    input_prefix += "\n" + "solution:"
+    final_prefix = task_decription + '\n' + example_prefix + input_prefix
+    return final_prefix
 
 if __name__=="__main__":
-	parse = argparse.ArgumentParser()
-	parse.add_argument('--sample_num', type=int, default=1, help="the sample number to be infer")
-	parse.add_argument('--max_turn', type=int, default=5)
-	parse.add_argument('--with_hint', action='store_true')
-	args = parse.parse_args()
-
-	dataset = load_data("situation-data/puzzles.json")
-	dataset = list(dataset.values())
-	
-	for item in dataset[:args.sample_num]:
-		turn_count = 0
-		while turn_count < args.max_turn:
-			question_generation_prompt = convert_to_question_generation_prefix(item)
-			# import ipdb;ipdb.set_trace()
-			generated_question = get_response(question_generation_prompt)
-			
-			if 'question_list' not in item:
-				item["question_list"] = [generated_question]
-			else:
-				item['question_list'].append(generated_question)
-			answer_generation_prompt = convert_to_answer_generation_prefix(item)
-			generated_answer = get_response(answer_generation_prompt)
-			if 'answer_list' not in item:
-				item["answer_list"] = [generated_answer]
-			else:
-				item["answer_list"].append(generated_answer)
-			solution_generation_prompt = convert_to_solution_generation_prefix(item)
-			generated_solution = get_response(solution_generation_prompt)
-			print(f"turn_{turn_count+1}: ", generated_solution)
-			if 'solution_history' not in item:
-				item["solution_history"] = [generated_solution]
-			else:
-				item["solution_history"].append(generated_solution)
-			jaccard_score = Jaccard_similarity(generated_solution, item['answer'][0])
-			if jaccard_score>0.5:
-				break
-			turn_count += 1
-	with open('output/infer_output.json', 'w') as f:
-		json.dump(dataset[:args.sample_num], f)
+    parse = argparse.ArgumentParser()
+    parse.add_argument('--sample_num', type=int, default=1, help="the sample number to be infer")
+    parse.add_argument('--chance_num', type=int, default=2)
+    parse.add_argument('--threshold', type=int, default=0.8)
+    # parse.add_argument('--with_hint', action='store_true')
+    args = parse.parse_args()
+    dataset = load_data("./example.json")
+    dataset = list(dataset.values())
+    output_file = "./Latral/output.txt"
+    # print(extract_input_item(dataset[0]))
+    # print(question_generation_prompt(dataset[0]))
+    # print(answer_generation_prompt(dataset[0]))
+    # print(solution_generate_prompt(dataset[0]))
+    for ditem in dataset[:args.sample_num]:
+        # print(data_item)
+        chance_count = 0
+        while chance_count < args.chance_num:
+            # genrate question
+            question_generation_prompt = question_generation_input(ditem)
+            generated_question = get_response(question_generation_prompt)
+            ditem["follow-up-Q"].append(generated_question)
+            print("*",generated_question)
+            # generate answer
+            # answer_generation_prompt = answer_generation_input(ditem)
+            # generated_answer = get_response(answer_generation_prompt)
+            # ditem["follow-up-A"].append(generated_answer)
+            # # generate solution
+            # solution_generate_prompt = solution_generate_input(ditem)
+            # generated_solution = get_response(solution_generate_prompt)
+            # print(f"the {chance_count+1} chance's answer:", generated_solution)
+            chance_count += 1
+            # calculate the current solution's accuracy
+        #     similarity_score = compute_cosine_similarity("".join(data_item["truth"]), generated_solution)
+        #     if similarity_score >= args.threshold:
+        #         break
+        # with open(output_file,"w",encoding="utf-8") as fp:
+        #     fp.write(generated_solution)
