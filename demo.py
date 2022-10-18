@@ -52,11 +52,11 @@ def get_response(prompt):
     return output_ai
 
 def question_generation_input(data_item):
-    task_decription = "I am an intelligent bot that can play situation puzzles with user. A puzzle is given first, and the user begin to ask a \"yes/no\" question to ensure details."
-    # task_decription = "question generation"
+    task_description = "I am an intelligent bot that can play situation puzzles with user. A puzzle is given first, and the user begin to ask a \"yes/no\" question to ensure details."
+    # task_description = "question generation"
     puzzle, truth, fol_q, fol_a = extract_input_item(data_item)
     example_prefix = "puzzle:" + "".join(example["puzzle"]) + "\n"
-    example_prefix += "follow_up_Q:"+example["follow-up-Q"][0]+"follow_up_A:"+example["follow-up-A"][0] + "\n"
+    example_prefix += "follow_up_Q:"+example["follow-up-Q"][0]+"\n"+"follow_up_A:"+example["follow-up-A"][0] + "\n"
     example_prefix += "follow_up_Q:"+example["follow-up-Q"][1] + "\n"
     input_prefix = "puzzle:" + puzzle + "\n"  
     if len(fol_q) and len(fol_a):
@@ -65,14 +65,14 @@ def question_generation_input(data_item):
             input_prefix += "follow_ip_A:"+ fa
         input_prefix += "\n"
     input_prefix += "follow_up_Q:"
-    final_prefix = task_decription + '\n' + example_prefix + input_prefix
-    print("---------- question generation ----------\n")
+    final_prefix = task_description + '\n' + example_prefix + input_prefix
+    print("---------- question generation ----------")
     print(final_prefix)
     return final_prefix
 
 def answer_generation_input(data_item):
-    task_decription = "I am an intelligent bot that can play as judge in situation puzzles with user. A puzzle is given first, and the user begin to ask a \"yes/no\" question to ensure details, and I will give \"Yes/No/Irrelevent\" as answer to questions."
-    # task_decription = "answer generation"
+    task_description = "I am an intelligent bot that can play as judge in situation puzzles with user. A puzzle is given first, and the user begin to ask a \"yes/no\" question to ensure details, and I will give \"Yes/No/Irrelevent\" as answer to questions."
+    # task_description = "answer generation"
     puzzle, truth, fol_q, fol_a = extract_input_item(data_item)
     example_prefix = "truth:" + "".join(example["truth"]) + "\n"
     example_prefix += "follow_up_Q:"+example["follow-up-Q"][0]+ "\n" +"follow_up_A:"+example["follow-up-A"][0] + "\n"
@@ -85,17 +85,17 @@ def answer_generation_input(data_item):
         input_prefix += "\n"
     input_prefix += "\n"+"follow_up_Q:" + data_item["follow-up-Q"][-1] 
     input_prefix += "\n" + "follow_up_A:"
-    final_prefix = task_decription + '\n' + example_prefix + input_prefix
-    print("---------- answer generation ----------\n")
+    final_prefix = task_description + '\n' + example_prefix + input_prefix
+    print("---------- answer generation ----------")
     print(final_prefix)
     return final_prefix
 
 def solution_generate_input(data_item):
-    task_decription = "I am an intelligent bot that can play situation puzzles with user. A puzzle is given first, and the user begin to ask \"yes/no\" question to ensure details, then I will give the question a\"yes/no/irrelevent\" answer. Finally user try to give solution for the puzzle."
-    # task_decription = "solution generation"
+    task_description = "I am an intelligent bot that can play situation puzzles with user. A puzzle is given first, and the user begin to ask \"yes/no\" question to ensure details, then I will give the question a\"yes/no/irrelevent\" answer. Finally user try to give solution for the puzzle."
+    # task_description = "solution generation"
     puzzle, truth, fol_q, fol_a = extract_input_item(data_item)
     example_prefix = "puzzle:" + "".join(example["puzzle"]) + "\n"
-    example_prefix += "follow_up_Q:"+example["follow-up-Q"][0]+"follow_up_A:"+example["follow-up-A"][0] + "\n"
+    example_prefix += "follow_up_Q:"+example["follow-up-Q"][0]+"\n"+"follow_up_A:"+example["follow-up-A"][0] + "\n"
     example_prefix += "solution:" + "".join(example["truth"]) + "\n"
     input_prefix = "puzzle:" + puzzle + "\n"  
     if len(fol_q) and len(fol_a):
@@ -104,8 +104,8 @@ def solution_generate_input(data_item):
             input_prefix += "follow_up_A:"+ fa
         input_prefix += "\n"
     input_prefix += "\n" + "solution:"
-    final_prefix = task_decription + '\n' + example_prefix + input_prefix
-    print("---------- solution generation ----------\n")
+    final_prefix = task_description + '\n' + example_prefix + input_prefix
+    print("---------- solution generation ----------")
     print(final_prefix)
     return final_prefix
 
@@ -143,12 +143,11 @@ if __name__=="__main__":
             generated_solution = get_response(solution_generate_prompt)
             print(f"the {chance_count+1} chance's answer:", generated_solution)
             chance_count += 1
-        with open(output_dataset,"w",encoding="utf-8") as fd:
-            json.dump(dataset[:args.sample_num],fd)
-
             # calculate the current solution's accuracy
         #     similarity_score = compute_cosine_similarity("".join(data_item["truth"]), generated_solution)
         #     if similarity_score >= args.threshold:
         #         break
         # with open(output_file,"w",encoding="utf-8") as fp:
         #     fp.write(generated_solution)
+        with open(output_dataset,"w",encoding="utf-8") as fd:
+            json.dump(dataset[:args.sample_num],fd)
