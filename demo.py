@@ -5,7 +5,7 @@ from unittest import result
 import openai
 import json
 import argparse
-# from similarity import compute_cosine_similarity
+import Levenshtein
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 example = {
@@ -143,9 +143,10 @@ if __name__=="__main__":
             generated_solution = get_response(solution_generate_prompt)
             print(f"the {chance_count+1} chance's answer:", generated_solution)
             chance_count += 1
-            # calculate the current solution's accuracy
-        #     similarity_score = compute_cosine_similarity("".join(data_item["truth"]), generated_solution)
-        #     if similarity_score >= args.threshold:
+            # calculate the current solution's accuracy：Jaro-Winkler
+            similarity_score = Levenshtein.jaro_winkler("".join(ditem["truth"]),generated_solution)
+            print("the current similarity score is : ", similarity_score)
+            # if similarity_score >= args.threshold:
         #         break
         # with open(output_file,"w",encoding="utf-8") as fp:
         #     fp.write(generated_solution)
