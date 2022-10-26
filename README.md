@@ -5,3 +5,8 @@
 4. puzzle.json -- part of QA dataset
 5. answer_predcict.txt and Answer_predict.txt -- first test output
 6. example.json -- single example for demo.py
+7. demo.py -- QA demo
+8. new_dataset.json -- after QA the original dataset would be change, it's new dataset that append follow-uo-QA.
+9. demo1.0.py -- question generation with hint and after QA-G finish generate a solution every turn.
+10. demo2.0.py -- question generation with hint and after 5 turns QA-G finish then generate a solution. 
+11. demo1.1.py -- add similarity calculate & example truncation & sleep & after the first turn no more example prompt.
