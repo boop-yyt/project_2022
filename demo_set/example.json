@@ -11,20 +11,5 @@
         "follow-up-Q":[],
         "follow-up-A":[],
         "hint":"As we said, there is nothing wrong with either the building or the elevator. There is, however, some feature of the man that causes him to take the stairs from the seventh floor."
-    },
-
-    "2": {
-        "puzzle": [
-            "You possess three objects. A small coin. An empty wine bottle. And a cork.",
-            "Put the coin in the bottle. Put the cork in the neck."
-        ],
-        "truth": [
-            "Pushing the cork into the bottle will dislodge it and allow you to shake out the coin."
-        ],
-        "question": "How can you remove the coin from the bottle without breaking the bottle or removing the cork?",
-        "follow-up-Q":[],
-        "follow-up-A":[],
-        "hint":"You will need to do something to the cork other than taking it out."
     }
-
 }
