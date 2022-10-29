@@ -40,19 +40,21 @@ def extract_input_item(data):
     return puzzle, truth, fol_q, fol_a
 
 def get_response(prompt):
-    response = openai.Completion.create(
-        model="text-davinci-002",
-        prompt=prompt,
-        temperature=0.7,
-        max_tokens=100,
-        top_p=1,
-        frequency_penalty=0.0,
-        presence_penalty=0.0,
-        stop=["\n\n"]
-        )
-    output_ai = response.get('choices')[0]['text'].split("\n")[0]
-    if output_ai == "":
-        print("***** connect failure !! try again please.*****")
+    output_ai = ""
+    while output_ai == "":
+        response = openai.Completion.create(
+            model="text-davinci-002",
+            prompt=prompt,
+            temperature=0.7,
+            max_tokens=100,
+            top_p=1,
+            frequency_penalty=0.0,
+            presence_penalty=0.0,
+            stop=["\n\n"]
+            )
+        output_ai = response.get('choices')[0]['text'].split("\n")[0]
+        if output_ai == "":
+            waitforGPT()
     return output_ai
 
 def question_generation_input(data_item):
@@ -114,7 +116,7 @@ def solution_generate_input(data_item):
 
 if __name__=="__main__":
     parse = argparse.ArgumentParser()
-    parse.add_argument('--sample_num', type=int, default=10)
+    parse.add_argument('--sample_num', type=int, default=1)
     parse.add_argument('--chance_num', type=int, default=5)
     parse.add_argument('--threshold', type=int, default=0.85)
     # parse.add_argument('--with_hint', action='store_true')
@@ -122,6 +124,7 @@ if __name__=="__main__":
     dataset = load_data("../data/merge_data.json")
     output_file = "./output.txt"
     output_dataset = "./new_dataset.json"
+    YNI =["Yes.", "No.", "Irrelevant."]
     for ditem in dataset[:args.sample_num]:
         print("puzzle:",ditem["puzzle"])
         chance_count = 0
@@ -130,13 +133,17 @@ if __name__=="__main__":
             question_generation_prompt = question_generation_input(ditem)
             generated_question = get_response(question_generation_prompt)
             ditem["question_list"].append(generated_question)
-            print("*",generated_question)
             # generate answer
             waitforGPT()
             answer_generation_prompt = answer_generation_input(ditem)
             generated_answer = get_response(answer_generation_prompt)
-            ditem["answer_list"].append(generated_answer)
-            print("*",generated_answer)
+            if generated_answer in YNI:
+                ditem["answer_list"].append(generated_answer)
+                print("*",generated_question)
+                print("*",generated_answer)
+            else:
+                ditem["question_list"].pop()
+                continue
             waitforGPT()
             # generate solution
             solution_generate_prompt = solution_generate_input(ditem)
@@ -154,5 +161,6 @@ if __name__=="__main__":
             result_out += "T " + "".join(ditem["final_answer"]) +"\n"
             result_out += "G " + generated_solution
             fp.write(result_out)
-        # with open(output_dataset,"w",encoding="utf-8") as fd:
-        #     json.dump(dataset[:args.sample_num],fd)
+            fp.close()
+    # with open(output_dataset,"w",encoding="utf-8") as fd:
+    #     json.dump(dataset[:args.sample_num],fd)
