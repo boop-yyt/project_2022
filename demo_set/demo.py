@@ -116,17 +116,18 @@ def solution_generate_input(data_item):
 
 if __name__=="__main__":
     parse = argparse.ArgumentParser()
-    parse.add_argument('--sample_num', type=int, default=1)
+    parse.add_argument('--dataset_path', type=str, default="../data/merge_data.json")
+    parse.add_argument('--sample_num', type=int, default=50)
     parse.add_argument('--chance_num', type=int, default=5)
     parse.add_argument('--threshold', type=int, default=0.85)
+    parse.add_argument('--output_file', type=str, default="./output-50.txt")
+    parse.add_argument('--output_dataset', type=str, default="./new_dataset.json")
     # parse.add_argument('--with_hint', action='store_true')
     args = parse.parse_args()
-    dataset = load_data("../data/merge_data.json")
-    output_file = "./output.txt"
-    output_dataset = "./new_dataset.json"
+    dataset = load_data(args.dataset_path)
     YNI =["Yes.", "No.", "Irrelevant."]
     for ditem in dataset[:args.sample_num]:
-        print("puzzle:",ditem["puzzle"])
+        print("PUZZLE:",ditem["puzzle"])
         chance_count = 0
         while chance_count < args.chance_num:
             # genrate question
@@ -150,17 +151,17 @@ if __name__=="__main__":
             generated_solution = get_response(solution_generate_prompt)
             print("*",generated_solution)
             chance_count += 1
-            waitforGPT()
             # calculate the current solution's accuracy：Jaro-Winkler
             similarity_score = Levenshtein.jaro_winkler("".join(ditem["final_answer"]),generated_solution)
             print("the current similarity score is : ", similarity_score)
             if similarity_score >= args.threshold:
                 break
-        with open(output_file,"w",encoding="utf-8") as fp:
+            waitforGPT()
+        with open(args.output_file,"a+",encoding="utf-8") as fp:
             result_out = "C " + str(chance_count) + "\n"
             result_out += "T " + "".join(ditem["final_answer"]) +"\n"
-            result_out += "G " + generated_solution
+            result_out += "G " + generated_solution + "\n"
             fp.write(result_out)
             fp.close()
-    # with open(output_dataset,"w",encoding="utf-8") as fd:
+    # with open(args.output_dataset,"w",encoding="utf-8") as fd:
     #     json.dump(dataset[:args.sample_num],fd)
