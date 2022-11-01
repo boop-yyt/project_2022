@@ -126,7 +126,7 @@ if __name__=="__main__":
     args = parse.parse_args()
     dataset = load_data(args.dataset_path)
     YNI =["Yes.", "No.", "Irrelevant."]
-    for ditem in dataset[:args.sample_num]:
+    for ditem in dataset[9:args.sample_num]:
         print("PUZZLE:",ditem["puzzle"])
         chance_count = 0
         while chance_count < args.chance_num:
