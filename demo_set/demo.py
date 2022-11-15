@@ -7,6 +7,8 @@ import json
 import argparse
 import Levenshtein
 from time import sleep
+import sacrebleu
+# from nltk.translate.bleu_score import sentence_bleu
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 example ={
@@ -25,7 +27,7 @@ example ={
     }
 
 def waitforGPT():
-    sleep(30)
+    sleep(10)
 
 def load_data(data_path):
     with open(data_path, 'r') as f:
@@ -45,7 +47,7 @@ def get_response(prompt):
         response = openai.Completion.create(
             model="text-davinci-002",
             prompt=prompt,
-            temperature=0.7,
+            temperature=0,
             max_tokens=100,
             top_p=1,
             frequency_penalty=0.0,
@@ -54,6 +56,7 @@ def get_response(prompt):
             )
         output_ai = response.get('choices')[0]['text'].split("\n")[0]
         if output_ai == "":
+            print("None!!")
             waitforGPT()
     return output_ai
 
@@ -67,8 +70,8 @@ def question_generation_input(data_item):
     input_prefix = "puzzle:" + puzzle + "\n"  
     if len(fol_q) and len(fol_a):
         for fq,fa in zip(fol_q, fol_a):
-            input_prefix += "follow_ip_Q:"+ fq
-            input_prefix += "follow_ip_A:"+ fa
+            input_prefix += "follow_up_Q:"+ fq
+            input_prefix += "follow_up_A:"+ fa
         input_prefix += "\n"
     input_prefix += "follow_up_Q:"
     final_prefix = task_description + '\n' + example_prefix + input_prefix
@@ -94,20 +97,25 @@ def answer_generation_input(data_item):
     # print("---------- answer generation ----------")
     # print(final_prefix)
     return final_prefix
-
-def solution_generate_input(data_item):
+    
+def solution_generate_input(data_item, shuffle):
     task_description = "I am an intelligent bot that can play situation puzzles with user. A puzzle is given first, and the user begin to ask \"yes/no\" question to ensure details, then I will give the question a\"yes/no/irrelevent\" answer. Finally user try to give solution for the puzzle."
-    # task_description = "solution generation"
     puzzle, truth, fol_q, fol_a = extract_input_item(data_item)
+    if shuffle == "True":
+        randomnum = random.randint(0,5)
+        random.seed(randomnum)
+        random.shuffle(fol_q)
+        random.seed(randomnum)
+        random.shuffle(fol_a)
     example_prefix = "puzzle:" + "".join(example["puzzle"]) + "\n"
     example_prefix += "follow_up_Q:"+example["question_list"][0]+"\n"+"follow_up_A:"+example["answer_list"][0] + "\n"
     example_prefix += "solution:" + "".join(example["final_answer"]) + "\n"
     input_prefix = "puzzle:" + puzzle + "\n"  
     if len(fol_q) and len(fol_a):
         for fq,fa in zip(fol_q, fol_a):
-            input_prefix += "follow_up_Q:"+ fq
-            input_prefix += "follow_up_A:"+ fa
-        input_prefix += "\n"
+            input_prefix += "follow_up_Q:"+ fq +"\n"
+            input_prefix += "follow_up_A:"+ fa+"\n"
+        # input_prefix += "\n"
     input_prefix += "solution:"
     final_prefix = task_description + '\n' + example_prefix + input_prefix
     # print("---------- solution generation ----------")
@@ -117,16 +125,16 @@ def solution_generate_input(data_item):
 if __name__=="__main__":
     parse = argparse.ArgumentParser()
     parse.add_argument('--dataset_path', type=str, default="../data/merge_data.json")
-    parse.add_argument('--sample_num', type=int, default=50)
-    parse.add_argument('--chance_num', type=int, default=5)
-    parse.add_argument('--threshold', type=int, default=0.85)
-    parse.add_argument('--output_file', type=str, default="./output-50.txt")
-    parse.add_argument('--output_dataset', type=str, default="./new_dataset.json")
+    parse.add_argument('--sample_num', type=int, default=22)
+    parse.add_argument('--chance_num', type=int, default=3)
+    parse.add_argument('--threshold', type=int, default=0.65)
+    parse.add_argument('--output_file', type=str, default="./output/output.txt")
+    parse.add_argument('--output_dataset', type=str, default="./output/new_dataset.json")
     # parse.add_argument('--with_hint', action='store_true')
     args = parse.parse_args()
     dataset = load_data(args.dataset_path)
     YNI =["Yes.", "No.", "Irrelevant."]
-    for ditem in dataset[9:args.sample_num]:
+    for ditem in dataset[20:args.sample_num]:
         print("PUZZLE:",ditem["puzzle"])
         chance_count = 0
         while chance_count < args.chance_num:
@@ -147,21 +155,34 @@ if __name__=="__main__":
                 continue
             waitforGPT()
             # generate solution
-            solution_generate_prompt = solution_generate_input(ditem)
+            solution_generate_prompt = solution_generate_input(ditem,shuffle=False)
+            # solution_generate_prompt = solution_generate_input(ditem)
             generated_solution = get_response(solution_generate_prompt)
             print("*",generated_solution)
             chance_count += 1
             # calculate the current solution's accuracy：Jaro-Winkler
             similarity_score = Levenshtein.jaro_winkler("".join(ditem["final_answer"]),generated_solution)
-            print("the current similarity score is : ", similarity_score)
-            if similarity_score >= args.threshold:
-                break
+            print("Edit score is : ", similarity_score)
+            # BLEU
+            bleu_score = sacrebleu.sentence_bleu("".join(ditem["final_answer"]),[generated_solution]).score
+            print("sacre_score is : ", bleu_score)
+            # if similarity_score[-1] >= args.threshold:
+            #     break
             waitforGPT()
+        # shuffle
+        solution_generate_prompt_shuffle = solution_generate_input(ditem, shuffle=True)
+        generated_solution_shuffle = get_response(solution_generate_prompt_shuffle)
+        similarity_score_shuffle = Levenshtein.jaro_winkler("".join(ditem["final_answer"]),generated_solution_shuffle)
+        print("Shuffle Edit score is : ", similarity_score_shuffle)
+        similarity_score_shuffle = sacrebleu.sentence_bleu("".join(ditem["final_answer"]),[generated_solution_shuffle]).score
+        print("Shuffle sacre_score is : ", similarity_score_shuffle)
+
         with open(args.output_file,"a+",encoding="utf-8") as fp:
             result_out = "C " + str(chance_count) + "\n"
             result_out += "T " + "".join(ditem["final_answer"]) +"\n"
             result_out += "G " + generated_solution + "\n"
+            result_out += "S " + generated_solution_shuffle + "\n"
             fp.write(result_out)
             fp.close()
-    # with open(args.output_dataset,"w",encoding="utf-8") as fd:
-    #     json.dump(dataset[:args.sample_num],fd)
+    with open(args.output_dataset,"w",encoding="utf-8") as fd:
+        json.dump(dataset[20:args.sample_num],fd)
