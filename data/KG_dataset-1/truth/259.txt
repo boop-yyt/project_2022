@@ -1,1 +1,0 @@
-The answer is 212 matches including the final. There is a very easy way to solve this seemingly difficult problem. Each match must produce one winner and one loser. Everyone except the tournament winner loses exactly once, so the number of matches is exactly the same as the number of losers. So to have 212 losers there must be exactly 212 matches.

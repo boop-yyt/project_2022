@@ -1,1 +1,0 @@
-Suppose there are a number of people. Pick one person, A, by lot if necessary. Ask A to cut a piece of the cake that he would be happy with as his share. Now go round the

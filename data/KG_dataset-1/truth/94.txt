@@ -1,1 +1,0 @@
-The same, except it's a tape breaking instead of a record skipping.    (See also #1.31a, #1.59, and #1.75c.)
