@@ -1,0 +1,186 @@
+[
+    {
+        "puzzle": "A man is lying dead in a room.  There is a large pile of gold and jewels on the floor, a chandelier attached to the ceiling, and a large open window. What happened?",
+        "question_list": [
+            "Was the man killed by the chandelier?"
+        ],
+        "answer_list": [
+            "No."
+        ],
+        "final_answer": "The room is the ballroom of an ocean liner which sank some time ago.  The man ran out of air while diving in the wreck.",
+        "question_triples": [
+            {
+                "Entity": [],
+                "Relation": [],
+                "Event": []
+            }
+        ],
+        "solution_list": [
+            "The man committed suicide by jumping out the window after amassing a large fortune."
+        ],
+        "log_info": [
+            {
+                "text": "The man committed suicide by jumping out the window after amassing a large fortune.",
+                "index": 0,
+                "logprobs": {
+                    "tokens": [
+                        "The",
+                        " man",
+                        " committed",
+                        " suicide",
+                        " by",
+                        " jumping",
+                        " out",
+                        " the",
+                        " window",
+                        " after",
+                        " am",
+                        "assing",
+                        " a",
+                        " large",
+                        " fortune",
+                        ".",
+                        "<|endoftext|>",
+                        "Q",
+                        ":",
+                        " ",
+                        "\n",
+                        "\n",
+                        "The",
+                        " newest"
+                    ],
+                    "token_logprobs": [
+                        -0.036311947,
+                        -3.8338017e-05,
+                        -1.1205189,
+                        -2.1649737e-05,
+                        -0.000118572985,
+                        -0.009893036,
+                        -0.00011082348,
+                        -0.22795765,
+                        -2.7371756e-05,
+                        -5.0328026,
+                        -0.73916054,
+                        -0.0003274144,
+                        -0.49072614,
+                        -0.23087251,
+                        -0.0038848498,
+                        -0.38335148,
+                        -0.0025807112,
+                        -0.8822079,
+                        -1.8841804e-07,
+                        -4.4613743,
+                        -0.3134582,
+                        -4.382537e-05,
+                        -1.8830823,
+                        -8.631242
+                    ],
+                    "top_logprobs": [
+                        {
+                            "The": -0.036311947
+                        },
+                        {
+                            " man": -3.8338017e-05
+                        },
+                        {
+                            " was": -0.5381139
+                        },
+                        {
+                            " suicide": -2.1649737e-05
+                        },
+                        {
+                            " by": -0.000118572985
+                        },
+                        {
+                            " jumping": -0.009893036
+                        },
+                        {
+                            " out": -0.00011082348
+                        },
+                        {
+                            " the": -0.22795765
+                        },
+                        {
+                            " window": -2.7371756e-05
+                        },
+                        {
+                            ".": -0.03422005
+                        },
+                        {
+                            " am": -0.73916054
+                        },
+                        {
+                            "assing": -0.0003274144
+                        },
+                        {
+                            " a": -0.49072614
+                        },
+                        {
+                            " large": -0.23087251
+                        },
+                        {
+                            " fortune": -0.0038848498
+                        },
+                        {
+                            ".": -0.38335148
+                        },
+                        {
+                            "<|endoftext|>": -0.0025807112
+                        },
+                        {
+                            "Q": -0.8822079
+                        },
+                        {
+                            ":": -1.8841804e-07
+                        },
+                        {
+                            " How": -1.5950128
+                        },
+                        {
+                            "\n": -0.3134582
+                        },
+                        {
+                            "\n": -4.382537e-05
+                        },
+                        {
+                            "The": -1.8830823
+                        },
+                        {
+                            " <": -3.3658738
+                        }
+                    ],
+                    "text_offset": [
+                        913,
+                        916,
+                        920,
+                        930,
+                        938,
+                        941,
+                        949,
+                        953,
+                        957,
+                        964,
+                        970,
+                        973,
+                        979,
+                        981,
+                        987,
+                        995,
+                        996,
+                        996,
+                        996,
+                        996,
+                        996,
+                        996,
+                        996,
+                        996
+                    ]
+                },
+                "finish_reason": "stop"
+            }
+        ],
+        "edit_score": [
+            0.6760224839601169
+        ]
+    }
+]

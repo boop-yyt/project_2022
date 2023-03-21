@@ -1,0 +1,1592 @@
+nohup: ignoring input
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/feature_extraction/image.py:167: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dtype=np.int):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/feature_extraction/text.py:17: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  from collections import Mapping, defaultdict
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:35: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:597: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:836: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:862: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, positive=False):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1074: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=1, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1306: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=1, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1442: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, positive=False):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:152: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  precompute=False, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:318: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, random_state=None,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:575: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=4 * np.finfo(np.float).eps, n_jobs=1,
+PUZZLE: A man was brought before a tribal chief, who asked him a question. If he had known the answer, he probably would have died.  He didn't, and lived. What happened?
+* Could the man have lied to the chief?
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/transformers/models/t5/tokenization_t5_fast.py:166: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  FutureWarning,
+# ::snt Could the man have lied to the chief?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (l / lie-08
+            :ARG0 (m / man)
+            :ARG2 (c / chief)))
+* No.
+* The chief asked the man "What is the chief's favorite color?" The man, not knowing, said "I don't know." The chief then said "The correct answer is green," and let the man go.
+Edit score is :  0.6451987630041831
+* Did the man refuse to answer the question?
+# ::snt Did the man refuse to answer the question?
+(r / refuse-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (a2 / answer-01
+            :ARG0 m
+            :ARG1 (q / question-01)))
+* Irrelevant.
+* The man was asked "What is the chief's favorite color?"
+Edit score is :  0.5745235863792565
+* Did the man give the right answer?
+# ::snt Did the man give the right answer?
+(a / answer-01
+      :ARG0 (m / man)
+      :ARG1-of (r / right-02)
+      :polarity (a2 / amr-unknown))
+* Irrelevant.
+* The man was asked "What is the chief's favorite color?"
+Edit score is :  0.5745235863792565
+* Is the man a good liar?
+# ::snt Is the man a good liar?
+(p / person
+      :ARG0-of (l / lie-08)
+      :ARG1-of (g / good-02)
+      :domain (m / man)
+      :polarity (a / amr-unknown))
+* No.
+* The man was asked "What is the chief's name?"
+Edit score is :  0.5645857197403589
+* 
+* No.
+* The man was asked "What is the chief's favorite color?"
+Edit score is :  0.5745235863792565
+PUZZLE: A very rich man hires a poor man to clean one wing of his extravagant domicile. The poor man, wanting to impress his new boss, cleans the entire house. Soon after, the man quits his job. What happened?
+* Did the rich man fire the poor man?
+# ::snt Did the rich man fire the poor man?
+(f / fire-02
+      :ARG0 (m / man
+            :mod (r / rich))
+      :ARG1 (m2 / man
+            :mod (p / poor))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The poor man quit because he realized that if he did such a good job cleaning one wing of the house, the rich man would expect him to clean the entire house for the same salary.
+Edit score is :  0.6658100052390864
+PUZZLE: There is a dead man lying in the desert next to a rock. What happened?
+* Was the man killed by the rock?
+# ::snt Was the man killed by the rock?
+(k / kill-01
+      :polarity (a / amr-unknown)
+      :ARG0 (r / rock)
+      :ARG1 (m / man))
+* No.
+* The man died of thirst and used the rock to support his head while he died.
+Edit score is :  0.6788844971453667
+PUZZLE: A woman opens an envelope and dyes. What happened?
+* Was the envelope sealed?
+# ::snt Was the envelope sealed?
+(s / seal-01
+      :polarity (a / amr-unknown)
+      :ARG1 (e / envelope))
+* No.
+* The envelope was filled with glitter.
+Edit score is :  0.5615849102691208
+* Did the woman know what was inside the envelope?
+# ::snt Did the woman know what was inside the envelope?
+(k / know-01
+      :ARG0 (w / woman)
+      :ARG1 (t / thing
+            :location (ii / inside
+                  :op1 (e / envelope)))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The woman found a powder inside the envelope and when she opened it, the powder got on her hands and dyed them.
+Edit score is :  0.7231567692094009
+PUZZLE: He was killed because of poor eyesight. What happened?
+* Did the man ask for water in an offensive way?
+# ::snt Did the man ask for water in an offensive way?
+(a / ask-02
+      :ARG0 (m / man)
+      :ARG1 (w / water)
+      :polarity (a2 / amr-unknown)
+      :manner (o / offend-01))
+* Irrelevant.
+* The man had poor eyesight and did not see the gun the bartender was pointing at him.
+Edit score is :  0.6545655545655545
+PUZZLE: A man rides into town on Friday.  He stays one night and leaves on Friday. What happened?
+* Did the man ever pay for his stay?
+# ::snt Did the man ever pay for his stay?
+(p / pay-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG3 (s / stay-01
+            :ARG1 m)
+      :time (e / ever))
+* Irrelevant.
+* 
+Edit score is :  0.0
+* Did the man ever leave town?
+# ::snt Did the man ever leave town?
+(l / leave-11
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (t / town)
+      :time (e / ever))
+* Irrelevant.
+* The man's horse was named Friday.
+Edit score is :  0.5942319749216302
+* Did the man ever get off his horse?
+# ::snt Did the man ever get off his horse?
+(g / get-05
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 m
+      :ARG2 (o / off
+            :op1 (h / horse
+                  :poss m))
+      :time (e / ever))
+* Irrelevant.
+* The man's horse was named Friday.
+Edit score is :  0.5942319749216302
+* 
+* No.
+* The man's horse died during the night and he had to stay in town an extra day to bury it.
+Edit score is :  0.6853678803135425
+PUZZLE: A woman comes home, sees Spaghetti on the wall and kills her husband. What happened?
+* Did the woman kill her husband because he didn't do the dishes?
+# ::snt Did the woman kill her husband because he didn't do the dishes?
+(k / kill-01
+      :ARG0 (w / woman)
+      :ARG1 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 w
+                  :ARG2 (h2 / husband)))
+      :polarity (a / amr-unknown)
+      :ARG1-of (c / cause-01
+            :ARG0 (d / do-02
+                  :polarity -
+                  :ARG0 p
+                  :ARG1 (d2 / dish))))
+* Irrelevant.
+* The woman came home to find her husband in bed with another woman. In a rage, she killed him and then spaghetti was thrown at the wall in the ensuing scuffle.
+Edit score is :  0.7143111527405493
+PUZZLE: A horse jumps over a tower and lands on a man, who disappears. What happened?
+* Did the man die?
+# ::snt Did the man die?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man))
+* Irrelevant.
+* The man was a jester and the horse was part of the act.
+Edit score is :  0.576010101010101
+* Did the horse jump over the tower?
+# ::snt Did the horse jump over the tower?
+(j / jump-03
+      :polarity (a / amr-unknown)
+      :ARG0 (h / horse)
+      :ARG1 (o / over
+            :op1 (t / tower)))
+* Irrelevant.
+* The horse and the tower are both on sticky notes, and the man was the one who put them there.
+Edit score is :  0.5443548387096774
+* Why did the man disappear?
+# ::snt Why did the man disappear?
+(d / disappear-01
+      :ARG1 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (a / amr-unknown)))
+* Irrelevant.
+* The man was a magician and the horse was part of his act.
+Edit score is :  0.6023672964462438
+* 
+* No.
+* The man was a hologram.
+Edit score is :  0.573641304347826
+* 
+* No.
+* The man was a hologram.
+Edit score is :  0.573641304347826
+PUZZLE: It's the year 860 A.D., at Camelot.  Two priests are sitting in the castle's chapel.  The queen attacks the king.  The two priests rise, shake hands, and leave the room. What happened?
+* Did they know the queen was going to attack the king?
+# ::snt Did they know the queen was going to attack the king?
+(k / know-01
+      :ARG0 (t / they)
+      :ARG1 (a / attack-01
+            :ARG0 (q / queen)
+            :ARG1 (p / person
+                  :ARG0-of (h / have-org-role-91
+                        :ARG2 (k2 / king))))
+      :polarity (a2 / amr-unknown))
+* Irrelevant.
+* The queen and the king had just died.
+Edit score is :  0.5920894369170231
+* Did they agree with the queen's decision?
+# ::snt Did they agree with the queen's decision?
+(a / agree-01
+      :polarity (a2 / amr-unknown)
+      :ARG0 (t / they)
+      :ARG1 (d / decide-01
+            :ARG0 (q / queen)))
+* Irrelevant.
+* The queen and king are not married.
+Edit score is :  0.5824040157373491
+* Did they think the queen's actions were justified?
+# ::snt Did they think the queen's actions were justified?
+(t / think-01
+      :polarity (a / amr-unknown)
+      :ARG0 (t2 / they)
+      :ARG1 (j / justify-01
+            :ARG1 (a2 / act-02
+                  :ARG0 (q / queen))))
+* Irrelevant.
+* The queen's actions violated the sanctity of the chapel, and the priests were duty-bound to leave.
+Edit score is :  0.6934097648383363
+PUZZLE: A black leader dies in Africa. What happened?
+* Was the leader's death unexpected?
+# ::snt Was the leader's death unexpected?
+(e / expect-01
+      :polarity -
+      :ARG1 (d / die-01
+            :ARG1 (p / person
+                  :ARG0-of (l / lead-02)))
+      :polarity (a / amr-unknown))
+* No.
+* The leader was old and sick, so his death was not unexpected.
+Edit score is :  0.8349932497589201
+PUZZLE: Two men are found dead outside of an igloo. What happened?
+* Are the men wearing any clothing?
+# ::snt Are the men wearing any clothing?
+(w / wear-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (c / clothing
+            :mod (a2 / any)))
+* No.
+* The men died of hypothermia.
+Edit score is :  0.5956148789482123
+* Did the men die of hypothermia?
+# ::snt Did the men die of hypothermia?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (h / hypothermia)))
+* No.
+* The men were poisoned by carbon monoxide fumes from a seal oil lamp that was left burning inside the igloo.
+Edit score is :  0.6126149435558744
+* Did the men die of a heart attack?
+# ::snt Did the men die of a heart attack?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (h / heart-attack)))
+* No.
+* The men were killed by polar bears.
+Edit score is :  0.5877344877344877
+* Did the men die of carbon monoxide poisoning?
+# ::snt Did the men die of carbon monoxide poisoning?
+(d / die-01
+      :ARG1 (m / man)
+      :polarity (a / amr-unknown)
+      :ARG1-of (c / cause-01
+            :ARG0 (p / poison-01
+                  :ARG2 (m2 / monoxide
+                        :mod (c2 / carbon)))))
+* No.
+* The men were Eskimos who had gone outside to relieve themselves, and died because they did not realize that they had left the safety of their igloo.
+Edit score is :  0.6680843982213845
+PUZZLE: A man is alone on an island with no food and no water, yet he does not fear for his life. What happened?
+* Is the man a Robinson Crusoe?
+# ::snt Is the man a Robinson Crusoe?
+(p / person
+      :polarity (a / amr-unknown)
+      :name (n / name
+            :op1 "Robinson"
+            :op2 "Crusoe")
+      :domain (m / man))
+* No.
+* The man is a castaway on a deserted island who has just been rescued.
+Edit score is :  0.5732981993851559
+* Is the man a castaway?
+# ::snt Is the man a castaway?
+(c / cast-away-02
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man))
+* No.
+* The man is a hallucinating.
+Edit score is :  0.8417508417508417
+PUZZLE: A man marries twenty women in his village but isn't charged with polygamy. What happened?
+* Are polygamy and twenty legal in that village?
+# ::snt Are polygamy and twenty legal in that village?
+(l / legal-02
+      :polarity (a / amr-unknown)
+      :ARG1 (a2 / and
+            :op1 (p / polygamy)
+            :op2 (p2 / person
+                  :quant 20))
+      :location (v / village
+            :mod (t / that)))
+* Irrelevant.
+* The man is a widower and remarries the women he was previously married to.
+Edit score is :  0.6916586506138745
+PUZZLE: Joe wants to go home, but he can't go home because the man in the mask is waiting for him. What happened?
+* Why can't Joe go home?
+# ::snt Why can't Joe go home?
+(c / cause-01
+      :ARG0 (a / amr-unknown)
+      :ARG1 (p / possible-01
+            :polarity -
+            :ARG1 (g / go-02
+                  :ARG0 (p2 / person
+                        :name (n / name
+                              :op1 "Joe"))
+                  :ARG4 (h / home))))
+* No.
+* Joe was in a bank when it was robbed. The robber took Joe hostage and told him that he would kill him if he tried to go home.
+Edit score is :  0.6261224489795918
+* Is Joe being held against his will?
+# ::snt Is Joe being held against his will?
+(h / hold-01
+      :ARG1 (p / person
+            :name (n / name
+                  :op1 "Joe"))
+      :polarity (a / amr-unknown)
+      :manner (a2 / against
+            :op1 (w / will-02
+                  :ARG0 p)))
+* No.
+* Joe is the man in the mask.
+Edit score is :  0.8583522297808012
+PUZZLE: Johnny is afraid to go home because of the man in the mask. What happened?
+* Did Johnny see the man before?
+# ::snt Did Johnny see the man before?
+(s / see-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Johnny"))
+      :ARG1 (m / man)
+      :polarity (a / amr-unknown)
+      :time (b / before))
+* Irrelevant.
+* Johnny was watching a horror movie and the man in the mask was the antagonist.
+Edit score is :  0.663003663003663
+PUZZLE: Two men are in a field.  One is wearing a mask.  The other man is running towards him to avoid him. What happened?
+* Why is the man running?
+# ::snt Why is the man running?
+(r / run-02
+      :ARG0 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (a / amr-unknown)))
+* No.
+* The man with the mask is a robber and the other man is running away from him.
+Edit score is :  0.6309573372564817
+* Is the man with the mask friendly?
+# ::snt Is the man with the mask friendly?
+(f / friendly-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man
+            :ARG0-of (h / have-03
+                  :ARG1 (m2 / mask))))
+* Irrelevant.
+* The man with the mask is a bank robber and the other man is a police officer.
+Edit score is :  0.6394831310475482
+* Why is the man wearing a mask?
+# ::snt Why is the man wearing a mask?
+(w / wear-01
+      :ARG0 (m / man)
+      :ARG1 (m2 / mask)
+      :ARG1-of (c / cause-01
+            :ARG0 (a / amr-unknown)))
+* No.
+* The man with the mask is a bank robber and the other man is a police officer.
+Edit score is :  0.6394831310475482
+* 
+* No.
+* The man with the mask is a bank robber and the other man is a police officer.
+Edit score is :  0.6394831310475482
+* 
+* No.
+* The man with the mask is a robber and the other man is running away from him.
+Edit score is :  0.6309573372564817
+PUZZLE: Two men are in a field.  The man in the mask is standing on the corner.  The other man is running towards him to avoid him. What happened?
+* Why is the man running?
+# ::snt Why is the man running?
+(r / run-02
+      :ARG0 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (a / amr-unknown)))
+* No.
+* The first man is a goalkeeper and the second man is a striker.
+Edit score is :  0.6242993757693869
+* Is the man in the mask dangerous?
+# ::snt Is the man in the mask dangerous?
+(e / endanger-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man
+            :ARG0-of (w / wear-01
+                  :ARG1 (m2 / mask))))
+* No.
+* The man in the mask is a referee and the other man is a player who is running towards him to avoid being caught offside.
+Edit score is :  0.7185103815471914
+PUZZLE: Bruce wins the race, but he gets no trophy. What happened?
+* Did anyone else compete?
+# ::snt Did anyone else compete?
+(c / compete-01
+      :polarity (a / amr-unknown)
+      :ARG0 (a2 / anyone
+            :mod (e / else)))
+* Irrelevant.
+* The race was a time trial, and Bruce was the only competitor.
+Edit score is :  0.5054273916376134
+* Did Bruce cross the finish line first?
+# ::snt Did Bruce cross the finish line first?
+(c / cross-02
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Bruce"))
+      :ARG1 (l / line
+            :mod (f / finish-01))
+      :polarity (a / amr-unknown)
+      :ord (o / ordinal-entity
+            :value 1))
+* Irrelevant.
+* The race was for second place.
+Edit score is :  0.6205415499533146
+* Did the race have a trophy for the winner?
+# ::snt Did the race have a trophy for the winner?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (r / race-02)
+      :ARG1 (t / trophy
+            :beneficiary (p / person
+                  :ARG0-of (w / win-01))))
+* Irrelevant.
+* The race was a practice race.
+Edit score is :  0.567669596574262
+* Did Bruce win?
+# ::snt Did Bruce win?
+(w / win-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Bruce"))
+      :polarity (a / amr-unknown))
+* No.
+* The race was a marathon, and Bruce came in first, but he did not win because he did not cross the finish line first.
+Edit score is :  0.526369168356998
+* Why didn't Bruce get a trophy?
+# ::snt Why didn't Bruce get a trophy?
+(g / get-01
+      :polarity -
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Bruce"))
+      :ARG1 (t / trophy)
+      :ARG1-of (c / cause-01
+            :ARG0 (a / amr-unknown)))
+* Irrelevant.
+* The race was for second place.
+Edit score is :  0.6205415499533146
+PUZZLE: A woman meets the king, cries "Pain!", and loses consciousness. What happened?
+* Is the woman in pain?
+# ::snt Is the woman in pain?
+(p / pain-01
+      :polarity (a / amr-unknown)
+      :ARG1 (w / woman))
+* Irrelevant.
+* The woman was in labor.
+Edit score is :  0.516699016563147
+* Did the woman meet the king willingly?
+# ::snt Did the woman meet the king willingly?
+(m / meet-02
+      :ARG0 (w / woman)
+      :ARG1 (p / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (k / king)))
+      :polarity (a / amr-unknown)
+      :manner (w2 / will-02
+            :ARG0 w))
+* Irrelevant.
+* The woman was in childbirth.
+Edit score is :  0.5289148351648352
+* Did the woman know she would meet the king?
+# ::snt Did the woman know she would meet the king?
+(k / know-01
+      :ARG0 (w / woman)
+      :ARG1 (m / meet-02
+            :ARG0 w
+            :ARG1 (p / person
+                  :ARG0-of (h / have-org-role-91
+                        :ARG2 (k2 / king))))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The woman was in labor and the cry of pain caused her to faint.
+Edit score is :  0.5666208582704484
+* Was the woman hit with something?
+# ::snt Was the woman hit with something?
+(h / hit-01
+      :polarity (a / amr-unknown)
+      :ARG1 (w / woman)
+      :ARG2 (s / something))
+* Irrelevant.
+* The woman was in labor and her water broke when she met the king.
+Edit score is :  0.5566900483396385
+* 
+* No.
+* The woman was hit in the head with a rock.
+Edit score is :  0.529635989010989
+PUZZLE: A man enters a store.  After a short pause, he says "pain."  The storekeeper is confused, but then becomes annoyed. What happened?
+* Did the man say 'pane'?
+# ::snt Did the man say 'pane'?
+(s / say-01
+      :ARG0 (m / man)
+      :ARG1 (p / pane)
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The man had stepped on a pain, but said 'pane' instead.
+Edit score is :  0.5570024776062512
+* Did the man say 'paint'?
+# ::snt Did the man say 'paint'?
+(s / say-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (p / paint-01))
+* Irrelevant.
+* The man saw a 'For Sale' sign in the window and wanted to inquire about the price of the store.
+Edit score is :  0.5870003213161108
+* Did the man say 'plain'?
+# ::snt Did the man say 'plain'?
+(s / say-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (p / plain))
+* Irrelevant.
+* The man wanted to buy some Tylenol, but the store only had Advil.
+Edit score is :  0.5642621082621083
+* Did the man need help?
+# ::snt Did the man need help?
+(n / need-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (h / help-01
+            :ARG2 m))
+* Irrelevant.
+* The man needed something for a headache and saw the storekeeper had Tylenol.
+Edit score is :  0.5956140350877193
+* Did the man want to buy something?
+# ::snt Did the man want to buy something?
+(w / want-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (b / buy-01
+            :ARG0 m
+            :ARG1 (s / something)))
+* Irrelevant.
+* The man had a toothache.
+Edit score is :  0.5630000000000001
+PUZZLE: As a man jumps out of a window, he hears the telephone ring and regrets having jumped.  What happened?
+* Did he jump out of the window on purpose?
+# ::snt Did he jump out of the window on purpose?
+(j / jump-03
+      :ARG0 (h / he)
+      :direction (o / out-of
+            :op1 (w / window))
+      :polarity (a / amr-unknown)
+      :purpose (p / purpose))
+* Irrelevant.
+* The man was trying to commit suicide but failed when he heard the telephone ring.
+Edit score is :  0.6233349842558367
+* Did he survive?
+# ::snt Did he survive?
+(s / survive-01
+      :polarity (a / amr-unknown)
+      :ARG0 (h / he))
+* Irrelevant.
+* The man was committing suicide but changed his mind when he heard the telephone ring.
+Edit score is :  0.6137641814716753
+* Why did he regret jumping out of the window?
+# ::snt Why did he regret jumping out of the window?
+(r / regret-01
+      :ARG0 (h / he)
+      :ARG1 (j / jump-03
+            :ARG0 h
+            :direction (o / out-of
+                  :op1 (w / window)))
+      :ARG1-of (c / cause-01
+            :ARG0 (a / amr-unknown)))
+* Irrelevant.
+* The man jumped out of the window to commit suicide, but when he heard the telephone ring, he realized that he still had something to live for.
+Edit score is :  0.7060440970046141
+PUZZLE: As a man jumps out of a window,the phone rang, and he regretted what he had done. What happened?
+* Did the man die?
+# ::snt Did the man die?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man))
+* Irrelevant.
+* The man had just realized that he left his cell phone inside the burning building.
+Edit score is :  0.6196714291017665
+* Did the man jump out of the window willingly?
+# ::snt Did the man jump out of the window willingly?
+(j / jump-03
+      :ARG0 (m / man)
+      :ARG2 (o / out-of
+            :op1 (w / window))
+      :polarity (a / amr-unknown)
+      :manner (w2 / will-02
+            :ARG0 m))
+* Irrelevant.
+* The man jumped out of the window to avoid an important phone call.
+Edit score is :  0.5804224511121063
+* Did the man regret jumping out of the window when he heard the phone ring?
+# ::snt Did the man regret jumping out of the window when he heard the phone ring?
+(r / regret-01
+      :ARG0 (m / man)
+      :ARG1 (j / jump-03
+            :ARG0 m
+            :direction (o / out-of
+                  :op1 (w / window))
+            :time (h / hear-01
+                  :ARG0 m
+                  :ARG1 (r2 / ring-02
+                        :ARG1 (p / phone))))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The man was trying to commit suicide, but when he heard the phone ring, he realized that someone cared about him and he regretted his decision.
+Edit score is :  0.703926628926629
+PUZZLE: A newspaper reported that Jacques Dubois finished first in a race held in France.  His average speed was given, correctly, as 19,475 km/hour. What happened?
+* Was there a mistake in the report?
+# ::snt Was there a mistake in the report?
+(m / mistake-02
+      :polarity (a / amr-unknown)
+      :location (r / report))
+* No.
+* The race was held in a space shuttle orbiting Earth.
+Edit score is :  0.5992346921521282
+* How long was the race?
+# ::snt How long was the race?
+(r / race-02
+      :duration (a / amr-unknown))
+* No.
+* The race was actually 19.475 km long.
+Edit score is :  0.5390607776258
+* How long was the race?
+# ::snt How long was the race?
+(r / race-02
+      :duration (a / amr-unknown))
+* No.
+* The race was actually 1 meter long.
+Edit score is :  0.5454312503639858
+* 
+* No.
+* The race was 1 meter long.
+Edit score is :  0.5445486949522824
+* Was the race in France?
+# ::snt Was the race in France?
+(r / race-02
+      :polarity (a / amr-unknown)
+      :location (c / country
+            :name (n / name
+                  :op1 "France")))
+* No.
+* The race was actually held in the country of France, which is located on the continent of Europe.  The reporter assumed that since Jacques Dubois is French, the race must have been held in France.
+Edit score is :  0.7131753884762074
+PUZZLE: At the bottom of the sea there lies a ship worth millions of dollars that will never be recovered. What happened?
+* Did the ship sink?
+# ::snt Did the ship sink?
+(s / sink-01
+      :polarity (a / amr-unknown)
+      :ARG1 (s2 / ship))
+* Irrelevant.
+* The ship was used in the filming of the Titanic and was intentionally sunk as part of the movie.
+Edit score is :  0.6864780798856142
+PUZZLE: A man shoots himself, and dies. What happened?
+* Did anyone see him do it?
+# ::snt Did anyone see him do it?
+(s / see-01
+      :polarity (a / amr-unknown)
+      :ARG0 (a2 / anyone)
+      :ARG1 (d / do-02
+            :ARG0 (h / he)
+            :ARG1 (ii / it)))
+* Irrelevant.
+* The man shot himself in the head and died.
+Edit score is :  0.6221956058846302
+* Did anyone else know he was going to do it?
+# ::snt Did anyone else know he was going to do it?
+(k / know-01
+      :polarity (a / amr-unknown)
+      :ARG0 (a2 / anyone
+            :mod (e / else))
+      :ARG1 (d / do-02
+            :ARG0 (h / he)
+            :ARG1 (ii / it)))
+* Irrelevant.
+* The man committed suicide.
+Edit score is :  0.6076923076923076
+* Was the gun loaded?
+# ::snt Was the gun loaded?
+(l / load-01
+      :polarity (a / amr-unknown)
+      :ARG1 (g / gun))
+* No.
+* The man did not die because the gun was not loaded.
+Edit score is :  0.6356617647058824
+* Was the man's finger on the trigger?
+# ::snt Was the man's finger on the trigger?
+(t / trigger
+      :polarity (a / amr-unknown)
+      :part (f / finger
+            :part-of (m / man)))
+* No.
+* The man did not die because the gun was not loaded.
+Edit score is :  0.6356617647058824
+* So the gun couldn't have fired even if it was loaded?
+# ::snt So the gun couldn't have fired even if it was loaded?
+(p / possible-01
+      :polarity -
+      :ARG1 (f / fire-01
+            :ARG1 (g / gun))
+      :concession (e / even-if
+            :op1 (l / load-01
+                  :ARG1 g))
+      :polarity (a / amr-unknown))
+* No.
+* The man had a heart attack.
+Edit score is :  0.6315645773979107
+PUZZLE: A man walks into a room, shoots, and kills himself. What happened?
+* Did anyone see him?
+# ::snt Did anyone see him?
+(s / see-01
+      :polarity (a / amr-unknown)
+      :ARG0 (a2 / anyone)
+      :ARG1 (h / he))
+* Irrelevant.
+* The man committed suicide.
+Edit score is :  0.5855645987588687
+* Did anyone hear the shot?
+# ::snt Did anyone hear the shot?
+(h / hear-01
+      :polarity (a / amr-unknown)
+      :ARG0 (a2 / anyone)
+      :ARG1 (s / shoot-02))
+* Irrelevant.
+* The man committed suicide.
+Edit score is :  0.5855645987588687
+* Was the man alone in the room?
+# ::snt Was the man alone in the room?
+(a / alone
+      :polarity (a2 / amr-unknown)
+      :domain (m / man)
+      :location (r / room))
+* No.
+* The man was playing Russian Roulette.
+Edit score is :  0.6033053547504414
+* Who else was in the room?
+# ::snt Who else was in the room?
+(b / be-located-at-91
+      :ARG1 (a / amr-unknown
+            :mod (e / else))
+      :ARG2 (r / room))
+* No.
+* The man was a suicide bomber.
+Edit score is :  0.6257889841206564
+* Was the gun loaded?
+# ::snt Was the gun loaded?
+(l / load-01
+      :polarity (a / amr-unknown)
+      :ARG1 (g / gun))
+* No.
+* The man was playing Russian Roulette.
+Edit score is :  0.6033053547504414
+PUZZLE: Adults are holding children, waiting their turn.  The children are handed  to a man, who holds them while a woman shoots them.  If the child is crying, the man tries to stop the crying before the child is shot. What happened?
+* Why are the children being shot?
+# ::snt Why are the children being shot?
+(s / shoot-02
+      :ARG1 (c / child)
+      :ARG1-of (c2 / cause-01
+            :ARG0 (a / amr-unknown)))
+* No.
+* The children are being shot for their organs. The man is trying to stop the crying so that the child's death will be less painful.
+Edit score is :  0.7176184926184925
+PUZZLE: Harry dropped a sugar cube in his coffee, then lifed it out intact a minute later. What happened?
+* Did the sugar cube melt?
+# ::snt Did the sugar cube melt?
+(m / melt-01
+      :polarity (a / amr-unknown)
+      :ARG1 (c / cube
+            :consist-of (s / sugar)))
+* Irrelevant.
+* Harry used a toothpick to fish the sugar cube out of his coffee.
+Edit score is :  0.605187908496732
+* Did Harry put the sugar cube in his coffee before it was hot?
+# ::snt Did Harry put the sugar cube in his coffee before it was hot?
+(p / put-01
+      :ARG0 (p2 / person
+            :name (n / name
+                  :op1 "Harry"))
+      :ARG1 (c / cube
+            :consist-of (s / sugar))
+      :ARG2 (c2 / coffee
+            :poss p2)
+      :polarity (a / amr-unknown)
+      :time (b / before
+            :op1 (h / hot-05
+                  :ARG1 c2)))
+* Irrelevant.
+* Harry put the sugar cube in his coffee, then lifted it out a minute later. The sugar cube did not melt because it was not in the coffee long enough.
+Edit score is :  0.5999093722878889
+* Did Harry put the sugar cube in his coffee after it was hot?
+# ::snt Did Harry put the sugar cube in his coffee after it was hot?
+(p / put-01
+      :ARG0 (p2 / person
+            :name (n / name
+                  :op1 "Harry"))
+      :ARG1 (c / cube
+            :consist-of (s / sugar))
+      :ARG2 (c2 / coffee
+            :poss p2)
+      :polarity (a / amr-unknown)
+      :time (a2 / after
+            :op1 (h / hot-05
+                  :ARG1 c2)))
+* Irrelevant.
+* Harry put the sugar cube in his coffee, then lifed it out intact a minute later. The sugar cube did not melt because it was not in the coffee long enough.
+Edit score is :  0.5886264914397906
+* Did Harry stir his coffee after he put the sugar cube in it?
+# ::snt Did Harry stir his coffee after he put the sugar cube in it?
+(s / stir-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Harry"))
+      :ARG1 (c / coffee
+            :poss p)
+      :polarity (a / amr-unknown)
+      :time (a2 / after
+            :op1 (p2 / put-01
+                  :ARG0 p
+                  :ARG1 (c2 / cube
+                        :consist-of (s2 / sugar))
+                  :ARG2 c)))
+* Irrelevant.
+* Harry's coffee was cold.
+Edit score is :  0.5142973856209151
+* Did Harry use a spoon to pick the sugar cube out of his coffee?
+# ::snt Did Harry use a spoon to pick the sugar cube out of his coffee?
+(u / use-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Harry"))
+      :ARG1 (s / spoon)
+      :ARG2 (p2 / pick-01
+            :ARG0 p
+            :ARG1 (c / cube
+                  :consist-of (s2 / sugar))
+            :ARG2 (c2 / coffee
+                  :poss p))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* Harry's coffee was cold.
+Edit score is :  0.5142973856209151
+PUZZLE: A man is doing his job when his suit tears.  Fifteen minutes later, he's dead. What happened?
+* Did the man work with hazardous materials?
+# ::snt Did the man work with hazardous materials?
+(w / work-01
+      :ARG0 (m / man)
+      :ARG2 (m2 / material
+            :ARG1-of (h / hazardous-02))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The man was an astronaut. His suit tearing meant that he was exposed to the vacuum of space, and he died from decompression.
+Edit score is :  0.8495445980705745
+PUZZLE: A train pulls into a station, but none of the waiting passengers move. What happened?
+* Did the train crash?
+# ::snt Did the train crash?
+(c / crash-01
+      :polarity (a / amr-unknown)
+      :ARG1 (t / train))
+* Irrelevant.
+* It was a toy train.
+Edit score is :  0.6244482173174872
+* Did the passengers get off the train?
+# ::snt Did the passengers get off the train?
+(g / get-05
+      :polarity (a / amr-unknown)
+      :ARG1 (p / passenger)
+      :ARG2 (o / off
+            :op1 (t / train)))
+* No.
+* The train was a decoy meant to distract the passengers while another train carrying explosives drove by.
+Edit score is :  0.6631789357595809
+PUZZLE: The Orient Express is derailed and a kitten plays nearby. What happened?
+* Was the kitten happy?
+# ::snt Was the kitten happy?
+(h / happy-01
+      :polarity (a / amr-unknown)
+      :ARG1 (k / kitten))
+* Irrelevant.
+* A meteorite hit the train, causing it to derail.
+Edit score is :  0.6218567251461988
+* Did the kitten have anything to do with the derailment?
+# ::snt Did the kitten have anything to do with the derailment?
+(h / have-to-do-with-04
+      :polarity (a / amr-unknown)
+      :ARG0 (k / kitten)
+      :ARG1 (d / derail-01)
+      :ARG2 (a2 / anything))
+* Irrelevant.
+* The Orient Express was derailed by a kitten playing on the tracks.
+Edit score is :  0.8405950956937799
+PUZZLE: Three large people try to crowd under one small umbrella, but nobody gets wet. What happened?
+* It's not raining.
+# ::snt It's not raining.
+(r / rain-01
+      :polarity -)
+* No.
+* They are inside.
+Edit score is :  0.6388888888888888
+* It's not sunny.
+# ::snt It's not sunny.
+(s / sunny
+      :polarity -)
+* No.
+* The three people are ghosts.
+Edit score is :  0.6399470899470899
+* It's nighttime.
+# ::snt It's nighttime.
+(d / date-entity
+      :dayperiod (n / night))
+* No.
+* They are ghosts.
+Edit score is :  0.5833333333333334
+* 
+* No.
+* It's not raining, it's not sunny, and it's not nighttime. Therefore, the umbrella is not needed and nobody gets wet.
+Edit score is :  0.5889865524753963
+* The umbrella is magic.
+# ::snt The umbrella is magic.
+(m / magic
+      :domain (u / umbrella))
+* No.
+* The umbrella is inside out.
+Edit score is :  0.6987654320987655
+PUZZLE: An ordinary woman walks on water. What happened?
+* Is the woman a witch?
+# ::snt Is the woman a witch?
+(w / witch
+      :polarity (a / amr-unknown)
+      :domain (w2 / woman))
+* No.
+* The woman is Jesus Christ.
+Edit score is :  0.538722737364503
+* Is the woman a saint?
+# ::snt Is the woman a saint?
+(s / saint
+      :polarity (a / amr-unknown)
+      :domain (w / woman))
+* No.
+* The woman is walking on a frozen lake.
+Edit score is :  0.6428975664968873
+* Is the water frozen?
+# ::snt Is the water frozen?
+(f / freeze-01
+      :polarity (a / amr-unknown)
+      :ARG1 (w / water))
+* No.
+* The woman is walking on the edge of a very deep pool.
+Edit score is :  0.6298273318967172
+* Is the woman standing on a rock in the middle of the water?
+# ::snt Is the woman standing on a rock in the middle of the water?
+(s / stand-01
+      :polarity (a / amr-unknown)
+      :ARG1 (w / woman)
+      :ARG2 (r / rock)
+      :location (m / middle
+            :part-of (w2 / water)))
+* No.
+* The woman is walking on the beach.
+Edit score is :  0.5869945993285651
+* Is the woman standing on something else in the water?
+# ::snt Is the woman standing on something else in the water?
+(s / stand-01
+      :polarity (a / amr-unknown)
+      :ARG1 (w / woman)
+      :ARG2 (s2 / something
+            :mod (e / else))
+      :location (w2 / water))
+* No.
+* The woman is swimming.
+Edit score is :  0.46855653307266215
+PUZZLE: Amy drives her car due west for a quarter mile, without turning. When she stops, the car is facing east. What happened?
+* Did Amy turn her car around?
+# ::snt Did Amy turn her car around?
+(t / turn-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Amy"))
+      :ARG1 (c / car
+            :poss p)
+      :direction (a / around)
+      :polarity (a2 / amr-unknown))
+* Irrelevant.
+* Amy drove in a circle.
+Edit score is :  0.6124579124579125
+* Did Amy drive in a straight line?
+# ::snt Did Amy drive in a straight line?
+(d / drive-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Amy"))
+      :manner (l / line
+            :ARG1-of (s / straight-04))
+      :polarity (a / amr-unknown))
+* No.
+* Amy drove in a circle.
+Edit score is :  0.6124579124579125
+* Did Amy drive her car for a quarter mile?
+# ::snt Did Amy drive her car for a quarter mile?
+(d / drive-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Amy"))
+      :ARG1 (c / car
+            :poss p)
+      :extent (d2 / distance-quantity
+            :quant 25
+            :unit (m / mile))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* Amy drove in a circle.
+Edit score is :  0.6124579124579125
+* Did Amy drive her car due west?
+# ::snt Did Amy drive her car due west?
+(d / drive-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Amy"))
+      :ARG1 (c / car
+            :poss p)
+      :direction (w / west)
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* Amy drove her car in a circle.
+Edit score is :  0.6074074074074074
+* Did Amy drive her car due east?
+# ::snt Did Amy drive her car due east?
+(d / drive-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Amy"))
+      :ARG1 (c / car
+            :poss p)
+      :direction (e / east)
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* Amy drove her car in a circle.
+Edit score is :  0.6074074074074074
+PUZZLE: A woman had a pet goldfish which she loved very dearly. One day she noticed that it was swimming feebly in its bowl and it looked very unwell. She rushed to the vet with her prized pet and he told her to come back in an hour. When she returned she found the goldfish swimming strongly and looking healthy again. How had the vet managed this?
+* Did the vet give the goldfish medicine?
+# ::snt Did the vet give the goldfish medicine?
+(g / give-01
+      :ARG0 (v / vet)
+      :ARG1 (m / medicine)
+      :ARG2 (g2 / goldfish)
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The vet simply took the goldfish out of the bowl and put it back in again.
+Edit score is :  0.6563191741628535
+PUZZLE: Little Billy was four years old and both his parents were dead. His guardian put him on a train to send him to a new home in the country. Billy could neither read nor write nor remember the address, so a large label on a string was secured around his neck clearly indicating Billy's name and destination. However, despite the best efforts and kindness of the railway staff, Billy never arrived at his new home. Why?
+* Was the string too long and got caught on something?
+# ::snt Was the string too long and got caught on something?
+(a / and
+      :polarity (a2 / amr-unknown)
+      :op1 (h / have-degree-91
+            :ARG1 (s / string)
+            :ARG2 (l / long-03
+                  :ARG1 s)
+            :ARG3 (t / too))
+      :op2 (c / catch-on-06
+            :ARG1 s
+            :ARG2 (s2 / something)))
+* Irrelevant.
+* The label was put on Billy's BACK, not his front.
+Edit score is :  0.5721765942149217
+* Did the train stop at the right station?
+# ::snt Did the train stop at the right station?
+(s / stop-01
+      :polarity (a / amr-unknown)
+      :ARG1 (t / train)
+      :location (s2 / station
+            :ARG1-of (r / right-03)))
+* Irrelevant.
+* Billy's guardian put him on the wrong train.
+Edit score is :  0.580632781852294
+* Did the label have Billy's name and destination on it?
+gid=x Start paren present but name is not a new concept
+gid=x Start paren present but name is not a new concept
+# ::snt Did the label have Billy's name and destination on it?
+(h / have-03
+      :ARG0 (l / label)
+      :ARG1 (a / and
+            :op1 (n / name
+                  :poss (p / person
+                        :op1 "Billy")
+                  :name-of p))
+      :op2 (d / destination
+            :poss p)
+      :polarity (a2 / amr-unknown))
+* Irrelevant.
+* The string was long enough that Billy could reach it and take it off whenever he wanted.
+Edit score is :  0.6905973430363673
+PUZZLE: A woman walked up to a man behind a counter and handed him a book. He looked at it and said, That wɽ be four dollars/' She paid the man and then walked out without the book. He saw her leave without it but did not call her back. How come?
+* Was the book valuable?
+# ::snt Was the book valuable?
+(v / value-01
+      :polarity (a / amr-unknown)
+      :ARG1 (b / book))
+* No.
+* The book was not valuable, but it was extremely heavy.
+Edit score is :  0.6232804232804233
+* Did the woman intend to steal the book?
+# ::snt Did the woman intend to steal the book?
+(ii / intend-01
+      :polarity (a / amr-unknown)
+      :ARG0 (w / woman)
+      :ARG1 (s / steal-01
+            :ARG0 w
+            :ARG1 (b / book)))
+* Irrelevant.
+* The man behind the counter was a blind man.
+Edit score is :  0.6458102620893319
+* Did the man know the woman?
+# ::snt Did the man know the woman?
+(k / know-01
+      :ARG0 (m / man)
+      :ARG1 (w / woman)
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The woman had mistakenly picked up the wrong book from the shelf. When she realized her mistake, she didn't want to embarrass herself by going back to the counter and admitting she had made a mistake.
+Edit score is :  0.5625579975579976
+* Why didn't the man call the woman back?
+# ::snt Why didn't the man call the woman back?
+(c / call-02
+      :polarity -
+      :ARG0 (m / man)
+      :ARG1 (w / woman)
+      :direction (b / back)
+      :ARG1-of (c2 / cause-01
+            :ARG0 (a / amr-unknown)))
+* Irrelevant.
+* The book was a library book and the woman had just returned it.
+Edit score is :  0.6706349206349206
+PUZZLE: Why is it that, in general, the hair on a man's head goes grey before the hair in his moustache does?
+* Could it be because the hair on a man's head is usually longer than the hair in his moustache?
+# ::snt Could it be because the hair on a man's head is usually longer than the hair in his moustache?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (c / cause-01
+            :ARG0 (h / have-degree-91
+                  :ARG1 (h2 / hair
+                        :location (h3 / head
+                              :part-of (m / man)))
+                  :ARG2 (l / long-03
+                        :ARG1 h2)
+                  :ARG3 (m2 / more)
+                  :ARG4 (h4 / hair
+                        :location (m3 / moustache
+                              :part-of m))
+                  :mod (u / usual))))
+* No.
+* It is because the hair on a man's head is usually darker than the hair in his moustache. As the hair on a man's head goes grey, the contrast with the dark hair in his moustache becomes more pronounced, making it appear as if the moustache hair is greyer than it actually is.
+Edit score is :  0.6021650138822632
+* Is it because the hair on a man's head is exposed to more sunlight?
+# ::snt Is it because the hair on a man's head is exposed to more sunlight?
+(c / cause-01
+      :ARG0 (e / expose-01
+            :ARG1 (h / hair
+                  :location (h2 / head
+                        :part-of (m / man)))
+            :ARG2 (s / sunlight
+                  :quant (m2 / more)))
+      :ARG1 (ii / it)
+      :polarity (a / amr-unknown))
+* No.
+* It is because the blood vessels that supply the hair follicles in the moustache area are protected from the aging effects of hormones by the bones of the upper jaw.
+Edit score is :  0.6621690545399103
+PUZZLE: Two naturalists were walking in the country. They were both keen to protect the environment and to conserve nature and wildlife. One said to the other, "I was impressed by the way that you hit that bird." The second replied, "Yes, it was good, but not as good as that large bird that you hit earlier." What were they talking about?
+* What kind of bird did the second naturalist hit?
+# ::snt What kind of bird did the second naturalist hit?
+(h / hit-01
+      :ARG0 (n / naturalist
+            :ord (o / ordinal-entity
+                  :value 2))
+      :ARG1 (b / bird
+            :mod (a / amr-unknown)))
+* Irrelevant.
+* The first naturalist was talking about the other's skill in using a gun, and the second was talking about the other's skill in using a camera.
+Edit score is :  0.654393782658285
+PUZZLE: A man was drinking a cup of tea when he was suddenly blinded. How?
+* Did he have his eyes open when he was drinking the tea?
+# ::snt Did he have his eyes open when he was drinking the tea?
+(o / open-01
+      :polarity (a / amr-unknown)
+      :ARG0 (h / he
+            :part (e / eye))
+      :ARG1 e
+      :time (d / drink-01
+            :ARG0 h
+            :ARG1 (t / tea)))
+* Irrelevant.
+* The tea was very hot, and the man burned his eyes.
+Edit score is :  0.5770033670033671
+* Was the tea hot?
+# ::snt Was the tea hot?
+(h / hot-05
+      :polarity (a / amr-unknown)
+      :ARG1 (t / tea))
+* Irrelevant.
+* The cup had no bottom, so when he lifted it to drink, the tea fell out and into his eyes.
+Edit score is :  0.707268181929451
+PUZZLE: A man was slowly counting but unfortunately he miscounted. A little later he suffered a sharp pain in his back. Why?
+* Was he stabbed in the back?
+# ::snt Was he stabbed in the back?
+(s / stab-01
+      :polarity (a / amr-unknown)
+      :ARG1 (h / he
+            :part (b / back))
+      :location b)
+* No.
+* The man was an astronaut on a spacewalk. He was slowly counting the number of turns he made with his air tank valve, but he miscounted and ran out of air. The sharp pain in his back was from the pressure of his suit as it began to collapse.
+Edit score is :  0.658296783625731
+PUZZLE: John was watching television. Just after the midnight news there was a weather forecast:" It is raining now and will rain for the next two days. However, in 72 hours it will be bright and sunny." "Wrong again" snorted John. He was correct but how did he know?
+* Was the forecast for the area where John lived?
+# ::snt Was the forecast for the area where John lived?
+(f / forecast-01
+      :ARG2 (a / area
+            :location-of (l / live-01
+                  :ARG0 (p / person
+                        :name (n / name
+                              :op1 "John"))))
+      :polarity (a2 / amr-unknown))
+* No.
+* John had seen the weather forecast and knew that it was not for his area.
+Edit score is :  0.62309861665029
+* Was the forecast for the area where the goldfish lived?
+# ::snt Was the forecast for the area where the goldfish lived?
+(f / forecast-01
+      :polarity (a / amr-unknown)
+      :ARG3 (a2 / area
+            :location-of (l / live-01
+                  :ARG0 (g / goldfish))))
+* No.
+* John was watching a rerun of the midnight news.
+Edit score is :  0.6291868947403555
+* Was John's television working properly?
+# ::snt Was John's television working properly?
+(w / work-09
+      :ARG1 (t / television
+            :poss (p / person
+                  :name (n / name
+                        :op1 "John")))
+      :polarity (a / amr-unknown)
+      :manner (p2 / proper))
+* No.
+* John's television was on a 24-hour news station. The weather forecast was for the other side of the world and it was already daytime there.
+Edit score is :  0.5839948087182879
+* Was there a news station on after the midnight news?
+# ::snt Was there a news station on after the midnight news?
+(s / station
+      :mod (n / news)
+      :polarity (a / amr-unknown)
+      :time (a2 / after
+            :op1 (n2 / news
+                  :time (d / date-entity
+                        :time "10:00"))))
+* No.
+* John was watching a rerun of the midnight news. The weather forecast was for the following night.
+Edit score is :  0.6482390128612235
+* Was John's television on a 24-hour news channel?
+# ::snt Was John's television on a 24-hour news channel?
+(b / broadcast-program
+      :polarity (a / amr-unknown)
+      :name (n / name
+            :op1 "Television")
+      :poss (p / person
+            :name (n2 / name
+                  :op1 "John"))
+      :medium (c / channel
+            :mod (n3 / news)
+            :duration (t / temporal-quantity
+                  :quant 24
+                  :unit (h / hour))))
+* No.
+* John was watching a rerun of the midnight news. The weather forecast was for the following day, not the current day.
+Edit score is :  0.6466585734031719
+PUZZLE: Let us agree that at the North Pole it is impossible to look north and at the South Pole it is impossible to look south. Then, where in the world would you be if you could look north and south but could not look east or west?
+* Is Billy a toy?
+# ::snt Is Billy a toy?
+(t / toy
+      :polarity (a / amr-unknown)
+      :domain (p / person
+            :name (n / name
+                  :op1 "Billy")))
+* No.
+* Billy is a cat.
+Edit score is :  0.4714285714285715
+* Did the man walk into the bar?
+# ::snt Did the man walk into the bar?
+(w / walk-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG4 (b / bar))
+* Irrelevant.
+* Billy is a cat.
+Edit score is :  0.4714285714285715
+* 
+* No.
+* Billy is a cat.
+Edit score is :  0.4714285714285715
+* 
+* No.
+* Billy is a toy bear. The label with the name was removed, and the name tag was destroyed.
+Edit score is :  0.6317222519469711
+* 
+* No.
+* Billy is a goat.
+Edit score is :  0.45476190476190476
+PUZZLE: A blind beggar had a brother who died. What relation was the blind beggar to the brother who died? ("Brother" is not the answer.)
+* Did the man leave with the book?
+# ::snt Did the man leave with the book?
+(l / leave-11
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man
+            :accompanier (b / book)))
+* Irrelevant.
+* The blind beggar was the brother who died.
+Edit score is :  0.9166666666666667
+PUZZLE: A police officer saw a truck driver clearly going the wrong way down a one-way street, but did not try to stop him. Why not?
+* Was the truck driver going the wrong way down a one-way street because he was going too fast?
+# ::snt Was the truck driver going the wrong way down a one-way street because he was going too fast?
+(c / cause-01
+      :ARG0 (g / go-02
+            :ARG0 (p / person
+                  :ARG0-of (d / drive-01
+                        :ARG1 (t / truck)))
+            :ARG1 (w / way
+                  :ARG1-of (w2 / wrong-02))
+            :direction (d2 / down
+                  :op1 (s / street
+                        :mod (o / one-way))))
+      :ARG1 (g2 / go-02
+            :ARG0 p
+            :ARG1-of (f / fast-02
+                  :ARG2-of (h / have-degree-91
+                        :ARG1 g2
+                        :ARG3 (t2 / too))))
+      :polarity (a / amr-unknown))
+* No.
+* The truck driver was going the wrong way down a one-way street because it was rush hour and the police officer knew that the truck driver would soon be going the right way down the one-way street.
+Edit score is :  0.6670771756978654
+PUZZLE: You are seated next to the pilot of a small plane at an altitude of one mile. Huge mountains loom directly ahead. The pilot does not change speed, direction, or elevation, yet you survive. How come?
+* So the eagle was dead when it hit the ground?
+# ::snt So the eagle was dead when it hit the ground?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (e / eagle)
+      :time (h / hit-01
+            :ARG0 e
+            :ARG1 (g / ground)))
+* Irrelevant.
+* You are on a roller coaster.
+Edit score is :  0.586231884057971
+* Were they going downhill?
+# ::snt Were they going downhill?
+(g / go-01
+      :ARG1 (t / they)
+      :ARG4 (d / downhill)
+      :polarity (a / amr-unknown))
+* No.
+* You are dreaming.
+Edit score is :  0.49629390217625513
+* Were they going uphill?
+# ::snt Were they going uphill?
+(g / go-01
+      :ARG1 (t / they)
+      :ARG4 (u / uphill)
+      :polarity (a / amr-unknown))
+* No.
+* The man and the pilot were both skydiving.
+Edit score is :  0.668039468039468
+PUZZLE: During a christening ceremony, the godmother of the child suddenly tackled the priest who was conducting the ceremony, knocked him down, and rolled him over on the ground. Why did she do this?
+* Was the tea poisoned?
+# ::snt Was the tea poisoned?
+(p / poison-01
+      :polarity (a / amr-unknown)
+      :ARG1 (t / tea))
+* No.
+* The godmother was actually the child's father, who was trying to save his son from being baptised into the Catholic faith. He saw the cup of tea being offered to the priest and realized that it was probably drugged, so he tackled the priest to keep him from drinking it.
+Edit score is :  0.5980485862206293
+* Did the man have a mental illness?
+# ::snt Did the man have a mental illness?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (ii / ill-01
+            :ARG1 m
+            :mod (m2 / mental)))
+* Irrelevant.
+* The woman was the man's wife. The couple had been arguing and she wanted to take him down a peg or two in front of their friends and family.
+Edit score is :  0.6234524483251138
+* Was the man possessed by a demon?
+# ::snt Was the man possessed by a demon?
+(p / possess-01
+      :polarity (a / amr-unknown)
+      :ARG0 (d / demon)
+      :ARG1 (m / man))
+* No.
+* The godmother tackled the priest because she saw a fly going into his eye, and she was trying to save him from the fly.
+Edit score is :  0.6543665853438149
+PUZZLE: A man wishes to reach the island in the middle of an ornamental lake without getting wet. The island is 20 feet from each edge of the pond (see diagram) and he has two planks each 19 feet long. How does he get across?
+* Can the man use one of the planks to bridge the gap between two of the stepping stones?
+# ::snt Can the man use one of the planks to bridge the gap between two of the stepping stones?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (u / use-01
+            :ARG0 (m / man)
+            :ARG1 (p2 / plank
+                  :quant 1
+                  :ARG1-of (ii / include-91
+                        :ARG2 (p3 / plank)))
+            :ARG2 (b / bridge-01
+                  :ARG0 m
+                  :ARG1 (g / gap
+                        :location (b2 / between
+                              :op1 (s / stone
+                                    :quant 2
+                                    :ARG1-of (ii2 / include-91
+                                          :ARG2 (s2 / stone
+                                                :ARG0-of (s3 / step-01)))))))))
+* Irrelevant.
+* The man lays one plank across the stones at the edge of the pond. He then walks across this plank to the middle of the pond where he places the second plank. He uses the first plank to bridge the gap between the second plank and the shore.
+Edit score is :  0.5795281313671895
+* Can the man use both planks to bridge the gap between two of the stepping stones?
+# ::snt Can the man use both planks to bridge the gap between two of the stepping stones?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (u / use-01
+            :ARG0 (m / man)
+            :ARG1 (p2 / plank
+                  :mod (b / both))
+            :ARG2 (b2 / bridge-01
+                  :ARG0 m
+                  :ARG1 (g / gap
+                        :location (b3 / between
+                              :op1 (s / stone
+                                    :quant 2
+                                    :ARG1-of (ii / include-91
+                                          :ARG2 (s2 / stone
+                                                :ARG0-of (s3 / step-01)))))))))
+* Irrelevant.
+* 
+Edit score is :  0.0
+* Can the man place the planks end-to-end to create a bridge from one side of the pond to the other?
+# ::snt Can the man place the planks end-to-end to create a bridge from one side of the pond to the other?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (p2 / place-01
+            :ARG0 (m / man)
+            :ARG1 (p3 / plank)
+            :ARG2 (e / end-to-end)
+            :purpose (c / create-01
+                  :ARG0 m
+                  :ARG1 (b / bridge-01
+                        :ARG1 (s / side
+                              :mod (o / one)
+                              :part-of (p4 / pond))
+                        :ARG2 (s2 / side
+                              :mod (o2 / other))))))
+* Irrelevant.
+* The man can place one plank horizontally across the two stones in the middle of the pond. He can then walk across the plank to the middle stone. He can then pick up the plank and place it across the two stones on the other side of the pond. He can then walk across the plank to the other side of the pond.
+Edit score is :  0.5665505608891045
+* Can the man place the planks side-by-side to create a bridge from one side of the pond to the other?
+# ::snt Can the man place the planks side-by-side to create a bridge from one side of the pond to the other?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (p2 / place-01
+            :ARG0 (m / man)
+            :ARG1 (p3 / plank)
+            :manner (s / side-by-side)
+            :purpose (c / create-01
+                  :ARG0 m
+                  :ARG1 (b / bridge-01
+                        :ARG1 (s2 / side
+                              :mod (o / one)
+                              :part-of (p4 / pond))
+                        :ARG2 (s3 / side
+                              :mod (o2 / other))))))
+* Irrelevant.
+* The man can place one plank on the water's surface between two stones, and then use the other plank to walk across the first one to the island.
+Edit score is :  0.5647483147483148
+* 
+* No.
+* The man can place the planks side-by-side on two of the stepping stones. He can then walk across the planks to the third stepping stone, pick up the planks, and repeat the process to get to the island.
+Edit score is :  0.6032715211819689
+PUZZLE: There were two keen sportsmen. One evening at 6 p.m. one started walking at 4 miles per hour and the other started cycling at 12 miles per hour. After an hour each of them stopped. They then each ran for fifteen minutes at 8 miles per hour. They both started from the same place, A. They both kept heading in the same direction throughout and never changed course or rested during the entire 45 minutes. They both arrived at point B at the same time. How could this be and how far was it from A to B?
+* Did they both leave at the same time?
+# ::snt Did they both leave at the same time?
+(l / leave-11
+      :polarity (a / amr-unknown)
+      :ARG0 (t / they
+            :mod (b / both))
+      :time (t2 / time
+            :ARG1-of (s / same-01)))
+* Irrelevant.
+* The two sportsmen were a father and his son. The father left first, and the son left one hour later. The son caught up to his father because the father had stopped to rest for fifteen minutes. The distance from A to B was 3 miles.
+Edit score is :  0.8554190637096601
+PUZZLE: A detective was lying in bed one Sunday morning listening to the local church bells ringing. Suddenly he realized that he was listening to a recording. How did he know?
+* Is the detective in Antarctica?
+# ::snt Is the detective in Antarctica?
+(d / detective
+      :polarity (a / amr-unknown)
+      :location (c / continent
+            :name (n / name
+                  :op1 "Antarctica")))
+* No.
+* The detective was on the North Pole.
+Edit score is :  0.6363168724279835
+* Is the detective on the North Pole?
+# ::snt Is the detective on the North Pole?
+(d / detective
+      :polarity (a / amr-unknown)
+      :location (w / world-region
+            :name (n / name
+                  :op1 "North"
+                  :op2 "Pole")))
+* No.
+* The detective was on the International Space Station.
+Edit score is :  0.6946868810020601

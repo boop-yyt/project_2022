@@ -1,0 +1,519 @@
+nohup: ignoring input
+PUZZLE: When this book first came out it was read only by a handful of very rich people. Now almost everyone has a copy and reads it frequently. But you cannot buy it in a bookstore or borrow it from a library. Why?
+* Is the book very old?
+* Irrelevant.
+* The book is the Bible.
+Edit score is :  0.8694652406417112
+PUZZLE: A man came to a river carrying a fox, a duck, and a bag of corn. There was a boat in which he could ferry one of the three items across the river at any one time. He could not leave the fox alone with the duck, nor the duck alone with the corn, so how did he get all three across?
+* 
+* No.
+* The man took the fox over first, then came back for the duck. He left the duck with the fox, and took the corn over. He came back for the duck, and took it over.
+Edit score is :  0.7115555965363094
+PUZZLE: This time the man reached the river with a fox, a duck, and a bag of corn, but this fox ate corn as well as ducks! There was the same boat as before in which he could take only one of the three with him. He could not leave the fox with either the corn or the duck, and, of course, the duck would gladly eat the corn if they were left together. How did he get all three across?
+* Did the man cross the river with all three?
+* Yes.
+* The man gave the fox to the duck, and the duck gave the corn to the fox. Then he took the duck with him in the boat.
+Edit score is :  0.8639846743295019
+PUZZLE: A man wishes to cross a wide, deep river. There is no bridge, no boat, and he cannot swim. How does he get across?
+* Could the man fly across the river?
+* No.
+* The man walks along the river until he finds a place where the river is narrow enough to jump across.
+Edit score is :  0.5874553781908803
+* Could the man build a raft to cross the river?
+* Yes.
+* The man builds a raft out of materials he finds on the river bank and uses it to float across the river.
+Edit score is :  0.5836473050758765
+* Could the man walk around the river?
+* No.
+* The man could build a raft and float across the river.
+Edit score is :  0.6131346056941295
+* Did the man have any helpers?
+* No.
+* The man walks upstream a short distance until he finds a place where the river is shallow enough to cross.
+Edit score is :  0.5812283403927608
+* Could the man cross the river by himself?
+* No.
+* The man went upstream until he found a place where the river was shallow enough to cross.
+Edit score is :  0.6194614869790065
+PUZZLE: Bill and Ben are identical twins. They are physically very alike, fit and healthy. They are both good runners and always run at the same speed. Each runs against the clock on the same track under the same conditions. Yet Ben takes ten times longer to finish than Bill. Why?
+* 
+* Irrelevant.
+* Bill was on a unicycle and Ben was on a tricycle.
+Edit score is :  0.5932695790318571
+* Did one of them have a head start?
+* No.
+* Bill was riding a bicycle and Ben was running.
+Edit score is :  0.5817251327602028
+*  Did one of them have to go through an obstacle course?
+* No.
+* Bill was on a unicycle and Ben was on a bicycle.
+Edit score is :  0.6029546032406444
+* 
+* No.
+* Ben was running on a treadmill.
+Edit score is :  0.5482053128912212
+* Did one of them have a weight tied to their foot?
+* No.
+* Bill was running on a treadmill while Ben was running on a real track.
+Edit score is :  0.616518569150148
+PUZZLE: A small plane was flying from Albany to New York some years ago. Seated beside each other were a grumpy old man smoking a foul pipe and a grumpy old lady with a noisy pet duck on her lap. Each spent most of the journey complaining about the other. Finally a compromise was reached. The old man agreed to throw his pipe out of the window if the old lady would throw her duck out. This was done. Just as the plane was about to land, the lady was pleased to see the duck flying alongside the plane. What did the duck have in its mouth?
+* 
+* No.
+* The old man had a hearing aid.
+Edit score is :  0.5808594418763909
+* Was the duck flying alongside the plane when the old man threw his pipe out?
+* No.
+* The old lady's duck had picked up the old man's pipe in its mouth when it was thrown out of the window.
+Edit score is :  0.6122829582713454
+* Did the duck have something in its mouth when it was flying alongside the plane?
+* No.
+* The duck had the old man's pipe in its mouth.
+Edit score is :  0.6632938022768531
+PUZZLE: A small plane was flying from Albany to New York some years ago. Seated beside each other were a grumpy old man smoking a foul pipe and a grumpy old lady with a noisy pet duck on her lap. Each spent most of the journey complaining about the other. Finally a compromise was reached. The old man agreed to throw his pipe out of the window if the old lady would throw her duck out. This was done. Just as the plane was about to land, the lady was pleased to see the duck flying alongside the plane. What did the duck have in its mouth?
+* Did the old man throw his pipe out of the window?
+* No.
+* The old lady's pet duck had picked up the old man's pipe in its beak when it was thrown out of the window.
+Edit score is :  0.6200795012115767
+* Did the duck have the old man's pipe in its mouth?
+* No.
+* The duck had a piece of string in its mouth. The other end of the string was attached to the old man's pipe.
+Edit score is :  0.6535273368606701
+PUZZLE: A keen stamp collector who specialized in U.S. stamps saw an advertisement offering a complete set of early U.S. stamps for a fraction of what it was worth. He quickly bought it. Although it was a genuine, splendid collection and a real bargain, he was angry, not pleased. What was going on?
+* Is the book well organized?
+* No.
+* The book was a catalog of early U.S. stamps.
+Edit score is :  0.5546509874868084
+* Was the book what the collector expected?
+* No.
+* The book was a catalog of early U.S. stamps.
+Edit score is :  0.5546509874868084
+* Was the collection a fake?
+* No.
+* The book was a catalog of the collector's stamp collection.
+Edit score is :  0.6045135277785586
+* Was the collection incomplete?
+* No.
+* The book was a catalog of the collector's own stamp collection.
+Edit score is :  0.589097120911732
+* 
+* No.
+* The collector realized that he could have assembled the same collection himself, at a fraction of the cost.
+Edit score is :  0.6673639590210939
+PUZZLE: On a cold winter's day, drivers found that sheep from the fields nearby kept coming onto the road. There was no snow and the road was not warmer than the fields but whenever the sheep were ushered back to the fields they quickly returned to the road. Why?
+* Are the sheep smarter than the drivers?
+* Irrelevant.
+* Could the sheep see the road from the fields?
+* Yes.
+* The road had recently been tarred and the sheep were attracted to the tar because it was a different color than the rest of the environment.
+Edit score is :  0.8240579710144927
+PUZZLE: Pete challenged Jim to a tennis match for a large bet. Jim won the first set easily (6-1). Pete then offered to raise the stakes to ten times the amount. Jim readily agreed but lost the next two sets to Pete 6-1, 6-1. Pete tried hard throughout the match and never threw away a point. How did he manage to suddenly beat Jim easily?
+* Was the tennis match fair?
+* Yes.
+* Pete was left-handed and Jim was right-handed. They had agreed to switch hands after each set.
+Edit score is :  0.8289606260699438
+PUZZLE: A man was on the run from the police. He was relaxing, watching a play in a crowded theatre. Suddenly he noticed that detectives were closing in on him from all directions and were covering all exits. How did he escape?
+* Did he escape through a window?
+* No.
+* He was sitting in a box seat and when the play ended he simply walked out with the rest of the audience.
+Edit score is :  0.697398511872196
+PUZZLE: Bernard was the president of a major Wall Street bank. One morning when he got on a crowded train he was extremely worried. When the train stopped and he alighted, he felt very sick but he was not worried anymore. Why not?
+* 
+* No.
+* The course is a spiral.
+Edit score is :  0.5681912290607943
+* 
+* No.
+* Did Bernard feel sick when he got on the train?
+* No.
+* The man had the hiccups.The bartender realized this and chose instead to cure the hiccups by frightening the man with the gun.
+Edit score is :  0.695978835978836
+PUZZLE: If you liked this place you would rather stay for a day than a year, but if you hated it you would rather stay for a year than a day. Why?
+* Is there anything about the passage of time that is relevant to the solution?
+* Yes.
+* This is a riddle about death.
+Edit score is :  0.6184546615581099
+* Would the answer to the puzzle be the same if the time periods were reversed?
+* No.
+* The house is on fire.
+Edit score is :  0.6190476190476191
+* 
+* No.
+* The house is on fire.
+Edit score is :  0.6190476190476191
+* 
+* No.
+* This is a riddle about death. If you liked the place, you would rather stay for a day than a year, because a year is a long time to be dead. However, if you hated the place, you would rather stay for a year than a day, because even though a day is a short time, it is still longer than the time you would spend dead.
+Edit score is :  0.5681476673037854
+* 
+* No.
+* You are in a house with only one exit, and that exit leads to a brick wall. You are given the choice to stay in the house for one day or one year. If you stay for a day, you will be let out. If you stay for a year, you will be let out and given a year's supply of food and water.
+Edit score is :  0.552217302691686
+PUZZLE: A boy at boarding school ran short of money so he wrote to his grandmother asking for a small contribution. The response was a letter containing a lecture on the evils of extravagance but no money of any kind. The boy was very pleased. Why?
+* 
+* Yes.
+* The boy had been caught smoking a pipe and was afraid his grandmother would be angry. He was relieved when she only lectured him.
+Edit score is :  0.820571357072577
+PUZZLE: During a wedding reception the father of the bride found that his wallet was missing. How did he find out who had taken it?
+* Did he check the security footage?
+* No.
+* The father of the bride put a announcement in the local paper stating that he would give a reward to whoever returned his wallet. The thief, seeing the announcement, returned the wallet.
+Edit score is :  0.7650143175034548
+PUZZLE: A man went to a builder with plans for an extension to his house. They had never met before but the builder agreed to build the extension at no charge to the man. Why?
+* 
+* No.
+* The man was a sheepdog and the builder was a farmer.
+Edit score is :  0.6324625060474117
+* 
+* No.
+* The man was a sheep farmer and the builder was a sheepdog.
+Edit score is :  0.6207517596261903
+* Was the man wealthy?
+* No.
+* The man was a beggar. The builder agreed to build the extension because he thought the man would be able to pay him when he was finished.
+Edit score is :  0.8369609054301554
+PUZZLE: In wartime, an army had to cross a wide river. There were no boats and only one bridge, which was very narrow. Crossing the bridge would have made them sitting ducks for enemy gunfire. How did the entire army cross the river in relative safety?
+* Did the army cross the river at night?
+* No.
+* The army had a few men who could swim. These men swam across the river and tied ropes to trees on the other side. The rest of the army then used these ropes to hand-over-hand their way across the river while staying low to avoid enemy gunfire.
+Edit score is :  0.6178395061728396
+* Did they cross the river one at a time?
+* No.
+* The army tied ropes to trees on either side of the river and held on to the ropes while crossing the river. This way, they were able to cross the river without being exposed to enemy gunfire.
+Edit score is :  0.6237513504529212
+* Did they build a raft?
+* No.
+* The army had a few men with them who could swim. They tied a rope to one end of the bridge and the other end to a tree on the other side of the river. The swimmers went across first and tied the rope to the other tree. Then the rest of the army walked across the rope like a tightrope.
+Edit score is :  0.5986549707602339
+* Did they use the bridge?
+* Yes.
+* They sent a unit of soldiers across the bridge, then had those soldiers lie down on the bridge while the rest of the army walked across on top of them.
+Edit score is :  0.6570521803116102
+PUZZLE: While digging a garden, a woman unearthed a large metal box filled with money and jewelry. For seven years, she died.why?
+* Did the woman open the box?
+* No.
+* The woman was digging in her garden when she unearthed a large metal box. Inside the box was a lot of money and jewelry. The woman died because she was buried alive when the box fell on her.
+Edit score is :  0.6714245932291045
+PUZZLE: A patient on the operating table is coming round after an operation. Suddenly he jumps up and strikes the surgeon as hard as he can. Why does he do this?
+* Did the patient realize he was about to be operated on?
+* No.
+* The patient is a hypochondriac who was worried that the surgeon was going to operate on him without his consent.
+Edit score is :  0.6977834088962046
+PUZZLE: A clergyman was exasperated at having to sweep up vast amounts of confetti from the front of his church after every wedding. He decreed that in the future, if people insisted on throwing something at the married couple they throw something else. What did he suggest?
+* Is it a place where you can find food?
+* No.
+* What is the clergyman's name?
+* Irrelevant.
+* What is the clergyman's profession?
+* Irrelevant.
+* A graveyard.
+Edit score is :  0.4258563074352548
+* Did the man leave happy?
+* Yes.
+* The clergyman suggested that people throw rice instead of confetti.
+Edit score is :  0.8766923278345116
+PUZZLE: A manufacturer states that if middle-aged people told the truth more often he would sell a great deal more of his products. What does he manufacture?
+* Did he get a lot of money?
+* No.
+* The manufacturer makes false teeth.
+Edit score is :  0.6155120242076763
+* Was the manufacturer's statement true?
+* Yes.
+* The manufacturer produces truth serum.
+Edit score is :  0.5871243325705569
+* Does the manufacturer sell products that people need?
+* Yes.
+* The manufacturer sells truth serum.
+Edit score is :  0.5741200828157349
+* Does the manufacturer sell products that make people look good?
+* Yes.
+* The manufacturer sells cosmetics.
+Edit score is :  0.5873956960913483
+* Does the manufacturer sell makeup?
+* Yes.
+* The manufacturer is a makeup company.
+Edit score is :  0.6364262813538176
+PUZZLE: In a sports shop there is a soccer ball containing a quantity of dried peas. Why are they there?
+* 
+* No.
+* The man had been robbed and the robber had emptied his pockets, including his wallet. The soccer ball was filled with the dried peas so that it would make a rattling noise if anybody tried to move it, alerting the man to the presence of the robber.
+Edit score is :  0.6510752688172043
+PUZZLE: A mother told her six-year-old daughter that her pet dog had been hit by a car and killed. The little girl burst into tears. Half an hour later, the mother said that the dog was quite well and that it was all a mistake. Why did she do this?
+* 
+* Irrelevant.
+* The man was Abraham Lincoln. The builder had once given him a drink of water when he was a boy, and Lincoln never forgot his kindness.
+Edit score is :  0.6537186808159531
+PUZZLE: Tom cannot read or write or tie his shoes. He has never worked a day in his life. Despite these shortcomings, Tom is given an extremely important, prestigious, and well- paid job. How come?
+* Did they use a boat?
+* No.
+* Was Tom the only one given the job?
+* No.
+* 
+* Irrelevant.
+* Tom was hired as a lifeguard.
+Edit score is :  0.5854387621004312
+* Is Tom qualified for the job?
+* No.
+* Tom is hired as a lifeguard.
+Edit score is :  0.6030949726601901
+* 
+* Irrelevant.
+* Tom was hired as a lifeguard.
+Edit score is :  0.5854387621004312
+PUZZLE: A woman who was driving on her own pulled into a filling station and bought some gasoline. As she drove off she noticed a stranger in a car following her. She tried to shake him o by turning, accelerating, slowing down, etc. Finally she turned into a police station, but she was shocked to see him follow her in. He was not a policeman and there were no mechanical faults with her car. Why did he follow her?
+* Did the woman have a bank account?
+* Yes.
+* The stranger was a teller from the woman's bank. She had just withdrawn a large sum of money, and the teller was following her to make sure she got home safely with it.
+Edit score is :  0.7447104851330204
+PUZZLE: A bank messenger, carrying a bag containing one thousand $100 bills, was robbed at gunpoint by a masked man. The man took the bag home and, without looking inside, he burnt it. Why?
+* Was the patient a bank messenger?
+* Yes.
+* The patient was a bank messenger who had been carrying a bag containing one thousand $100 bills. The masked man who robbed him took the bag home and, without looking inside, burnt it. The patient realized that the masked man must have known that he was a bank messenger and that the bag contained one thousand $100 bills. The patient surmised that the masked man must have been a professional criminal who had robbed many bank messengers and knew that it would be too risky to try to spend the
+Edit score is :  0.8264504416840269
+PUZZLE: A banker was kidnapped and held tied up and blindfolded by a single kidnapper for several days. During this time he 18
+* 
+* No.
+* Was the banker released after he gave the robbers the money?
+* Yes.
+* The banker was kidnapped and held for ransom. The kidnapper demanded a large sum of money in exchange for the banker's safe return. The banker's family paid the ransom and the banker was released.
+Edit score is :  0.8261590966352871
+PUZZLE: In a factory in Buckinghamshire, England, in the nineteenth century, a bungling employee ruined an entire batch of the factory output. However, his employer was very pleased. Why?
+* Did the suspect have a criminal record?
+* No.
+* The factory produced artificial flowers, and the bungled batch was of particularly good quality.
+Edit score is :  0.6746283190695633
+PUZZLE: In the eighteenth century, long before the invention of the train or the motorcar, people delivered urgent messages
+* 
+* No.
+* The employee was rewarded for accidentally ruining a batch of paper, as the resulting patterns were considered more valuable.
+Edit score is :  0.6576453048509123
+PUZZLE: A man hired seven employees to work for him. After a few weeks he noticed that only six were ever at work on any day and that on each day a different one failed to show up for work. Why?
+* 
+* Irrelevant.
+* He hired a group of seven men, each of whom had a different day of the week off.
+Edit score is :  0.5952672164756314
+* 
+* No.
+* He sent them one at a time by mail.
+Edit score is :  0.5566326530612246
+* Was the man's goal to get the letter to the post office as quickly as possible?
+* Yes.
+* He hired six men and a boy.
+Edit score is :  0.5293222474174856
+* Did he use a method that would be considered 'cheating' if he were in a race?
+* No.
+* The man put the letter in an envelope and mailed it to himself.
+Edit score is :  0.5879818594104308
+* Did the man break any laws?
+* No.
+* The man hired six people to work for him, and the seventh person was hired to follow them around and make sure they showed up for work.
+Edit score is :  0.6424546433204442
+PUZZLE: Chuck was an American on holiday in Ireland. His rental car broke down while he was in a little village and he was able to pull into a garage. There he asked how he could find someone to drive him back to Dublin. The man at the garage said, haven't been here long but I am sure that Milligan is your man. He lives in the big white house at the end of the village/'	Chuck went up to the house and Milligan answered the door. "Can you drive me to Dublin?,/ asked Chuck. "No," answered Milligan and explained that in his old car he never drove outside the vicinity. However, as it was late he offered Chuck a room for the night. When Chuck awoke the next morning, he was shocked to see a huge golden eagle on the top of his wardrobe gazing down at him. Why did the man at the garage direct Chuck to Milligan?
+* Did they work different shifts?
+* Yes.
+* Did the man at the garage know Milligan?
+* No.
+* It was Wednesday.
+Edit score is :  0.471677559912854
+* Was the man at the garage trying to help Chuck?
+* No.
+* It was Thursday.
+Edit score is :  0.5126439464674758
+* Did the man at the garage have ulterior motives?
+* No.
+* It was Wednesday.
+Edit score is :  0.471677559912854
+* 
+* Irrelevant.
+* Chuck had asked for directions to the nearest garage, but the man at the garage misunderstood and thought he was looking for a place to stay for the night.
+Edit score is :  0.7276793871670533
+PUZZLE: A man met a beautiful woman in a bar. After a few drinks they agreed to go back to her apartment. In the morning he awoke in an alleyway having been drugged. He checked his wallet, watch and credit cards and found that none were missing. A few minutes later he discovered something which gave him a terrible shock. What was it?
+* 
+* No.
+* The man's reflection in a store window showed that he had been shaved completely bald while he was unconscious.
+Edit score is :  0.6221638304971638
+* Was the man in the bar looking for a one night stand?
+* No.
+* The man had been drugged and robbed. The thing which gave him a terrible shock was that his penis had been surgically removed.
+Edit score is :  0.6396825396825397
+* Did the man in the bar know the woman was going to drug him?
+* No.
+* The woman was a prostitute and the man had been robbed. The shock came when he realized that he had been drugged and robbed by a prostitute.
+Edit score is :  0.6535592453355611
+PUZZLE: A strong woman is about to start her cleaning job when she collapses in a faint. Why?
+* Was it a tattoo?
+* No.
+* He had been cleaning his house and found a hidden cache of money.
+Edit score is :  0.5922624024526199
+* 
+* No.
+* The woman was cleaning a mirror and saw her reflection for the first time.
+Edit score is :  0.6129252161860858
+* Was the man's life in danger?
+* No.
+* The woman had been cleaning for hours and she was exhausted. When she fainted, she was actually standing on a window ledge outside the building she was cleaning.
+Edit score is :  0.6810001592610287
+PUZZLE: An expert sailor was killed while sailing his boat. He had suffered a heavy blow to the head. How had it happened?
+* Did the sailor fall overboard?
+* No.
+* The sailor was cleaning the boat when he slipped and hit his head on the mast, causing him to fall overboard and drown.
+Edit score is :  0.6045004668534081
+* 
+* No.
+* The expert sailor was killed by a whale. The whale had surfaced and hit the sailor with its tail, causing him to fall and hit his head on the deck of the boat.
+Edit score is :  0.5732581082747564
+* Did someone else on the boat kill him?
+* No.
+* The sailor was killed by a falling mast.
+Edit score is :  0.5601851851851852
+* Did the sailor die from the blow to the head?
+* Yes.
+* The sailor was killed by the boom of the boat while he was sailing.
+Edit score is :  0.6590657822001106
+PUZZLE: Two workmen were doing a major renovation job on an old English house. They could not believe their luck when they came upon a cask of excellent Jamaican rum. They indulged in a glass or two of this rum every day until finally it ran out. They then got a nasty surprise. What was it?
+* Was it a meteorite?
+* No.
+* He was struck by lightning.
+Edit score is :  0.5281638646920862
+* 
+* No.
+* The workmen had been drinking rum which had been laced with a powerful laxative. When they ran out of rum, they had no more laxative, and they soon became very ill.
+Edit score is :  0.6564539590052193
+PUZZLE: A man is found dead in a field. He is clutching a broken match. What happened?
+* Did the man die of alcohol poisoning?
+* No.
+* The man was trying to make a fire to keep warm, but the only thing he had to start the fire with was a broken match.
+Edit score is :  0.6854699444536104
+PUZZLE: A man is peeling potatoes when he cuts his finger. He immediately puts his hand into water and leaves it there for 30 seconds. However, when he pulls his hand out the cut has entirely disappeared. How can this have happened?
+* Did the man die from the fall?
+* No.
+* The man was a farmer and had been using pesticides all day. The cut on his finger was from a chemical burn and the water neutralized the effect of the chemical.
+Edit score is :  0.7860850514275171
+PUZZLE: The music stopped. She died. Explain.
+* 
+* No.
+* He was being electrocuted.
+Edit score is :  0.5316202235941931
+* Was the music playing loudly?
+* No.
+* He was electrocuted while trying to change a light bulb in his house.
+Edit score is :  0.5716306705649344
+* Did the man die?
+* No.
+* The man was electrocuted when he touched a live wire while the music was playing. When the music stopped, he died.
+Edit score is :  0.5870401781750109
+* Did the man have a drink of water?
+* Yes.
+* The man had the hiccups.The hiccups stopped when he had a drink of water.
+Edit score is :  0.5660130459999714
+* 
+* No.
+* The man had the hiccups.The bartender realized this and chose instead to cure the hiccups by frightening the man with the gun.
+Edit score is :  0.5978100139985242
+PUZZLE: A woman came home to find her dog choking in the hall. She rushed the dog to a nearby vet and went home while he examined the dog. When she arrived home the phone was ringing. It was the vet warning her to get out of the house at once. Why?
+* Was she being watched?
+* Yes.
+* The woman was a burglar, and the dog was choking on her stolen goods. The vet realized this and called the police.
+Edit score is :  0.6970406519641889
+PUZZLE: Tom and Joe went to a movie. There were many other people there. During a quiet scene, Tom drew a gun. Joe screamed, Don't shoot! but Tom shot him. Tom then left. Many people saw Tom leave and they restrained him. The police arrived and quickly released Tom. Why?
+* Did Tom have a history of mental illness?
+* No.
+* Joe was screaming at the dog to not shoot.
+Edit score is :  0.5876984126984127
+* Was the gun loaded?
+* Yes.
+* The gun was not loaded with bullets, it was loaded with blanks.
+Edit score is :  0.5742763772175538
+Traceback (most recent call last):
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 1321, in getresponse
+    response.begin()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/data/yangyueting/anaconda3/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/data/yangyueting/anaconda3/lib/python3.7/ssl.py", line 1049, in recv_into
+    return self.read(nbytes, buffer)
+  File "/data/yangyueting/anaconda3/lib/python3.7/ssl.py", line 908, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/requests/adapters.py", line 499, in send
+    timeout=timeout,
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 1321, in getresponse
+    response.begin()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/data/yangyueting/anaconda3/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/data/yangyueting/anaconda3/lib/python3.7/ssl.py", line 1049, in recv_into
+    return self.read(nbytes, buffer)
+  File "/data/yangyueting/anaconda3/lib/python3.7/ssl.py", line 908, in read
+    return self._sslobj.read(len, buffer)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/http_client.py", line 221, in request
+    **kwargs,
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/requests/adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./demo.py", line 151, in <module>
+    generated_answer, _ = get_response(answer_generation_prompt)
+  File "./demo.py", line 57, in get_response
+    stop=["\n\n"]
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_resources/completion.py", line 31, in create
+    return super().create(*args, **kwargs)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 67, in create
+    "post", url, params, headers, stream=stream
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_requestor.py", line 127, in request
+    method.lower(), url, params, headers, stream=stream
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_requestor.py", line 322, in request_raw
+    method, abs_url, headers, post_data, stream=stream
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/http_client.py", line 87, in request_with_retries
+    raise connection_error
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/http_client.py", line 58, in request_with_retries
+    response = self.request(method, url, headers, post_data, stream=stream)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/http_client.py", line 246, in request
+    self._handle_request_error(e)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/http_client.py", line 306, in _handle_request_error
+    raise error.APIConnectionError(msg, should_retry=should_retry)
+openai.error.APIConnectionError: Unexpected error communicating with OpenAI.  If this problem persists,
+let us know at support@openai.com.
+
+(Network error: ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) (url=https://api.openai.com/v1/completions))

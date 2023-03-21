@@ -1,0 +1,2091 @@
+[
+    {
+        "puzzle": "A man goes into a restaurant, orders abalone, eats one bite, and kills himself. What happened?",
+        "question_list": [
+            "Were any of the four criminals?",
+            "Was the man allergic to abalone?",
+            "Did the man have a mental illness?"
+        ],
+        "answer_list": [
+            "No.",
+            "No.",
+            "Irrelevant."
+        ],
+        "final_answer": "The man was in a ship that was wrecked on a desert island. When there was no food left, another passenger brought what he said was abalone but was really part of the man's wife (who had died in the wreck). The man suspects something fishy, so when they finally return to civilization, he orders abalone, realizes that what he ate before was his wife, and kills himself.",
+        "solution_list": [
+            "The man was a hitman. The abalone was poisoned, and the man realized he had been double-crossed.",
+            "The man was a hitman. The abalone was poisoned, and the man realized that he had been set up. He chose to kill himself rather than be captured and tortured for information."
+        ],
+        "log_info": [
+            {
+                "text": "The man was a hitman. The abalone was poisoned, and the man realized he had been double-crossed.",
+                "index": 0,
+                "logprobs": {
+                    "tokens": [
+                        "The",
+                        " man",
+                        " was",
+                        " a",
+                        " hit",
+                        "man",
+                        ".",
+                        " The",
+                        " ab",
+                        "alone",
+                        " was",
+                        " poisoned",
+                        ",",
+                        " and",
+                        " the",
+                        " man",
+                        " realized",
+                        " he",
+                        " had",
+                        " been",
+                        " double",
+                        "-",
+                        "cross",
+                        "ed",
+                        ".",
+                        "<|endoftext|>",
+                        "\n",
+                        "\\",
+                        "document",
+                        "class",
+                        "[",
+                        "12"
+                    ],
+                    "token_logprobs": [
+                        -0.036269303,
+                        -0.25846958,
+                        -0.052325048,
+                        -0.07076512,
+                        -1.7058016,
+                        -0.0008070274,
+                        -0.091555685,
+                        -0.09318104,
+                        -0.13244994,
+                        -1.7400124e-06,
+                        -0.024914071,
+                        -0.1009297,
+                        -0.020063506,
+                        -0.0016380983,
+                        -0.017466836,
+                        -0.030666044,
+                        -0.4661212,
+                        -0.7092327,
+                        -0.0760715,
+                        -0.0019961388,
+                        -1.7587771,
+                        -0.009325235,
+                        -2.5225998e-05,
+                        -1.022884e-06,
+                        -0.08535142,
+                        -0.35149872,
+                        -1.752548,
+                        -1.3135853,
+                        -0.055285994,
+                        -0.08883221,
+                        -0.1762855,
+                        -1.1156268
+                    ],
+                    "top_logprobs": [
+                        {
+                            "He": -6.784077,
+                            "\n": -4.373535,
+                            " The": -3.9641428,
+                            "The": -0.036269303,
+                            "Ab": -6.8117924
+                        },
+                        {
+                            " bite": -7.132888,
+                            " ab": -1.5192986,
+                            " one": -7.0838475,
+                            " man": -0.25846958,
+                            " restaurant": -5.5534396
+                        },
+                        {
+                            " tasted": -5.468829,
+                            " was": -0.052325048,
+                            " committed": -5.1112323,
+                            " had": -3.8781362,
+                            " realized": -4.5125175
+                        },
+                        {
+                            " a": -0.07076512,
+                            " the": -4.5956397,
+                            " poisoned": -3.6978755,
+                            " on": -4.6891828,
+                            " eating": -5.015839
+                        },
+                        {
+                            " hit": -1.7058016,
+                            " murderer": -3.056108,
+                            " y": -1.9736391,
+                            " convict": -2.45448,
+                            " fugitive": -1.843224
+                        },
+                        {
+                            "MAN": -15.148269,
+                            "-": -8.90649,
+                            "men": -15.492443,
+                            " man": -7.307137,
+                            "man": -0.0008070274
+                        },
+                        {
+                            ",": -3.7029047,
+                            ".": -0.091555685,
+                            " and": -5.8337007,
+                            " who": -2.8702364,
+                            " hired": -5.8813457
+                        },
+                        {
+                            " One": -5.148444,
+                            " His": -2.8614209,
+                            " The": -0.09318104,
+                            "The": -4.2045455,
+                            " He": -4.772765
+                        },
+                        {
+                            " person": -2.262308,
+                            " bite": -5.760553,
+                            " target": -4.715861,
+                            " ab": -0.13244994,
+                            " one": -6.3158674
+                        },
+                        {
+                            " lone": -16.379192,
+                            "alone": -1.7400124e-06,
+                            "al": -15.25308,
+                            " alone": -14.8371315,
+                            "alon": -14.000399
+                        },
+                        {
+                            " bite": -7.4045405,
+                            " he": -3.8748016,
+                            " was": -0.024914071,
+                            " contained": -6.118324,
+                            " represented": -8.073187
+                        },
+                        {
+                            " a": -3.6510756,
+                            " poisoned": -0.1009297,
+                            " meant": -5.0851884,
+                            " supposed": -4.6451287,
+                            " his": -3.4685578
+                        },
+                        {
+                            ",": -0.020063506,
+                            ".": -3.9733086,
+                            " and": -7.644877,
+                            " as": -9.461151,
+                            " by": -7.7505836
+                        },
+                        {
+                            " and": -0.0016380983,
+                            "and": -10.17431,
+                            " meant": -6.9674697,
+                            " but": -9.297555,
+                            " intended": -7.564755
+                        },
+                        {
+                            " the": -0.017466836,
+                            " he": -4.2287683,
+                            " was": -6.1996584,
+                            " his": -8.287497,
+                            " eating": -8.545201
+                        },
+                        {
+                            " person": -4.996185,
+                            " bite": -5.7820024,
+                            " hit": -5.7695208,
+                            " one": -4.506142,
+                            " man": -0.030666044
+                        },
+                        {
+                            " ate": -3.2352605,
+                            "'s": -1.3558421,
+                            " died": -3.7453399,
+                            " was": -4.0857553,
+                            " realized": -0.4661212
+                        },
+                        {
+                            " too": -4.903683,
+                            " that": -0.7055172,
+                            " he": -0.7092327,
+                            " it": -5.2811966,
+                            " this": -6.470312
+                        },
+                        {
+                            "'d": -6.284777,
+                            " was": -3.724114,
+                            " had": -0.0760715,
+                            " would": -3.0834625,
+                            " only": -6.639811
+                        },
+                        {
+                            " eaten": -6.765616,
+                            " bitten": -8.871913,
+                            " been": -0.0019961388,
+                            " no": -7.6936994,
+                            " only": -8.907255
+                        },
+                        {
+                            " betrayed": -2.6061795,
+                            " poisoned": -2.0746589,
+                            " tricked": -3.4227507,
+                            " double": -1.7587771,
+                            " set": -0.623772
+                        },
+                        {
+                            "-": -0.009325235,
+                            " crossed": -5.016178,
+                            "cross": -5.9492283,
+                            "Cross": -11.093754,
+                            " cross": -11.16776
+                        },
+                        {
+                            " crossing": -15.247825,
+                            " crossed": -11.04608,
+                            "cross": -2.5225998e-05,
+                            "Cross": -11.81423,
+                            " cross": -13.440779
+                        },
+                        {
+                            "edi": -15.460475,
+                            "eda": -15.200772,
+                            "es": -15.58111,
+                            "ed": -1.022884e-06,
+                            "sed": -15.627076
+                        },
+                        {
+                            ".": -0.08535142,
+                            " and": -4.1274405,
+                            " when": -3.6274579,
+                            " after": -4.7953444,
+                            " before": -3.5205834
+                        },
+                        {
+                            " Rather": -4.879874,
+                            " Killing": -5.1584234,
+                            " By": -2.5681467,
+                            "<|endoftext|>": -0.35149872,
+                            " He": -1.6231719
+                        },
+                        {
+                            "\t": -3.2900827,
+                            "\n": -1.752548,
+                            "#": -2.7433257,
+                            "Q": -1.5095099,
+                            "\\": -3.2982223
+                        },
+                        {
+                            "import": -3.4043217,
+                            "\n": -1.0982666,
+                            "#": -2.52406,
+                            "%": -3.088787,
+                            "\\": -1.3135853
+                        },
+                        {
+                            "Requ": -5.230408,
+                            "document": -0.055285994,
+                            "begin": -5.155533,
+                            "new": -4.4091372,
+                            "def": -4.8294487
+                        },
+                        {
+                            " class": -9.294152,
+                            " style": -9.8989315,
+                            "class": -0.08883221,
+                            "style": -2.4718945,
+                            "Class": -10.720872
+                        },
+                        {
+                            "\n": -7.454769,
+                            "[]": -5.4987016,
+                            "[": -0.1762855,
+                            " [": -5.0921464,
+                            "{": -1.9018914
+                        },
+                        {
+                            "12": -1.1156268,
+                            "11": -2.2212615,
+                            "use": -2.9976602,
+                            "a": -2.6691384,
+                            "10": -2.6639793
+                        }
+                    ],
+                    "text_offset": [
+                        898,
+                        901,
+                        905,
+                        909,
+                        911,
+                        915,
+                        918,
+                        919,
+                        923,
+                        926,
+                        931,
+                        935,
+                        944,
+                        945,
+                        949,
+                        953,
+                        957,
+                        966,
+                        969,
+                        973,
+                        978,
+                        985,
+                        986,
+                        991,
+                        993,
+                        994,
+                        994,
+                        994,
+                        994,
+                        994,
+                        994,
+                        994
+                    ]
+                },
+                "finish_reason": "stop"
+            },
+            {
+                "text": "The man was a hitman. The abalone was poisoned, and the man realized that he had been set up. He chose to kill himself rather than be captured and tortured for information.",
+                "index": 0,
+                "logprobs": {
+                    "tokens": [
+                        "The",
+                        " man",
+                        " was",
+                        " a",
+                        " hit",
+                        "man",
+                        ".",
+                        " The",
+                        " ab",
+                        "alone",
+                        " was",
+                        " poisoned",
+                        ",",
+                        " and",
+                        " the",
+                        " man",
+                        " realized",
+                        " that",
+                        " he",
+                        " had",
+                        " been",
+                        " set",
+                        " up",
+                        ".",
+                        " He",
+                        " chose",
+                        " to",
+                        " kill",
+                        " himself",
+                        " rather",
+                        " than",
+                        " be",
+                        " captured",
+                        " and",
+                        " tortured",
+                        " for",
+                        " information",
+                        ".",
+                        "<|endoftext|>",
+                        "Q"
+                    ],
+                    "token_logprobs": [
+                        -0.021329878,
+                        -0.4318593,
+                        -0.008619173,
+                        -0.05661693,
+                        -1.2785437,
+                        -0.00044619318,
+                        -0.2197692,
+                        -0.09205452,
+                        -0.12568708,
+                        -1.5006569e-06,
+                        -0.017636685,
+                        -0.019910697,
+                        -0.018777294,
+                        -0.0001229837,
+                        -0.014102582,
+                        -0.028881727,
+                        -0.936635,
+                        -0.6401523,
+                        -0.0005865158,
+                        -0.09448596,
+                        -0.0015080144,
+                        -0.34350187,
+                        -4.573365e-05,
+                        -0.020594664,
+                        -0.11916751,
+                        -0.7009147,
+                        -1.8841804e-07,
+                        -0.00968207,
+                        -1.8841804e-07,
+                        -0.0047223787,
+                        -9.130952e-06,
+                        -0.0055019353,
+                        -0.42517626,
+                        -0.04236339,
+                        -0.3892733,
+                        -0.52316034,
+                        -1.2112103e-05,
+                        -2.1768952e-05,
+                        -6.6619094e-07,
+                        -1.2342741
+                    ],
+                    "top_logprobs": [
+                        {
+                            "There": -7.3379292,
+                            "\n": -4.9102764,
+                            " The": -4.4455504,
+                            "The": -0.021329878,
+                            "Ab": -7.241046
+                        },
+                        {
+                            " bite": -6.817531,
+                            " food": -7.634075,
+                            " ab": -1.0696081,
+                            " man": -0.4318593,
+                            " restaurant": -6.063691
+                        },
+                        {
+                            " went": -7.4862595,
+                            " tasted": -7.593011,
+                            " was": -0.008619173,
+                            " had": -5.3009925,
+                            " realized": -6.65603
+                        },
+                        {
+                            " a": -0.05661693,
+                            " the": -6.544801,
+                            " poisoned": -3.246185,
+                            " on": -5.1916876,
+                            " eating": -5.920713
+                        },
+                        {
+                            " hit": -1.2785437,
+                            " murderer": -3.115016,
+                            " y": -2.0175142,
+                            " fugitive": -2.008728,
+                            " k": -3.042786
+                        },
+                        {
+                            "MAN": -15.958321,
+                            "-": -9.36735,
+                            "men": -16.67404,
+                            " man": -7.9281974,
+                            "man": -0.00044619318
+                        },
+                        {
+                            ",": -1.7996129,
+                            ".": -0.2197692,
+                            " and": -6.1580944,
+                            " who": -3.5928366,
+                            " hired": -6.2323775
+                        },
+                        {
+                            " One": -6.3535085,
+                            " His": -2.7408257,
+                            " The": -0.09205452,
+                            "The": -4.8904343,
+                            " He": -4.3793507
+                        },
+                        {
+                            " person": -2.2743,
+                            " bite": -5.3002195,
+                            " target": -5.2240224,
+                            " ab": -0.12568708,
+                            " first": -6.825774
+                        },
+                        {
+                            " lone": -15.894969,
+                            "alone": -1.5006569e-06,
+                            "al": -15.83386,
+                            " alone": -14.798364,
+                            "alon": -14.2674
+                        },
+                        {
+                            " bite": -7.5050397,
+                            " he": -4.2283325,
+                            " was": -0.017636685,
+                            " contained": -6.291938,
+                            " represented": -8.764386
+                        },
+                        {
+                            " a": -5.2325125,
+                            " poisoned": -0.019910697,
+                            " poisonous": -5.5270886,
+                            " his": -5.807029,
+                            " poison": -5.976404
+                        },
+                        {
+                            ",": -0.018777294,
+                            ".": -4.015662,
+                            " and": -8.408976,
+                            " by": -8.146449,
+                            "<|endoftext|>": -10.632753
+                        },
+                        {
+                            " and": -0.0001229837,
+                            "and": -11.934464,
+                            " meant": -9.580575,
+                            " but": -12.188841,
+                            " intended": -10.303784
+                        },
+                        {
+                            " the": -0.014102582,
+                            " he": -4.3793063,
+                            " was": -6.933393,
+                            " his": -8.273847,
+                            " eating": -8.98441
+                        },
+                        {
+                            " person": -4.7721705,
+                            " bite": -5.8993115,
+                            " hit": -5.611418,
+                            " one": -4.877105,
+                            " man": -0.028881727
+                        },
+                        {
+                            " ate": -3.656433,
+                            "'s": -0.6713182,
+                            " died": -3.5061417,
+                            " was": -4.1594143,
+                            " realized": -0.936635
+                        },
+                        {
+                            " too": -3.4931815,
+                            " that": -0.6401523,
+                            " he": -0.82430685,
+                            " it": -5.921917,
+                            " this": -6.8300033
+                        },
+                        {
+                            " someone": -9.046087,
+                            " the": -8.878718,
+                            " he": -0.0005865158,
+                            " it": -8.6083555,
+                            " his": -8.985662
+                        },
+                        {
+                            "'d": -9.167957,
+                            " was": -3.1494405,
+                            " had": -0.09448596,
+                            " would": -3.0727327,
+                            " only": -7.068382
+                        },
+                        {
+                            " eaten": -7.2177987,
+                            " bitten": -7.7479243,
+                            " been": -0.0015080144,
+                            " no": -9.552163,
+                            " just": -8.935502
+                        },
+                        {
+                            " betrayed": -3.0246482,
+                            " poisoned": -2.3999243,
+                            " tricked": -3.9818313,
+                            " double": -2.5648897,
+                            " set": -0.34350187
+                        },
+                        {
+                            "-": -10.000645,
+                            "\n": -16.046236,
+                            " ": -15.583157,
+                            " u": -16.032837,
+                            " up": -4.573365e-05
+                        },
+                        {
+                            ".": -0.020594664,
+                            " to": -6.9079237,
+                            " and": -4.307431,
+                            " when": -5.7057295,
+                            " before": -6.897289
+                        },
+                        {
+                            " Rather": -3.8456602,
+                            " Killing": -4.3118105,
+                            " By": -2.9607792,
+                            "<|endoftext|>": -4.1632843,
+                            " He": -0.11916751
+                        },
+                        {
+                            " ate": -1.5511162,
+                            " killed": -2.1299422,
+                            " knew": -4.409294,
+                            " decided": -2.1535838,
+                            " chose": -0.7009147
+                        },
+                        {
+                            "to": -16.904718,
+                            " death": -16.3434,
+                            " to": -1.8841804e-07,
+                            " not": -16.423525,
+                            " suicide": -17.683031
+                        },
+                        {
+                            " take": -5.2397027,
+                            " kill": -0.00968207,
+                            " eat": -7.450478,
+                            " commit": -6.068016,
+                            " die": -6.663383
+                        },
+                        {
+                            "\n": -18.636814,
+                            " rather": -15.320198,
+                            " ": -18.465288,
+                            " himself": -1.8841804e-07,
+                            " Himself": -17.974463
+                        },
+                        {
+                            " rather": -0.0047223787,
+                            " instead": -7.103339,
+                            " to": -8.7470455,
+                            " so": -10.7359085,
+                            " before": -5.6044664
+                        },
+                        {
+                            "than": -13.582671,
+                            " th": -12.979061,
+                            " be": -13.376911,
+                            " than": -9.130952e-06,
+                            " then": -12.923945
+                        },
+                        {
+                            " face": -6.399888,
+                            " risk": -6.144726,
+                            " to": -8.515508,
+                            " be": -0.0055019353,
+                            " being": -7.1228642
+                        },
+                        {
+                            " tortured": -2.0699782,
+                            " interrogated": -2.6764674,
+                            " caught": -2.358398,
+                            " arrested": -3.483555,
+                            " captured": -0.42517626
+                        },
+                        {
+                            ".": -3.6144762,
+                            " and": -0.04236339,
+                            " or": -7.9814196,
+                            " by": -4.2542067,
+                            "<|endoftext|>": -14.32748
+                        },
+                        {
+                            " torture": -5.7573814,
+                            " face": -5.906563,
+                            " tortured": -0.3892733,
+                            " killed": -3.642325,
+                            " interrogated": -1.29357
+                        },
+                        {
+                            ".": -1.2567724,
+                            " to": -12.835784,
+                            " for": -0.52316034,
+                            " by": -2.1008391,
+                            "<|endoftext|>": -7.775438
+                        },
+                        {
+                            " information": -1.2112103e-05,
+                            "information": -12.575879,
+                            " the": -12.363215,
+                            " Information": -14.42639,
+                            " info": -12.6033325
+                        },
+                        {
+                            ".": -2.1768952e-05,
+                            " he": -13.393261,
+                            " by": -11.763298,
+                            "<|endoftext|>": -11.74459,
+                            ".\"": -12.695591
+                        },
+                        {
+                            "\n": -15.027502,
+                            " ": -14.658794,
+                            "<|endoftext|>": -6.6619094e-07,
+                            "\n\n": -17.576683,
+                            " This": -18.233482
+                        },
+                        {
+                            "\t": -3.3693547,
+                            "\n": -1.7022064,
+                            "#": -2.7984605,
+                            "Q": -1.2342741,
+                            "\\": -3.2671835
+                        }
+                    ],
+                    "text_offset": [
+                        969,
+                        972,
+                        976,
+                        980,
+                        982,
+                        986,
+                        989,
+                        990,
+                        994,
+                        997,
+                        1002,
+                        1006,
+                        1015,
+                        1016,
+                        1020,
+                        1024,
+                        1028,
+                        1037,
+                        1042,
+                        1045,
+                        1049,
+                        1054,
+                        1058,
+                        1061,
+                        1062,
+                        1065,
+                        1071,
+                        1074,
+                        1079,
+                        1087,
+                        1094,
+                        1099,
+                        1102,
+                        1111,
+                        1115,
+                        1124,
+                        1128,
+                        1140,
+                        1141,
+                        1141
+                    ]
+                },
+                "finish_reason": "stop"
+            }
+        ],
+        "edit_score": [
+            0.6040601232625229,
+            0.6681143605522301
+        ]
+    },
+    {
+        "puzzle": "A man goes into a restaurant, orders albatross, eats one bite, and kills himself. What happened?",
+        "question_list": [
+            "Did the cleric suggest something which would not need to be cleared up?",
+            "Is it something which is non-polluting and disappears in a short time?",
+            "Does it involve water in some form?",
+            "",
+            "Is the man's death due to a reaction to the albatross?",
+            "Did the man order the albatross rare?",
+            "Could the man's death be due to food poisoning?",
+            "Did the man commit suicide?"
+        ],
+        "answer_list": [
+            "Yes.",
+            "Yes.",
+            "No.",
+            "No.",
+            "No.",
+            "No.",
+            "No.",
+            "No."
+        ],
+        "final_answer": "the man was in a lifeboat, with his wife, who died.  He hallucinated an albatross landing in the boat which he caught and killed and ate; he thought that his wife had been washed overboard.  When he actually eats albatross, he discovers that he had actually eaten his wife.",
+        "solution_list": [
+            "The man was a competitive eater. The albatross was a record-setting bird and the man wanted to eat it in one bite.",
+            "The man was a member of PETA and was protesting the restaurant for serving albatross.",
+            "The man was a member of PETA and was protesting the restaurant for serving albatross.",
+            "The man was a member of PETA and was protesting the restaurant for serving albatross.",
+            "The man was allergic to albatross and died after eating one bite."
+        ],
+        "log_info": [
+            {
+                "text": "The man was a competitive eater. The albatross was a record-setting bird and the man wanted to eat it in one bite.",
+                "index": 0,
+                "logprobs": {
+                    "tokens": [
+                        "The",
+                        " man",
+                        " was",
+                        " a",
+                        " competitive",
+                        " eater",
+                        ".",
+                        " The",
+                        " al",
+                        "bat",
+                        "ross",
+                        " was",
+                        " a",
+                        " record",
+                        "-",
+                        "setting",
+                        " bird",
+                        " and",
+                        " the",
+                        " man",
+                        " wanted",
+                        " to",
+                        " eat",
+                        " it",
+                        " in",
+                        " one",
+                        " bite",
+                        ".",
+                        "<|endoftext|>",
+                        "Q",
+                        ":",
+                        " Simple"
+                    ],
+                    "token_logprobs": [
+                        -0.117867544,
+                        -0.0028909103,
+                        -0.05557876,
+                        -0.5034754,
+                        -3.0883708,
+                        -0.0014964361,
+                        -0.26282454,
+                        -0.09649925,
+                        -0.03135506,
+                        -2.5744682e-06,
+                        -3.4089344e-06,
+                        -0.1300982,
+                        -0.019784475,
+                        -2.074688,
+                        -0.04518175,
+                        -0.311518,
+                        -1.1690471,
+                        -0.3548852,
+                        -0.06768874,
+                        -0.0019312226,
+                        -0.15662737,
+                        -5.197998e-06,
+                        -0.5109779,
+                        -0.0020245668,
+                        -0.1904477,
+                        -0.0060470607,
+                        -0.08280387,
+                        -0.16308539,
+                        -0.5281676,
+                        -1.1863158,
+                        -2.4543265e-06,
+                        -6.3094587
+                    ],
+                    "top_logprobs": [
+                        {
+                            "He": -3.9067955,
+                            "\n": -2.4429808,
+                            "Al": -8.965524,
+                            " The": -5.6451693,
+                            "The": -0.117867544
+                        },
+                        {
+                            " answer": -9.399271,
+                            " cleric": -11.30819,
+                            " al": -5.9155655,
+                            " man": -0.0028909103,
+                            " suicide": -11.005234
+                        },
+                        {
+                            " ate": -4.9423556,
+                            " went": -6.1201863,
+                            " was": -0.05557876,
+                            " committed": -4.5610533,
+                            " had": -3.5021431
+                        },
+                        {
+                            " a": -0.5034754,
+                            " an": -4.797041,
+                            " allergic": -3.100136,
+                            " eating": -1.2955468,
+                            " very": -4.7668266
+                        },
+                        {
+                            " vegan": -2.6074903,
+                            " member": -0.55598813,
+                            " sailor": -3.5515428,
+                            " suicide": -3.8232245,
+                            " competitive": -3.0883708
+                        },
+                        {
+                            " eater": -0.0014964361,
+                            " Eater": -7.8867235,
+                            "eat": -12.080245,
+                            " eat": -6.969873,
+                            " eating": -8.964298
+                        },
+                        {
+                            ",": -4.811151,
+                            ".": -0.26282454,
+                            " and": -1.6507068,
+                            " who": -3.9777625,
+                            " attempting": -4.795727
+                        },
+                        {
+                            "He": -6.299698,
+                            " The": -0.09649925,
+                            "The": -3.4212365,
+                            " He": -2.915961,
+                            " Al": -6.434099
+                        },
+                        {
+                            " record": -5.689848,
+                            " al": -0.03135506,
+                            " challenge": -5.0999393,
+                            " restaurant": -4.81028,
+                            " dish": -5.1563816
+                        },
+                        {
+                            "Bat": -17.166328,
+                            "BAT": -14.010457,
+                            "ba": -17.694107,
+                            " bat": -13.231923,
+                            "bat": -2.5744682e-06
+                        },
+                        {
+                            "ross": -3.4089344e-06,
+                            "rost": -16.039461,
+                            "rosis": -17.483606,
+                            "ros": -12.745431,
+                            "oss": -14.734564
+                        },
+                        {
+                            " is": -3.800816,
+                            " he": -6.7372165,
+                            " was": -0.1300982,
+                            " meat": -2.3305604,
+                            " contained": -7.6744533
+                        },
+                        {
+                            " a": -0.019784475,
+                            " the": -4.519363,
+                            " not": -6.6699157,
+                            " part": -6.5065594,
+                            " still": -6.808361
+                        },
+                        {
+                            " record": -2.074688,
+                            " rare": -3.2875118,
+                            " new": -0.846636,
+                            " dish": -3.6332436,
+                            " world": -1.1708976
+                        },
+                        {
+                            "-": -0.04518175,
+                            " attempt": -5.960715,
+                            " for": -4.2464886,
+                            " breaking": -5.158375,
+                            " set": -4.176541
+                        },
+                        {
+                            "breaking": -1.3274195,
+                            "sized": -6.9866405,
+                            "holding": -7.8482146,
+                            "setting": -0.311518,
+                            " breaking": -7.9351616
+                        },
+                        {
+                            " attempt": -2.5267246,
+                            " eat": -3.397816,
+                            " bird": -1.1690471,
+                            " dish": -1.9592512,
+                            " meal": -1.0479838
+                        },
+                        {
+                            ",": -1.357998,
+                            ".": -3.5776167,
+                            " and": -0.3548852,
+                            " that": -4.5668793,
+                            " which": -6.7940364
+                        },
+                        {
+                            " the": -0.06768874,
+                            " he": -2.861878,
+                            " thus": -8.098532,
+                            " therefore": -8.04295,
+                            " eating": -4.927242
+                        },
+                        {
+                            " bite": -7.2046094,
+                            " challenge": -7.5036216,
+                            " one": -8.274902,
+                            " man": -0.0019312226,
+                            " only": -9.088376
+                        },
+                        {
+                            " wanted": -0.15662737,
+                            " knew": -4.8804035,
+                            "'s": -4.296496,
+                            " died": -4.1194158,
+                            " choked": -2.6621037
+                        },
+                        {
+                            "to": -15.545351,
+                            " the": -12.238573,
+                            " to": -5.197998e-06,
+                            " eat": -17.115442,
+                            " its": -16.640532
+                        },
+                        {
+                            " win": -5.120021,
+                            " be": -1.096572,
+                            " beat": -3.1016178,
+                            " eat": -0.5109779,
+                            " see": -4.6759033
+                        },
+                        {
+                            " enough": -15.716644,
+                            " the": -6.226509,
+                            " an": -14.978809,
+                            " it": -0.0020245668,
+                            " as": -10.0095
+                        },
+                        {
+                            " to": -3.8818731,
+                            " in": -0.1904477,
+                            " for": -4.210353,
+                            " all": -2.0987175,
+                            " so": -4.799308
+                        },
+                        {
+                            " order": -5.5718746,
+                            " front": -7.0092287,
+                            " a": -6.8525276,
+                            " the": -8.951637,
+                            " one": -0.0060470607
+                        },
+                        {
+                            " bite": -0.08280387,
+                            "bite": -9.130306,
+                            " Bite": -8.981542,
+                            " go": -8.978302,
+                            " sitting": -2.5393448
+                        },
+                        {
+                            ",": -6.437456,
+                            ".": -0.16308539,
+                            " to": -2.0047524,
+                            " in": -6.6933374,
+                            " so": -4.420008
+                        },
+                        {
+                            " When": -3.7146986,
+                            " However": -2.1491506,
+                            "<|endoftext|>": -0.5281676,
+                            " He": -1.3873767,
+                            " Unfortunately": -4.457448
+                        },
+                        {
+                            "\t": -3.1370077,
+                            "\n": -1.8007737,
+                            "#": -3.1480265,
+                            "Q": -1.1863158,
+                            "\\": -2.9605448
+                        },
+                        {
+                            "+": -15.070247,
+                            ".": -15.235082,
+                            ":": -2.4543265e-06,
+                            ";": -15.766688,
+                            "code": -15.431645
+                        },
+                        {
+                            " How": -1.6228696,
+                            " What": -3.452069,
+                            " how": -3.8970933,
+                            "bytes: \\xd0": -3.933808,
+                            " Can": -3.9609947
+                        }
+                    ],
+                    "text_offset": [
+                        1073,
+                        1076,
+                        1080,
+                        1084,
+                        1086,
+                        1098,
+                        1104,
+                        1105,
+                        1109,
+                        1112,
+                        1115,
+                        1119,
+                        1123,
+                        1125,
+                        1132,
+                        1133,
+                        1140,
+                        1145,
+                        1149,
+                        1153,
+                        1157,
+                        1164,
+                        1167,
+                        1171,
+                        1174,
+                        1177,
+                        1181,
+                        1186,
+                        1187,
+                        1187,
+                        1187,
+                        1187
+                    ]
+                },
+                "finish_reason": "stop"
+            },
+            {
+                "text": "The man was a member of PETA and was protesting the restaurant for serving albatross.",
+                "index": 0,
+                "logprobs": {
+                    "tokens": [
+                        "The",
+                        " man",
+                        " was",
+                        " a",
+                        " member",
+                        " of",
+                        " P",
+                        "ETA",
+                        " and",
+                        " was",
+                        " protesting",
+                        " the",
+                        " restaurant",
+                        " for",
+                        " serving",
+                        " al",
+                        "bat",
+                        "ross",
+                        ".",
+                        "<|endoftext|>",
+                        "\\",
+                        "document",
+                        "class",
+                        "["
+                    ],
+                    "token_logprobs": [
+                        -0.02687842,
+                        -0.010412375,
+                        -0.014377791,
+                        -0.72243375,
+                        -0.5414883,
+                        -1.2622395e-06,
+                        -0.025345646,
+                        -0.0048971437,
+                        -0.33173394,
+                        -0.013262119,
+                        -0.013589361,
+                        -0.0017631846,
+                        -0.26708198,
+                        -0.2953854,
+                        -0.0003392808,
+                        -0.065209076,
+                        -4.721163e-06,
+                        -4.277735e-07,
+                        -0.05084327,
+                        -0.00070401334,
+                        -3.1107764,
+                        -0.0852954,
+                        -0.05723027,
+                        -0.20541793
+                    ],
+                    "top_logprobs": [
+                        {
+                            "The": -0.02687842,
+                            "\n": -3.7737844,
+                            " The": -6.0280066,
+                            "He": -7.3938956,
+                            "It": -8.319177
+                        },
+                        {
+                            " man": -0.010412375,
+                            " al": -4.602788,
+                            " restaurant": -8.69403,
+                            " answer": -9.681709,
+                            " bite": -11.07765
+                        },
+                        {
+                            " was": -0.014377791,
+                            " had": -4.2900825,
+                            " committed": -8.0747795,
+                            " ate": -10.229097,
+                            " died": -10.286408
+                        },
+                        {
+                            " a": -0.72243375,
+                            " allergic": -0.7655312,
+                            " suffering": -4.519661,
+                            " eating": -4.748178,
+                            " an": -4.9279103
+                        },
+                        {
+                            " member": -0.5414883,
+                            " vegan": -3.0496457,
+                            " competitive": -3.2391994,
+                            " jewel": -3.4873507,
+                            " suicide": -3.7988744
+                        },
+                        {
+                            " of": -1.2622395e-06,
+                            "of": -13.514671,
+                            " ": -17.493683,
+                            "<|endoftext|>": -19.135857,
+                            " o": -19.413212
+                        },
+                        {
+                            " P": -0.025345646,
+                            " the": -3.720984,
+                            " Greenpeace": -7.345011,
+                            " a": -9.324036,
+                            " an": -10.751049
+                        },
+                        {
+                            "ETA": -0.0048971437,
+                            ".": -5.330266,
+                            "eta": -12.246713,
+                            "urity": -12.269406,
+                            "esc": -12.826233
+                        },
+                        {
+                            " and": -0.33173394,
+                            ",": -1.9543496,
+                            " (": -2.1463358,
+                            " who": -4.434112,
+                            ".": -4.521339
+                        },
+                        {
+                            " was": -0.013262119,
+                            " believed": -5.709883,
+                            " he": -6.265593,
+                            " the": -6.3168855,
+                            " realized": -6.442678
+                        },
+                        {
+                            " protesting": -0.013589361,
+                            " opposed": -5.158775,
+                            " demonstrating": -6.5526533,
+                            " protest": -6.6700172,
+                            " trying": -7.0769434
+                        },
+                        {
+                            " the": -0.0017631846,
+                            " against": -6.3446836,
+                            " about": -13.303643,
+                            " how": -14.033001,
+                            " restaurant": -14.343467
+                        },
+                        {
+                            " restaurant": -0.26708198,
+                            " killing": -2.352492,
+                            " consumption": -2.744968,
+                            " eating": -3.2950275,
+                            " serving": -4.2734113
+                        },
+                        {
+                            " for": -0.2953854,
+                            "'s": -1.4386082,
+                            " serving": -4.0028644,
+                            " by": -9.621976,
+                            " serve": -9.776672
+                        },
+                        {
+                            " serving": -0.0003392808,
+                            " serve": -8.793722,
+                            "serving": -9.50988,
+                            " their": -9.611173,
+                            " Serving": -11.303176
+                        },
+                        {
+                            " al": -0.065209076,
+                            " endangered": -3.2743173,
+                            " a": -4.479649,
+                            " such": -4.9526525,
+                            " an": -5.3830695
+                        },
+                        {
+                            "bat": -4.721163e-06,
+                            "BAT": -12.762919,
+                            " bat": -13.462082,
+                            "b": -15.086695,
+                            "Bat": -16.187775
+                        },
+                        {
+                            "ross": -4.277735e-07,
+                            "ros": -14.717564,
+                            "oss": -17.758102,
+                            "Ross": -17.89327,
+                            "rosse": -19.429127
+                        },
+                        {
+                            ".": -0.05084327,
+                            " meat": -3.5398817,
+                            ",": -3.982449,
+                            " (": -6.7533774,
+                            "es": -7.6973996
+                        },
+                        {
+                            "<|endoftext|>": -0.00070401334,
+                            " He": -8.065257,
+                            " Al": -8.350484,
+                            " Since": -10.229817,
+                            " When": -10.39406
+                        },
+                        {
+                            "\n": -1.7439302,
+                            "Q": -1.8238413,
+                            "#": -2.783929,
+                            "\t": -3.0763524,
+                            "\\": -3.1107764
+                        },
+                        {
+                            "document": -0.0852954,
+                            "def": -3.9790435,
+                            "pdf": -4.285998,
+                            "new": -4.373093,
+                            "Requ": -4.659946
+                        },
+                        {
+                            "class": -0.05723027,
+                            "style": -2.9006655,
+                            " class": -9.118607,
+                            " style": -9.932121,
+                            "Class": -10.729027
+                        },
+                        {
+                            "[": -0.20541793,
+                            "{": -1.7600491,
+                            " [": -5.1583204,
+                            "[]": -5.256671,
+                            "\n": -7.182117
+                        }
+                    ],
+                    "text_offset": [
+                        1156,
+                        1159,
+                        1163,
+                        1167,
+                        1169,
+                        1176,
+                        1179,
+                        1181,
+                        1184,
+                        1188,
+                        1192,
+                        1203,
+                        1207,
+                        1218,
+                        1222,
+                        1230,
+                        1233,
+                        1236,
+                        1240,
+                        1241,
+                        1241,
+                        1241,
+                        1241,
+                        1241
+                    ]
+                },
+                "finish_reason": "stop"
+            },
+            {
+                "text": "The man was a member of PETA and was protesting the restaurant for serving albatross.",
+                "index": 0,
+                "logprobs": {
+                    "tokens": [
+                        "The",
+                        " man",
+                        " was",
+                        " a",
+                        " member",
+                        " of",
+                        " P",
+                        "ETA",
+                        " and",
+                        " was",
+                        " protesting",
+                        " the",
+                        " restaurant",
+                        " for",
+                        " serving",
+                        " al",
+                        "bat",
+                        "ross",
+                        ".",
+                        "<|endoftext|>",
+                        "\n",
+                        "\\",
+                        "document",
+                        "class"
+                    ],
+                    "token_logprobs": [
+                        -0.050330013,
+                        -0.009005342,
+                        -0.017606111,
+                        -0.05425559,
+                        -0.6724322,
+                        -1.8601542e-06,
+                        -0.051959332,
+                        -0.0031726817,
+                        -0.30784893,
+                        -0.010300176,
+                        -0.015726762,
+                        -0.0011443024,
+                        -0.14860623,
+                        -0.27299595,
+                        -0.0003776801,
+                        -0.103556775,
+                        -5.675771e-06,
+                        -1.022884e-06,
+                        -0.014283889,
+                        -0.0010452494,
+                        -1.7259468,
+                        -1.173957,
+                        -0.058447365,
+                        -0.09010379
+                    ],
+                    "top_logprobs": [
+                        {
+                            "The": -0.050330013,
+                            "\n": -3.0588236,
+                            " The": -6.3310695,
+                            "He": -8.870835,
+                            "Al": -9.39464
+                        },
+                        {
+                            " man": -0.009005342,
+                            " al": -4.7477784,
+                            " restaurant": -8.893153,
+                            " answer": -10.476783,
+                            " bird": -11.100296
+                        },
+                        {
+                            " was": -0.017606111,
+                            " had": -4.0898466,
+                            " ordered": -8.48811,
+                            " committed": -8.872827,
+                            " died": -9.572642
+                        },
+                        {
+                            " a": -0.05425559,
+                            " allergic": -3.2763085,
+                            " eating": -5.7375913,
+                            " bitten": -6.5232964,
+                            " an": -6.6476912
+                        },
+                        {
+                            " member": -0.6724322,
+                            " vegan": -1.8717109,
+                            " vegetarian": -2.690875,
+                            " jewel": -3.3356373,
+                            " cannibal": -4.044816
+                        },
+                        {
+                            " of": -1.8601542e-06,
+                            "of": -13.205217,
+                            " ": -16.936552,
+                            "<|endoftext|>": -18.026186,
+                            " o": -18.792667
+                        },
+                        {
+                            " P": -0.051959332,
+                            " the": -2.9993448,
+                            " Greenpeace": -7.311365,
+                            " a": -9.786428,
+                            " an": -10.460122
+                        },
+                        {
+                            "ETA": -0.0031726817,
+                            ".": -5.7663407,
+                            "eta": -12.373956,
+                            "urity": -13.163239,
+                            "<|endoftext|>": -13.363807
+                        },
+                        {
+                            " and": -0.30784893,
+                            ",": -2.0955296,
+                            " (": -2.1142416,
+                            " who": -4.5833864,
+                            ".": -4.5854278
+                        },
+                        {
+                            " was": -0.010300176,
+                            " realized": -5.8479037,
+                            " believed": -6.2164307,
+                            " he": -6.675324,
+                            " decided": -7.0915027
+                        },
+                        {
+                            " protesting": -0.015726762,
+                            " horrified": -6.577288,
+                            " disgusted": -6.5958753,
+                            " protest": -6.592502,
+                            " opposed": -4.9503694
+                        },
+                        {
+                            " against": -6.7772155,
+                            " restaurants": -13.72191,
+                            " the": -0.0011443024,
+                            " about": -14.341786,
+                            " restaurant": -14.403417
+                        },
+                        {
+                            " killing": -2.9786005,
+                            " eating": -4.1059613,
+                            " restaurant": -0.14860623,
+                            " consumption": -3.4825323,
+                            " serving": -3.7140884
+                        },
+                        {
+                            " for": -0.27299595,
+                            "'s": -1.4783163,
+                            " by": -8.370316,
+                            " serve": -9.734902,
+                            " serving": -4.56227
+                        },
+                        {
+                            "serving": -9.427702,
+                            " serve": -8.385082,
+                            " Serving": -11.163796,
+                            " their": -10.691049,
+                            " serving": -0.0003776801
+                        },
+                        {
+                            " endangered": -2.6524858,
+                            " a": -4.34175,
+                            " al": -0.103556775,
+                            " such": -5.022312,
+                            " Al": -5.716634
+                        },
+                        {
+                            "Bat": -16.080769,
+                            "BAT": -12.74206,
+                            "b": -14.40905,
+                            " bat": -13.191699,
+                            "bat": -5.675771e-06
+                        },
+                        {
+                            "ross": -1.022884e-06,
+                            "Ross": -18.289654,
+                            "rosse": -18.839247,
+                            "ros": -13.724659,
+                            "oss": -17.900253
+                        },
+                        {
+                            ",": -5.751467,
+                            ".": -0.014283889,
+                            "es": -8.467425,
+                            " (": -8.832391,
+                            " meat": -4.5612044
+                        },
+                        {
+                            " Killing": -9.461803,
+                            " Since": -9.1695795,
+                            "<|endoftext|>": -0.0010452494,
+                            " He": -7.7706723,
+                            " Al": -8.412067
+                        },
+                        {
+                            "\t": -3.0071578,
+                            "\n": -1.7259468,
+                            "#": -3.0396457,
+                            "Q": -1.6264685,
+                            "\\": -2.8286436
+                        },
+                        {
+                            "import": -3.3222811,
+                            "\n": -1.2563545,
+                            "#": -2.6429367,
+                            "%": -2.9806778,
+                            "\\": -1.173957
+                        },
+                        {
+                            "Requ": -5.17785,
+                            "document": -0.058447365,
+                            "begin": -5.033485,
+                            "new": -4.294556,
+                            "def": -4.762735
+                        },
+                        {
+                            " class": -9.221823,
+                            " style": -9.78676,
+                            "class": -0.09010379,
+                            "style": -2.458265,
+                            "Class": -10.72064
+                        }
+                    ],
+                    "text_offset": [
+                        1222,
+                        1225,
+                        1229,
+                        1233,
+                        1235,
+                        1242,
+                        1245,
+                        1247,
+                        1250,
+                        1254,
+                        1258,
+                        1269,
+                        1273,
+                        1284,
+                        1288,
+                        1296,
+                        1299,
+                        1302,
+                        1306,
+                        1307,
+                        1307,
+                        1307,
+                        1307,
+                        1307
+                    ]
+                },
+                "finish_reason": "stop"
+            },
+            {
+                "text": "The man was a member of PETA and was protesting the restaurant for serving albatross.",
+                "index": 0,
+                "logprobs": {
+                    "tokens": [
+                        "The",
+                        " man",
+                        " was",
+                        " a",
+                        " member",
+                        " of",
+                        " P",
+                        "ETA",
+                        " and",
+                        " was",
+                        " protesting",
+                        " the",
+                        " restaurant",
+                        " for",
+                        " serving",
+                        " al",
+                        "bat",
+                        "ross",
+                        ".",
+                        "<|endoftext|>",
+                        "cm",
+                        "ake",
+                        "_",
+                        "minimum"
+                    ],
+                    "token_logprobs": [
+                        -0.12454571,
+                        -0.013094036,
+                        -0.018940987,
+                        -0.24159907,
+                        -0.39342383,
+                        -1.1430258e-06,
+                        -0.06791206,
+                        -0.002358134,
+                        -0.30483145,
+                        -0.046282623,
+                        -0.016949829,
+                        -0.0019841352,
+                        -0.15523224,
+                        -0.19126236,
+                        -0.00037994413,
+                        -0.06912831,
+                        -3.6482897e-06,
+                        -1.8601542e-06,
+                        -0.024477612,
+                        -0.0016499787,
+                        -5.6154523,
+                        -0.0016897437,
+                        -0.0008143039,
+                        -0.0007322254
+                    ],
+                    "top_logprobs": [
+                        {
+                            "The": -0.12454571,
+                            "\n": -2.188911,
+                            " The": -5.3910794,
+                            "Al": -8.803476,
+                            "It": -8.925605
+                        },
+                        {
+                            " man": -0.013094036,
+                            " al": -4.3871946,
+                            " answer": -9.029258,
+                            " only": -9.111622,
+                            " restaurant": -9.680741
+                        },
+                        {
+                            " was": -0.018940987,
+                            " had": -4.080452,
+                            " committed": -7.4206977,
+                            " ordered": -7.6295743,
+                            " died": -8.407843
+                        },
+                        {
+                            " a": -0.24159907,
+                            " allergic": -1.7716322,
+                            " an": -4.6222076,
+                            " bitten": -4.6928816,
+                            " eating": -5.2787085
+                        },
+                        {
+                            " member": -0.39342383,
+                            " vegan": -2.5390003,
+                            " jewel": -3.279161,
+                            " vegetarian": -3.9111805,
+                            " cannibal": -4.2713027
+                        },
+                        {
+                            " of": -1.1430258e-06,
+                            "of": -13.679356,
+                            " ": -17.493544,
+                            "<|endoftext|>": -18.34271,
+                            " o": -19.407505
+                        },
+                        {
+                            " P": -0.06791206,
+                            " the": -2.747029,
+                            " Greenpeace": -6.6927767,
+                            " a": -8.795987,
+                            " an": -9.966159
+                        },
+                        {
+                            "ETA": -0.002358134,
+                            ".": -6.061272,
+                            "eta": -12.10389,
+                            "urity": -13.650355,
+                            "ussy": -13.859467
+                        },
+                        {
+                            " and": -0.30483145,
+                            " (": -1.7263498,
+                            ",": -2.578307,
+                            ".": -5.347574,
+                            " who": -5.6742153
+                        },
+                        {
+                            " was": -0.046282623,
+                            " he": -4.6102166,
+                            " realized": -4.634853,
+                            " believed": -5.1057353,
+                            " could": -5.2681413
+                        },
+                        {
+                            " protesting": -0.016949829,
+                            " opposed": -4.7274275,
+                            " horrified": -6.624012,
+                            " protest": -6.759468,
+                            " demonstrating": -6.8468037
+                        },
+                        {
+                            " the": -0.0019841352,
+                            " against": -6.2262993,
+                            " about": -13.449986,
+                            " restaurants": -14.282947,
+                            " how": -14.300435
+                        },
+                        {
+                            " restaurant": -0.15523224,
+                            " killing": -2.6696804,
+                            " consumption": -3.671971,
+                            " eating": -4.1077366,
+                            " serving": -4.1791186
+                        },
+                        {
+                            " for": -0.19126236,
+                            "'s": -1.8153259,
+                            " serving": -4.54379,
+                            " by": -7.645981,
+                            "<|endoftext|>": -9.726559
+                        },
+                        {
+                            " serving": -0.00037994413,
+                            " serve": -8.659403,
+                            "serving": -9.31292,
+                            " their": -9.962644,
+                            " killing": -10.968765
+                        },
+                        {
+                            " al": -0.06912831,
+                            " endangered": -3.0813572,
+                            " such": -4.9171033,
+                            " a": -5.053275,
+                            " Al": -5.6591525
+                        },
+                        {
+                            "bat": -3.6482897e-06,
+                            "BAT": -12.916043,
+                            " bat": -13.970706,
+                            "b": -15.24125,
+                            "Bat": -16.017641
+                        },
+                        {
+                            "ross": -1.8601542e-06,
+                            "ros": -13.181393,
+                            "oss": -17.152216,
+                            "Ross": -17.78594,
+                            "rosse": -18.615911
+                        },
+                        {
+                            ".": -0.024477612,
+                            " meat": -4.123545,
+                            ",": -5.013148,
+                            "es": -7.58196,
+                            " (": -7.655585
+                        },
+                        {
+                            "<|endoftext|>": -0.0016499787,
+                            " He": -6.6773415,
+                            " Al": -8.743053,
+                            " Since": -9.858926,
+                            " The": -10.100172
+                        },
+                        {
+                            "Q": -1.678837,
+                            "\n": -1.7726736,
+                            "#": -2.8765988,
+                            "\\": -2.9678843,
+                            "\t": -3.0639918
+                        },
+                        {
+                            "ake": -0.0016897437,
+                            " =": -7.900686,
+                            "c": -9.163382,
+                            ".": -9.234746,
+                            "_": -9.913249
+                        },
+                        {
+                            "_": -0.0008143039,
+                            " -": -8.392928,
+                            "-": -9.110515,
+                            " .": -9.459855,
+                            " C": -10.191339
+                        },
+                        {
+                            "minimum": -0.0007322254,
+                            " minimum": -8.100417,
+                            "policy": -9.351131,
+                            "Minimum": -9.531421,
+                            "version": -9.628074
+                        }
+                    ],
+                    "text_offset": [
+                        1298,
+                        1301,
+                        1305,
+                        1309,
+                        1311,
+                        1318,
+                        1321,
+                        1323,
+                        1326,
+                        1330,
+                        1334,
+                        1345,
+                        1349,
+                        1360,
+                        1364,
+                        1372,
+                        1375,
+                        1378,
+                        1382,
+                        1383,
+                        1383,
+                        1383,
+                        1383,
+                        1383
+                    ]
+                },
+                "finish_reason": "stop"
+            },
+            {
+                "text": "The man was allergic to albatross and died after eating one bite.",
+                "index": 0,
+                "logprobs": {
+                    "tokens": [
+                        "The",
+                        " man",
+                        " was",
+                        " allergic",
+                        " to",
+                        " al",
+                        "bat",
+                        "ross",
+                        " and",
+                        " died",
+                        " after",
+                        " eating",
+                        " one",
+                        " bite",
+                        ".",
+                        "<|endoftext|>"
+                    ],
+                    "token_logprobs": [
+                        -0.55404186,
+                        -0.0023942804,
+                        -0.028012946,
+                        -0.6434166,
+                        -3.076318e-07,
+                        -0.018409433,
+                        -3.4287736e-05,
+                        -1.0084622e-05,
+                        -0.13966534,
+                        -0.39698058,
+                        -0.73578936,
+                        -0.14354917,
+                        -0.22260945,
+                        -0.00023309403,
+                        -0.00014134373,
+                        -4.3347598e-05
+                    ],
+                    "top_logprobs": [
+                        {
+                            "It": -8.75573,
+                            "\n": -0.85876745,
+                            " The": -6.8663745,
+                            "The": -0.55404186,
+                            "\n\n": -8.298414
+                        },
+                        {
+                            " answer": -9.617067,
+                            " cleric": -12.546552,
+                            " al": -6.0836782,
+                            " man": -0.0023942804,
+                            " restaurant": -11.00382
+                        },
+                        {
+                            " died": -6.003764,
+                            " was": -0.028012946,
+                            " choked": -6.789861,
+                            " had": -3.7553096,
+                            " ordered": -8.163902
+                        },
+                        {
+                            " a": -1.498908,
+                            " allergic": -0.6434166,
+                            " bitten": -2.1891365,
+                            " choking": -3.9102402,
+                            " eating": -3.0008242
+                        },
+                        {
+                            "to": -15.101101,
+                            " tot": -17.395136,
+                            " t": -17.284407,
+                            " to": -3.076318e-07,
+                            " al": -17.626928
+                        },
+                        {
+                            " the": -4.5448103,
+                            " feathers": -5.814352,
+                            " seafood": -5.6591516,
+                            " al": -0.018409433,
+                            " bird": -7.664763
+                        },
+                        {
+                            "Bat": -15.417303,
+                            "BAT": -11.158685,
+                            "bats": -15.131321,
+                            " bat": -10.854774,
+                            "bat": -3.4287736e-05
+                        },
+                        {
+                            "ross": -1.0084622e-05,
+                            "Ross": -16.5927,
+                            "rosse": -17.095625,
+                            "ros": -11.582524,
+                            "oss": -14.328408
+                        },
+                        {
+                            ",": -6.701921,
+                            ".": -4.9218698,
+                            "es": -7.0094852,
+                            " and": -0.13966534,
+                            " meat": -2.121517
+                        },
+                        {
+                            " didn": -5.2860284,
+                            " went": -4.8837233,
+                            " the": -1.2759669,
+                            " died": -0.39698058,
+                            " did": -4.1185637
+                        },
+                        {
+                            " of": -7.7247653,
+                            " as": -6.3853498,
+                            " from": -0.65859705,
+                            " when": -6.9577284,
+                            " after": -0.73578936
+                        },
+                        {
+                            " consuming": -5.340643,
+                            " taking": -2.0887299,
+                            " ingest": -6.3340697,
+                            " one": -6.074735,
+                            " eating": -0.14354917
+                        },
+                        {
+                            " a": -4.687161,
+                            " it": -2.0610018,
+                            " one": -0.22260945,
+                            " just": -3.000569,
+                            " only": -4.4922266
+                        },
+                        {
+                            " bite": -0.00023309403,
+                            " bit": -10.446743,
+                            " byte": -9.796852,
+                            " bites": -9.392247,
+                            "bite": -9.812803
+                        },
+                        {
+                            ".": -0.00014134373,
+                            " of": -9.967369,
+                            "<|endoftext|>": -9.626423,
+                            ".\"": -10.561497,
+                            ".]": -14.291499
+                        },
+                        {
+                            " If": -11.356376,
+                            " Had": -12.085699,
+                            " His": -12.898884,
+                            " The": -11.1604595,
+                            "<|endoftext|>": -4.3347598e-05
+                        }
+                    ],
+                    "text_offset": [
+                        1354,
+                        1357,
+                        1361,
+                        1365,
+                        1374,
+                        1377,
+                        1380,
+                        1383,
+                        1387,
+                        1391,
+                        1396,
+                        1402,
+                        1409,
+                        1413,
+                        1418,
+                        1419
+                    ]
+                },
+                "finish_reason": "stop"
+            }
+        ],
+        "edit_score": [
+            0.6130004498425551,
+            0.5580560007634947,
+            0.5580560007634947,
+            0.5580560007634947,
+            0.5851851851851851
+        ]
+    }
+]

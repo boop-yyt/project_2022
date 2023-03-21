@@ -1,0 +1,516 @@
+nohup: ignoring input
+PUZZLE: A very rich man hires a poor man to clean one wing of his extravagant domicile. The poor man, wanting to impress his new boss, cleans the entire house. Soon after, the man quits his job. What happened?
+* Did the rich man pay the poor man?
+* No.
+* The rich man thought that the poor man was trying to take advantage of him by overcharging for the cleaning, so he fired him.
+Edit score is :  0.6136383582937255
+* Did the rich man know that the poor man cleaned the entire house?
+* No.
+* The rich man was a neat freak and was not pleased with the poor man's cleaning job.
+Edit score is :  0.5942606404453794
+* Did the rich man give the poor man a raise?
+* No.
+* The rich man was a clean freak and was unhappy with the poor man for cleaning the entire house.
+Edit score is :  0.6065812679847767
+* Did the rich man fire the poor man?
+* No.
+* The poor man realized that he was being paid an unfair wage and quit.
+Edit score is :  0.5891628500324152
+* Did the poor man enjoy his job?
+* No.
+* The poor man was a compulsive cleaner and felt the need to clean the entire house in order to do his job well. When he was finished, he realized that he had nothing left to do and so he quit.
+Edit score is :  0.6768005368748486
+PUZZLE: There is a dead man lying in the desert next to a rock. What happened?
+* Was the man killed by the rock?
+* Yes.
+* The man was killed by the rock.
+Edit score is :  0.6679148808181067
+PUZZLE: A woman opens an envelope and dyes. What happened?
+* Did the woman open the envelope willingly?
+* Yes.
+* The envelope contained a message that said " dye".
+Edit score is :  0.6104424103737606
+* Was the envelope empty?
+* No.
+* The woman found a letter inside the envelope that was addressed to her.
+Edit score is :  0.6296997383913618
+* Did the woman expect to find dye inside the envelope?
+* Yes.
+* The woman found a note inside the envelope that said "Dye."
+Edit score is :  0.6374091044251615
+* Did the woman like the color of the dye?
+* Yes.
+* The woman found a gift card inside the envelope.
+Edit score is :  0.5838649654439129
+* 
+* No.
+* The woman found a gift card inside the envelope.
+Edit score is :  0.5838649654439129
+PUZZLE: He was killed because of poor eyesight. What happened?
+* Was the man killed by the bartender?
+* No.
+* The man was killed by a sniper.
+Edit score is :  0.5395368072787428
+* Did the man have poor eyesight?
+* No.
+* The man was a jeweler. He was looking at a diamond through a magnifying glass when a gust of wind blew dust into his eye, causing him to sneeze. The gun went off, killing him.
+Edit score is :  0.690989010989011
+PUZZLE: A man rides into town on Friday.  He stays one night and leaves on Friday. What happened?
+* Did the man ever leave town?
+* Irrelevant.
+* The man's horse was named Friday.
+Edit score is :  0.5942319749216302
+* Is the man coming back?
+* Irrelevant.
+* The man's horse was lame.
+Edit score is :  0.5577777777777778
+* What day does the man leave?
+* Irrelevant.
+* The man's horse only had three legs.
+Edit score is :  0.6522004357298475
+PUZZLE: A woman comes home, sees Spaghetti on the wall and kills her husband. What happened?
+* Did the woman see her husband kill someone?
+* No.
+* The woman came home to find spaghetti on the wall and thought her husband was being unfaithful so she killed him.
+Edit score is :  0.7320532922302835
+PUZZLE: A horse jumps over a tower and lands on a man, who disappears. What happened?
+* Did the horse land on the man before he disappeared?
+* Irrelevant.
+* The man was a hologram.
+Edit score is :  0.573641304347826
+* Did the man disappear because he was eaten by the horse?
+* No.
+* The man was a hologram.
+Edit score is :  0.573641304347826
+* Did the man disappear because he was teleported?
+* No.
+* The man was a hologram.
+Edit score is :  0.573641304347826
+* Did the man disappear because he was vaporized?
+* No.
+* The man was a hologram.
+Edit score is :  0.573641304347826
+* Did the man disappear because he was turned into a horse?
+* No.
+* The man was a hologram.
+Edit score is :  0.573641304347826
+PUZZLE: It's the year 860 A.D., at Camelot.  Two priests are sitting in the castle's chapel.  The queen attacks the king.  The two priests rise, shake hands, and leave the room. What happened?
+* Did the priests know the queen?
+* Irrelevant.
+* The priests were both men of God, and they believed that it was not their place to get involved in the affairs of state.
+Edit score is :  0.6664657481821661
+PUZZLE: A black leader dies in Africa. What happened?
+* Was the leader's death suspicious?
+* Irrelevant.
+* The leader's death was not suspicious.
+Edit score is :  0.6281916841439462
+* Did the leader die of natural causes?
+* Yes.
+* The leader died of old age.
+Edit score is :  0.6002956738250856
+* Was the leader's death a political assassination?
+* No.
+* The leader died of natural causes.
+Edit score is :  0.619281045751634
+* Was the leader's death caused by a disease?
+* No.
+* The leader died of old age.
+Edit score is :  0.6002956738250856
+* Was the leader's death caused by an accident?
+* No.
+* The leader died of old age.
+Edit score is :  0.6002956738250856
+PUZZLE: Two men are found dead outside of an igloo. What happened?
+* Are the men wearing hats?
+* Irrelevant.
+* The two men were fighting over a woman and killed each other.
+Edit score is :  0.574090726660885
+* Did one of the men kill the other?
+* No.
+* The two men were killed by a polar bear.
+Edit score is :  0.5904040404040404
+* Did the men die of hypothermia?
+* No.
+* The men were killed by a polar bear.
+Edit score is :  0.6011784511784511
+* Did the men die of carbon monoxide poisoning?
+* Yes.
+* The men were killed by carbon monoxide poisoning from a generator running inside the igloo.
+Edit score is :  0.610662870213432
+* Was there a fire in the igloo?
+* No.
+* The men were using a gasoline-powered generator inside the igloo for heat and light. They died of carbon monoxide poisoning.
+Edit score is :  0.6249684429001318
+PUZZLE: A man is alone on an island with no food and no water, yet he does not fear for his life. What happened?
+* Is the man stranded?
+* No.
+* The man is a castaway on a deserted island who has been there so long that he has eaten all the food and drunk all the water.
+Edit score is :  0.5242672882672882
+* Has the man been rescued?
+* Irrelevant.
+* The man is a castaway on a lifeboat.
+Edit score is :  0.6626774996340213
+PUZZLE: A man marries twenty women in his village but isn't charged with polygamy. What happened?
+* Are the women alive?
+* Yes.
+* The man is a priest.
+Edit score is :  0.5932559425096738
+* Did the man marry them all at once?
+* No.
+* The man is a priest.
+Edit score is :  0.5932559425096738
+* Did the man get divorced?
+* Irrelevant.
+* The man is a priest.
+Edit score is :  0.5932559425096738
+* How many women were in the man's village?
+* Irrelevant.
+* The man was a widower and married the twenty widows in his village.
+Edit score is :  0.6678563703223016
+PUZZLE: Joe wants to go home, but he can't go home because the man in the mask is waiting for him. What happened?
+* Why can't Joe go home?
+* Irrelevant.
+* Joe was mugged on his way home, and the mugger is waiting for him outside his apartment.
+Edit score is :  0.6699869526524579
+PUZZLE: Johnny is afraid to go home because of the man in the mask. What happened?
+* Was the man in the mask a murderer?
+* Irrelevant.
+* Johnny was watching a horror movie and the man in the mask was the killer in the movie.
+Edit score is :  0.6885083099475903
+PUZZLE: Two men are in a field.  One is wearing a mask.  The other man is running towards him to avoid him. What happened?
+* Why is the man running?
+* Irrelevant.
+* The man with the mask is playing tag.
+Edit score is :  0.5583185288706761
+* Is the man wearing the mask sick?
+* Irrelevant.
+* The man running is being chased by a bear. The man with the mask is a hunter who is trying to shoot the bear.
+Edit score is :  0.7003093750586293
+PUZZLE: Two men are in a field.  The man in the mask is standing on the corner.  The other man is running towards him to avoid him. What happened?
+* Why is the man in the mask standing on the corner?
+* Irrelevant.
+* The other man was playing a game of tag.
+Edit score is :  0.5785868044343988
+* Why is the other man running away from the man in the mask?
+* Irrelevant.
+* The man in the mask is a mime.
+Edit score is :  0.5280542300992198
+* Did the man in the mask want to hurt the other man?
+* No.
+* The man in the mask was playing tag.
+Edit score is :  0.5804228985391021
+* Did the man in the mask want to hurt the other man?
+* No.
+* The man in the mask is a mime.
+Edit score is :  0.5280542300992198
+* Did the man in the mask want to help the other man?
+* Yes.
+* The man in the mask is a doctor and the other man is running away from him because he has the flu and doesn't want to get sick.
+Edit score is :  0.7136279824886275
+PUZZLE: Bruce wins the race, but he gets no trophy. What happened?
+* Did he come in first place?
+* Irrelevant.
+* The race was for second place.
+Edit score is :  0.6205415499533146
+* Did he pay to enter the race?
+* No.
+* The race was a raffle and Bruce's name was drawn as the winner.
+Edit score is :  0.5390600684718331
+* 
+* No.
+* The race was a marathon, and Bruce was the only participant.
+Edit score is :  0.5774509803921569
+* Did the race have a trophy for first place?
+* No.
+* The race was for fun and not for a prize.
+Edit score is :  0.565721222823088
+* Why didn't he get a trophy?
+* Irrelevant.
+* Bruce was the only person who signed up for the race.
+Edit score is :  0.8236126526082131
+PUZZLE: A woman meets the king, cries "Pain!", and loses consciousness. What happened?
+* Did the woman have a headache?
+* Irrelevant.
+* The woman was giving birth.
+Edit score is :  0.5018518518518519
+* Was the woman faking?
+* No.
+* The woman was a dentist.
+Edit score is :  0.5254419191919192
+* Did the woman want to meet the king?
+* Yes.
+* The woman was in labor and giving birth to a child.
+Edit score is :  0.5512254901960784
+* Was the woman in pain when she met the king?
+* No.
+* The woman was so elated to finally meet the king that she cried out in joy and fainted from the overwhelming emotion.
+Edit score is :  0.6195866582205077
+* 
+* Irrelevant.
+* The woman was meeting the king for the first time and was so overwhelmed with emotion that she fainted.
+Edit score is :  0.602908906280959
+PUZZLE: A man enters a store.  After a short pause, he says "pain."  The storekeeper is confused, but then becomes annoyed. What happened?
+* Did the man ask for anything else?
+* No.
+* The man was in pain and wanted some pain medication.
+Edit score is :  0.5910940170940171
+* Did the man say 'please'?
+* No.
+* The man wanted to buy some aspirin, but realized he had left his wallet at home.
+Edit score is :  0.5850428973277074
+* Did the man say 'pane'?
+* No.
+* The man was a painter.
+Edit score is :  0.5498585858585859
+* Did the man say 'paint'?
+* No.
+* The man was a mime.
+Edit score is :  0.5782923976608187
+* Did the man say 'pint'?
+* No.
+* The man wanted a painkiller for his headache but didn't know how to say it in English.
+Edit score is :  0.5893266453868369
+PUZZLE: As a man jumps out of a window, he hears the telephone ring and regrets having jumped.  What happened?
+* Did he jump out of the window on purpose?
+* No.
+* The man was attempting to commit suicide by jumping out of the window, but when he heard the telephone ring, he realized that there was still something that he wanted to do and regretted having jumped.
+Edit score is :  0.7050758114190949
+PUZZLE: As a man jumps out of a window,the phone rang, and he regretted what he had done. What happened?
+* Did he die?
+* Yes.
+* The man committed suicide.
+Edit score is :  0.5075202575202575
+* Did he answer the phone?
+* No.
+* The man committed suicide by jumping out of the window. The phone ringing made him realize that he still had something to live for, but it was too late.
+Edit score is :  0.7089705892026655
+PUZZLE: A newspaper reported that Jacques Dubois finished first in a race held in France.  His average speed was given, correctly, as 19,475 km/hour. What happened?
+* Was the newspaper wrong?
+* No.
+* Jacques Dubois is a snail.
+Edit score is :  0.5466427703705925
+* How long was the race?
+* Irrelevant.
+* The race was 1,000,000 km long, and it was held on the surface of the sun. At the time, Jacques Dubois was the only person in the race.
+Edit score is :  0.6559409376639979
+PUZZLE: At the bottom of the sea there lies a ship worth millions of dollars that will never be recovered. What happened?
+* What is the ship?
+* Irrelevant.
+* The ship sank.
+Edit score is :  0.5384319384319385
+* What is at the bottom of the sea?
+* Irrelevant.
+* The ship sank.
+Edit score is :  0.5384319384319385
+* Why will the ship never be recovered?
+* Irrelevant.
+* The ship is the Titanic.
+Edit score is :  0.5513468013468014
+* Why is the ship at the bottom of the sea?
+* Irrelevant.
+* The ship sank.
+Edit score is :  0.5384319384319385
+* What is the value of the ship?
+* Irrelevant.
+* The ship is the Titanic.
+Edit score is :  0.5513468013468014
+PUZZLE: A man shoots himself, and dies. What happened?
+* Did someone else shoot the man?
+* No.
+* The man committed suicide.
+Edit score is :  0.6076923076923076
+* Was the man's death intentional?
+* Yes.
+* The man committed suicide.
+Edit score is :  0.6076923076923076
+* Did the man die instantly?
+* No.
+* The man committed suicide.
+Edit score is :  0.6076923076923076
+* Did the man leave a note?
+* No.
+* The man committed suicide.
+Edit score is :  0.6076923076923076
+* Did the man die from the gunshot wound?
+* No.
+* The man shot himself in the head, but did not die instantly. He lingered in a coma for several days before finally passing away.
+Edit score is :  0.8469396551724138
+PUZZLE: A man walks into a room, shoots, and kills himself. What happened?
+* Was anyone else in the room?
+* Irrelevant.
+* The man committed suicide.
+Edit score is :  0.5855645987588687
+* Did the man intend to kill himself?
+* Yes.
+* The man committed suicide.
+Edit score is :  0.5855645987588687
+* Was the gun loaded?
+* Irrelevant.
+* The man committed suicide.
+Edit score is :  0.5855645987588687
+* 
+* Irrelevant.
+* The man committed suicide.
+Edit score is :  0.5855645987588687
+* Was the gun pointed at the man when he shot himself?
+* Yes.
+* The man committed suicide.
+Edit score is :  0.5855645987588687
+PUZZLE: Adults are holding children, waiting their turn.  The children are handed  to a man, who holds them while a woman shoots them.  If the child is crying, the man tries to stop the crying before the child is shot. What happened?
+* Are the children alive or dead?
+* Irrelevant.
+* The adults are at a photoshoot.
+Edit score is :  0.569671626660874
+* Is this happening in America?
+* Irrelevant.
+* The adults are at a shooting range, and the children are targets.
+Edit score is :  0.6728438228438228
+PUZZLE: Harry dropped a sugar cube in his coffee, then lifed it out intact a minute later. What happened?
+* Did Harry's coffee have milk in it?
+* No.
+* Harry's coffee was too hot, so the sugar cube dissolved before he could fish it out.
+Edit score is :  0.6062450621274151
+* Did Harry's coffee have sugar in it?
+* No.
+* Harry's coffee was cold.
+Edit score is :  0.5142973856209151
+* Did Harry put the sugar cube in his coffee?
+* No.
+* Harry's coffee was cold.
+Edit score is :  0.5142973856209151
+* Did Harry's coffee have water in it?
+* Yes.
+* Harry's coffee was too hot, so the sugar cube melted.
+Edit score is :  0.6488839560981625
+* Did Harry's coffee have coffee in it?
+* Yes.
+* The sugar cube absorbed the coffee and expanded, then Harry fished it out.
+Edit score is :  0.6762898329245798
+PUZZLE: A man is doing his job when his suit tears.  Fifteen minutes later, he's dead. What happened?
+* Was the man working in a hazardous environment?
+* Yes.
+* The man was working in a hazardous environment and the suit protected him from the toxins. When the suit ripped, the man was exposed to the toxins and died.
+Edit score is :  0.826608014833846
+PUZZLE: A train pulls into a station, but none of the waiting passengers move. What happened?
+* Did the train stop at the right platform?
+* No.
+* The train stopped at the wrong platform.
+Edit score is :  0.8647491039426524
+PUZZLE: The Orient Express is derailed and a kitten plays nearby. What happened?
+* Did the kitten derail the Orient Express?
+* Yes.
+* The kitten was a terrorist.
+Edit score is :  0.6149597640825711
+* Why did the kitten derail the Orient Express?
+* Irrelevant.
+* The kitten was playing with a ball of yarn near the tracks and the yarn got tangled around the axles of the train, causing it to derail.
+Edit score is :  0.8364974200206399
+PUZZLE: Three large people try to crowd under one small umbrella, but nobody gets wet. What happened?
+* It's not raining.
+* Yes.
+* It's not raining.
+Edit score is :  0.529659338482868
+* Are the people ghosts?
+* Irrelevant.
+* The people are statues.
+Edit score is :  0.6007246376811595
+* Did they open the umbrella?
+* No.
+* The umbrella is inside a glass case.
+Edit score is :  0.6805555555555555
+PUZZLE: An ordinary woman walks on water. What happened?
+* Did she jump in the water?
+* No.
+* The woman is Jesus.
+Edit score is :  0.47744982804405556
+* Was there a boat nearby?
+* Irrelevant.
+* She was walking on a frozen lake.
+Edit score is :  0.6524564642844213
+PUZZLE: Amy drives her car due west for a quarter mile, without turning. When she stops, the car is facing east. What happened?
+* Did Amy turn her car around?
+* Yes.
+* Amy drove in a circle.
+Edit score is :  0.6124579124579125
+* Did Amy drive in a circle?
+* No.
+* Amy drove in a figure eight.
+Edit score is :  0.5537918871252204
+* Did Amy drive in a straight line?
+* No.
+* Amy drove in a figure eight.
+Edit score is :  0.5537918871252204
+* Did Amy change directions?
+* Yes.
+* Amy drove in a figure eight.
+Edit score is :  0.5537918871252204
+* Did Amy drive in a zigzag pattern?
+* Yes.
+* Amy drove in a zigzag pattern.
+Edit score is :  0.5836419753086419
+PUZZLE: A woman had a pet goldfish which she loved very dearly. One day she noticed that it was swimming feebly in its bowl and it looked very unwell. She rushed to the vet with her prized pet and he told her to come back in an hour. When she returned she found the goldfish swimming strongly and looking healthy again. How had the vet managed this?
+* Did the vet give the goldfish some medicine?
+* No.
+* The vet simply took the goldfish out of its bowl and placed it in a larger one.
+Edit score is :  0.6620253823736665
+PUZZLE: Little Billy was four years old and both his parents were dead. His guardian put him on a train to send him to a new home in the country. Billy could neither read nor write nor remember the address, so a large label on a string was secured around his neck clearly indicating Billy's name and destination. However, despite the best efforts and kindness of the railway staff, Billy never arrived at his new home. Why?
+* Was the train delayed?
+* Irrelevant.
+* The string holding the label was too long and Billy eventually slipped the label over his head and lost it.
+Edit score is :  0.6944809414491289
+PUZZLE: A woman walked up to a man behind a counter and handed him a book. He looked at it and said, That wɽ be four dollars/' She paid the man and then walked out without the book. He saw her leave without it but did not call her back. How come?
+* Did the woman ever have the book?
+* Yes.
+* The book was a library book and she had just returned it.
+Edit score is :  0.664750110570544
+PUZZLE: Why is it that, in general, the hair on a man's head goes grey before the hair in his moustache does?
+* Could it be because the hair on a man's head is usually darker than the hair in his moustache?
+* No.
+* It is because the hair on a man's head is renewed more frequently than the hair in his moustache.
+Edit score is :  0.7619680644911248
+PUZZLE: Two naturalists were walking in the country. They were both keen to protect the environment and to conserve nature and wildlife. One said to the other, "I was impressed by the way that you hit that bird." The second replied, "Yes, it was good, but not as good as that large bird that you hit earlier." What were they talking about?
+* Did they hit the birds on purpose?
+* No.
+* They were both walking along, throwing stones at birds in the trees to try and knock them down.
+Edit score is :  0.6986690605509698
+PUZZLE: A man was drinking a cup of tea when he was suddenly blinded. How?
+* Did the tea have poison in it?
+* No.
+Traceback (most recent call last):
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_requestor.py", line 354, in interpret_response_line
+    resp = OpenAIResponse(rbody, rcode, rheaders)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/openai_response.py", line 11, in __init__
+    self.data = json.loads(body)
+  File "/data/yangyueting/anaconda3/lib/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/data/yangyueting/anaconda3/lib/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/data/yangyueting/anaconda3/lib/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./demo.py", line 163, in <module>
+    generated_solution, solution_log_info = get_response(solution_generate_prompt)               
+  File "./demo.py", line 57, in get_response
+    stop=["\n\n"]
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_resources/completion.py", line 31, in create
+    return super().create(*args, **kwargs)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 67, in create
+    "post", url, params, headers, stream=stream
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_requestor.py", line 129, in request
+    resp = self.interpret_response(rbody, rcode, rheaders, stream=stream)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_requestor.py", line 348, in interpret_response
+    return self.interpret_response_line(rbody, rcode, rheaders, stream)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_requestor.py", line 361, in interpret_response_line
+    rheaders,
+openai.error.APIError: Invalid response body from API: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+ (HTTP response code was 502)

@@ -1,0 +1,728 @@
+nohup: ignoring input
+PUZZLE: A man is lying dead in a room.  There is a large pile of gold and jewels on the floor, a chandelier attached to the ceiling, and a large open window. What happened?
+* Did the man die of natural causes?
+* No.
+* The man was murdered. He was probably killed for his riches, as indicated by the large pile of gold and jewels on the floor. The chandelier suggests that the murder was planned, as it would have been easy to drop on the man's head. The open window suggests that the murderer escaped that way.
+Edit score is :  0.6470052357267896
+* Was the man killed by the chandelier?
+* No.
+* The man was killed by the fall from the window. The jewels and gold were probably his life savings, and the chandelier was most likely turned on in an attempt to stage the scene to make it look like a robbery gone wrong.
+Edit score is :  0.695887010592893
+PUZZLE: Variant which puts this in section 2: same statement, ending with "a large window through which rays are coming." What happend?
+* Is the man walking into the bar or away from it?
+* Irrelevant.
+* The man had just sneezed and said "Thank you" to the person who handed him a tissue.
+Edit score is :  0.6349058095633439
+* Did the man see the gun before he asked for water?
+* No.
+* The man has x-ray vision and saw the gun before he asked for water.
+Edit score is :  0.5963792089519385
+* So the man didn't know the bartender had a gun?
+* Yes.
+* The man has x-ray vision and saw the gun under the counter.
+Edit score is :  0.579416346365499
+* 
+* Irrelevant.
+* The man had the hiccups.The bartender realized this and chose instead to cure the hiccups by frightening the man with the gun.
+Edit score is :  0.6610004810004809
+PUZZLE: A man enters the elevator of a high rise apartment building, takes off one glove, and pushes the button for the tenth floor.  The next day, the same man enters the elevator, "puts on" one glove, and pushes the button for the tenth floor. Why?
+* Was it cold outside?
+* Irrelevant.
+* The man was carrying a baby.The next day, he was carrying the baby in the opposite arm, so he "put on" the glove on the opposite hand.
+Edit score is :  0.567641954976904
+* Did he need to use his hand on the tenth floor?
+* No.
+* The man was carrying a cat. He did not want to scare the cat by putting on the glove, so he put it on when he got off on the tenth floor.
+Edit score is :  0.5893450266056405
+* Did the man want to keep his hand warm?
+* No.
+* The man was carrying a box and did not want to set the box down in order to push the button with his bare hand.
+Edit score is :  0.5795698328576427
+* Did the man want to keep his hand clean?
+* No.
+* The man was carrying a cake and didn't want to get frosting on the glove.
+Edit score is :  0.5735192730094719
+* Did the man want to avoid pushing the button with his bare hand?
+* Yes.
+* The man had a bandage on his hand and didn't want to get it dirty.
+Edit score is :  0.5560327212831008
+PUZZLE: A woman came home with a bag of groceries, got the mail, and walked into the house.  On the way to the kitchen, she went through the living room and looked at her husband, who had blown his brains out.  She then continued to the kitchen, put away the groceries, and made dinner. Why?
+* Was the woman happy?
+* No.
+* The woman was in shock and did not realize her husband had killed himself.
+Edit score is :  0.6799003892461837
+PUZZLE: The king dies and two men both claim to be his long-lost son.  One of the king's advisors proposes a test to determine the identity of the true heir.  One claimant agrees to the test; the other refuses.  The one who agreed is sent packing; the one who refused is identified as the rightful heir.  Why?
+* Why did the one who agreed to the test fail?
+* Irrelevant.
+* The one who agreed to the test was not the rightful heir, because a rightful heir would have known that he would be sent packing no matter what.  The one who refused to take the test was therefore the rightful heir.
+Edit score is :  0.8387422073067216
+PUZZLE: An old man gets the hiccups.  Soon, he is rushed to the hospital. Why?
+* Did the old man have a heart attack?
+* No.
+* The old man was rushed to the hospital because he had the hiccups for over a week and was dehydrated.
+Edit score is :  0.6406946002361164
+* Did the hiccups stop when he got to the hospital?
+* Yes.
+* The old man was rushed to the hospital because he had the hiccups for over two days and was dehydrated.
+Edit score is :  0.6372450542116908
+* Did the old man die?
+* No.
+* The old man was rushed to the hospital because he was choking on his own vomit. The hiccups stopped when he got to the hospital and he was able to be treated.
+Edit score is :  0.8343371302807145
+PUZZLE: A man is found dead outside a large building with a hole in him. What happened?
+* Could he have fallen from the building?
+* No.
+* The man was shot with a rifle from a distance. The bullet went through the man and left a hole.
+Edit score is :  0.841364494449898
+PUZZLE: A man is found dead outside a large marble building with three holes in him. What happened?
+* Was the man shot?
+* No.
+* The man was hit by a marble that fell from the building.
+Edit score is :  0.595109710550887
+* Did the man die of natural causes?
+* No.
+* The man was a victim of a gang-related drive-by shooting.
+Edit score is :  0.6003152138048201
+* Did the man die of a heart attack?
+* No.
+* The man was a juggler and was practicing his juggling skills.He died when he slipped and fell on the marble floor, and the three balls he was juggling hit him in the head, neck, and chest.
+Edit score is :  0.8434642440982263
+PUZZLE: A man dies in his own home. What happened?
+* Did he die of natural causes?
+* No.
+* The man was murdered.
+Edit score is :  0.5367530345471522
+* Did he die of foul play?
+* No.
+* The man committed suicide.
+Edit score is :  0.5157388663967611
+* Did he die of a self-inflicted wound?
+* No.
+* The man committed suicide.
+Edit score is :  0.5157388663967611
+* Did he die of an accident?
+* No.
+* The man committed suicide.
+Edit score is :  0.5157388663967611
+* Did he die of suicide?
+* No.
+* The man was killed by a snake.
+Edit score is :  0.5542874396135266
+PUZZLE: A man dies of thirst in his own home. What happened?
+* Did the man have access to water?
+* Yes.
+* The man's taps were all turned off.
+Edit score is :  0.580931855500821
+* Did the man drink the water?
+* No.
+* The man was poisoned and the water was the only thing that could have saved him.
+Edit score is :  0.7156250000000001
+PUZZLE: A body is discovered in a park in Chicago in the middle of summer. It has a fractured skull and many other broken bones, but the cause of death was hypothermia. What happend?
+* Was the body found in a freezer?
+* No.
+* The body was that of a construction worker who fell from the top of a building under construction.His body was not discovered until after sundown, when the temperature in Chicago plummets.
+Edit score is :  0.675749060313564
+PUZZLE: A man is lying drowned in a dead forest. What happend?
+* Could the man hear himself?
+* No.
+* The man committed suicide.
+Edit score is :  0.5141915704678678
+* Did the man die of thirst?
+* No.
+* The man had committed suicide by drowning himself in the forest.
+Edit score is :  0.5639483685576566
+* Did the man die of a broken heart?
+* No.
+* The man committed suicide.
+Edit score is :  0.5141915704678678
+* Did the man die of a gunshot wound?
+* No.
+* The man committed suicide.
+Edit score is :  0.5141915704678678
+* Did the man die of a heart attack?
+* No.
+* The man was dead when he was found.
+Edit score is :  0.5655868799132556
+PUZZLE: Three men die.  On the pavement are pieces of ice and broken glass. What happend?
+* Were the men killed by the ice and glass?
+* No.
+* The men were killed by a truck that overturned, spilling its load of ice and glass onto the pavement.
+Edit score is :  0.5596463932107497
+* Did a car crash into them?
+* No.
+* The men were killed by a hit-and-run driver. The ice and glass were from the car's windshield.
+Edit score is :  0.541852544618502
+* Did they fall from a building?
+* Yes.
+* The men were window washers on a highrise building.  They were killed when their scaffolding collapsed and they fell to the ground.
+Edit score is :  0.5712868047982552
+* 
+* Irrelevant.
+* The men were acrobats who were rehearsing a routine in which they jumped through a hoop of ice. The ice broke when they landed, and the glass was from the hoop.
+Edit score is :  0.5866071428571429
+* 
+* Irrelevant.
+* The men were acrobats. They were performing on a tightrope between two buildings when they were hit by a gust of wind and blown off the rope. They fell to their deaths on the pavement below.
+Edit score is :  0.6037455340478858
+PUZZLE: If he had wanted chocolate ice cream, his brother would be alive today. What happend?
+* Did he want chocolate ice cream?
+* No.
+* He wanted vanilla ice cream, but his brother wanted chocolate. They argued and his brother was killed.
+Edit score is :  0.5543065393696746
+* What would have happened if he wanted chocolate ice cream?
+* Irrelevant.
+* He wanted vanilla ice cream, but his brother wanted chocolate so he got chocolate and his brother got vanilla. His brother was then poisoned by the chocolate ice cream and died. If he had wanted chocolate as well, he would have gotten chocolate and been fine.
+Edit score is :  0.6151784054697781
+* Is his brother alive?
+* No.
+* The man's brother was killed in a store robbery. The man was with his brother at the time and was offered a choice of ice cream by the robbers. Had he chosen chocolate, his brother would have been killed for having the same flavor.
+Edit score is :  0.6130919223903056
+* Did he get what he wanted?
+* No.
+* The man's brother was killed in a car accident. The man blamed himself for not getting what his brother wanted - chocolate ice cream - before he left the house that day.
+Edit score is :  0.5832919016366459
+* 
+* No.
+* The man's brother was killed in a store robbery. The man was offered ice cream by the robber as he was leaving, but he refused because he wanted chocolate.
+Edit score is :  0.5716279616868608
+PUZZLE: A man kills his wife, then goes inside his house and kills himself. What happend?
+* Did the wife kill herself?
+* No.
+* The man killed his wife and then himself.
+Edit score is :  0.550370756220125
+* Did the husband kill the wife first?
+* Yes.
+* The man killed his wife, then went inside and killed himself.
+Edit score is :  0.5781201087404234
+*  Did the husband kill himself first?
+* No.
+* The husband killed the wife, then went inside and killed himself.
+Edit score is :  0.5640981349052957
+*  Did the husband and wife kill each other?
+* No.
+* The husband killed the wife, then went into his house and killed himself.
+Edit score is :  0.5855428341139746
+*  Did the wife kill the husband?
+* No.
+* The husband killed the wife, then killed himself.
+Edit score is :  0.5472871728255791
+PUZZLE: If he'd turned on the light, he'd have lived. What happend?
+* Was the man electrocuted?
+* No.
+* The man was going to the bathroom in the middle of the night and fell into the tub. If he had turned on the light, he would have seen the tub and not fallen in.
+Edit score is :  0.6004294755877034
+* Did the man die?
+* Yes.
+* The man was in a dark room and accidentally stepped on a live wire.
+Edit score is :  0.554512610109625
+* Was the light switch close to the man?
+* No.
+* The man was in a gas leak and the light would have ignited the gas and killed him.
+Edit score is :  0.5561556329849012
+* Did the man die of a heart attack?
+* No.
+* The man was a burglar and died because he stepped on a landmine.
+Edit score is :  0.54551917989418
+* Did the man die of a stroke?
+* No.
+* The man was killed by a killer in the dark. If he had turned on the light, he would have seen the killer and would have been able to defend himself.
+Edit score is :  0.5890093015093015
+PUZZLE: A man is found dead on the floor in the living room. What happend?
+* Is there a weapon near the body?
+* No.
+* The man had a heart attack.
+Edit score is :  0.6135231870525988
+* Was the man killed by a fall?
+* Yes.
+* The man was killed in a fall from the balcony on the second floor.
+Edit score is :  0.655336299902601
+PUZZLE: A man went into a restaurant, had a large meal, and paid nothing for it. What happend?
+* Did the man order anything?
+* Yes.
+* The man was a beggar who went into the restaurant and ate a large meal. When he was done, he simply got up and left without paying.
+Edit score is :  0.670789647495979
+PUZZLE: A U.S. Navy sailor on the deck of a cruiser noticed an explosive mine in the water directly in the path of the ship.  With no time to communicate the situation to the captain of the ship, the sailor saved the lives of the crew and the ship. What happend?
+* Did the sailor pick up the mine?
+* No.
+* The sailor threw himself on the mine, absorbs the blast and dies.
+Edit score is :  0.6033697913979604
+* Did the sailor warn the other sailors?
+* Yes.
+* The sailor used a pole to push the mine away from the ship.
+Edit score is :  0.6116217076470121
+* Did the sailor tell the captain?
+* No.
+* The sailor threw himself on the mine, sacrificing himself to save the ship.
+Edit score is :  0.6054616588419406
+* Did the sailor diffuse the mine?
+* No.
+* The sailor threw himself on the mine, sacrificing his life to save the ship.
+Edit score is :  0.6060044477390659
+* Did the sailor throw the mine overboard?
+* Yes.
+* The sailor threw the mine overboard, saving the lives of the crew and the ship.
+Edit score is :  0.6044838652166161
+PUZZLE: A man leaves a motel room, goes to his car, and honks the horn. What happend?
+* Did he check out of the motel?
+* Irrelevant.
+* The man's wife and child are in the car.
+Edit score is :  0.5530965391621129
+* Was the man in the car?
+* No.
+* The man left his car horn on while he was in the motel room.
+Edit score is :  0.5657559198542805
+* Did he leave the room key at the front desk?
+* No.
+* The man left his lights on in the room and was honking the horn to get the attention of the motel staff so they would turn them off.
+Edit score is :  0.6277943368107303
+* Did the man forget something in his room?
+* No.
+* The man was trying to wake up his sleeping wife who was in the car.
+Edit score is :  0.5620688068693941
+* Did the man want to get someone's attention?
+* Yes.
+* The man wanted to get the attention of the person in the room next to him.
+Edit score is :  0.5825279580051644
+PUZZLE: As I drive to work on my motorcycle, there is one corner which I go around at a certain speed whether it's rainy or sunny.  If it's cloudy but not raining, however, I usually go faster. What happend?
+* Why would you go faster when it's cloudy?
+* Irrelevant.
+* I'm speeding because I'm a daredevil.
+Edit score is :  0.48454439841301156
+* Are you more likely to crash when it's raining?
+* Yes.
+* The faster I go, the more likely I am to make it through the turn without crashing.
+Edit score is :  0.5775028658622195
+* So you're more careful when it's raining?
+* Yes.
+* The man is more likely to crash when it's raining, so he goes around the corner more carefully.
+Edit score is :  0.6104637099642862
+* Why is the weather relevant?
+* Irrelevant.
+* I am more likely to have better traction when it's sunny, so I go faster when it's cloudy but not raining.
+Edit score is :  0.6110709812089
+* Why is the weather relevant?
+* Irrelevant.
+* The sun is in my eyes when I go around the corner and I can't see as well.
+Edit score is :  0.6094174366347148
+PUZZLE: A man opens his mouth and dies shortly afterwards. What happend?
+* Was there anything in his mouth?
+* No.
+* He was holding his breath.
+Edit score is :  0.553092166149491
+* Did he have a medical condition?
+* No.
+* The man was suffocated by a large spider that jumped into his mouth.
+Edit score is :  0.6475232608967154
+* Did he die from poison?
+* No.
+* The man was holding his breath.
+Edit score is :  0.608497134899436
+* Did he die from suffocation?
+* Yes.
+* The man held his breath for too long and died from suffocation.
+Edit score is :  0.6615155191588312
+PUZZLE: A married couple goes to a movie.  During the movie the husband strangles the wife.  He is able to get her body home without attracting attention. What happend?
+* Why didn't the husband kill the wife in the movie theater?
+* Irrelevant.
+* The couple went to see a snuff film.
+Edit score is :  0.6484126984126984
+* Was the couple's marriage in a good state?
+* No.
+* The wife was having an affair with the man sitting in front of her.  The husband killed her to prevent her from leaving him.
+Edit score is :  0.6252176139272914
+* Did the husband strangle the wife to death?
+* No.
+* The wife was already dead when they went to the movie. The husband strangled her to make it look like a murder.
+Edit score is :  0.6033849517720485
+* Why didn't the husband kill the wife in the movie theater?
+* Irrelevant.
+* The wife wanted to commit suicide and the husband was helping her fulfill her wish.
+Edit score is :  0.606196213425129
+* Did the husband strangle the wife to death?
+* No.
+* The wife was already dead. The husband strangled her to make it look like a murder, so that he could collect on her life insurance policy.
+Edit score is :  0.5744183975600525
+PUZZLE: Music stops and a woman dies. What happend?
+* Was the woman a musician?
+* No.
+* The woman was an opera singer. She was singing when she had a heart attack and died.
+Edit score is :  0.5933341978481441
+* Did the woman have an illness?
+* No.
+* The woman was a singer and she was performing on stage. When the music stopped, she died of fright.
+Edit score is :  0.5984253117325524
+* Did the woman die of natural causes?
+* No.
+* The woman was a victim of a homicide.
+Edit score is :  0.5867168538401415
+* Was the woman killed?
+* Yes.
+* The woman was shot.
+Edit score is :  0.6109508932147721
+* Was the woman shot?
+* No.
+PUZZLE: A woman is murdered in front of hundreds of people, but they all think it's an accident. What happend?
+* Did the woman die?
+* Yes.
+* The woman was killed by a poisoned dart fired from a blowgun. The dart was coated with a fast-acting poison that killed her instantly. The blowgun was fired from a distance and the dart hit her in the neck, causing her to fall over and appear to trip and fall down the stairs.
+Edit score is :  0.8340495842410481
+PUZZLE: Charlie died when the music stopped. What happend?
+* Was there a bomb?
+* Irrelevant.
+* Charlie was a musician who was playing the violin in a band. When the music stopped, he died of a heart attack.
+Edit score is :  0.8405514209862035
+PUZZLE: Abel walks out of the ocean.  Cain asks him who he is, and Abel answers.  Cain kills Abel. What happend?
+* Could Abel have lied to Cain?
+* Yes.
+*  Abel was actually a mermaid, and if he had lied to Cain, he could have easily escaped.
+Edit score is :  0.548669171237763
+* Did Abel know Cain would kill him?
+* No.
+*  Abel was a mermaid, and Cain found out. Abel didn't want to be killed, so he lied about who he was, but Cain found out and killed him anyway.
+Edit score is :  0.5815223914041073
+* Did Abel know who Cain was?
+* No.
+*  Abel was the first person, and Cain was the first murderer.
+Edit score is :  0.5381426730668478
+* Did Abel give Cain a choice?
+* No.
+* Cain killed Abel because Abel was honest and answered Cain's question truthfully.
+Edit score is :  0.537287101029791
+* 
+* Irrelevant.
+* Cain killed Abel because he was jealous of Abel's relationship with God.
+Edit score is :  0.530272576867004
+PUZZLE: A man is riding a subway.  He meets a one-armed man, who pulls out a gun and shoots him. What happend?
+* Did the one-armed man have a good reason to shoot the other man?
+* No.
+* The one-armed man was a mugger, and the other man had nothing of value on him.
+Edit score is :  0.5658657427610496
+* Did the one-armed man know the other man?
+* No.
+* The one-armed man was a mugger, and the other man was his victim.
+Edit score is :  0.5490046167731186
+* Did the one-armed man have a gun?
+* No.
+* The one-armed man did not have a good reason to shoot the other man.
+Edit score is :  0.5478487262139081
+* Did the one-armed man have a knife?
+* No.
+* The one-armed man did not have a good reason to shoot the other man.
+Edit score is :  0.5478487262139081
+* Did the one-armed man have a weapon of any kind?
+* No.
+* The one-armed man was actually a pickpocket. He used the distraction of the shooting to pick the other man's pocket.
+Edit score is :  0.5599266950256617
+PUZZLE: A man sends a package to someone in Europe and gets a note back saying "Thank you.  I received it." What happend?
+* Was the package sent by a delivery service?
+* Irrelevant.
+* The man sent the package by mail, and the note he received back was from the post office, thanking him for using their service.
+Edit score is :  0.5917061209707392
+* Did the man include a return address?
+* No.
+* The package was sent by the man himself, and he received it back because he forgot to include a return address.
+Edit score is :  0.5893095261326308
+* Did the man include a note in the package?
+* No.
+* The man sent a bomb.
+Edit score is :  0.5620336943441636
+* Did the man include his contact information?
+* No.
+* The man sent the package by mail, and the note he received back was from the post office, thanking him for using their service.
+Edit score is :  0.5917061209707392
+* 
+* No.
+* The man sent the package by mail and it was returned to him with a thank you note from the person in Europe.
+Edit score is :  0.5804140482239158
+PUZZLE: Variant wording: Two men throw a box off of a cliff. What happend?
+* Did the box land on the man?
+* Yes.
+* The box was open, and the man inside was killed when he hit the ground.
+Edit score is :  0.6056669740534587
+* Did both men see the box land on the man?
+* No.
+* The first man saw the box land on the man and the second man did not.
+Edit score is :  0.6057593629118747
+* Was the box empty?
+* No.
+* The box contained a rock, which landed on the man and killed him.
+Edit score is :  0.572039837870217
+* Did the box hit the man?
+* No.
+* The box contained the man's parachute.
+Edit score is :  0.543242058208612
+* 
+* No.
+* The box contained a man. The man inside the box was killed when the box hit the ground.
+Edit score is :  0.628016000635261
+PUZZLE: A man in a Sherlock Holmes-style cape walks into a room, places a box on the table and leaves. Why?
+* Did he put the box on the table?
+* Irrelevant.
+PUZZLE: An ordinary American citizen, with no passport, visits over thirty foreign countries in one day.  He is welcomed in each country, and leaves each one of his own accord. Why?
+* Could the man speak the language of each country?
+* No.
+* The man is a mime.
+Edit score is :  0.5121650906225375
+* Was the man a diplomat?
+* No.
+* The man was a balloonist, and traveled from country to country in his hot air balloon.
+Edit score is :  0.6536075027472582
+PUZZLE: A man is sitting in bed.  He makes a phone call, saying nothing, and then goes to sleep. What happened?
+* Could the man hear the person on the other line?
+* No.
+* The man was deaf.
+Edit score is :  0.5201380197469058
+* Did the man say anything?
+* No.
+* The man was deaf and was calling a friend who is also deaf.
+Edit score is :  0.5515038593653813
+* Was the man trying to make a phone call?
+* No.
+* The man was deaf and was making a phone call to a deaf friend. They were both using sign language to communicate.
+Edit score is :  0.6383734419032346
+* Did the man dial a number?
+* No.
+* The man was deaf and was making a TTY call.
+Edit score is :  0.5279120516626702
+* Did the man talk to anyone?
+* No.
+* The man was sleepwalking.
+Edit score is :  0.5362174940898345
+PUZZLE: A man is sleeping in bed at 3 a.m. when the telephone rings.  As the man lifts the receiver, the caller hangs up. What happened?
+* Did the man say anything?
+* No.
+* The man was sleep-talking and the caller realized it.
+Edit score is :  0.5864671437865973
+* Did the caller say anything?
+* No.
+* The man was sleep-talking.
+Edit score is :  0.5796294160612002
+* Why would the caller hang up?
+* Irrelevant.
+* The man was sleep-talking and the caller heard him.
+Edit score is :  0.5975659229208925
+* 
+* Irrelevant.
+* The man was dreaming and the telephone ringing was part of his dream. When he woke up and answered the phone, there was no one there because the telephone ringing was just part of his dream.
+Edit score is :  0.8315614912511603
+PUZZLE: A man tries to buy poison to kill his wife.  The pharmacist figures out what he's up to and finds a way to ensure that he can't kill his wife. How to do this?
+* Can the pharmacist legally sell the man the poison?
+* No.
+* The pharmacist sells the man a bottle of poison, but secretly swaps it for a bottle of water.
+Edit score is :  0.6080888317632236
+* Can the pharmacist stop the man from buying the poison?
+* No.
+* The pharmacist sells the man a poison that is harmless to humans.
+Edit score is :  0.609408891761833
+* Can the pharmacist warn the wife?
+* Yes.
+* The pharmacist can sell the man a placebo instead of the poison.
+Edit score is :  0.6038797463429817
+* 
+* Yes.
+* The pharmacist sells the man a box of chocolates instead of poison.
+Edit score is :  0.599458643005614
+* Did the man ask for water in an offensive way?
+* No.
+* The pharmacist could sell the man the poison, but mix in a bittering agent that would make it unpalatable.
+Edit score is :  0.6316790867290312
+PUZZLE: A man was walking down a road when a stone lodged itself between his foot and his sandal.  He leaned against a pole and, with his head down to watch, he shook his foot to dislodge the stone.  Another man came up and broke the first man's arm in three places. What happened?
+* Why did the second man break the first man's arm?
+* Irrelevant.
+* The first man was a statue.
+Edit score is :  0.5774548907882241
+* Did the first man see the second man coming?
+* No.
+* The second man was a mugger and he used the opportunity of the first man being distracted to attack him.
+Edit score is :  0.6610407239819004
+PUZZLE: A man is sitting suspended over two pressurized containers. Suddenly, he dies. What happened?
+* Was he poisoned?
+* Irrelevant.
+* The containers were full of oxygen and the man was sitting on them. The sudden increase in pressure caused his heart to stop.
+Edit score is :  0.5993242894056848
+* Did the containers break?
+* No.
+* The man had a heart attack.
+Edit score is :  0.5945825211176089
+* Did the man commit suicide?
+* No.
+* The man was sitting on a stool suspended by two ropes over two pressurized containers. The ropes were not strong enough to hold him, and he fell into the containers and died.
+Edit score is :  0.5747850396507173
+* Did the man die of a heart attack?
+* No.
+* The man was sitting on a chair over two pressurized containers of gas. The gas leaking from the containers caused the man to suffocate.
+Edit score is :  0.589208822643782
+* Did the man die of natural causes?
+* No.
+* The man was sitting on a chair which was suspended by two ropes over two pressurized containers. The man was killed when the ropes were cut, causing the chair to fall and the man to be crushed by the containers.
+Edit score is :  0.5687752325785501
+PUZZLE: A man is dead in a puddle of blood and water on the floor of a locked room. What happened?
+* Was the man stabbed?
+* Yes.
+* The man was stabbed and then placed in the bathtub. The killer turned on the water in an attempt to wash away the blood, but was unsuccessful.
+Edit score is :  0.55342907115898
+* Did the man die instantly?
+* No.
+* The man was stabbed and then drowned in the puddle of water.
+Edit score is :  0.5788335847159377
+* Did the man die of his injuries?
+* Yes.
+* The man was stabbed and then drowned in a puddle of water.
+Edit score is :  0.5838144276278151
+* Did the man die in the puddle of water?
+* No.
+* The man was stabbed and then staggered to the puddle of water on the floor, where he died.
+Edit score is :  0.5306854365677894
+* Did the man die in the puddle of blood?
+* Yes.
+* The man was stabbed and then drowned in the puddle of blood.
+Edit score is :  0.5788335847159377
+PUZZLE: A man is found hanging in a locked room with a puddle of water under his feet. What happened?
+* Was the man's death due to the puddle of water?
+* No.
+* The man committed suicide by hanging himself. The puddle of water was caused by the man sweating profusely before his death.
+Edit score is :  0.5574552421889255
+* Did the man die from hanging?
+* Yes.
+* The man committed suicide by hanging himself. The puddle of water was from the man's body sweating before he died.
+Edit score is :  0.5811233510131918
+* Was the puddle of water there before the man was found hanging?
+* Irrelevant.
+* The man committed suicide by hanging himself. The puddle of water was caused by the man's body sweating before he died.
+Edit score is :  0.5616343331801609
+* 
+* Irrelevant.
+* The man committed suicide by hanging himself. The puddle of water was from the man's body sweating before he died.
+Edit score is :  0.5811233510131918
+* 
+* Irrelevant.
+* The man committed suicide by hanging himself. The puddle of water was from the man's body sweating due to the anxiety of being in a locked room.
+Edit score is :  0.572090538660306
+PUZZLE: A man is found hanging in a locked room. What happened?
+* Was the man's death a suicide?
+* Yes.
+* The man committed suicide by hanging himself in the room.
+Edit score is :  0.6679748057127677
+PUZZLE: Mr. H meets Mr. X in a hotel bar; after a heated discussion, they leave the bar.  Suddenly, Mr. X clutches his chest, then punches Mr. H in the face. What happened?
+* Did Mr. H have a heart attack?
+* No.
+* Mr. X had a heart attack. Mr. H punched him in the face to revive him.
+Edit score is :  0.5925555243609103
+* Did Mr. X punch Mr. H first?
+* No.
+* Mr. X was having a heart attack, and Mr. H punched him in the face to revive him.
+Edit score is :  0.5814976700702283
+* Did Mr. H hit Mr. X first?
+* No.
+* Mr. X was having a heart attack, and Mr. H punched him in the face in an attempt to revive him.
+Edit score is :  0.6000368860958795
+*  Did Mr. X have a heart attack?
+* Yes.
+* Mr. X was having a heart attack, and Mr. H punched him in the face in an attempt to revive him.
+Edit score is :  0.6000368860958795
+* Did Mr. H know Mr. X was going to have a heart attack?
+* No.
+* Mr. X was having a heart attack and punched Mr. H in the face in an attempt to start CPR on himself.
+Edit score is :  0.6090833365922333
+PUZZLE: Two friends have just had lunch in a restaurant.  At the end of the meal, one draws a pistol and shoots the other. What happened?
+* Did the victim have time to eat dessert?
+* Irrelevant.
+* The person who shot the other had a peanut allergy and the victim had just eaten a peanut butter sandwich for lunch.
+Edit score is :  0.6782920041528163
+PUZZLE: A man driving his car turns on the radio.  He then pulls over to the side of the road and shoots himself. Why?
+* Did the man have a gun?
+* No.
+* The man was driving a stolen car and the radio broadcast a report of the stolen car.
+Edit score is :  0.6181140602510292
+* Was the man's car broken down?
+* No.
+* The man was being chased by a swarm of bees and pulled over to the side of the road to avoid them.
+Edit score is :  0.606709080393291
+* Was the man's car running out of gas?
+* No.
+* The man was depressed and wanted to commit suicide.
+Edit score is :  0.5683203105803725
+* Did the man commit suicide?
+* No.
+* The man was a paranoid schizophrenic and he heard the voice of God telling him to shoot himself. When he turned on the radio, he heard a news report about a man who shot himself. The man thought that the news report was about him and that shooting himself was what God wanted him to do.
+Edit score is :  0.7339269176716777
+PUZZLE: The music stops and the man dies. Why?
+* Did the man have an allergy to music?
+* Irrelevant.
+* The man was a musician who was performing on stage. He was electrocuted when he touched his microphone while standing in a puddle of water.
+Edit score is :  0.661476925329965
+PUZZLE: A man is driving his car.  He turns on the radio, listens for five minutes, turns around, goes home, and shoots his wife. What happened?
+* Was the man's wife in the car with him?
+* No.
+* The man just realized that he left his wife at the gas station.
+Edit score is :  0.5730558564014177
+* Was the man's wife home when he left?
+* Yes.
+* The man's wife was cheating on him. He heard it on the radio.
+Edit score is :  0.5818721245037953
+* Did the man shoot his wife as soon as he got home?
+* No.
+* The man heard on the radio that a madman was on the loose in the area and was shooting people. The man went home to make sure his wife was safe.
+Edit score is :  0.7036080153101429
+PUZZLE: She grabbed his ring, pulled on it, and dropped it. What happened?
+* Is the man married?
+* No.
+* The man proposed to the woman and she rejected him.
+Edit score is :  0.6050391438626733
+* Is the ring valuable?
+* Yes.
+* The ring was stuck on his finger and she was trying to help him remove it.
+Edit score is :  0.6423447127672479
+* Did the woman mean to drop the ring?
+* No.
+* The woman was trying to propose to the man, but she was so nervous that she dropped the ring.
+Edit score is :  0.6453976131395486
+* Did the woman want the ring?
+* No.
+* The woman was stealing the man's ring, but it was caught on his finger and she ended up dropping it.
+Edit score is :  0.6568131868131869
+PUZZLE: A riverboat filled with passengers suddenly capsized, drowning most of those aboard.  What happened?
+* Did the passengers all die?
+* No.
+* The riverboat hit a rock and capsized. Some of the passengers were able to swim to shore and survive.
+Edit score is :  0.8224283271700665
+PUZZLE: A woman walks into a small room and screams. What happened?
+* Was the woman surprised?
+* No.
+* The woman was claustrophobic and the small room triggered her fear.
+Edit score is :  0.6328211881767632
+* Did someone else enter the room?
+* No.
+* The woman was claustrophobic and the room was too small for her.
+Edit score is :  0.6668243731918997
+PUZZLE: A rope breaks.  A bell rings.  A man dies. What happened?
+* A man was hanged?
+* No.
+* A man was poisoned and the antidote was a bell that needed to ring to save him, but the rope holding the bell broke.
+Edit score is :  0.6759780197620487
+PUZZLE: A bell rings.  A man dies.  A bell rings. What happend?
+* Did the two bells ring at the same time?
+* No.
+* The man was a boxer.  The first bell rang to signal the start of the fight.  He died during the fight, and the second bell rang to signal the end of the fight.
+Edit score is :  0.7392782151905125
+PUZZLE: The wind stopped blowing and the man died. What happened?
+* Did the man die because he was thirsty?
+* Yes.
+* The man was a hot air balloonist. When the wind stopped blowing, his balloon lost lift and he descended into a desert where he died of thirst.
+Edit score is :  0.6357560927012117
+* Did the man die because the wind stopped blowing?
+* No.
+* The man was a windmill.
+Edit score is :  0.5292646716934573
+* Did the man die because he was not able to get water?
+* Yes.
+* The man was a windmill.
+Edit score is :  0.5292646716934573
+* Did the man die because he was not able to get food?
+* Irrelevant.
+* The man was a windmill.
+Edit score is :  0.5292646716934573
+* 
+* Irrelevant.
+* The man was a windmill.
+Edit score is :  0.5292646716934573

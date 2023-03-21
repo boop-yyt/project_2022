@@ -1,0 +1,84 @@
+nohup: ignoring input
+2022-12-05 09:58:39.552509: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-12-05 09:58:39.687236: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-12-05 09:58:40.616063: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-12-05 09:58:40.616148: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-12-05 09:58:40.616159: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-12-05 09:58:41.933579: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcusolver.so.11'; dlerror: libcusolver.so.11: cannot open shared object file: No such file or directory
+2022-12-05 09:58:41.934304: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open shared object file: No such file or directory
+2022-12-05 09:58:41.934336: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-12-05 09:58:41.934738: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Entity_score -1.5202971696853638
+**************relation_score*********************
+Relation_score -51.23072016239166
+**************event_score*********************
+[['the ballroom of', 'room', None], ['sank', 'ocean liner', None], ['ran out of', 'man', None], ['diving in', None, None]] [['killed', 'man', None], ['turned on', 'chandelier', None], ['stage', 'scene', None], ['look like', 'scene', 'robbery']]
+Event_score -2.5729856193065643
+KG_score: -18.256920973956582
+Entity_score -0.5506905913352966
+**************relation_score*********************
+Relation_score -50.0
+**************event_score*********************
+[['kill', 'rays', None]] [['had', 'man', None], ['realized', 'bartender', None], ['frightening', None, 'man'], ['cure', 'bartender', 'hiccups']]
+Event_score -0.8333283364772797
+KG_score: -16.95672624617815
+Entity_score -5.668226905167103
+**************relation_score*********************
+Relation_score -800.7356834709644
+**************event_score*********************
+[['work electrically', 'Elevators', None], ['use', 'Elevators', None], ['activated', 'buttons', None], ['making', None, None], ['run', 'Elevators', None], ['got into', 'man', 'Elevators'], ['wearing', 'man', None], ['remove', 'gloves', 'man'], ['make', None, None], ['work', 'buttons', None], ['found', None, None], ['stroking', 'his ungloved hand', 'buttons'], ['activated', 'all the buttons', None], ['stopped on', 'Elevators', None], ['carried', 'he', 'gloves'], ['entered', 'he', 'Elevators'], ['put it on', 'he', 'gloves'], ['found', None, None], ['pressed', None, 'his ungloved hand']] [['had', 'man', None], ['on', 'bandage', 'his hand'], ["didn't want", 'man', None], ['dirty', 'bandage', None]]
+Event_score -13.959920041263103
+KG_score: -270.72006403774026
+Entity_score -1.3469085395336151
+**************relation_score*********************
+Relation_score -50.13204845786095
+**************event_score*********************
+[['killed', 'husband', None], ['in', 'his ashes', None], ['on', 'urn', None], ['looks at', 'wife', 'urn']] [['in shock', 'woman', None], ['did not realize', 'woman', None], ['killed', 'her husband', None]]
+Event_score -1.2155182212591171
+KG_score: -17.389176822155715
+Entity_score -1.9730545543134212
+**************relation_score*********************
+Relation_score -102.17360439430922
+**************event_score*********************
+[['test', None, None], ['a blood test', None, None], ['Knowing', None, None], ['felt', 'impostor', None], ['worth to try', None, None], ["couldn't give", None, None], ['for', None, None]] [['agreed', 'one', None], ['was not', 'one', None], ['known', 'rightful heir', None], ['sent packing', None, None], ['refused', 'one', None], ['was', 'one', None]]
+Event_score -3.778908185660839
+KG_score: -35.615437154313554
+Entity_score -2.3741016760468483
+**************relation_score*********************
+Relation_score -152.28156128525734
+**************event_score*********************
+[['brought', 'His old age', None], ['decline', None, None], ['use', None, 'man'], ['blow', 'shorter pipes', None], ['gets', None, 'man'], ['inhales', 'man', None], ['burns', 'man', None]] [['rushed', 'old man', None], ['choking on', 'he', None], ['stopped', 'hiccups', None], ['got to', 'he', 'hospital'], ['treated', 'he', None]]
+Event_score -3.3378852158784866
+KG_score: -52.13787089847029
+Entity_score -0.8234710395336151
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[['struck by', 'man', None], ['thrown from', 'object', None]] [['shot', None, 'man'], ['through', 'bullet', 'man'], ['left', None, None]]
+Event_score -0.866772435605526
+KG_score: -0.5577803467959166
+Entity_score -0.7930324971675873
+**************relation_score*********************
+Relation_score -101.27938529849052
+**************event_score*********************
+[['reviving', None, 'man'], ['came to life', 'a triceratops frozen', None], ['killed', 'man', 'a triceratops frozen']] [['practicing', 'man', None], ['died', None, None], ['slipped and fell', 'He', None], ['hit', 'three balls', None]]
+Event_score -0.5698968544602394
+KG_score: -33.87196383453906
+Entity_score -1.88097632676363
+**************relation_score*********************
+Relation_score -100.0
+**************event_score*********************
+[['run out of', 'he', None], ['on an extended cruise', None, None]] [['killed', None, 'man']]
+Event_score -1.5030940491706133
+KG_score: -34.116743224058304
+Entity_score -0.5723583400249481
+**************relation_score*********************
+Relation_score -50.61620473861694
+**************event_score*********************
+[['run out of', 'he', None], ['on an extended cruise', None, None]] [['poisoned', 'man', None], ['could have saved', 'water', None]]
+Event_score -0.9310098588466644
+KG_score: -17.199459069371223
+* -24.84110713037895

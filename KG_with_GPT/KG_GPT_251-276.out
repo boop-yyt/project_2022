@@ -1,0 +1,698 @@
+nohup: ignoring input
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/feature_extraction/image.py:167: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dtype=np.int):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/feature_extraction/text.py:17: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  from collections import Mapping, defaultdict
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:35: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:597: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:836: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:862: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, positive=False):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1074: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=1, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1306: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=1, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1442: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, positive=False):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:152: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  precompute=False, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:318: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, random_state=None,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:575: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=4 * np.finfo(np.float).eps, n_jobs=1,
+PUZZLE: A man sitting at home was killed by a little boy who was outside. How?
+* Did the man die of natural causes?
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/transformers/models/t5/tokenization_t5_fast.py:166: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  FutureWarning,
+# ::snt Did the man die of natural causes?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (n / natural-03)))
+* Irrelevant.
+* The little boy threw a rock at the man through the window, killing him.
+Edit score is :  0.5880882227736018
+* 
+* No.
+* The little boy outside was shooting at a can with a BB gun, and the man inside was killed by a ricochet.
+Edit score is :  0.6743039490822729
+PUZZLE: A man is visiting a young couple who have a one-year-old daughter. He takes the baby on his knee and, with the parents present, begins to recite a nursery rhyme with the child. Within a few moments, however, he is cringing with embarrassment. Why?
+* Did the man die?
+# ::snt Did the man die?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man))
+* Irrelevant.
+* The man realized that he had forgotten the rest of the nursery rhyme.
+Edit score is :  0.6319850891861761
+* 
+* No.
+* The man had realized that he was reciting the wrong nursery rhyme.
+Edit score is :  0.6304476213750408
+* 
+* No.
+* The man has a severe case of hiccups, and the nursery rhyme he was reciting was "Hickory Dickory Dock".
+Edit score is :  0.6383249975482985
+* The man is cringing with embarrassment because...?
+# ::snt The man is cringing with embarrassment because...?
+(c / cause-01
+      :ARG0 (e / embarrass-01
+            :ARG1 (m / man))
+      :ARG1 (c2 / cringe-01
+            :ARG0 m)
+      :polarity (a / amr-unknown))
+* No.
+* The man is cringing with embarrassment because he realized that he had been reciting a nursery rhyme to the couple's one-year-old daughter that he had heard before, but couldn't remember the ending to.
+Edit score is :  0.8201232043425258
+PUZZLE: One day, Kerry celebrated her birthday. Two days later, her older twin brother, Terry, celebrated his birthday. How come?
+* 
+* No.
+* Kerry and Terry are fraternal twins.
+Edit score is :  0.5505584950029394
+* Was the baby born on a leap day?
+# ::snt Was the baby born on a leap day?
+(b / bear-02
+      :polarity (a / amr-unknown)
+      :ARG1 (b2 / baby)
+      :time (d / day
+            :mod (l / leap)))
+* No.
+* The baby was born on February 29th, which only happens once every four years. Therefore, Kerry's birthday is February 28th, and Terry's birthday is March 1st.
+Edit score is :  0.6450346195674707
+* Was the baby born on a Monday?
+# ::snt Was the baby born on a Monday?
+(b / bear-02
+      :ARG1 (b2 / baby)
+      :polarity (a / amr-unknown)
+      :time (d / date-entity
+            :weekday (m / monday)))
+* No.
+* Kerry was born on February 29th, a leap day. Terry was born two days later on March 2nd.
+Edit score is :  0.5728348297792741
+* Was the baby born on Kerry's birthday?
+# ::snt Was the baby born on Kerry's birthday?
+(b / bear-02
+      :ARG1 (b2 / baby)
+      :polarity (a / amr-unknown)
+      :time (b3 / birthday
+            :poss (p / person
+                  :name (n / name
+                        :op1 "Kerry"))))
+* No.
+* The baby was born on Terry's birthday.
+Edit score is :  0.523978155264705
+* Was the baby born on Terry's birthday?
+# ::snt Was the baby born on Terry's birthday?
+(b / bear-02
+      :ARG1 (b2 / baby)
+      :polarity (a / amr-unknown)
+      :time (b3 / birthday
+            :poss (p / person
+                  :name (n / name
+                        :op1 "Terry"))))
+* No.
+* The baby was born on Sunday.
+Edit score is :  0.5343915343915344
+PUZZLE: To divide a cake equally among several people you let one cut and the other choose. How could you divide a cake?
+* 
+* No.
+* Kerry was born in New Zealand and Terry in Australia.
+Edit score is :  0.5350434387997137
+* Did they always live in the same house?
+# ::snt Did they always live in the same house?
+(l / live-01
+      :polarity (a / amr-unknown)
+      :ARG0 (t / they)
+      :time (a2 / always)
+      :location (h / house
+            :ARG1-of (s / same-01)))
+* Irrelevant.
+* Kerry was born first, so he gets to cut the cake. Terry gets to choose which piece he wants.
+Edit score is :  0.7006279852310965
+PUZZLE: One morning a jealous wife found in the mail a letter addressed to her husband. She remove the letter from the sealed envelope without breaking the seal or tearing the envelope and then put it back in the envelope so that her husband did not know that the letter had been read. How did she?
+* 
+* No.
+* The wife cut the cake into two pieces, then put one piece back in the envelope.
+Edit score is :  0.5767176962746583
+* 
+* No.
+* The wife put the letter in the envelope upside down.
+Edit score is :  0.5853846153846153
+* Is the cake cut into more than two pieces?
+# ::snt Is the cake cut into more than two pieces?
+(c / cut-01
+      :polarity (a / amr-unknown)
+      :ARG1 (c2 / cake)
+      :ARG2 (p / piece
+            :quant (m / more-than
+                  :op1 2)))
+* Irrelevant.
+* The wife took the letter out of the envelope, read it, and then put it back in the envelope without breaking the seal or tearing the envelope.
+Edit score is :  0.6450105155821808
+* Does the solution involve more than one person?
+# ::snt Does the solution involve more than one person?
+(ii / involve-01
+      :polarity (a / amr-unknown)
+      :ARG1 (p / person
+            :quant (m / more-than
+                  :op1 1))
+      :ARG2 (s / solve-01))
+* Irrelevant.
+* The wife put the letter in the envelope upside down so that when her husband opened the envelope, he would have to turn the letter over to read it.
+Edit score is :  0.6594081051223909
+PUZZLE: A significant number of people have a Crucifixion scene tattooed on their bodies. These people did not share any particular religious beliefs. Why?
+* Did the wife ever see the letter?
+# ::snt Did the wife ever see the letter?
+(s / see-01
+      :polarity (a / amr-unknown)
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (w / wife)))
+      :ARG1 (l / letter)
+      :time (e / ever))
+* Irrelevant.
+* The letter was written by the husband to his wife. It said "I am having an affair with your sister and I want a divorce." He put the letter in an envelope, sealed it, and then put it in his pocket. He died before he had a chance to give it to her.
+Edit score is :  0.6677615040618137
+PUZZLE: Pat went into a luggage shop to buy a suitcase. The assistant said, "It is most unusual to buy a suitcase. You should rent one like all our other customers."  Why should this be so?
+* Did the assistant think Pat was going on a trip?
+# ::snt Did the assistant think Pat was going on a trip?
+(t / think-01
+      :ARG0 (p / person
+            :ARG0-of (a / assist-01))
+      :ARG1 (t2 / trip-03
+            :ARG0 (p2 / person
+                  :name (n / name
+                        :op1 "Pat")))
+      :polarity (a2 / amr-unknown))
+* Irrelevant.
+* Luggage is generally only used for going on trips, so it doesn't make sense to buy something you'll only use once. It's much cheaper to rent a suitcase for each trip.
+Edit score is :  0.7202661595841043
+PUZZLE: A total of 213 people enter a knockout tennis tournament. What is the least number of matches that must be played to decide an overall winner?
+* Is the tournament single or double elimination?
+# ::snt Is the tournament single or double elimination?
+(a / amr-choice
+      :op1 (e / eliminate-01
+            :ARG1 (t / tournament)
+            :ARG1-of (s / single-02))
+      :op2 (e2 / eliminate-01
+            :ARG1 t
+            :mod (d / double)))
+* No.
+* At least 213 matches must be played.
+Edit score is :  0.563020107860995
+* 
+* No.
+* At least 213 matches must be played.
+Edit score is :  0.563020107860995
+* Is there a tiebreaker if players are evenly matched?
+# ::snt Is there a tiebreaker if players are evenly matched?
+(h / have-condition-91
+      :ARG1 (b / break-18
+            :ARG1 (t / tie-01))
+      :ARG2 (m / match-01
+            :ARG1 (p / person
+                  :ARG0-of (p2 / play-01))
+            :ARG1-of (e / even-02))
+      :polarity (a / amr-unknown))
+* No.
+* At least 213 matches must be played.
+Edit score is :  0.563020107860995
+* In other words, the first person to lose two matches is out of the tournament?
+# ::snt In other words, the first person to lose two matches is out of the tournament?
+(o / out-06
+      :polarity (a / amr-unknown)
+      :ARG1 (p / person
+            :ord (o2 / ordinal-entity
+                  :value 1)
+            :ARG0-of (l / lose-03
+                  :ARG1 (m / match-03
+                        :quant 2)))
+      :ARG2 (t / tournament)
+      :ARG1-of (w / word-01
+            :mod (o3 / other)))
+* Irrelevant.
+* At least 213 matches must be played.
+Edit score is :  0.563020107860995
+* Is there a limit to how many people can enter the tournament?
+# ::snt Is there a limit to how many people can enter the tournament?
+(l / limit-01
+      :ARG1 (n / number
+            :quant-of (p / person
+                  :ARG0-of (e / enter-01
+                        :ARG1 (t / tournament)
+                        :ARG1-of (p2 / possible-01))))
+      :polarity (a / amr-unknown))
+* No.
+* At least 106 matches must be played.
+Edit score is :  0.5373820168902136
+PUZZLE: Every night before he went to bed, a man carefully locked all the doors of his house. Then he placed the front-door key inside a bucket of cold water. In the morning he retrieved the key from the bucket in order to open the door. Why did he do this?
+* Did the man have a fear of cold water?
+# ::snt Did the man have a fear of cold water?
+(f / fear-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (w / water
+            :ARG1-of (c / cold-01)))
+* Irrelevant.
+* The man had a fear of fire. By placing the key in cold water every night, he ensured that the key would be cool to the touch in the event of a fire, and he would be able to open the door and escape.
+Edit score is :  0.851268917584707
+PUZZLE: While Harry was working in his garage he made something travel at over 3000 miles (4800 kilometers) per hour. What on earth was it?
+* Did he make a time machine?
+# ::snt Did he make a time machine?
+(m / make-01
+      :ARG0 (h / he)
+      :ARG1 (m2 / machine
+            :mod (t / time))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* He was making a bomb, and set the timer to go off in 3000 miles (4800 kilometers) per hour.
+Edit score is :  0.6704742625795257
+PUZZLE: A man walked into a bar and asked for a certain drink. The bartender apologized that he had run out of that particular drink but he offered the man any other drink in the house free. The man refused and walked out. Why?
+* Did the man want a free drink?
+# ::snt Did the man want a free drink?
+(w / want-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (d / drink
+            :ARG1-of (f / free-03)))
+* Irrelevant.
+* The man was a teetotaler.
+Edit score is :  0.6559532636782385
+PUZZLE: A man sat perfectly still for 88 hours. Why?
+* 
+* No.
+* The man was waiting for a bus.
+Edit score is :  0.564840073382787
+* Was the man asking for a drink of water an act of aggression?
+# ::snt Was the man asking for a drink of water an act of aggression?
+(a / act-02
+      :polarity (a2 / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (a3 / agress-01)
+      :domain (a4 / ask-02
+            :ARG0 m
+            :ARG1 (d / drink-01
+                  :ARG0 m
+                  :ARG1 (w / water))))
+* Irrelevant.
+* The man had the hiccups.
+Edit score is :  0.5967336683417085
+* 
+* No.
+* The man had the hiccups.
+Edit score is :  0.5967336683417085
+* Was the man trying to be funny?
+# ::snt Was the man trying to be funny?
+(t / try-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (f / funny-02
+            :ARG1 m))
+* Irrelevant.
+* The man had the hiccups.The bartender realized this and chose instead to cure the hiccups by frightening the man with the gun.
+Edit score is :  0.5891954935342606
+* Was the man trying to be polite?
+# ::snt Was the man trying to be polite?
+(t / try-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (p / polite-01
+            :ARG1 m))
+* Irrelevant.
+* The man was a mime.
+Edit score is :  0.6070998266184725
+PUZZLE: Why did a man go to great trouble to bury in the desert fifteen brand-new Mercedes-Benz cars, all greased and wrapped in plastic?
+* Could he have escaped if he had wanted to?
+# ::snt Could he have escaped if he had wanted to?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (e / escape-01
+            :ARG0 (h / he))
+      :condition (w / want-01
+            :ARG0 h
+            :ARG1 e))
+* No.
+* The man was a car salesman who was facing a very slow sales month. He decided to bury the cars in the desert and then have a "new car sale" where he offered "new" cars at very low prices.
+Edit score is :  0.6514810816049968
+PUZZLE: In Australia a perfectly good building was demolished and an almost identical one erected on exactly the same site. The original building was in good condition, it had no defects and there was no issue of safety or planning permission. Why was it demolished?
+* Did anyone live in the building?
+# ::snt Did anyone live in the building?
+(l / live-01
+      :polarity (a / amr-unknown)
+      :ARG0 (a2 / anyone)
+      :location (b / building))
+* Irrelevant.
+* The building was a hospital and was demolished to make way for a new wing of the hospital.
+Edit score is :  0.6682888314671261
+PUZZLE: A man writes a cheque, signs it, and then tears it into exactly 217 pieces. He then puts it in the mail. Can you give a rational explanation for his behavior?
+* 
+* No.
+* The man was a collector of cheques.
+Edit score is :  0.586445390732855
+* Was the cheque for a large amount of money?
+# ::snt Was the cheque for a large amount of money?
+(c / cheque
+      :polarity (a / amr-unknown)
+      :purpose (m / money
+            :quant (a2 / amount
+                  :mod (l / large))))
+* No.
+* The man was a collector of cheques.
+Edit score is :  0.586445390732855
+* Was the cheque for a small amount of money?
+# ::snt Was the cheque for a small amount of money?
+(c / cheque
+      :polarity (a / amr-unknown)
+      :purpose (m / money
+            :quant (a2 / amount
+                  :mod (s / small))))
+* No.
+* The man was a collector of cheques.
+Edit score is :  0.586445390732855
+* Was the cheque for an amount of money that was exactly divisible by 217?
+# ::snt Was the cheque for an amount of money that was exactly divisible by 217?
+(h / have-purpose-91
+      :ARG1 (c / cheque)
+      :ARG2 (a / amount
+            :quant-of (m / money)
+            :ARG1-of (d / divide-02
+                  :ARG2 217
+                  :mod (e / exact)))
+      :polarity (a2 / amr-unknown))
+* No.
+* The man was a bank robber. He needed to divide the cheque into217 pieces so that each piece could be used as a key to open one of the217 safety deposit boxes in the bank.
+Edit score is :  0.823557085148422
+PUZZLE: A terse weather report once stated that the temperature in a certain place at midnight on June 1st was a certain number of degrees. Where was the place?
+* Was the place in the southern hemisphere?
+# ::snt Was the place in the southern hemisphere?
+(b / be-located-at-91
+      :ARG1 (p / place)
+      :ARG2 (h / hemisphere
+            :mod (s / south))
+      :polarity (a / amr-unknown))
+* No.
+* The place was the North Pole.
+Edit score is :  0.5200471559092249
+* Was the place on the equator?
+# ::snt Was the place on the equator?
+(b / be-located-at-91
+      :ARG1 (p / place)
+      :ARG2 (e / equator)
+      :polarity (a / amr-unknown))
+* No.
+* The place was the North Pole.
+Edit score is :  0.5200471559092249
+* Was the place in the northern hemisphere?
+# ::snt Was the place in the northern hemisphere?
+(b / be-located-at-91
+      :ARG1 (p / place)
+      :ARG2 (h / hemisphere
+            :mod (n / north))
+      :polarity (a / amr-unknown))
+* No.
+* The place was the North Pole.
+Edit score is :  0.5200471559092249
+* Was the place in the southern hemisphere?
+# ::snt Was the place in the southern hemisphere?
+(b / be-located-at-91
+      :ARG1 (p / place)
+      :ARG2 (h / hemisphere
+            :mod (s / south))
+      :polarity (a / amr-unknown))
+* No.
+* The place was the North Pole.
+Edit score is :  0.5200471559092249
+* Was the place on the equator?
+# ::snt Was the place on the equator?
+(b / be-located-at-91
+      :ARG1 (p / place)
+      :ARG2 (e / equator)
+      :polarity (a / amr-unknown))
+* No.
+* The place was the North Pole.
+Edit score is :  0.5200471559092249
+PUZZLE: What do these animals have in common: koala bear, prairie dog, firefly, silkworm, jackrabbit, guinea pig?
+* What is the temperature in degrees Fahrenheit?
+# ::snt What is the temperature in degrees Fahrenheit?
+(t / temperature
+      :quant (a / amr-unknown)
+      :mod (t2 / temperature-quantity
+            :quant 1
+            :scale (c / celsius)))
+* No.
+* They are all animals that are either born blind or born without eyes.
+Edit score is :  0.6864734299516909
+PUZZLE: A music program on a well-respected radio station finished exactly eight minutes earlier than it was scheduled to. An embarrassed official gave the explanation for this mistake. What was it? How long was the program supposed to last? (It is possible to work this out.)
+* Was the program supposed to be an hour long?
+# ::snt Was the program supposed to be an hour long?
+(s / suppose-02
+      :polarity (a / amr-unknown)
+      :ARG1 (p / program)
+      :ARG2 (l / long-03
+            :ARG1 p
+            :ARG2 (t / temporal-quantity
+                  :quant 1
+                  :unit (h / hour))))
+* Irrelevant.
+* The program was supposed to be two hours long, but it was accidentally scheduled for two hours and eight minutes.
+Edit score is :  0.609116571168318
+* Was the program supposed to be 8 minutes long?
+# ::snt Was the program supposed to be 8 minutes long?
+(s / suppose-02
+      :polarity (a / amr-unknown)
+      :ARG1 (p / program)
+      :ARG2 (l / long-03
+            :ARG1 p
+            :ARG2 (t / temporal-quantity
+                  :quant 8
+                  :unit (m / minute))))
+* Irrelevant.
+* The program was supposed to be 48 minutes long, but it was accidentally played at 4 times the speed.
+Edit score is :  0.590995561192137
+* Was the program supposed to be longer than 8 minutes?
+# ::snt Was the program supposed to be longer than 8 minutes?
+(s / suppose-02
+      :polarity (a / amr-unknown)
+      :ARG1 (p / program)
+      :ARG2 (h / have-degree-91
+            :ARG1 p
+            :ARG2 (l / long-03
+                  :ARG1 p)
+            :ARG3 (m / more)
+            :ARG4 (t / temporal-quantity
+                  :quant 8
+                  :unit (m2 / minute))))
+* No.
+* The program was supposed to be 60 minutes long, but was accidentally only broadcast for 52 minutes.
+Edit score is :  0.589300506031948
+* Was the program supposed to be shorter than 8 minutes?
+# ::snt Was the program supposed to be shorter than 8 minutes?
+(s / suppose-02
+      :polarity (a / amr-unknown)
+      :ARG1 (p / program)
+      :ARG2 (h / have-degree-91
+            :ARG1 p
+            :ARG2 (s2 / short-07
+                  :ARG1 p)
+            :ARG3 (m / more)
+            :ARG4 (t / temporal-quantity
+                  :quant 8
+                  :unit (m2 / minute))))
+* No.
+* The program was supposed to be 8 minutes long, but the official mistakenly announced it as being an hour long.
+Edit score is :  0.6000008861571617
+* So the program was supposed to last exactly 8 minutes?
+# ::snt So the program was supposed to last exactly 8 minutes?
+(s / suppose-02
+      :polarity (a / amr-unknown)
+      :ARG1 (p / program)
+      :ARG2 (l / last-01
+            :ARG1 p
+            :ARG2 (t / temporal-quantity
+                  :quant 8
+                  :unit (m / minute)
+                  :mod (e / exact))))
+* Irrelevant.
+* The program was supposed to last exactly 16 minutes. However, due to a clerical error, the official announced the wrong time.
+Edit score is :  0.616082953663393
+PUZZLE: How did a change in state traffic regulations lead to an increase in trade for local sex shops? (The answer is not obscene!)
+* Did someone forget to cue the music?
+# ::snt Did someone forget to cue the music?
+(f / forget-01
+      :polarity (a / amr-unknown)
+      :ARG0 (s / someone)
+      :ARG1 (c / cue-01
+            :ARG0 s
+            :ARG1 (m / music)))
+* Irrelevant.
+* The state changed the regulation on how long a yellow light should last. This caused an increase in traffic accidents, and in turn, an increase in business for local body shops, many of which also sold sex toys and other adult items.
+Edit score is :  0.7484698591525308
+PUZZLE: A rather nasty criminal developed a seemingly foolproof way of extracting money from bereaved families. He would scan the obituary columns in order to choose the name of a wealthy man who had recently died. Then he sent an invoice for pornographic books addressed to the man and claiming payment for goods previously despatched. To avoid any scandal the family would invariably pay. How was he eventually caught out?
+* Did they buy items such as condoms or sex toys?
+# ::snt Did they buy items such as condoms or sex toys?
+(b / buy-01
+      :ARG0 (t / they)
+      :ARG1 (ii / item
+            :example (o / or
+                  :op1 (c / condom)
+                  :op2 (t2 / toy
+                        :purpose (s / sex-01))))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The change in regulations was the introduction of zip codes. The criminal was eventually caught because he forgot to include the new zip code on one of his invoices.
+Edit score is :  0.8211460761460763
+PUZZLE: A man in a hotel was unable to sleep. He got up, opened the window drapes, went back to bed and fell asleep easily. How come?
+* Did the criminal die?
+# ::snt Did the criminal die?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (p / person
+            :ARG2-of (c / criminal-03)))
+* No.
+* The man was in a motel, not a hotel.
+Edit score is :  0.5955376595082477
+* 
+* No.
+* The man in the hotel was on the ground floor.
+Edit score is :  0.6107026143790849
+* Did the man open the drapes to let in light?
+# ::snt Did the man open the drapes to let in light?
+(o / open-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (d / drape-01)
+      :purpose (l / let-01
+            :ARG0 m
+            :ARG1 (l2 / light)))
+* Irrelevant.
+* The man was afraid of the dark.
+Edit score is :  0.6037897954880878
+* 
+* No.
+* The man was jet-lagged and got up in the middle of the night thinking it was morning. Opening the drapes helped him to realize his mistake and he was able to fall back asleep.
+Edit score is :  0.8263094896495183
+PUZZLE: A man saw something advertised at a certain price and went to buy it. An official refused to sell it to him even though the man could pay and other men and women were sold it. Later the man was very glad that his purchase had been refused. Why was he refused and why was he glad?
+* Could the man pay for the drapes?
+# ::snt Could the man pay for the drapes?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (p2 / pay-01
+            :ARG0 (m / man)
+            :ARG3 (d / drape-01)))
+* Irrelevant.
+* The man was a sleepwalker. The drapes were for sale, but the official refused to sell them to the man because he did not want the man to walk into them and hurt himself. The man was glad because he would have probably walked into the drapes and hurt himself if he had bought them.
+Edit score is :  0.6778158506540825
+PUZZLE: A man was watching television when he saw an advertisement offering free T-shirts to the first 100 viewers who phoned in. He called the number given, stated his size, and received his free T-shirt in a few days. Later he very much regretted doing this. Why?
+* Did the man get a T-shirt which was too small for him?
+# ::snt Did the man get a T-shirt which was too small for him?
+(g / get-01
+      :ARG0 (m / man)
+      :ARG1 (t / t-shirt
+            :ARG1-of (h / have-degree-91
+                  :ARG2 (s / small)
+                  :ARG3 (t2 / too)
+                  :ARG6 (f / fit-06
+                        :ARG1 t
+                        :ARG2 m)))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The service was a free trial of a T-shirt subscription, and the man regretted signing up for it because he did not want to continue paying for it after the free trial ended.
+Edit score is :  0.6404927685408488
+* Did the man get a T-shirt which was the wrong color?
+# ::snt Did the man get a T-shirt which was the wrong color?
+(g / get-01
+      :ARG0 (m / man)
+      :ARG1 (t / t-shirt
+            :ARG1-of (c / color-01
+                  :ARG2-of (w / wrong-04)))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The man called a suicide hotline.
+Edit score is :  0.5394340758579169
+* Did the man die?
+# ::snt Did the man die?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man))
+* Irrelevant.
+* The man called a suicide hotline.
+Edit score is :  0.5394340758579169
+* 
+* No.
+* The man called a suicide hotline.
+Edit score is :  0.5394340758579169
+* Was the man happy with the service he received?
+# ::snt Was the man happy with the service he received?
+(h / happy-01
+      :polarity (a / amr-unknown)
+      :ARG0 (s / serve-01
+            :ARG1-of (r / receive-01
+                  :ARG0 (m / man)))
+      :ARG1 m)
+* Irrelevant.
+* The man called a phone-in psychic service, and the free T-shirt was part of the promotion.
+Edit score is :  0.5701479282433838
+PUZZLE: A gang robbed a bank. They tied up the staff and then hurriedly left the bank. One of the bank staff struggled free and did something which quickly led to the apprehension of the gang. What was it?
+* Did he turn himself in to the police?
+# ::snt Did he turn himself in to the police?
+(t / turn-in-14
+      :polarity (a / amr-unknown)
+      :ARG0 (h / he)
+      :ARG1 h
+      :ARG2 (p / police))
+* Irrelevant.
+* The man ordered a T-shirt from an online store. When the T-shirt arrived, it had the words "You are under arrest" printed on it.
+Edit score is :  0.6622580665945054
+PUZZLE: A gang stole a bank security van containing over $700,000. Their plan was executed perfectly and they got clean away. The police had no trace of them and the gang were free to divide and spend the loot. However, they were extremely frustrated. Why?
+* Did the security van have a GPS tracker?
+# ::snt Did the security van have a GPS tracker?
+(h / have-03
+      :ARG0 (v / van
+            :purpose (s / security))
+      :ARG1 (t / thing
+            :ARG0-of (t2 / track-01
+                  :ARG1 (l / location
+                        :name (n / name
+                              :op1 "GPS"))))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The security van was stolen from a bank parking lot. The gang had planned to take the van to a location where they could transfer the money to their own vehicle, but they were unable to start the van.
+Edit score is :  0.8473717595146167
+PUZZLE: Four rational and reasonable people were seated around a table. Suddenly three of them jumped up and viciously beat the fourth one senseless. Why?
+* Did the three robbers have a valid reason to beat the fourth person?
+# ::snt Did the three robbers have a valid reason to beat the fourth person?
+(h / have-03
+      :ARG0 (p / person
+            :quant 3
+            :ARG0-of (r / rob-01))
+      :ARG1 (r2 / reason
+            :ARG1-of (v / valid-02)
+            :ARG0-of (c / cause-01
+                  :ARG1 (b / beat-01
+                        :ARG0 p
+                        :ARG1 (p2 / person
+                              :ord (o / ordinal-entity
+                                    :value 4)))))
+      :polarity (a / amr-unknown))
+* No.
+* The fourth person was a counterfeiter and the three others were government agents.
+Edit score is :  0.6902574925454269

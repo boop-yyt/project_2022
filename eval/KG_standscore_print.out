@@ -1,0 +1,2230 @@
+nohup: ignoring input
+2022-12-04 17:22:08.493183: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-12-04 17:22:08.646516: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-12-04 17:22:09.529484: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-12-04 17:22:09.529555: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-12-04 17:22:09.529565: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+$$$$: {'Entity': ['what', 'abalone', 'there', "man's wife", 'they', 'civilization', 'his wife', 'a desert island', 'himself', 'man', 'ship', 'he', 'another passenger', 'food'], 'Relation': [['EntityEqual', 'a desert island', 'there'], ['Entity_att', 'he said', 'what'], ['EntityEqual', 'abalone', 'what'], ['EntityPartof', 'what', "man's wife"], ['EventEqual', 'wrecked on', 'wreck'], ['EventCause', 'wreck', 'had died in'], ['EntityPartof', 'man', 'they'], ['EntityPartof', 'another passenger', 'they'], ['EntityEqual', 'man', 'man'], ['NC2Event', 'realizes', 'ate'], ['EventTemporal', 'realizes', 'kills'], ['EntityEqual', "man's wife", 'his wife'], ['EntityEqual', 'he', 'he'], ['EntityEqual', 'man', 'he']], 'Event': [['in', 'man', None], ['wrecked on', 'ship', 'a desert island'], ['left', None, None], ['brought', 'another passenger', None], ['had died in', "man's wife", None], ['wreck', None, None], ['suspects', 'man', None], ['return', 'they', None], ['orders', 'he', None], ['realizes', 'he', None], ['ate', None, None], ['kills', 'he', None]]}
+2022-12-04 17:22:10.670032: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcusolver.so.11'; dlerror: libcusolver.so.11: cannot open shared object file: No such file or directory
+2022-12-04 17:22:10.670704: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open shared object file: No such file or directory
+2022-12-04 17:22:10.670737: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-12-04 17:22:10.671076: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Entity_score 5.844557583332062
+**************relation_score*********************
+Relation_score 0.6134628858417273
+**************event_score*********************
+[['in', 'man', None], ['wrecked on', 'ship', 'a desert island'], ['left', None, None], ['brought', 'another passenger', None], ['had died in', "man's wife", None], ['wreck', None, None], ['suspects', 'man', None], ['return', 'they', None], ['orders', 'he', None], ['realizes', 'he', None], ['ate', None, None], ['kills', 'he', None]] [['in', 'man', None], ['wrecked on', 'ship', 'a desert island'], ['left', None, None], ['brought', 'another passenger', None], ['had died in', "man's wife", None], ['wreck', None, None], ['suspects', 'man', None], ['return', 'they', None], ['orders', 'he', None], ['realizes', 'he', None], ['ate', None, None], ['kills', 'he', None]]
+Event_score 5.739568114280701
+KG_score: 4.025204232539982
+$$$$: {'Entity': ['man', 'He', 'his wife', 'albatross'], 'Relation': [['Entity_att', 'in a lifeboat', 'man'], ['Entity_att', 'landing in the boa', 'albatross'], ['EventCause', 'hallucinated', 'caught'], ['EventCause', 'hallucinated', 'killed'], ['EventCause', 'hallucinated', 'ate'], ['EventTemporal', 'caught', 'killed'], ['EventTemporal', 'killed', 'ate'], ['NC2Event', 'thought', 'washed'], ['Event_att', 'overboard', 'washed'], ['EntityEqual', 'He', 'man'], ['NC2Event', 'discovers', 'eaten']], 'Event': [['died', None, None], ['with', 'man', 'his wife'], ['hallucinated', 'He', None], ['caught', 'He', 'albatross'], ['killed', 'He', 'albatross'], ['ate', 'He', 'albatross'], ['thought', 'He', None], ['washed', None, None], ['actually eats', 'He', 'albatross'], ['discovers', 'He', None], ['eaten', 'He', 'his wife']]}
+Entity_score 1.7098895907402039
+**************relation_score*********************
+Relation_score -0.9330354798585176
+**************event_score*********************
+[['died', None, None], ['with', 'man', 'his wife'], ['hallucinated', 'He', None], ['caught', 'He', 'albatross'], ['killed', 'He', 'albatross'], ['ate', 'He', 'albatross'], ['thought', 'He', None], ['washed', None, None], ['actually eats', 'He', 'albatross'], ['discovers', 'He', None], ['eaten', 'He', 'his wife']] [['died', None, None], ['with', 'man', 'his wife'], ['hallucinated', 'He', None], ['caught', 'He', 'albatross'], ['killed', 'He', 'albatross'], ['ate', 'He', 'albatross'], ['thought', 'He', None], ['washed', None, None], ['actually eats', 'He', 'albatross'], ['discovers', 'He', None], ['eaten', 'He', 'his wife']]
+Event_score 4.571993373334408
+KG_score: 1.7651196697913112
+$$$$: {'Entity': ['He', 'himself', 'human flesh', '"albatross soup"', 'man', '"human soup"'], 'Relation': [['Event_att', 'previously', 'eaten'], ['NC2Event', 'thinks', 'means'], ['EventCause', 'means', 'kills'], ['EntityEqual', 'himself', 'He']], 'Event': [['eaten', 'man', None], ['thinks', 'He', None], ['means', None, None], ['kills', 'He', None]]}
+Entity_score 2.5439695715904236
+**************relation_score*********************
+Relation_score 0.005526261404156685
+**************event_score*********************
+[['eaten', 'man', None], ['thinks', 'He', None], ['means', None, None], ['kills', 'He', None]] [['eaten', 'man', None], ['thinks', 'He', None], ['means', None, None], ['kills', 'He', None]]
+Event_score 1.9028111025691032
+KG_score: 1.4692612887360155
+$$$$: {'Entity': ['He', 'upper elevator buttons', 'people', 'midget', 'man'], 'Relation': [['EntityEqual', 'midget', 'man'], ['EntityEqual', 'He', 'man'], ['EventTemporal', 'can ask', 'push']], 'Event': [["can't reach", 'He', None], ['can ask', 'He', None], ['push', None, 'upper elevator buttons']]}
+Entity_score 2.098148077726364
+**************relation_score*********************
+Relation_score -0.13896253146231174
+**************event_score*********************
+[["can't reach", 'He', None], ['can ask', 'He', None], ['push', None, 'upper elevator buttons']] [["can't reach", 'He', None], ['can ask', 'He', None], ['push', None, 'upper elevator buttons']]
+Event_score 1.6474199444055557
+KG_score: 1.1901798119209708
+$$$$: {'Entity': ['the ninth-floor button', 'Emily', 'child', 'the tenth-floor button', 'she'], 'Relation': [['EntityEqual', 'child', 'Emily'], ['EntityEqual', 'she', 'Emily'], ['Event_att', 'last year', 'could only reach']], 'Event': [['can only reach', 'she', None], ['could only reach', None, 'she']]}
+Entity_score 2.10950168967247
+**************relation_score*********************
+Relation_score -0.13983990252017975
+**************event_score*********************
+[['can only reach', 'she', None], ['could only reach', None, 'she']] [['can only reach', 'she', None], ['could only reach', None, 'she']]
+Event_score 1.1194175481796265
+KG_score: 1.0193961806595326
+$$$$: {'Entity': ['woman', 'He', 'the subject of the article', 'travel agent', 'two tickets for an ocean voyage', 'man', 'one one-way', 'one round-trip', 'on the same voyage'], 'Relation': [['EntityEqual', 'travel agent', 'man'], ['EntityPartof', 'one round-trip', 'two tickets for an ocean voyage'], ['EntityPartof', 'one one-way', 'two tickets for an ocean voyage'], ['EventEqual', 'The last name of', 'last name of'], ['EntityEqual', 'He', 'man']], 'Event': [['had sold', 'He', None], ['bought', 'man', 'two tickets for an ocean voyage'], ['the same as', None, None], ['The last name of', 'man', None], ['last name of', 'woman', None], ['"fell" overboard', 'woman', None], ['drowned', 'woman', None], ['reading', 'the subject of the article', 'man']]}
+Entity_score 3.931442439556122
+**************relation_score*********************
+Relation_score 0.22793453745543957
+**************event_score*********************
+[['had sold', 'He', None], ['bought', 'man', 'two tickets for an ocean voyage'], ['the same as', None, None], ['The last name of', 'man', None], ['last name of', 'woman', None], ['"fell" overboard', 'woman', None], ['drowned', 'woman', None], ['reading', 'the subject of the article', 'man']] [['had sold', 'He', None], ['bought', 'man', 'two tickets for an ocean voyage'], ['the same as', None, None], ['The last name of', 'man', None], ['last name of', 'woman', None], ['"fell" overboard', 'woman', None], ['drowned', 'woman', None], ['reading', 'the subject of the article', 'man']]
+Event_score 3.838570274412632
+KG_score: 2.639322592969984
+$$$$: {'Entity': ['ball', 'bowling ball', 'conservation of energy', 'physics professor', 'his nose'], 'Relation': [['Event_att', 'from a piece of rope', 'suspending'], ['EventTemporal', 'pulls', 'back'], ['EventCause', 'back', 'right in front of'], ['EntityEqual', 'ball', 'bowling ball'], ['EventTemporal', 'right in front of', 'lets go'], ['NC2Event', 'supposed', 'swing away from'], ['EventTemporal', 'swing away from', 'back'], ['NC2Event', 'stopping', 'in front of'], ['EventTemporal', 'back', 'stopping'], ['NC2Event', 'gave', 'a slight push'], ['EventCause', 'a slight push', 'crashing into'], ['Event_att', 'upon its return', 'crashing into']], 'Event': [['demonstrating', 'physics professor', None], ['suspending', 'physics professor', None], ['pulls', 'physics professor', None], ['back', 'ball', None], ['right in front of', 'ball', None], ['lets go', 'ball', None], ['supposed', 'physics professor', None], ['swing away from', 'physics professor', None], ['back', 'ball', 'physics professor'], ['stopping', 'ball', None], ['in front of', 'his nose', None], ['gave', 'physics professor', None], ['a slight push', 'ball', None], ['crashing into', 'ball', 'his nose']]}
+Entity_score 2.2036467790603638
+**************relation_score*********************
+Relation_score -0.6018478516489267
+**************event_score*********************
+[['demonstrating', 'physics professor', None], ['suspending', 'physics professor', None], ['pulls', 'physics professor', None], ['back', 'ball', None], ['right in front of', 'ball', None], ['lets go', 'ball', None], ['supposed', 'physics professor', None], ['swing away from', 'physics professor', None], ['back', 'ball', 'physics professor'], ['stopping', 'ball', None], ['in front of', 'his nose', None], ['gave', 'physics professor', None], ['a slight push', 'ball', None], ['crashing into', 'ball', 'his nose']] [['demonstrating', 'physics professor', None], ['suspending', 'physics professor', None], ['pulls', 'physics professor', None], ['back', 'ball', None], ['right in front of', 'ball', None], ['lets go', 'ball', None], ['supposed', 'physics professor', None], ['swing away from', 'physics professor', None], ['back', 'ball', 'physics professor'], ['stopping', 'ball', None], ['in front of', 'his nose', None], ['gave', 'physics professor', None], ['a slight push', 'ball', None], ['crashing into', 'ball', 'his nose']]
+Event_score 7.15282816439867
+KG_score: 2.8890269402973354
+$$$$: {'Entity': ['ice cubes', 'The drinks', 'the other', 'one', 'poison'], 'Relation': [['Entity_att', 'poisoned', 'ice cubes'], ['Event_att', 'slowly', 'drink'], ['EventCause', 'drink', 'melt'], ['Event_att', 'quickly', 'drink'], ['EventCause', 'drink', "doesn't get much of"]], 'Event': [['contain', 'The drinks', None], ['drink', 'one', None], ['melt', 'ice cubes', None], ['drink', 'the other', None], ["doesn't get much of", None, 'the other']]}
+Entity_score 2.0917835235595703
+**************relation_score*********************
+Relation_score -0.5905214250087738
+**************event_score*********************
+[['contain', 'The drinks', None], ['drink', 'one', None], ['melt', 'ice cubes', None], ['drink', 'the other', None], ["doesn't get much of", None, 'the other']] [['contain', 'The drinks', None], ['drink', 'one', None], ['melt', 'ice cubes', None], ['drink', 'the other', None], ["doesn't get much of", None, 'the other']]
+Event_score 2.4605629816651344
+KG_score: 1.3074022764712572
+$$$$: {'Entity': ['man', 'gun', 'bartender', 'hiccups'], 'Relation': [['EventCause', 'pulling', 'scares them away']], 'Event': [['has', 'man', None], ['scares them away', 'bartender', 'hiccups'], ['pulling', 'bartender', None]]}
+Entity_score 1.712259978055954
+**************relation_score*********************
+Relation_score -0.11858734488487244
+**************event_score*********************
+[['has', 'man', None], ['scares them away', 'bartender', 'hiccups'], ['pulling', 'bartender', None]] [['has', 'man', None], ['scares them away', 'bartender', 'hiccups'], ['pulling', 'bartender', None]]
+Event_score 1.341762699186802
+KG_score: 0.9686936596781016
+$$$$: {'Entity': ['A black', 'bathroom', 'a nail file', 'the other', 'laundry hamper', 'Both women', 'the other woman', 'one', 'KKK', 'a bloodstained KKK robe'], 'Relation': [['Entity_att', 'white', 'Both women'], ['Entity_att', 'single', 'one'], ['EntityEqual', 'the other woman', 'one'], ['Entity_att', 'who goes into the bathroom', 'one'], ['Entity_att', "other's", 'laundry hamper'], ['Entity_att', "other's", 'one'], ['EntityEqual', 'the other', 'one']], 'Event': [['friend of', 'A black', 'the other woman'], ['killed', 'A black', None], ['discovers', 'one', None], ['in', 'a bloodstained KKK robe', None], ['picks', 'one', None], ['goes out', 'one', None], ['kills', None, 'one']]}
+Entity_score 4.376137137413025
+**************relation_score*********************
+Relation_score -0.17541201785206795
+**************event_score*********************
+[['friend of', 'A black', 'the other woman'], ['killed', 'A black', None], ['discovers', 'one', None], ['in', 'a bloodstained KKK robe', None], ['picks', 'one', None], ['goes out', 'one', None], ['kills', None, 'one']] [['friend of', 'A black', 'the other woman'], ['killed', 'A black', None], ['discovers', 'one', None], ['in', 'a bloodstained KKK robe', None], ['picks', 'one', None], ['goes out', 'one', None], ['kills', None, 'one']]
+Event_score 3.4268441051244736
+KG_score: 2.517097844146192
+$$$$: {'Entity': ['He', 'coat', 'telephone', 'the white robes', 'man'], 'Relation': [['Entity_att', 'black', 'man'], ['Event_att', 'at the nearest house', 'invited'], ['EventTemporal', 'invited', 'hang'], ['NC2Event', 'notices', 'in the closet'], ['Entity_att', 'the Ku Klux Klan', 'the white robes']], 'Event': [['has car trouble', 'man', None], ['in need of', 'man', None], ['invited', None, None], ['hang', None, None], ['notices', 'He', None], ['in the closet', None, None]]}
+Entity_score 2.1332854628562927
+**************relation_score*********************
+Relation_score -0.41346895694732666
+**************event_score*********************
+[['has car trouble', 'man', None], ['in need of', 'man', None], ['invited', None, None], ['hang', None, None], ['notices', 'He', None], ['in the closet', None, None]] [['has car trouble', 'man', None], ['in need of', 'man', None], ['invited', None, None], ['hang', None, None], ['notices', 'He', None], ['in the closet', None, None]]
+Event_score 2.939800798892975
+KG_score: 1.5376737105846405
+$$$$: {'Entity': ['Beulah', 'Craig', 'hurricanes'], 'Relation': [['EntityEqual', 'Craig', 'hurricanes'], ['EntityEqual', 'Beulah', 'hurricanes']], 'Event': []}
+Entity_score 1.3041674494743347
+**************relation_score*********************
+Relation_score -0.1351093053817749
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.38578918755054475
+$$$$: {'Entity': ['He', 'bird', 'airplane', 'engine', 'passenger'], 'Relation': [['EntityEqual', 'passenger', 'He'], ['Event_att', 'at 20,000 feet', 'sucked into'], ['EntityPartof', 'engine', 'airplane']], 'Event': [['sees', 'He', None], ['sucked into', 'bird', None], ['in', 'passenger', 'airplane']]}
+Entity_score 2.0523099303245544
+**************relation_score*********************
+Relation_score 0.006429100409150124
+**************event_score*********************
+[['sees', 'He', None], ['sucked into', 'bird', None], ['in', 'passenger', 'airplane']] [['sees', 'He', None], ['sucked into', 'bird', None], ['in', 'passenger', 'airplane']]
+Event_score 1.4398568719625473
+KG_score: 1.1545366478897632
+$$$$: {'Entity': ['man', 'He', 'pepper', 'breakfast'], 'Relation': [['Event_att', 'in the mountains', 'camping'], ['EntityEqual', 'He', 'man'], ['Event_att', 'on his food', 'puts'], ['EventCause', 'makes', 'sneeze'], ['Event_att', 'loudly', 'sneeze'], ['EventCause', 'sneeze', 'avalanche'], ['EventCause', 'avalanche', 'kills']], 'Event': [['camping', 'man', None], ['makes', 'He', None], ['puts', None, 'He'], ['makes', 'pepper', None], ['sneeze', 'He', None], ['avalanche', None, None], ['kills', 'He', None]]}
+Entity_score 1.657536119222641
+**************relation_score*********************
+Relation_score -0.7219874877482653
+**************event_score*********************
+[['camping', 'man', None], ['makes', 'He', None], ['puts', None, 'He'], ['makes', 'pepper', None], ['sneeze', 'He', None], ['avalanche', None, None], ['kills', 'He', None]] [['camping', 'man', None], ['makes', 'He', None], ['puts', None, 'He'], ['makes', 'pepper', None], ['sneeze', 'He', None], ['avalanche', None, None], ['kills', 'He', None]]
+Event_score 3.2595188692212105
+KG_score: 1.3843722752295435
+$$$$: {'Entity': ['gun', 'He'], 'Relation': [['EventCause', 'fired', 'avalanche']], 'Event': [['fired', 'He', None], ['avalanche', None, None]]}
+Entity_score 0.813882052898407
+**************relation_score*********************
+Relation_score -0.09257426112890244
+**************event_score*********************
+[['fired', 'He', None], ['avalanche', None, None]] [['fired', 'He', None], ['avalanche', None, None]]
+Event_score 0.9836534410715103
+KG_score: 0.5626372068375349
+$$$$: {'Entity': ['They'], 'Relation': [['Entity_att', 'guilty', 'They'], ['Event_att', 'according to the law', 'found innocent'], ['EventCause', 'proved', 'found innocent']], 'Event': [['proved', 'They', None], ['found innocent', 'They', None]]}
+Entity_score 0.38203269243240356
+**************relation_score*********************
+Relation_score -0.1649795025587082
+**************event_score*********************
+[['proved', 'They', None], ['found innocent', 'They', None]] [['proved', 'They', None], ['found innocent', 'They', None]]
+Event_score 1.0689370334148407
+KG_score: 0.4243767736852169
+$$$$: {'Entity': ["the woman's large mirror", 'her clothing', 'hot sun', 'book', 'her doors', 'Nobody', 'lingerie', 'She'], 'Relation': [['EventCause', 'reflected from', 'heated'], ['Entity_att', 'she was wearing', 'lingerie'], ['EntityEqual', 'her clothing', 'lingerie'], ['NC2Event', "didn't notice", 'afire'], ['Event_att', 'from the inside', 'locked'], ['EventCause', 'locked', 'get to her to help']], 'Event': [['reflected from', 'hot sun', None], ['heated', None, None], ['absorbed in', 'She', None], ["didn't notice", 'She', None], ['afire', None, None], ['locked', 'her doors', None], ['get to her to help', None, None]]}
+Entity_score 3.4583416879177094
+**************relation_score*********************
+Relation_score -0.34278611093759537
+**************event_score*********************
+[['reflected from', 'hot sun', None], ['heated', None, None], ['absorbed in', 'She', None], ["didn't notice", 'She', None], ['afire', None, None], ['locked', 'her doors', None], ['get to her to help', None, None]] [['reflected from', 'hot sun', None], ['heated', None, None], ['absorbed in', 'She', None], ["didn't notice", 'She', None], ['afire', None, None], ['locked', 'her doors', None], ['get to her to help', None, None]]
+Event_score 3.532480090856552
+KG_score: 2.1938517703861
+$$$$: {'Entity': ['He', 'himself', 'landmarks', 'slips of paper', 'man', 'he', 'cactus'], 'Relation': [['Event_att', 'in the desert', 'lost'], ['Event_att', 'for days', 'lost'], ['EntityEqual', 'man', 'He'], ['Event_att', 'to cactuses', 'sticking'], ['EventCause', "couldn't find", 'sticking'], ['Entity_att', 'had a slip of paper', 'cactus'], ['Entity_att', 'no water left', 'he'], ['EntityEqual', 'he', 'man'], ['EntityEqual', 'he', 'He'], ['EventSameTime', 'another day of walking', 'came across'], ['Event_att', 'in circles', 'walking'], ['NC2Event', 'knew', 'walking'], ['EventCause', 'thirst', 'wait to die'], ['EventCause', 'wait to die', 'shot'], ['EntityEqual', 'himself', 'he']], 'Event': [['lost', 'man', None], ["couldn't find", 'He', None], ['sticking', 'He', None], ['another day of walking', None, None], ['came across', None, None], ['walking', None, None], ['knew', 'he', None], ['wait to die', 'he', None], ['thirst', None, None], ['shot', 'he', None]]}
+Entity_score 2.903556674718857
+**************relation_score*********************
+Relation_score -0.5797598976641893
+**************event_score*********************
+[['lost', 'man', None], ["couldn't find", 'He', None], ['sticking', 'He', None], ['another day of walking', None, None], ['came across', None, None], ['walking', None, None], ['knew', 'he', None], ['wait to die', 'he', None], ['thirst', None, None], ['shot', 'he', None]] [['lost', 'man', None], ["couldn't find", 'He', None], ['sticking', 'He', None], ['another day of walking', None, None], ['came across', None, None], ['walking', None, None], ['knew', 'he', None], ['wait to die', 'he', None], ['thirst', None, None], ['shot', 'he', None]]
+Event_score 4.911135919392109
+KG_score: 2.3875277898274363
+$$$$: {'Entity': ['loser', 'who', 'water', 'You', 'diver', 'they', 'winner', 'a window of a sunken submarine', 'bullet', 'room', 'gun', 'two men'], 'Relation': [['EntityEqual', 'diver', 'You'], ['Entity_att', 'in a sinking vessel', 'two men'], ['Entity_att', 'only one bullet', 'gun'], ['EventCause', 'played cards', 'get'], ['EntityPartof', 'who', 'they'], ['EventSameTime', 'filled up with', 'drowned']], 'Event': [['going past', 'diver', None], ['had', 'they', None], ['Neither wanted to drown', 'they', None], ['played cards', 'they', None], ['get', None, None], ['shot', 'loser', None], ['drowned', 'loser', None], ['filled up with', None, None]]}
+Entity_score 5.058315485715866
+**************relation_score*********************
+Relation_score -0.2780931144952774
+**************event_score*********************
+[['going past', 'diver', None], ['had', 'they', None], ['Neither wanted to drown', 'they', None], ['played cards', 'they', None], ['get', None, None], ['shot', 'loser', None], ['drowned', 'loser', None], ['filled up with', None, None]] [['going past', 'diver', None], ['had', 'they', None], ['Neither wanted to drown', 'they', None], ['played cards', 'they', None], ['get', None, None], ['shot', 'loser', None], ['drowned', 'loser', None], ['filled up with', None, None]]
+Event_score 4.074977062642574
+KG_score: 2.922215813174844
+$$$$: {'Entity': ['a melted snowman', 'They'], 'Relation': [], 'Event': [['remains of', 'They', None]]}
+Entity_score 0.8356930315494537
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[['remains of', 'They', None]] [['remains of', 'They', None]]
+Event_score 0.5388015955686569
+KG_score: 0.45358322694897657
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': ['He', 'hospital', 'his wife', 'power', 'the life-support systems'], 'Relation': [['EventTemporal', 'visiting', 'leaving'], ['NC2Event', 'knows', "can't live"], ['EventCause', 'without', "can't live"]], 'Event': [['leaving', 'He', None], ['visiting', 'He', None], ['on heavy life-support', 'his wife', None], ['goes out', 'power', None], ['knows', 'He', None], ["can't live", 'his wife', None], ['without', None, None]]}
+Entity_score 2.1261323392391205
+**************relation_score*********************
+Relation_score -0.23377465456724167
+**************event_score*********************
+[['leaving', 'He', None], ['visiting', 'He', None], ['on heavy life-support', 'his wife', None], ['goes out', 'power', None], ['knows', 'He', None], ["can't live", 'his wife', None], ['without', None, None]] [['leaving', 'He', None], ['visiting', 'He', None], ['on heavy life-support', 'his wife', None], ['goes out', 'power', None], ['knows', 'He', None], ["can't live", 'his wife', None], ['without', None, None]]
+Event_score 3.683144688606262
+KG_score: 1.8399157831817867
+$$$$: {'Entity': ['loot', 'He', 'the pseudonym of his accomplice', "the murderer's berth number, 11", 'the conductor who guards the cargo', 'safe', 'accomplice', 'one word', 'a safe full of jewelry', 'Schmidt', 'victim', 'his share'], 'Relation': [['Entity_att', 'on the train', 'a safe full of jewelry'], ['EntityEqual', 'He', 'the conductor who guards the cargo'], ['EntityEqual', 'the conductor who guards the cargo', 'Schmidt'], ['EntityEqual', 'Schmidt', 'victim'], ['EntityEqual', 'safe', 'a safe full of jewelry'], ['NC2Event', 'made', 'travel'], ['Event_att', 'on the train', 'travel'], ['Entity_att', 'under a false name', 'accomplice'], ['EntityEqual', 'loot', 'a safe full of jewelry'], ['EventCause', 'travel', 'remove'], ['EventCause', 'keep', 'kill'], ['Entity_att', 'in his native German language', 'one word']], 'Event': [['robbed', 'He', None], ['made', 'victim', None], ['travel', 'accomplice', None], ['remove', None, None], ['kill', 'accomplice', 'Schmidt'], ['keep', None, 'accomplice'], ['did not know', None, 'Schmidt'], ['wrote down', None, 'Schmidt'], ['spelled the number into', None, 'Schmidt']]}
+Entity_score 5.236979693174362
+**************relation_score*********************
+Relation_score -0.8128314986824989
+**************event_score*********************
+[['robbed', 'He', None], ['made', 'victim', None], ['travel', 'accomplice', None], ['remove', None, None], ['kill', 'accomplice', 'Schmidt'], ['keep', None, 'accomplice'], ['did not know', None, 'Schmidt'], ['wrote down', None, 'Schmidt'], ['spelled the number into', None, 'Schmidt']] [['robbed', 'He', None], ['made', 'victim', None], ['travel', 'accomplice', None], ['remove', None, None], ['kill', 'accomplice', 'Schmidt'], ['keep', None, 'accomplice'], ['did not know', None, 'Schmidt'], ['wrote down', None, 'Schmidt'], ['spelled the number into', None, 'Schmidt']]
+Event_score 4.5197557136416435
+KG_score: 2.951488289684057
+$$$$: {'Entity': ['his throat', 'a sword swallower', 'someone', 'man', 'he'], 'Relation': [['Entity_att', 'in a carnival side-show', 'a sword swallower'], ['EntityEqual', 'a sword swallower', 'man'], ['EntityEqual', 'he', 'man'], ['EventSameTime', 'practicing', 'tickled'], ['Event_att', 'with the feather', 'tickled'], ['EventCause', 'tickled', 'gag']], 'Event': [['practicing', 'he', None], ['tickled', 'someone', None], ['gag', 'he', None]]}
+Entity_score 2.106616795063019
+**************relation_score*********************
+Relation_score -0.4942524377256632
+**************event_score*********************
+[['practicing', 'he', None], ['tickled', 'someone', None], ['gag', 'he', None]] [['practicing', 'he', None], ['tickled', 'someone', None], ['gag', 'he', None]]
+Event_score 1.58855389803648
+KG_score: 1.0563030242733658
+$$$$: {'Entity': ['The other one', 'the fire extinguishers', 'One of the men ran', 'a carbon dioxide gas fire extinguisher system', 'a small room', 'two men', 'fire'], 'Relation': [['Event_att', 'in an adjoining room', 'broke out'], ['EventSameTime', 'broke out', 'working in'], ['Event_att', 'with only minor burns', 'escaped'], ['EventCause', 'oxygen starvation', 'died'], ['EventSameTime', 'stayed in', 'kicked in']], 'Event': [['working in', 'two men', None], ['protected by', 'two men', None], ['broke out', None, None], ['through', 'One of the men ran', 'fire'], ['escaped', 'One of the men ran', 'fire'], ['stayed in', 'The other one', 'a small room'], ['kicked in', 'the fire extinguishers', 'fire'], ['died', 'The other one', None], ['oxygen starvation', None, None]]}
+Entity_score 3.149251103401184
+**************relation_score*********************
+Relation_score -0.42070408910512924
+**************event_score*********************
+[['working in', 'two men', None], ['protected by', 'two men', None], ['broke out', None, None], ['through', 'One of the men ran', 'fire'], ['escaped', 'One of the men ran', 'fire'], ['stayed in', 'The other one', 'a small room'], ['kicked in', 'the fire extinguishers', 'fire'], ['died', 'The other one', None], ['oxygen starvation', None, None]] [['working in', 'two men', None], ['protected by', 'two men', None], ['broke out', None, None], ['through', 'One of the men ran', 'fire'], ['escaped', 'One of the men ran', 'fire'], ['stayed in', 'The other one', 'a small room'], ['kicked in', 'the fire extinguishers', 'fire'], ['died', 'The other one', None], ['oxygen starvation', None, None]]
+Event_score 4.072648487985134
+KG_score: 2.2443945157527923
+$$$$: {'Entity': ['no fuel', 'an area', 'fire', 'the four'], 'Relation': [['Event_att', 'by starting a new fire on the other side of them', 'are able to "back burn"'], ['Event_att', 'on the burnt patch', 'can safely stand'], ['EventTemporal', 'burnt off', 'can safely stand'], ['EventCause', 'burnt off', 'the grass fire']], 'Event': [['slow moving', 'fire', None], ['are able to "back burn"', 'the four', None], ['burnt off', 'an area', None], ['can safely stand', 'the four', None], ['the grass fire', 'no fuel', None]]}
+Entity_score 1.764831155538559
+**************relation_score*********************
+Relation_score -0.262774258852005
+**************event_score*********************
+[['slow moving', 'fire', None], ['are able to "back burn"', 'the four', None], ['burnt off', 'an area', None], ['can safely stand', 'the four', None], ['the grass fire', 'no fuel', None]] [['slow moving', 'fire', None], ['are able to "back burn"', 'the four', None], ['burnt off', 'an area', None], ['can safely stand', 'the four', None], ['the grass fire', 'no fuel', None]]
+Event_score 2.81040857732296
+KG_score: 1.4231136064231396
+$$$$: {'Entity': ['man', 'lions', 'his lions', 'a lion-tamer'], 'Relation': [['EntityEqual', 'a lion-tamer', 'man'], ['EntityEqual', 'lions', 'his lions'], ['Event_att', 'properly', "can't see"], ['EventCause', 'the flash of the camera', 'react badly'], ['EventCause', 'the flash of the camera', "can't see"], ['EventCause', "can't see", 'gets mauled']], 'Event': [['posing for a photo', 'man', None], ['react badly', 'lions', None], ["can't see", 'man', None], ['gets mauled', 'man', None], ['the flash of the camera', None, None]]}
+Entity_score 1.7408742010593414
+**************relation_score*********************
+Relation_score -0.20701895747333765
+**************event_score*********************
+[['posing for a photo', 'man', None], ['react badly', 'lions', None], ["can't see", 'man', None], ['gets mauled', 'man', None], ['the flash of the camera', None, None]] [['posing for a photo', 'man', None], ['react badly', 'lions', None], ["can't see", 'man', None], ['gets mauled', 'man', None], ['the flash of the camera', None, None]]
+Event_score 2.6686131432652473
+KG_score: 1.3868145676609132
+$$$$: {'Entity': ['lion-tamer', 'He'], 'Relation': [['EntityEqual', 'lion-tamer', 'He']], 'Event': []}
+Entity_score 0.8460318148136139
+**************relation_score*********************
+Relation_score -0.1181623712182045
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.24019691638648513
+$$$$: {'Entity': ['man', 'the flicker of the lights', 'a pardon', 'person'], 'Relation': [['NC2Event', 'indicates', 'electrocuted'], ['Entity_att', 'be pardoned', 'person'], ['EntityEqual', 'person', 'man']], 'Event': [['delivering', 'man', None], ['indicates', 'the flicker of the lights', None], ['electrocuted', 'person', None]]}
+Entity_score 1.720967024564743
+**************relation_score*********************
+Relation_score 0.02828044816851616
+**************event_score*********************
+[['delivering', 'man', None], ['indicates', 'the flicker of the lights', None], ['electrocuted', 'person', None]] [['delivering', 'man', None], ['indicates', 'the flicker of the lights', None], ['electrocuted', 'person', None]]
+Event_score 1.5540880858898163
+KG_score: 1.090100734345615
+$$$$: {'Entity': ['Mrs. Browning', 'Mr. Browning', 'herself', 'depression', 'gas', 'Mr. and Mrs. Browning', 'They', 'house', 'garage', 'car'], 'Relation': [['Event_att', 'after they were married', 'had their first fight'], ['EntityEqual', 'They', 'Mr. and Mrs. Browning'], ['EventTemporal', 'went into', 'started up'], ['NC2Event', 'intending', 'kill'], ['EntityEqual', 'herself', 'Mrs. Browning'], ['EventCause', 'filling the garage with car exhaust', 'kill'], ['Event_att', 'quickly', 'ran out of'], ['NC2Event', 'stop', 'this accident'], ['EventEqual', 'this accident', 'kill']], 'Event': [['gotten married', 'Mr. and Mrs. Browning', None], ['subject to fits of', 'Mrs. Browning', None], ['had their first fight', 'They', None], ['stormed out of', 'Mr. Browning', None], ['went into', 'Mrs. Browning', None], ['started up', 'Mrs. Browning', None], ['intending', 'Mrs. Browning', None], ['kill', 'Mrs. Browning', None], ['filling the garage with car exhaust', None, None], ['ran out of', 'car', None], ['returning home', 'Mr. Browning', None], ['find', 'Mrs. Browning', None], ['stop', 'Mr. Browning', None], ['this accident', None, None]]}
+Entity_score 4.159523189067841
+**************relation_score*********************
+Relation_score -0.6106953248381615
+**************event_score*********************
+[['gotten married', 'Mr. and Mrs. Browning', None], ['subject to fits of', 'Mrs. Browning', None], ['had their first fight', 'They', None], ['stormed out of', 'Mr. Browning', None], ['went into', 'Mrs. Browning', None], ['started up', 'Mrs. Browning', None], ['intending', 'Mrs. Browning', None], ['kill', 'Mrs. Browning', None], ['filling the garage with car exhaust', None, None], ['ran out of', 'car', None], ['returning home', 'Mr. Browning', None], ['find', 'Mrs. Browning', None], ['stop', 'Mr. Browning', None], ['this accident', None, None]] [['gotten married', 'Mr. and Mrs. Browning', None], ['subject to fits of', 'Mrs. Browning', None], ['had their first fight', 'They', None], ['stormed out of', 'Mr. Browning', None], ['went into', 'Mrs. Browning', None], ['started up', 'Mrs. Browning', None], ['intending', 'Mrs. Browning', None], ['kill', 'Mrs. Browning', None], ['filling the garage with car exhaust', None, None], ['ran out of', 'car', None], ['returning home', 'Mr. Browning', None], ['find', 'Mrs. Browning', None], ['stop', 'Mr. Browning', None], ['this accident', None, None]]
+Event_score 7.540350049734116
+KG_score: 3.6594287116080526
+$$$$: {'Entity': ['a grenade', 'The second man', 'he', 'the first man'], 'Relation': [['EntityEqual', 'he', 'the first man'], ['Event_att', 'a grenade pin', 'gives'], ['EventTemporal', 'pulled from', 'gives'], ['EventTemporal', 'gives', 'dies'], ['EventTemporal', 'dies', 'explodes'], ['EventCause', 'explodes', 'dies']], 'Event': [['shot', 'The second man', None], ['dies', 'he', None], ['gives', 'the first man', 'The second man'], ['pulled from', 'the first man', None], ['dies', 'the first man', None], ['explodes', 'a grenade', None], ['dies', 'The second man', None]]}
+Entity_score 1.7483875453472137
+**************relation_score*********************
+Relation_score -0.6372432932257652
+**************event_score*********************
+[['shot', 'The second man', None], ['dies', 'he', None], ['gives', 'the first man', 'The second man'], ['pulled from', 'the first man', None], ['dies', 'the first man', None], ['explodes', 'a grenade', None], ['dies', 'The second man', None]] [['shot', 'The second man', None], ['dies', 'he', None], ['gives', 'the first man', 'The second man'], ['pulled from', 'the first man', None], ['dies', 'the first man', None], ['explodes', 'a grenade', None], ['dies', 'The second man', None]]
+Event_score 3.1389841213822365
+KG_score: 1.4025423632562162
+$$$$: {'Entity': ['air', 'wreck', 'ocean liner', 'room', 'man'], 'Relation': [['Event_att', 'some time ago', 'sank'], ['EntityEqual', 'wreck', 'ocean liner'], ['EventSameTime', 'diving in', 'ran out of']], 'Event': [['the ballroom of', 'room', None], ['sank', 'ocean liner', None], ['ran out of', 'man', None], ['diving in', None, None]]}
+Entity_score 2.067915767431259
+**************relation_score*********************
+Relation_score -0.28856732696294785
+**************event_score*********************
+[['the ballroom of', 'room', None], ['sank', 'ocean liner', None], ['ran out of', 'man', None], ['diving in', None, None]] [['the ballroom of', 'room', None], ['sank', 'ocean liner', None], ['ran out of', 'man', None], ['diving in', None, None]]
+Event_score 2.050221621990204
+KG_score: 1.26375812061131
+$$$$: {'Entity': ['man', 'rays', 'manta rays'], 'Relation': [['EntityEqual', 'manta rays', 'rays']], 'Event': [['kill', 'rays', None]]}
+Entity_score 1.3094344735145569
+**************relation_score*********************
+Relation_score 0.13334574364125729
+**************event_score*********************
+[['kill', 'rays', None]] [['kill', 'rays', None]]
+Event_score 0.537780337035656
+KG_score: 0.6535849828831852
+$$$$: {'Entity': ['buttons', 'all floors', 'Elevators', 'gloves', 'the right button', 'the button on the tenth floor', 'all the buttons', 'his ungloved hand', 'his gloved hand', 'man', 'the tenth floor', 'he', 'blind'], 'Relation': [['EntityEqual', 'blind', 'man'], ['EventCause', 'use', 'work electrically'], ['Entity_att', 'through the skin', 'buttons'], ['Event_att', 'at the slightest touch', 'activated'], ['NC2Event', 'making', 'run'], ['EventCause', 'activated', 'making'], ['Event_att', 'on his first day', 'got into'], ['EventSameTime', 'wearing', 'got into'], ['EventCause', 'make', 'work'], ['EventCause', 'remove', 'make'], ['EntityEqual', 'he', 'man'], ['EventCause', 'stroking', 'found'], ['EventCause', 'activated', 'stopped on'], ['EventCause', 'stopped on', 'carried'], ['EventSameTime', 'entered', 'put it on'], ['EventTemporal', 'put it on', 'found'], ['EventTemporal', 'found', 'pressed']], 'Event': [['work electrically', 'Elevators', None], ['use', 'Elevators', None], ['activated', 'buttons', None], ['making', None, None], ['run', 'Elevators', None], ['got into', 'man', 'Elevators'], ['wearing', 'man', None], ['remove', 'gloves', 'man'], ['make', None, None], ['work', 'buttons', None], ['found', None, None], ['stroking', 'his ungloved hand', 'buttons'], ['activated', 'all the buttons', None], ['stopped on', 'Elevators', None], ['carried', 'he', 'gloves'], ['entered', 'he', 'Elevators'], ['put it on', 'he', 'gloves'], ['found', None, None], ['pressed', None, 'his ungloved hand']]}
+Entity_score 5.685877680778503
+**************relation_score*********************
+Relation_score -1.1533921230584383
+**************event_score*********************
+[['work electrically', 'Elevators', None], ['use', 'Elevators', None], ['activated', 'buttons', None], ['making', None, None], ['run', 'Elevators', None], ['got into', 'man', 'Elevators'], ['wearing', 'man', None], ['remove', 'gloves', 'man'], ['make', None, None], ['work', 'buttons', None], ['found', None, None], ['stroking', 'his ungloved hand', 'buttons'], ['activated', 'all the buttons', None], ['stopped on', 'Elevators', None], ['carried', 'he', 'gloves'], ['entered', 'he', 'Elevators'], ['put it on', 'he', 'gloves'], ['found', None, None], ['pressed', None, 'his ungloved hand']] [['work electrically', 'Elevators', None], ['use', 'Elevators', None], ['activated', 'buttons', None], ['making', None, None], ['run', 'Elevators', None], ['got into', 'man', 'Elevators'], ['wearing', 'man', None], ['remove', 'gloves', 'man'], ['make', None, None], ['work', 'buttons', None], ['found', None, None], ['stroking', 'his ungloved hand', 'buttons'], ['activated', 'all the buttons', None], ['stopped on', 'Elevators', None], ['carried', 'he', 'gloves'], ['entered', 'he', 'Elevators'], ['put it on', 'he', 'gloves'], ['found', None, None], ['pressed', None, 'his ungloved hand']]
+Event_score 8.583965444937348
+KG_score: 4.3284288308769465
+$$$$: {'Entity': ['mantelpiece', 'himself', 'wife', 'his ashes', 'urn', 'husband'], 'Relation': [['EntityEqual', 'himself', 'husband'], ['Event_att', 'a while ago', 'killed']], 'Event': [['killed', 'husband', None], ['in', 'his ashes', None], ['on', 'urn', None], ['looks at', 'wife', 'urn']]}
+Entity_score 2.5851319432258606
+**************relation_score*********************
+Relation_score -0.18262291699647903
+**************event_score*********************
+[['killed', 'husband', None], ['in', 'his ashes', None], ['on', 'urn', None], ['looks at', 'wife', 'urn']] [['killed', 'husband', None], ['in', 'his ashes', None], ['on', 'urn', None], ['looks at', 'wife', 'urn']]
+Event_score 1.936444416642189
+KG_score: 1.4318546361476185
+$$$$: {'Entity': ['blood typing', 'impostor', 'hemophiliac', 'blood', 'the true heir'], 'Relation': [['EventEqual', 'a blood test', 'test'], ['NC2Event', 'felt', 'worth to try'], ['Entity_att', "isn't very accurate", 'blood typing'], ['EntityEqual', 'hemophiliac', 'the true heir'], ['NC2Event', "couldn't give", 'for'], ['NC2Event', 'for', 'a blood test']], 'Event': [['test', None, None], ['a blood test', None, None], ['Knowing', None, None], ['felt', 'impostor', None], ['worth to try', None, None], ["couldn't give", None, None], ['for', None, None]]}
+Entity_score 2.216116428375244
+**************relation_score*********************
+Relation_score -0.5785812139511108
+**************event_score*********************
+[['test', None, None], ['a blood test', None, None], ['Knowing', None, None], ['felt', 'impostor', None], ['worth to try', None, None], ["couldn't give", None, None], ['for', None, None]] [['test', None, None], ['a blood test', None, None], ['Knowing', None, None], ['felt', 'impostor', None], ['worth to try', None, None], ["couldn't give", None, None], ['for', None, None]]
+Event_score 3.0450200960040092
+KG_score: 1.5452432524412871
+$$$$: {'Entity': ['some hot vapors / molten glass', 'his mouth and throat area', 'His old age', 'glassblower', 'hiccups', 'man', 'glass', 'shorter pipes'], 'Relation': [['EntityEqual', 'glassblower', 'man'], ['NC2Event', 'brought', 'decline'], ['Event_att', 'in his vision', 'decline'], ['EventCause', 'use', 'blow'], ['EventCause', 'decline', 'use'], ['EventCause', 'inhales', 'burns'], ['EventCause', 'gets', 'inhales']], 'Event': [['brought', 'His old age', None], ['decline', None, None], ['use', None, 'man'], ['blow', 'shorter pipes', None], ['gets', None, 'man'], ['inhales', 'man', None], ['burns', 'man', None]]}
+Entity_score 3.544102758169174
+**************relation_score*********************
+Relation_score -0.7157687470316887
+**************event_score*********************
+[['brought', 'His old age', None], ['decline', None, None], ['use', None, 'man'], ['blow', 'shorter pipes', None], ['gets', None, 'man'], ['inhales', 'man', None], ['burns', 'man', None]] [['brought', 'His old age', None], ['decline', None, None], ['use', None, 'man'], ['blow', 'shorter pipes', None], ['gets', None, 'man'], ['inhales', 'man', None], ['burns', 'man', None]]
+Event_score 3.583195023238659
+KG_score: 2.1158045813441273
+$$$$: {'Entity': ['man', 'object', 'the roof of the Empire State Building'], 'Relation': [], 'Event': [['struck by', 'man', None], ['thrown from', 'object', None]]}
+Entity_score 1.2405200600624084
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[['struck by', 'man', None], ['thrown from', 'object', None]] [['struck by', 'man', None], ['thrown from', 'object', None]]
+Event_score 1.0759658813476562
+KG_score: 0.7644403606653214
+$$$$: {'Entity': ['man', 'a paleontologist working', 'a triceratops frozen'], 'Relation': [['Entity_att', 'with the Archaeological Research Institute', 'a paleontologist working'], ['EntityEqual', 'a paleontologist working', 'man'], ['Event_att', 'in the ice age', 'reviving'], ['EventCause', 'reviving', 'came to life'], ['EventCause', 'came to life', 'killed']], 'Event': [['reviving', None, 'man'], ['came to life', 'a triceratops frozen', None], ['killed', 'man', 'a triceratops frozen']]}
+Entity_score 1.3354506492614746
+**************relation_score*********************
+Relation_score -0.3505936563014984
+**************event_score*********************
+[['reviving', None, 'man'], ['came to life', 'a triceratops frozen', None], ['killed', 'man', 'a triceratops frozen']] [['reviving', None, 'man'], ['came to life', 'a triceratops frozen', None], ['killed', 'man', 'a triceratops frozen']]
+Event_score 1.383972242474556
+KG_score: 0.7817136476933957
+$$$$: {'Entity': ['His home', 'houseboat', 'he', 'water'], 'Relation': [['EntityEqual', 'houseboat', 'His home'], ['EventSameTime', 'on an extended cruise', 'run out of']], 'Event': [['run out of', 'he', None], ['on an extended cruise', None, None]]}
+Entity_score 1.7062612473964691
+**************relation_score*********************
+Relation_score -0.09833986312150955
+**************event_score*********************
+[['run out of', 'he', None], ['on an extended cruise', None, None]] [['run out of', 'he', None], ['on an extended cruise', None, None]]
+Event_score 0.9954563528299332
+KG_score: 0.8591146532446147
+$$$$: {'Entity': ['His home', 'houseboat', 'he', 'water'], 'Relation': [['EntityEqual', 'houseboat', 'His home'], ['EventSameTime', 'on an extended cruise', 'run out of']], 'Event': [['run out of', 'he', None], ['on an extended cruise', None, None]]}
+Entity_score 1.7062612473964691
+**************relation_score*********************
+Relation_score -0.09833986312150955
+**************event_score*********************
+[['run out of', 'he', None], ['on an extended cruise', None, None]] [['run out of', 'he', None], ['on an extended cruise', None, None]]
+Event_score 0.9954563528299332
+KG_score: 0.8591146532446147
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': ['He', 'cape', 'his arm'], 'Relation': [['NC2Event', 'disguise', 'fact'], ['Event_att', 'as required', "hasn't really cut off"], ['EventEqual', 'fact', "hasn't really cut off"]], 'Event': [['wearing', 'He', None], ['disguise', 'He', None], ['fact', None, None], ["hasn't really cut off", 'He', None]]}
+Entity_score 1.2497723400592804
+**************relation_score*********************
+Relation_score -0.25268810242414474
+**************event_score*********************
+[['wearing', 'He', None], ['disguise', 'He', None], ['fact', None, None], ["hasn't really cut off", 'He', None]] [['wearing', 'He', None], ['disguise', 'He', None], ['fact', None, None], ["hasn't really cut off", 'He', None]]
+Event_score 1.9849082380533218
+KG_score: 0.984057516977191
+$$$$: {'Entity': ['the different foreign embassies', 'He', 'packages', 'the country of the embassy', 'mail courier', 'The land of an embassy', 'the United States'], 'Relation': [['EntityEqual', 'mail courier', 'He']], 'Event': [['delivers', 'He', None], ['to', 'packages', None], ['belongs to', 'The land of an embassy', None], ['not to', 'The land of an embassy', 'the United States'], ['in', 'the different foreign embassies', 'the United States']]}
+Entity_score 3.054790824651718
+**************relation_score*********************
+Relation_score -0.04265239089727402
+**************event_score*********************
+[['delivers', 'He', None], ['to', 'packages', None], ['belongs to', 'The land of an embassy', None], ['not to', 'The land of an embassy', 'the United States'], ['in', 'the different foreign embassies', 'the United States']] [['delivers', 'He', None], ['to', 'packages', None], ['belongs to', 'The land of an embassy', None], ['not to', 'The land of an embassy', 'the United States'], ['in', 'the different foreign embassies', 'the United States']]
+Event_score 2.1483184173703194
+KG_score: 1.7029507608711718
+$$$$: {'Entity': ['snorer', 'He', 'the phone', 'hotel', 'the adjacent room', 'the room next door', 'man'], 'Relation': [['EventCause', 'snoring', 'unable to sleep'], ['EntityEqual', 'the adjacent room', 'the room next door'], ['EntityEqual', 'snorer', 'man'], ['Event_att', 'without saying anything', 'hangs up'], ['EventTemporal', 'hangs up', 'goes to sleep'], ['EventTemporal', 'gets back to sleep', 'starts snoring again'], ['EventTemporal', 'goes to sleep', 'starts snoring again']], 'Event': [['in', 'He', None], ['unable to sleep', 'He', None], ['in', 'man', None], ['snoring', 'man', None], ['calls', 'He', None], ['wakes up', None, None], ['answers', 'snorer', None], ['hangs up', 'He', None], ['goes to sleep', None, None], ['gets back to sleep', 'snorer', None], ['starts snoring again', 'snorer', None]]}
+Entity_score 3.0039851367473602
+**************relation_score*********************
+Relation_score -0.38224754482507706
+**************event_score*********************
+[['in', 'He', None], ['unable to sleep', 'He', None], ['in', 'man', None], ['snoring', 'man', None], ['calls', 'He', None], ['wakes up', None, None], ['answers', 'snorer', None], ['hangs up', 'He', None], ['goes to sleep', None, None], ['gets back to sleep', 'snorer', None], ['starts snoring again', 'snorer', None]] [['in', 'He', None], ['unable to sleep', 'He', None], ['in', 'man', None], ['snoring', 'man', None], ['calls', 'He', None], ['wakes up', None, None], ['answers', 'snorer', None], ['hangs up', 'He', None], ['goes to sleep', None, None], ['gets back to sleep', 'snorer', None], ['starts snoring again', 'snorer', None]]
+Event_score 5.548203594982624
+KG_score: 2.6960805916786197
+$$$$: {'Entity': ['man', 'neighbors'], 'Relation': [['EventCause', 'sleeping', 'snoring'], ['EventCause', 'snoring', 'affected'], ['Entity_att', 'in the next house', 'neighbors'], ['EventCause', 'called', 'interrupt'], ['NC2Event', 'interrupt', 'snoring'], ['EventCause', 'snoring', 'continue sleeping']], 'Event': [['sleeping', 'man', None], ['snoring', 'man', None], ['affected', None, None], ['called', 'neighbors', None], ['interrupt', None, None], ['snoring', 'man', None], ['continue sleeping', 'neighbors', None]]}
+Entity_score 0.7897345423698425
+**************relation_score*********************
+Relation_score -0.849722608923912
+**************event_score*********************
+[['sleeping', 'man', None], ['snoring', 'man', None], ['affected', None, None], ['called', 'neighbors', None], ['interrupt', None, None], ['snoring', 'man', None], ['continue sleeping', 'neighbors', None]] [['sleeping', 'man', None], ['snoring', 'man', None], ['affected', None, None], ['called', 'neighbors', None], ['interrupt', None, None], ['snoring', 'man', None], ['continue sleeping', 'neighbors', None]]
+Event_score 3.5198363289237022
+KG_score: 1.1417499265819788
+$$$$: {'Entity': ['confession', 'pharmacist', 'a signed statement', 'your wife', 'a cup of coffee', 'police', 'man', 'poison', 'antidote'], 'Relation': [['EventTemporal', 'gives', 'drink'], ['EventSameTime', 'waiting', 'gives'], ['NC2Event', 'says', 'in'], ['EventTemporal', 'drink', 'says'], ['EntityEqual', 'a signed statement', 'confession'], ['NC2Event', 'planning', 'kill'], ['EventCause', 'anything happens', 'give it to']], 'Event': [['gives', 'pharmacist', None], ['drink', 'man', None], ['waiting', 'man', None], ['says', 'pharmacist', None], ['in', None, 'a cup of coffee'], ["I'll give", 'pharmacist', None], ['write', 'man', None], ['planning', 'man', None], ['kill', None, 'man'], ['keep', 'pharmacist', None], ['anything happens', None, None], ['give it to', 'pharmacist', None]]}
+Entity_score 3.9358670115470886
+**************relation_score*********************
+Relation_score -0.3400320764631033
+**************event_score*********************
+[['gives', 'pharmacist', None], ['drink', 'man', None], ['waiting', 'man', None], ['says', 'pharmacist', None], ['in', None, 'a cup of coffee'], ["I'll give", 'pharmacist', None], ['write', 'man', None], ['planning', 'man', None], ['kill', None, 'man'], ['keep', 'pharmacist', None], ['anything happens', None, None], ['give it to', 'pharmacist', None]] [['gives', 'pharmacist', None], ['drink', 'man', None], ['waiting', 'man', None], ['says', 'pharmacist', None], ['in', None, 'a cup of coffee'], ["I'll give", 'pharmacist', None], ['write', 'man', None], ['planning', 'man', None], ['kill', None, 'man'], ['keep', 'pharmacist', None], ['anything happens', None, None], ['give it to', 'pharmacist', None]]
+Event_score 6.278323918581009
+KG_score: 3.258472421709448
+$$$$: {'Entity': ['Another guy', 'his foot', 'stone', 'a metal light pole', "the first man's arm", 'The young man', 'the second guy'], 'Relation': [['EventCause', 'shook', 'remove'], ['NC2Event', 'thought', 'electrified'], ['EntityEqual', 'the second guy', 'Another guy'], ['EventTemporal', 'rushed over', 'punched'], ['EventCause', 'electrified', 'punched'], ['Event_att', 'hard', 'punched']], 'Event': [['shook', 'The young man', None], ['remove', None, 'The young man'], ['leaned against', None, 'The young man'], ['came over', 'Another guy', None], ['thought', 'Another guy', None], ['electrified', 'The young man', None], ['rushed over', 'the second guy', None], ['punched', 'the second guy', None]]}
+Entity_score 3.110546499490738
+**************relation_score*********************
+Relation_score -0.30407685600221157
+**************event_score*********************
+[['shook', 'The young man', None], ['remove', None, 'The young man'], ['leaned against', None, 'The young man'], ['came over', 'Another guy', None], ['thought', 'Another guy', None], ['electrified', 'The young man', None], ['rushed over', 'the second guy', None], ['punched', 'the second guy', None]] [['shook', 'The young man', None], ['remove', None, 'The young man'], ['leaned against', None, 'The young man'], ['came over', 'Another guy', None], ['thought', 'Another guy', None], ['electrified', 'The young man', None], ['rushed over', 'the second guy', None], ['punched', 'the second guy', None]]
+Event_score 4.401257306337357
+KG_score: 2.3785498934425418
+$$$$: {'Entity': ['He', 'motorcycle'], 'Relation': [['EventCause', 'crashes', 'dies']], 'Event': [['riding', 'He', None], ['crashes', 'He', None], ['dies', 'He', None]]}
+Entity_score 0.8196253180503845
+**************relation_score*********************
+Relation_score -0.08841811865568161
+**************event_score*********************
+[['riding', 'He', None], ['crashes', 'He', None], ['dies', 'He', None]] [['riding', 'He', None], ['crashes', 'He', None], ['dies', 'He', None]]
+Event_score 1.5738748162984848
+KG_score: 0.760677065178752
+$$$$: {'Entity': ['He', 'icicle', 'himself'], 'Relation': [['EntityEqual', 'himself', 'He'], ['NC2Event', 'with', 'stabbed']], 'Event': [['stabbed', None, None], ['with', None, None]]}
+Entity_score 1.2195828557014465
+**************relation_score*********************
+Relation_score 0.1741389948874712
+**************event_score*********************
+[['stabbed', None, None], ['with', None, None]] [['stabbed', None, None], ['with', None, None]]
+Event_score 0.7937061786651611
+KG_score: 0.7218512496538461
+$$$$: {'Entity': ['a block of ice', 'He', 'himself'], 'Relation': [['EventTemporal', 'stood on', 'hang'], ['EntityEqual', 'himself', 'He']], 'Event': [['stood on', 'He', None], ['hang', 'He', None]]}
+Entity_score 1.2383081018924713
+**************relation_score*********************
+Relation_score 0.10282646305859089
+**************event_score*********************
+[['stood on', 'He', None], ['hang', 'He', None]] [['stood on', 'He', None], ['hang', 'He', None]]
+Event_score 1.0775752663612366
+KG_score: 0.7981742443330586
+$$$$: {'Entity': ['He', 'a block of dry ice', 'himself'], 'Relation': [['EventTemporal', 'stood on', 'hang']], 'Event': [['stood on', 'He', None], ['hang', 'He', None]]}
+Entity_score 1.237074851989746
+**************relation_score*********************
+Relation_score -0.12696769088506699
+**************event_score*********************
+[['stood on', 'He', None], ['hang', 'He', None]] [['stood on', 'He', None], ['hang', 'He', None]]
+Event_score 1.0775752663612366
+KG_score: 0.7219352010637522
+$$$$: {'Entity': ['a hotel bar', 'Mr. H', 'hypnotist', 'Mr. X', 'crime'], 'Relation': [['NC2Event', 'meets', 'in'], ['EntityEqual', 'hypnotist', 'Mr. X'], ['NC2Event', 'claims', "can't be hypnotized"], ['EventCause', 'hypnotizes', 'commit'], ['EventTemporal', 'has a heart attack', 'actually commits'], ['EventEqual', 'commit', 'commit'], ['EventTemporal', 'has a heart attack', 'punches'], ['EventCause', 'punches', 'stop'], ['NC2Event', 'stop', 'commit']], 'Event': [['meets', 'Mr. H', None], ['in', None, None], ['claims', 'Mr. H', None], ["can't be hypnotized", 'Mr. H', None], ['A heated discussion ensues', None, None], ['hypnotizes', 'Mr. X', 'Mr. H'], ['commit', 'Mr. H', None], ['actually commits', 'Mr. H', 'crime'], ['has a heart attack', 'Mr. X', None], ['punches', 'Mr. X', 'Mr. H'], ['stop', None, None], ['commit', 'Mr. H', None]]}
+Entity_score 2.25088369846344
+**************relation_score*********************
+Relation_score -0.21542850881814957
+**************event_score*********************
+[['meets', 'Mr. H', None], ['in', None, None], ['claims', 'Mr. H', None], ["can't be hypnotized", 'Mr. H', None], ['A heated discussion ensues', None, None], ['hypnotizes', 'Mr. X', 'Mr. H'], ['commit', 'Mr. H', None], ['actually commits', 'Mr. H', 'crime'], ['has a heart attack', 'Mr. X', None], ['punches', 'Mr. X', 'Mr. H'], ['stop', None, None], ['commit', 'Mr. H', None]] [['meets', 'Mr. H', None], ['in', None, None], ['claims', 'Mr. H', None], ["can't be hypnotized", 'Mr. H', None], ['A heated discussion ensues', None, None], ['hypnotizes', 'Mr. X', 'Mr. H'], ['commit', 'Mr. H', None], ['actually commits', 'Mr. H', 'crime'], ['has a heart attack', 'Mr. X', None], ['punches', 'Mr. X', 'Mr. H'], ['stop', None, None], ['commit', 'Mr. H', None]]
+Event_score 6.017348349094391
+KG_score: 2.657425167784095
+$$$$: {'Entity': ['pistol', 'He', 'another man', 'hypnotist', 'One', 'crime'], 'Relation': [['EntityEqual', 'hypnotist', 'One'], ['EntityEqual', 'He', 'One'], ['EventCause', 'hypnotizes', 'commit'], ['EventTemporal', 'stop commit', 'actually commits'], ['EventTemporal', 'draws', 'shoots']], 'Event': [['hypnotizes', 'He', None], ['commit', 'another man', None], ['actually commits', 'crime', 'another man'], ['stop commit', 'One', None], ['draws', 'One', None], ['shoots', 'One', 'another man']]}
+Entity_score 2.5340325832366943
+**************relation_score*********************
+Relation_score -0.030258627608418465
+**************event_score*********************
+[['hypnotizes', 'He', None], ['commit', 'another man', None], ['actually commits', 'crime', 'another man'], ['stop commit', 'One', None], ['draws', 'One', None], ['shoots', 'One', 'another man']] [['hypnotizes', 'He', None], ['commit', 'another man', None], ['actually commits', 'crime', 'another man'], ['stop commit', 'One', None], ['draws', 'One', None], ['shoots', 'One', 'another man']]
+Event_score 2.915397472679615
+KG_score: 1.7883265713416039
+$$$$: {'Entity': ['He', 'his wife', 'his show', 'record', 'a long record', 'a radio station', 'home'], 'Relation': [['NC2Event', 'worked', 'at'], ['NC2Event', 'decided', 'kill'], ['EventTemporal', 'put on', 'drove'], ['EventTemporal', 'drove', 'killed'], ['NC2Event', 'figuring', 'had'], ['NC2Event', 'had', 'a perfect alibi'], ['EventEqual', 'a perfect alibi', 'at work'], ['EventSameTime', 'On the way back', 'turns on'], ['NC2Event', 'discover', 'skipping'], ['EventTemporal', 'turns on', 'discover']], 'Event': [['worked', 'He', None], ['at', None, None], ['decided', 'He', None], ['kill', None, None], ['put on', 'He', None], ['drove', 'He', None], ['killed', 'He', 'his wife'], ['figuring', 'He', None], ['had', 'He', None], ['a perfect alibi', None, None], ['at work', 'He', None], ['On the way back', None, None], ['turns on', 'He', None], ['discover', 'He', None], ['skipping', 'record', None]]}
+Entity_score 3.0860646069049835
+**************relation_score*********************
+Relation_score -0.6651602014899254
+**************event_score*********************
+[['worked', 'He', None], ['at', None, None], ['decided', 'He', None], ['kill', None, None], ['put on', 'He', None], ['drove', 'He', None], ['killed', 'He', 'his wife'], ['figuring', 'He', None], ['had', 'He', None], ['a perfect alibi', None, None], ['at work', 'He', None], ['On the way back', None, None], ['turns on', 'He', None], ['discover', 'He', None], ['skipping', 'record', None]] [['worked', 'He', None], ['at', None, None], ['decided', 'He', None], ['kill', None, None], ['put on', 'He', None], ['drove', 'He', None], ['killed', 'He', 'his wife'], ['figuring', 'He', None], ['had', 'He', None], ['a perfect alibi', None, None], ['at work', 'He', None], ['On the way back', None, None], ['turns on', 'He', None], ['discover', 'He', None], ['skipping', 'record', None]]
+Event_score 7.4409371465444565
+KG_score: 3.25440771214664
+$$$$: {'Entity': ['He', 'DJ', 'tape', 'his wife', 'his show', 'a radio station', 'a long tape', 'home'], 'Relation': [['EntityEqual', 'DJ', 'He'], ['NC2Event', 'worked', 'at'], ['NC2Event', 'decided', 'kill'], ['EventTemporal', 'put on', 'quickly drove'], ['EventTemporal', 'quickly drove', 'killed'], ['NC2Event', 'figuring', 'had'], ['NC2Event', 'had', 'a perfect alibi'], ['EventEqual', 'a perfect alibi', 'at work'], ['EventSameTime', 'On the way back', 'turns on'], ['NC2Event', 'discover', 'breaking']], 'Event': [['worked', 'He', None], ['at', None, None], ['decided', 'He', None], ['kill', None, 'He'], ['put on', 'He', None], ['quickly drove', None, 'He'], ['killed', 'his wife', 'He'], ['figuring', 'He', None], ['had', 'He', None], ['a perfect alibi', None, None], ['at work', 'He', None], ['On the way back', None, None], ['turns on', None, 'He'], ['discover', 'He', None], ['breaking', None, None]]}
+Entity_score 3.47119602560997
+**************relation_score*********************
+Relation_score -0.4905443489551544
+**************event_score*********************
+[['worked', 'He', None], ['at', None, None], ['decided', 'He', None], ['kill', None, 'He'], ['put on', 'He', None], ['quickly drove', None, 'He'], ['killed', 'his wife', 'He'], ['figuring', 'He', None], ['had', 'He', None], ['a perfect alibi', None, None], ['at work', 'He', None], ['On the way back', None, None], ['turns on', None, 'He'], ['discover', 'He', None], ['breaking', None, None]] [['worked', 'He', None], ['at', None, None], ['decided', 'He', None], ['kill', None, 'He'], ['put on', 'He', None], ['quickly drove', None, 'He'], ['killed', 'his wife', 'He'], ['figuring', 'He', None], ['had', 'He', None], ['a perfect alibi', None, None], ['at work', 'He', None], ['On the way back', None, None], ['turns on', None, 'He'], ['discover', 'He', None], ['breaking', None, None]]
+Event_score 7.434778667986393
+KG_score: 3.4370920137315992
+$$$$: {'Entity': ["a man's voice", 'his wife', 'the number he needs to call', 'a radio show', 'man', 'the bedroom phone number', 'home'], 'Relation': [['Event_att', 'at this time', 'at'], ['EventCause', 'heard', 'cheating']], 'Event': [['listening', 'man', None], ['providing', 'man', None], ['as', 'the bedroom phone number', None], ['heard', None, 'man'], ['at', 'his wife', None], ['cheating', 'his wife', None]]}
+Entity_score 3.1026957631111145
+**************relation_score*********************
+Relation_score -0.0015561878681182861
+**************event_score*********************
+[['listening', 'man', None], ['providing', 'man', None], ['as', 'the bedroom phone number', None], ['heard', None, 'man'], ['at', 'his wife', None], ['cheating', 'his wife', None]] [['listening', 'man', None], ['providing', 'man', None], ['as', 'the bedroom phone number', None], ['heard', None, 'man'], ['at', 'his wife', None], ['cheating', 'his wife', None]]
+Event_score 3.1129027977585793
+KG_score: 2.05063398309052
+$$$$: {'Entity': ['He', 'the engagement ring', 'his arm', 'They', 'her', 'ring', 'She', 'engagement'], 'Relation': [['Event_att', 'from the plane', 'jumped'], ['Event_att', 'on the plane door', 'hitting'], ['EntityEqual', 'the engagement ring', 'ring'], ['EntityEqual', 'She', 'her']], 'Event': [['skydiving', None, None], ['broke', 'He', None], ['jumped', 'He', None], ['hitting', 'his arm', None], ['gave', 'He', None], ['calling off', None, None]]}
+Entity_score 3.2407356202602386
+**************relation_score*********************
+Relation_score 0.08062940835952759
+**************event_score*********************
+[['skydiving', None, None], ['broke', 'He', None], ['jumped', 'He', None], ['hitting', 'his arm', None], ['gave', 'He', None], ['calling off', None, None]] [['skydiving', None, None], ['broke', 'He', None], ['jumped', 'He', None], ['hitting', 'his arm', None], ['gave', 'He', None], ['calling off', None, None]]
+Event_score 2.984087683260441
+KG_score: 2.0807993949204686
+$$$$: {'Entity': ['a large snake', 'boat', 'river', 'passengers', 'deck'], 'Relation': [['Event_att', 'in India', 'moving along'], ['Entity_att', 'the other side of', 'boat'], ['EventCause', 'rushed to', 'overturning']], 'Event': [['moving along', 'boat', None], ['dropped onto', 'a large snake', None], ['rushed to', 'passengers', None], ['overturning', 'boat', None]]}
+Entity_score 2.139453411102295
+**************relation_score*********************
+Relation_score -0.2983578145503998
+**************event_score*********************
+[['moving along', 'boat', None], ['dropped onto', 'a large snake', None], ['rushed to', 'passengers', None], ['overturning', 'boat', None]] [['moving along', 'boat', None], ['dropped onto', 'a large snake', None], ['rushed to', 'passengers', None], ['overturning', 'boat', None]]
+Event_score 2.224198378622532
+KG_score: 1.341547011807561
+$$$$: {'Entity': ['woman', 'nun', 'men', 'bathroom', 'toilet seat', 'room'], 'Relation': [['EntityEqual', 'nun', 'woman'], ['EntityEqual', 'bathroom', 'room'], ['Entity_att', 'a women-only area', 'bathroom'], ['EventEqual', 'have come', 'been lift up']], 'Event': [['been lift up', 'toilet seat', None], ['have come', None, None]]}
+Entity_score 2.5372490286827087
+**************relation_score*********************
+Relation_score -0.2731169983744621
+**************event_score*********************
+[['been lift up', 'toilet seat', None], ['have come', None, None]] [['been lift up', 'toilet seat', None], ['have come', None, None]]
+Event_score 1.0202540904283524
+KG_score: 1.0838474198430776
+$$$$: {'Entity': ['his distance', 'the edge of the cliff', 'shore', "the buoy's anchor rope", 'buoy', 'the sound of a buoy', 'near a cliff', 'A blind man'], 'Relation': [['NC2Event', 'enjoys', 'walking'], ['EventCause', 'uses', 'gauge'], ['Entity_att', 'from the edge', 'his distance'], ['EntityEqual', "the buoy's anchor rope", 'the sound of a buoy'], ['EventCause', 'breaks', 'drift away from'], ['EventCause', 'drift away from', 'walks over']], 'Event': [['enjoys', 'A blind man', None], ['walking', None, 'A blind man'], ['uses', None, None], ['gauge', None, 'A blind man'], ['breaks', "the buoy's anchor rope", None], ['drift away from', 'buoy', None], ['walks over', None, 'A blind man']]}
+Entity_score 3.540173828601837
+**************relation_score*********************
+Relation_score -0.4199608564376831
+**************event_score*********************
+[['enjoys', 'A blind man', None], ['walking', None, 'A blind man'], ['uses', None, None], ['gauge', None, 'A blind man'], ['breaks', "the buoy's anchor rope", None], ['drift away from', 'buoy', None], ['walks over', None, 'A blind man']] [['enjoys', 'A blind man', None], ['walking', None, 'A blind man'], ['uses', None, None], ['gauge', None, 'A blind man'], ['breaks', "the buoy's anchor rope", None], ['drift away from', 'buoy', None], ['walks over', None, 'A blind man']]
+Event_score 3.7088180035352707
+KG_score: 2.25358022198081
+$$$$: {'Entity': ['alarm clock', 'The first bell', 'blind swimmer', 'buoy', 'him', 'he'], 'Relation': [['NC2Event', 'tell', 'go to shore'], ['EntityEqual', 'buoy', 'The first bell'], ['Event_att', 'mistakenly', 'swims'], ['EventCause', 'getting tired', 'drowning'], ['EventTemporal', 'drowning', 'goes off']], 'Event': [['sets', 'blind swimmer', None], ['tell', None, None], ['go to shore', None, None], ['swims', None, None], ['getting tired', None, None], ['drowning', None, None], ['goes off', 'alarm clock', None]]}
+Entity_score 2.6056432723999023
+**************relation_score*********************
+Relation_score -0.5601273104548454
+**************event_score*********************
+[['sets', 'blind swimmer', None], ['tell', None, None], ['go to shore', None, None], ['swims', None, None], ['getting tired', None, None], ['drowning', None, None], ['goes off', 'alarm clock', None]] [['sets', 'blind swimmer', None], ['tell', None, None], ['go to shore', None, None], ['swims', None, None], ['getting tired', None, None], ['drowning', None, None], ['goes off', 'alarm clock', None]]
+Event_score 3.295133538544178
+KG_score: 1.7624143351614476
+$$$$: {'Entity': ['island', 'wate', 'survivo', 'freshwate', "ship's bell", 'desert isle'], 'Relation': [['Entity_att', 'sole', 'survivo'], ['Entity_att', 'a shipwreck', 'survivo'], ['EntityEqual', 'island', 'desert isle'], ['Event_att', "spring's location", 'rigged'], ['Event_att', 'to water', 'directing'], ['Event_att', 'for a week,', 'becalmed'], ['EventCause', 'thirst', 'died']], 'Event': [['reached', 'survivo', None], ['blind', 'survivo', None], ['spring', 'freshwate', None], ['rigged', 'survivo', None], ['drifted', "ship's bell", None], ['rang', "ship's bell", None], ['directing', "ship's bell", 'survivo'], ['becalmed', 'survivo', None], ['could not find', 'survivo', None], ['died', 'survivo', None], ['thirst', None, None]]}
+Entity_score 2.686242938041687
+**************relation_score*********************
+Relation_score -0.5520958416163921
+**************event_score*********************
+[['reached', 'survivo', None], ['blind', 'survivo', None], ['spring', 'freshwate', None], ['rigged', 'survivo', None], ['drifted', "ship's bell", None], ['rang', "ship's bell", None], ['directing', "ship's bell", 'survivo'], ['becalmed', 'survivo', None], ['could not find', 'survivo', None], ['died', 'survivo', None], ['thirst', None, None]] [['reached', 'survivo', None], ['blind', 'survivo', None], ['spring', 'freshwate', None], ['rigged', 'survivo', None], ['drifted', "ship's bell", None], ['rang', "ship's bell", None], ['directing', "ship's bell", 'survivo'], ['becalmed', 'survivo', None], ['could not find', 'survivo', None], ['died', 'survivo', None], ['thirst', None, None]]
+Event_score 5.613596543669701
+KG_score: 2.5567554012313485
+$$$$: {'Entity': ['swimme', 'transistor radio', 'direction', 'batteries'], 'Relation': [['Entity_att', 'blind', 'swimme'], ['NC2Event', 'tell', 'kept'], ['Entity_att', 'on the beach', 'transistor radio'], ['Entity_att', 'portable', 'transistor radio'], ['EventCause', 'tell', 'go to shore'], ['EventTemporal', 'got lost', 'drowned']], 'Event': [['kept', None, None], ['tell', None, None], ['gave out,', 'batteries', None], ['go to shore', None, None], ['got lost', 'swimme', None], ['drowned', 'swimme', None]]}
+Entity_score 1.7786956131458282
+**************relation_score*********************
+Relation_score -0.6173875704407692
+**************event_score*********************
+[['kept', None, None], ['tell', None, None], ['gave out,', 'batteries', None], ['go to shore', None, None], ['got lost', 'swimme', None], ['drowned', 'swimme', None]] [['kept', None, None], ['tell', None, None], ['gave out,', 'batteries', None], ['go to shore', None, None], ['got lost', 'swimme', None], ['drowned', 'swimme', None]]
+Event_score 2.9604746401309967
+KG_score: 1.3601882853358984
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': ['supervisor', 'They', 'at the wrong place', 'the other', 'his half', 'one man', 'one', 'at a skewed angle', 'two men'], 'Relation': [['Entity_att', 'at opposite ends of the trench', 'two men'], ['EventCause', 'dug', 'pass'], ['EventCause', 'started', 'pass'], ['EntityPartof', 'one', 'two men'], ['EntityEqual', 'They', 'two men'], ['NC2Event', 'tells', 're-dig'], ['Event_att', 'in the right place', 're-dig'], ['Entity_att', 'right', 'one man'], ['EntityPartof', 'one man', 'They'], ['EntityPartof', 'the other', 'They']], 'Event': [['digging toward', 'two men', None], ['pass', 'two men', None], ['dug', None, None], ['started', 'one', 'at the wrong place'], ['call', None, None], ['re-dig', None, None], ['tells', 'supervisor', None]]}
+Entity_score 3.8455538749694824
+**************relation_score*********************
+Relation_score -0.49557122588157654
+**************event_score*********************
+[['digging toward', 'two men', None], ['pass', 'two men', None], ['dug', None, None], ['started', 'one', 'at the wrong place'], ['call', None, None], ['re-dig', None, None], ['tells', 'supervisor', None]] [['digging toward', 'two men', None], ['pass', 'two men', None], ['dug', None, None], ['started', 'one', 'at the wrong place'], ['call', None, None], ['re-dig', None, None], ['tells', 'supervisor', None]]
+Event_score 3.2296367809176445
+KG_score: 2.1712744119018317
+$$$$: {'Entity': ['One', 'air', 'the other'], 'Relation': [['NC2Event', 'breathing', 'lived'], ['Entity_att', 'from the spare tire in the trunk', 'air']], 'Event': [['suffocated', 'One', None], ['lived', 'the other', None], ['breathing', None, None]]}
+Entity_score 1.2038189470767975
+**************relation_score*********************
+Relation_score -0.2550547122955322
+**************event_score*********************
+[['suffocated', 'One', None], ['lived', 'the other', None], ['breathing', None, None]] [['suffocated', 'One', None], ['lived', 'the other', None], ['breathing', None, None]]
+Event_score 1.5291242152452469
+KG_score: 0.8177031885087491
+$$$$: {'Entity': ['on the third rail', 'He', 'train', 'the tracks'], 'Relation': [['Entity_att', 'in the New York subway', 'on the third rail'], ['Event_att', 'by the shock', 'knocked onto'], ['EventCause', 'hit by', 'killed'], ['EventCause', 'knocked onto', 'hit by']], 'Event': [['urinated', None, None], ['knocked onto', 'He', None], ['hit by', 'He', None], ['killed', 'He', None]]}
+Entity_score 1.7389543950557709
+**************relation_score*********************
+Relation_score -0.15657520294189453
+**************event_score*********************
+[['urinated', None, None], ['knocked onto', 'He', None], ['hit by', 'He', None], ['killed', 'He', None]] [['urinated', None, None], ['knocked onto', 'He', None], ['hit by', 'He', None], ['killed', 'He', None]]
+Event_score 2.098378375172615
+KG_score: 1.2146499972045421
+$$$$: {'Entity': ['rocks', 'He', 'lighthouse keeper', 'light', 'the man', 'man', 'ship'], 'Relation': [['EntityEqual', 'lighthouse keeper', 'man'], ['Event_att', 'in the lighthouse', 'turns off'], ['Event_att', 'during the night', 'crashes'], ['EventEqual', 'this', 'crashes'], ['NC2Event', 'Seeing', 'this'], ['Event_att', 'the next morning', 'this'], ['NC2Event', 'realizes', 'suicide'], ['EventCause', "what he's done", 'suicide'], ['EventEqual', "what he's done", 'turns off'], ['EntityEqual', 'the man', 'He'], ['EntityEqual', 'He', 'man']], 'Event': [['turns off', None, 'man'], ['crashes', 'ship', None], ['Seeing', None, None], ['this', None, None], ['realizes', None, None], ['suicide', None, None], ["what he's done", None, None]]}
+Entity_score 2.928278535604477
+**************relation_score*********************
+Relation_score -0.528746273368597
+**************event_score*********************
+[['turns off', None, 'man'], ['crashes', 'ship', None], ['Seeing', None, None], ['this', None, None], ['realizes', None, None], ['suicide', None, None], ["what he's done", None, None]] [['turns off', None, 'man'], ['crashes', 'ship', None], ['Seeing', None, None], ['this', None, None], ['realizes', None, None], ['suicide', None, None], ["what he's done", None, None]]
+Event_score 3.0625199899077415
+KG_score: 1.802477243207395
+$$$$: {'Entity': ['a certain ship', 'man', 'his alibi', 'he', 'ship'], 'Relation': [['NC2Event', 'commits', 'a heinous crime'], ['NC2Event', 'claiming as', 'onboard'], ['NC2Event', 'learns', 'wrecked'], ['EventCause', 'a lighthouse failure', 'wrecked'], ['EventCause', 'without reaching port safely', 'wrecked'], ['EventEqual', 'without reaching port safely', 'a lighthouse failure'], ['EntityEqual', 'he', 'man'], ['NC2Event', 'realizes', 'disproven'], ['EventTemporal', 'learns', 'realizes'], ['EventCause', 'disproven', 'suicide'], ['EventCause', 'suicide', 'avoid being sent to prison']], 'Event': [['commits', 'man', None], ['a heinous crime', None, None], ['claiming as', None, None], ['onboard', None, None], ['a lighthouse failure', None, None], ['learns', None, None], ['wrecked', None, None], ['without reaching port safely', None, None], ['realizes', 'he', None], ['disproven', None, None], ['suicide', None, None], ['avoid being sent to prison', None, None]]}
+Entity_score 2.1132755875587463
+**************relation_score*********************
+Relation_score -0.33918589539825916
+**************event_score*********************
+[['commits', 'man', None], ['a heinous crime', None, None], ['claiming as', None, None], ['onboard', None, None], ['a lighthouse failure', None, None], ['learns', None, None], ['wrecked', None, None], ['without reaching port safely', None, None], ['realizes', 'he', None], ['disproven', None, None], ['suicide', None, None], ['avoid being sent to prison', None, None]] [['commits', 'man', None], ['a heinous crime', None, None], ['claiming as', None, None], ['onboard', None, None], ['a lighthouse failure', None, None], ['learns', None, None], ['wrecked', None, None], ['without reaching port safely', None, None], ['realizes', 'he', None], ['disproven', None, None], ['suicide', None, None], ['avoid being sent to prison', None, None]]
+Event_score 5.363060973584652
+KG_score: 2.355259719695896
+$$$$: {'Entity': ['a blind midget', 'the shortest one', 'his only income', 'cane', 'man', 'he', 'Another midget'], 'Relation': [['EntityEqual', 'a blind midget', 'man'], ['Entity_att', 'in the circus', 'the shortest one'], ['EntityEqual', 'the shortest one', 'a blind midget'], ['EventCause', "he's not as short", 'jealous'], ['Entity_att', "the first one's", 'cane'], ['Event_att', 'every night', 'sawing small pieces off'], ['NC2Event', 'thinks', 'taller'], ['NC2Event', 'from', 'being a circus midget'], ['EntityEqual', 'he', 'man'], ['EntityPartof', 'his only income', 'he'], ['NC2Event', 'decides', 'kill'], ['Event_att', 'when he gets too tall', 'kill']], 'Event': [['jealous', 'Another midget', None], ["he's not as short", None, None], ['sawing small pieces off', None, 'Another midget'], ['thinks', 'he', None], ['taller', None, None], ['from', 'his only income', None], ['being a circus midget', None, None], ['decides', 'he', None], ['kill', 'he', None]]}
+Entity_score 3.044391691684723
+**************relation_score*********************
+Relation_score -1.2770884726196527
+**************event_score*********************
+[['jealous', 'Another midget', None], ["he's not as short", None, None], ['sawing small pieces off', None, 'Another midget'], ['thinks', 'he', None], ['taller', None, None], ['from', 'his only income', None], ['being a circus midget', None, None], ['decides', 'he', None], ['kill', 'he', None]] [['jealous', 'Another midget', None], ["he's not as short", None, None], ['sawing small pieces off', None, 'Another midget'], ['thinks', 'he', None], ['taller', None, None], ['from', 'his only income', None], ['being a circus midget', None, None], ['decides', 'he', None], ['kill', 'he', None]]
+Event_score 4.448648996651173
+KG_score: 2.05126423118636
+$$$$: {'Entity': ['a blind midget', 'the shortest one', 'his only income', 'cane', 'man', 'he', 'Another midget'], 'Relation': [['EntityEqual', 'a blind midget', 'man'], ['Entity_att', 'in the circus', 'the shortest one'], ['EntityEqual', 'the shortest one', 'a blind midget'], ['EventCause', "he's not as short", 'jealous'], ['Entity_att', "the first one's", 'cane'], ['Event_att', 'every night', 'sawing small pieces off'], ['NC2Event', 'thinks', 'taller'], ['NC2Event', 'from', 'being a circus midget'], ['EntityEqual', 'he', 'man'], ['EntityPartof', 'his only income', 'he'], ['NC2Event', 'decides', 'kill'], ['Event_att', 'when he gets too tall', 'kill'], ['EventEqual', 'someone had sawed his crutches', 'sawing small pieces off'], ['EventTemporal', 'found out', 'someone had sawed his crutches']], 'Event': [['jealous', 'Another midget', None], ["he's not as short", None, None], ['sawing small pieces off', None, 'Another midget'], ['thinks', 'he', None], ['taller', None, None], ['from', 'his only income', None], ['being a circus midget', None, None], ['decides', 'he', None], ['kill', 'he', None], ['someone had sawed his crutches', None, None], ['found out', None, None], ['living', 'he', None]]}
+Entity_score 3.044391691684723
+**************relation_score*********************
+Relation_score -1.499018894508481
+**************event_score*********************
+[['jealous', 'Another midget', None], ["he's not as short", None, None], ['sawing small pieces off', None, 'Another midget'], ['thinks', 'he', None], ['taller', None, None], ['from', 'his only income', None], ['being a circus midget', None, None], ['decides', 'he', None], ['kill', 'he', None], ['someone had sawed his crutches', None, None], ['found out', None, None], ['living', 'he', None]] [['jealous', 'Another midget', None], ["he's not as short", None, None], ['sawing small pieces off', None, 'Another midget'], ['thinks', 'he', None], ['taller', None, None], ['from', 'his only income', None], ['being a circus midget', None, None], ['decides', 'he', None], ['kill', 'he', None], ['someone had sawed his crutches', None, None], ['found out', None, None], ['living', 'he', None]]
+Event_score 5.881103061139584
+KG_score: 2.4507370332442227
+$$$$: {'Entity': ['He', 'clown', 'on stilts', 'they', 'stilts', 'midget'], 'Relation': [['EventCause', 'walks', 'jealous'], ['EventTemporal', 'walks along', 'falls'], ['EventCause', 'falls', 'dies'], ['EventCause', 'saws partway', 'falls'], ['EntityEqual', 'clown', 'clown'], ['EntityEqual', 'He', 'midget'], ['EventCause', 'break', 'falls'], ['EntityEqual', 'they', 'stilts']], 'Event': [['jealous', 'midget', None], ['walks', 'clown', None], ['saws partway', None, None], ['walks along', 'clown', None], ['falls', 'clown', None], ['dies', 'clown', None], ['break', 'they', None]]}
+Entity_score 2.560937285423279
+**************relation_score*********************
+Relation_score 0.007016271352767944
+**************event_score*********************
+[['jealous', 'midget', None], ['walks', 'clown', None], ['saws partway', None, None], ['walks along', 'clown', None], ['falls', 'clown', None], ['dies', 'clown', None], ['break', 'they', None]] [['jealous', 'midget', None], ['walks', 'clown', None], ['saws partway', None, None], ['walks along', 'clown', None], ['falls', 'clown', None], ['dies', 'clown', None], ['break', 'they', None]]
+Event_score 3.636986404657364
+KG_score: 2.0476301872730254
+$$$$: {'Entity': ['bridge', 'bungee jumpers', 'on the ground', 'a secluded wooden bridge', 'They', 'other', 'along with the bridge', 'One', 'him', 'man', 'he', 'two men', 'collapsing bridge'], 'Relation': [['EntityEqual', 'bungee jumpers', 'two men'], ['NC2Event', 'decided', 'bungee off'], ['EntityEqual', 'They', 'two men'], ['EventTemporal', 'being tied to the bridge', 'jumped off'], ['Event_att', 'at the nadir of his fall', 'gave out'], ['Entity_att', 'jumped', 'man'], ['EntityEqual', 'man', 'One'], ['EventCause', 'close to the earth', 'landed'], ['EntityEqual', 'him', 'man'], ['EventCause', 'fell', 'death'], ['EntityPartof', 'other', 'two men'], ['EntityPartof', 'One', 'two men']], 'Event': [['found', None, None], ['decided', 'They', None], ['bungee off', None, None], ['jumped off', 'One', None], ['being tied to the bridge', None, None], ['gave out', 'bridge', None], ['landed', 'man', None], ['close to the earth', 'he', None], ['fell on', None, None], ['fell', 'other', None], ['death', None, None]]}
+Entity_score 5.5034902691841125
+**************relation_score*********************
+Relation_score -0.6413354370743036
+**************event_score*********************
+[['found', None, None], ['decided', 'They', None], ['bungee off', None, None], ['jumped off', 'One', None], ['being tied to the bridge', None, None], ['gave out', 'bridge', None], ['landed', 'man', None], ['close to the earth', 'he', None], ['fell on', None, None], ['fell', 'other', None], ['death', None, None]] [['found', None, None], ['decided', 'They', None], ['bungee off', None, None], ['jumped off', 'One', None], ['being tied to the bridge', None, None], ['gave out', 'bridge', None], ['landed', 'man', None], ['close to the earth', 'he', None], ['fell on', None, None], ['fell', 'other', None], ['death', None, None]]
+Event_score 5.3611098900437355
+KG_score: 3.37367735831067
+$$$$: {'Entity': ['plane', 'skywriter', 'He', 'another plane'], 'Relation': [['EntityEqual', 'skywriter', 'He'], ['EntityPartof', 'plane', 'He']], 'Event': [['crashed into', None, None]]}
+Entity_score 1.6777112185955048
+**************relation_score*********************
+Relation_score 0.024001851677894592
+**************event_score*********************
+[['crashed into', None, None]] [['crashed into', None, None]]
+Event_score 0.4476914703845978
+KG_score: 0.7093034984171391
+$$$$: {'Entity': ['plane', 'skywriter', 'He', 'another plane'], 'Relation': [['EntityEqual', 'skywriter', 'He'], ['EntityPartof', 'plane', 'He']], 'Event': [['crashed into', None, None]]}
+Entity_score 1.6777112185955048
+**************relation_score*********************
+Relation_score 0.024001851677894592
+**************event_score*********************
+[['crashed into', None, None]] [['crashed into', None, None]]
+Event_score 0.4476914703845978
+KG_score: 0.7093034984171391
+$$$$: {'Entity': ['she', 'queue', 'Q', 'in line'], 'Relation': [['EntityEqual', 'queue', 'Q'], ['EntityEqual', 'in line', 'queue']], 'Event': [['standing', 'she', None]]}
+Entity_score 1.6826269328594208
+**************relation_score*********************
+Relation_score -0.06127786636352539
+**************event_score*********************
+[['standing', 'she', None]] [['standing', 'she', None]]
+Event_score 0.518341526389122
+KG_score: 0.7060978956520558
+$$$$: {'Entity': ['water', 'swimsuits', 'side', 'they', 'A bunch of people', 'ladder'], 'Relation': [['Event_att', 'in a yacht', 'on an ocean voyage'], ['NC2Event', 'decide', 'swimming'], ['EventTemporal', 'put on', 'dive off'], ['EventTemporal', 'dive off', 'into'], ['EntityEqual', 'they', 'they'], ['NC2Event', 'forget', 'set up'], ['Entity_att', 'on the side of the boat', 'ladder'], ['Event_att', 'no way', 'climb back in'], ['EventCause', 'climb back in', 'drown']], 'Event': [['on an ocean voyage', 'A bunch of people', None], ['decide', 'they', None], ['swimming', None, None], ['put on', 'they', None], ['dive off', 'they', 'side'], ['into', 'they', None], ['forget', 'they', None], ['set up', None, None], ['climb back in', 'they', None], ['drown', 'they', None]]}
+Entity_score 2.5080011188983917
+**************relation_score*********************
+Relation_score -0.23834678530693054
+**************event_score*********************
+[['on an ocean voyage', 'A bunch of people', None], ['decide', 'they', None], ['swimming', None, None], ['put on', 'they', None], ['dive off', 'they', 'side'], ['into', 'they', None], ['forget', 'they', None], ['set up', None, None], ['climb back in', 'they', None], ['drown', 'they', None]] [['on an ocean voyage', 'A bunch of people', None], ['decide', 'they', None], ['swimming', None, None], ['put on', 'they', None], ['dive off', 'they', 'side'], ['into', 'they', None], ['forget', 'they', None], ['set up', None, None], ['climb back in', 'they', None], ['drown', 'they', None]]
+Event_score 5.054749950766563
+KG_score: 2.4170534138381483
+$$$$: {'Entity': ['He', '1972', '1952'], 'Relation': [['Entity_att', 'room number', '1972'], ['Entity_att', 'room number', '1952']], 'Event': [['born', 'He', None], ['dies', 'He', None]]}
+Entity_score 1.2323168218135834
+**************relation_score*********************
+Relation_score -0.09757312387228012
+**************event_score*********************
+[['born', 'He', None], ['dies', 'He', None]] [['born', 'He', None], ['dies', 'He', None]]
+Event_score 1.0521429479122162
+KG_score: 0.7216725931316614
+$$$$: {'Entity': ['man', 'they', 'wolf pack', "It's"], 'Relation': [['EntityEqual', 'wolf pack', "It's"], ['EventTemporal', 'killed', 'eaten'], ['EntityEqual', 'they', 'wolf pack']], 'Event': [['killed', 'they', None], ['eaten', 'they', None]]}
+Entity_score 1.6660650372505188
+**************relation_score*********************
+Relation_score -0.27398835122585297
+**************event_score*********************
+[['killed', 'they', None], ['eaten', 'they', None]] [['killed', 'they', None], ['eaten', 'they', None]]
+Event_score 1.0386451184749603
+KG_score: 0.8021381954848766
+$$$$: {'Entity': [], 'Relation': [['Event_att', 'Monopoly', 'game']], 'Event': [['game', None, None]]}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score -0.06398038566112518
+**************event_score*********************
+[['game', None, None]] [['game', None, None]]
+Event_score 0.41051483154296875
+KG_score: 0.11435636714100839
+$$$$: {'Entity': ['car token', 'player', '$200'], 'Relation': [['EventCause', 'passes Go', 'collects'], ['Event_att', 'Monopoly', 'game']], 'Event': [['passes Go', 'car token', None], ['collects', 'player', None], ['game', None, None]]}
+Entity_score 1.347024142742157
+**************relation_score*********************
+Relation_score -0.14708080887794495
+**************event_score*********************
+[['passes Go', 'car token', None], ['collects', 'player', None], ['game', None, None]] [['passes Go', 'car token', None], ['collects', 'player', None], ['game', None, None]]
+Event_score 1.5297541841864586
+KG_score: 0.9008001809567213
+$$$$: {'Entity': ['the extra card', 'at cards', 'bicycles', 'the other players', 'man', 'he', 'Bicycle playing cards'], 'Relation': [['EntityEqual', 'Bicycle playing cards', 'bicycles'], ['EventCause', 'cheating', 'found'], ['EventCause', 'found', 'killed']], 'Event': [['cheating', 'man', None], ['found', 'the extra card', None], ['killed', None, None]]}
+Entity_score 3.0226066410541534
+**************relation_score*********************
+Relation_score -0.03162476420402527
+**************event_score*********************
+[['cheating', 'man', None], ['found', 'the extra card', None], ['killed', None, None]] [['cheating', 'man', None], ['found', 'the extra card', None], ['killed', None, None]]
+Event_score 1.4858004376292229
+KG_score: 1.477338163778186
+$$$$: {'Entity': ['the extra card', 'at cards', 'Bee playing cards', 'bees', 'the other players', 'man', 'he'], 'Relation': [['EntityEqual', 'Bee playing cards', 'bees'], ['EventCause', 'cheating', 'found'], ['EventCause', 'found', 'killed']], 'Event': [['cheating', 'man', None], ['found', 'the extra card', None], ['killed', None, None]]}
+Entity_score 3.022394120693207
+**************relation_score*********************
+Relation_score -0.11026151478290558
+**************event_score*********************
+[['cheating', 'man', None], ['found', 'the extra card', None], ['killed', None, None]] [['cheating', 'man', None], ['found', 'the extra card', None], ['killed', None, None]]
+Event_score 1.4858004376292229
+KG_score: 1.451317904368043
+$$$$: {'Entity': ['ace', 'card', 'deck', 'guy', 'Someone'], 'Relation': [['NC2Event', 'saw', 'conceal'], ['Entity_att', 'defective', 'deck'], ['Entity_att', 'missing', 'ace'], ['EventSameTime', 'turning it up', 'pointing out'], ['EventCause', 'pointing out', 'proved'], ['EventCause', 'turning it up', 'proved']], 'Event': [['conceal', None, None], ['saw', 'Someone', None], ['proved', None, None], ['turning it up', None, None], ['pointing out', None, None]]}
+Entity_score 2.0751760005950928
+**************relation_score*********************
+Relation_score -0.3281002137809992
+**************event_score*********************
+[['conceal', None, None], ['saw', 'Someone', None], ['proved', None, None], ['turning it up', None, None], ['pointing out', None, None]] [['conceal', None, None], ['saw', 'Someone', None], ['proved', None, None], ['turning it up', None, None], ['pointing out', None, None]]
+Event_score 2.2147771641612053
+KG_score: 1.3074114738218485
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': ['men', 'They', 'they', 'oxygen', 'Igloo brand cooler', 'dry ice'], 'Relation': [['Event_att', 'in the caves', 'have a picnic'], ['EntityEqual', 'they', 'men'], ['EntityEqual', 'They', 'they'], ['EventCause', 'used', 'keep their beer cold'], ['NC2Event', 'not realizing', 'push'], ['EventCause', 'sublimed', 'push'], ['Event_att', 'out of the cave', 'push'], ['EntityEqual', 'they', 'They'], ['EventCause', 'push', 'suffocate']], 'Event': [['spelunking', 'men', None], ['taken', 'men', None], ['have a picnic', None, None], ['used', 'They', None], ['keep their beer cold', None, None], ['not realizing', 'They', None], ['suffocate', None, None], ['push', None, None], ['sublimed', 'dry ice', None]]}
+Entity_score 2.4741137325763702
+**************relation_score*********************
+Relation_score 0.035814568400382996
+**************event_score*********************
+[['spelunking', 'men', None], ['taken', 'men', None], ['have a picnic', None, None], ['used', 'They', None], ['keep their beer cold', None, None], ['not realizing', 'They', None], ['suffocate', None, None], ['push', None, None], ['sublimed', 'dry ice', None]] [['spelunking', 'men', None], ['taken', 'men', None], ['have a picnic', None, None], ['used', 'They', None], ['keep their beer cold', None, None], ['not realizing', 'They', None], ['suffocate', None, None], ['push', None, None], ['sublimed', 'dry ice', None]]
+Event_score 4.400370247662067
+KG_score: 2.280398521050811
+$$$$: {'Entity': ['island', 'traffic island'], 'Relation': [['EntityEqual', 'traffic island', 'island']], 'Event': []}
+Entity_score 0.8659282028675079
+**************relation_score*********************
+Relation_score 0.1928672268986702
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.3494024918228388
+$$$$: {'Entity': ['He', 'priest', 'them', 'he', 'other people'], 'Relation': [['NC2Event', 'is', 'marrying']], 'Event': [['marrying', None, None], ['is', 'he', None]]}
+Entity_score 2.0430727899074554
+**************relation_score*********************
+Relation_score -0.06367883831262589
+**************event_score*********************
+[['marrying', None, None], ['is', 'he', None]] [['marrying', None, None], ['is', 'he', None]]
+Event_score 0.8892827183008194
+KG_score: 0.9466633010655642
+$$$$: {'Entity': ['man', 'beekeeper', 'bee', 'Joe'], 'Relation': [['EntityEqual', 'bee', 'Joe'], ['Entity_att', 'in the mask', 'man'], ['EntityEqual', 'beekeeper', 'man']], 'Event': []}
+Entity_score 1.6458824276924133
+**************relation_score*********************
+Relation_score -0.20213299989700317
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.47643731117248533
+$$$$: {'Entity': ['man', 'Johnny', 'bee', 'beekeeper'], 'Relation': [['EntityEqual', 'bee', 'Johnny'], ['Entity_att', 'in the mask', 'man'], ['EntityEqual', 'beekeeper', 'man']], 'Event': []}
+Entity_score 1.6583004593849182
+**************relation_score*********************
+Relation_score -0.19229169189929962
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.4837828932702542
+$$$$: {'Entity': ['base-runner', 'catcher', 'baseball game'], 'Relation': [['Event_att', 'at home plate', 'waiting'], ['Entity_att', 'with the ball', 'catcher'], ['NC2Event', 'decides', 'stay'], ['Event_att', 'at third base', 'stay'], ['EventCause', 'stay', 'avoid being tagged out']], 'Event': [['going on', None, None], ['waiting', 'catcher', None], ['sees', 'base-runner', 'catcher'], ['decides', 'base-runner', None], ['stay', None, None], ['avoid being tagged out', None, None]]}
+Entity_score 1.3539588451385498
+**************relation_score*********************
+Relation_score -0.5591962411999702
+**************event_score*********************
+[['going on', None, None], ['waiting', 'catcher', None], ['sees', 'base-runner', 'catcher'], ['decides', 'base-runner', None], ['stay', None, None], ['avoid being tagged out', None, None]] [['going on', None, None], ['waiting', 'catcher', None], ['sees', 'base-runner', 'catcher'], ['decides', 'base-runner', None], ['stay', None, None], ['avoid being tagged out', None, None]]
+Event_score 2.6905472576618195
+KG_score: 1.1501522543281317
+$$$$: {'Entity': ['base-runner', 'catcher', 'baseball game'], 'Relation': [['Event_att', 'at home plate', 'waiting'], ['Entity_att', 'with the ball', 'catcher'], ['NC2Event', 'decides', 'stay'], ['Event_att', 'at third base', 'stay'], ['EventCause', 'stay', 'avoid being tagged out']], 'Event': [['going on', None, None], ['waiting', 'catcher', None], ['sees', 'base-runner', 'catcher'], ['decides', 'base-runner', None], ['stay', None, None], ['avoid being tagged out', None, None]]}
+Entity_score 1.3539588451385498
+**************relation_score*********************
+Relation_score -0.5591962411999702
+**************event_score*********************
+[['going on', None, None], ['waiting', 'catcher', None], ['sees', 'base-runner', 'catcher'], ['decides', 'base-runner', None], ['stay', None, None], ['avoid being tagged out', None, None]] [['going on', None, None], ['waiting', 'catcher', None], ['sees', 'base-runner', 'catcher'], ['decides', 'base-runner', None], ['stay', None, None], ['avoid being tagged out', None, None]]
+Event_score 2.6905472576618195
+KG_score: 1.1501522543281317
+$$$$: {'Entity': ['horse', 'Bruce'], 'Relation': [['EntityEqual', 'horse', 'Bruce']], 'Event': []}
+Entity_score 0.8309737145900726
+**************relation_score*********************
+Relation_score -0.044279374182224274
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.25960913233458993
+$$$$: {'Entity': ['A small delegation', '"Pain"', 'king', 'A mob of people', 'French for "bread"', 'One woman'], 'Relation': [['Event_att', 'in France', 'food shortages'], ['EventCause', 'fall of the Bastille', 'food shortages'], ['Event_att', 'to Versaille', 'petition'], ['EntityPartof', 'A small delegation', 'A mob of people'], ['Entity_att', 'overcome with emotion', 'One woman'], ['EntityEqual', 'French for "bread"', '"Pain"'], ['EventCause', 'cry', 'faint']], 'Event': [['food shortages', None, None], ['fall of the Bastille', None, None], ['petition', 'A mob of people', None], ['admitted', 'A small delegation', None], ['meet', 'A small delegation', None], ['cry', 'One woman', None], ['faint', 'One woman', None]]}
+Entity_score 2.673406630754471
+**************relation_score*********************
+Relation_score -0.6343047618865967
+**************event_score*********************
+[['food shortages', None, None], ['fall of the Bastille', None, None], ['petition', 'A mob of people', None], ['admitted', 'A small delegation', None], ['meet', 'A small delegation', None], ['cry', 'One woman', None], ['faint', 'One woman', None]] [['food shortages', None, None], ['fall of the Bastille', None, None], ['petition', 'A mob of people', None], ['admitted', 'A small delegation', None], ['meet', 'A small delegation', None], ['cry', 'One woman', None], ['faint', 'One woman', None]]
+Event_score 3.676166459918022
+KG_score: 1.886038548499346
+$$$$: {'Entity': ['horrible pronunciation', 'French baker', 'shopkeeper', 'pain', "the person's", 'bakery', 'American', 'the English word "pain"', 'the American is saying', 'word for "bread"', 'word', 'he', 'American tourist'], 'Relation': [['EntityEqual', 'French baker', 'shopkeeper'], ['EventSameTime', 'pauses to look up', 'remember'], ['Entity_att', 'in French', 'word for "bread"'], ['EntityEqual', 'pain', 'word for "bread"'], ['EntityEqual', 'American', 'American tourist'], ['EntityEqual', 'the English word "pain"', 'word'], ['EntityEqual', 'the American is saying', 'word'], ['EventTemporal', 'does not understand', 'does'], ['EntityPartof', "the person's", 'horrible pronunciation'], ['EntityEqual', "the person's", 'American']], 'Event': [['walks into', 'American tourist', None], ['pauses to look up', 'American tourist', None], ['remember', 'American tourist', None], ['says', 'American', None], ['does not understand', 'shopkeeper', None], ['does', 'shopkeeper', None], ['annoyed', None, None]]}
+Entity_score 5.680952340364456
+**************relation_score*********************
+Relation_score -0.6333100199699402
+**************event_score*********************
+[['walks into', 'American tourist', None], ['pauses to look up', 'American tourist', None], ['remember', 'American tourist', None], ['says', 'American', None], ['does not understand', 'shopkeeper', None], ['does', 'shopkeeper', None], ['annoyed', None, None]] [['walks into', 'American tourist', None], ['pauses to look up', 'American tourist', None], ['remember', 'American tourist', None], ['says', 'American', None], ['does not understand', 'shopkeeper', None], ['does', 'shopkeeper', None], ['annoyed', None, None]]
+Event_score 3.6828086599707603
+KG_score: 2.8810488235205414
+$$$$: {'Entity': ['He', 'by himself', 'people', 'telephone', 'be the last human', 'man', 'he'], 'Relation': [['Entity_att', 'on earth', 'be the last human'], ['EventCause', "doesn't want to live", 'jumps'], ['EventTemporal', 'jumps', 'rings'], ['EventEqual', 'rings', 'alive'], ['EntityEqual', 'He', 'man'], ['EntityEqual', 'he', 'He']], 'Event': [['believes', 'man', None], ["doesn't want to live", 'He', None], ['jumps', None, None], ['rings', 'telephone', None], ['alive', None, None]]}
+Entity_score 2.938361257314682
+**************relation_score*********************
+Relation_score 0.02104179374873638
+**************event_score*********************
+[['believes', 'man', None], ["doesn't want to live", 'He', None], ['jumps', None, None], ['rings', 'telephone', None], ['alive', None, None]] [['believes', 'man', None], ["doesn't want to live", 'He', None], ['jumps', None, None], ['rings', 'telephone', None], ['alive', None, None]]
+Event_score 2.442433975636959
+KG_score: 1.7826062188111247
+$$$$: {'Entity': ['He', 'by himself', 'people', 'telephone', 'There', 'be the last human', 'man', 'he'], 'Relation': [['Entity_att', 'on earth', 'be the last human'], ['EntityEqual', 'He', 'man'], ['EntityEqual', 'he', 'He'], ['EventTemporal', 'jumps', 'rings']], 'Event': [['believes', 'man', None], ["doesn't want to live", 'He', None], ['jumps', 'he', None], ['rings', 'telephone', None], ['alive', 'people', None]]}
+Entity_score 3.331544578075409
+**************relation_score*********************
+Relation_score 0.3103651236742735
+**************event_score*********************
+[['believes', 'man', None], ["doesn't want to live", 'He', None], ['jumps', 'he', None], ['rings', 'telephone', None], ['alive', 'people', None]] [['believes', 'man', None], ["doesn't want to live", 'He', None], ['jumps', 'he', None], ['rings', 'telephone', None], ['alive', 'people', None]]
+Event_score 2.64288716763258
+KG_score: 2.0739829668961467
+$$$$: {'Entity': ['decimal point', 'comma', 'a pretty good speed', 'man', '19.475 km/hour'], 'Relation': [['Entity_att', 'In European numbers', 'comma'], ['Entity_att', 'Americans', 'decimal point'], ['EntityEqual', 'decimal point', 'comma'], ['EntityEqual', 'a pretty good speed', '19.475 km/hour']], 'Event': [['ran', 'man', None]]}
+Entity_score 2.2334236800670624
+**************relation_score*********************
+Relation_score -0.33498354256153107
+**************event_score*********************
+[['ran', 'man', None]] [['ran', 'man', None]]
+Event_score 0.528514914214611
+KG_score: 0.800895167067647
+$$$$: {'Entity': ['Eagle'], 'Relation': [['Event_att', 'in the Sea of Tranquility', 'landed'], ['Event_att', 'for the foreseeable future', 'remain']], 'Event': [['landed', 'Eagle', None], ['remain', 'Eagle', None]]}
+Entity_score 0.41588252782821655
+**************relation_score*********************
+Relation_score -0.1918082982301712
+**************event_score*********************
+[['landed', 'Eagle', None], ['remain', 'Eagle', None]] [['landed', 'Eagle', None], ['remain', 'Eagle', None]]
+Event_score 1.0665318965911865
+KG_score: 0.4259000216424465
+$$$$: {'Entity': ['AIDS', 'heroin addict', 'himself', 'man', 'he'], 'Relation': [['EntityEqual', 'heroin addict', 'man'], ['EventCause', 'using an infected needle', 'contracted'], ['Event_att', 'with an overdose', 'shoots'], ['EventCause', 'shoots', 'suicide'], ['EntityEqual', 'he', 'man']], 'Event': [['contracted', 'man', None], ['using an infected needle', None, None], ['shoots', 'he', None], ['suicide', 'he', None]]}
+Entity_score 2.047648549079895
+**************relation_score*********************
+Relation_score -0.20929393358528614
+**************event_score*********************
+[['contracted', 'man', None], ['using an infected needle', None, None], ['shoots', 'he', None], ['suicide', 'he', None]] [['contracted', 'man', None], ['using an infected needle', None, None], ['shoots', 'he', None], ['suicide', 'he', None]]
+Event_score 2.0064667090773582
+KG_score: 1.2687910371087492
+$$$$: {'Entity': ['craps table', 'He', 'craps', 'all the money', 'man', 'he', 'casino'], 'Relation': [['EventTemporal', 'walks into', 'goes to'], ['EntityEqual', 'He', 'man'], ['Entity_att', 'he owns', 'all the money'], ['EntityEqual', 'he', 'He'], ['EventCause', 'despondent', 'suicide'], ['EventCause', 'bets', 'broke']], 'Event': [['walks into', 'man', None], ['goes to', 'man', None], ['bets', 'He', None], ['shoots', 'He', None], ['broke', 'he', None], ['despondent', 'he', None], ['suicide', 'he', None]]}
+Entity_score 3.004383236169815
+**************relation_score*********************
+Relation_score 0.39529298804700375
+**************event_score*********************
+[['walks into', 'man', None], ['goes to', 'man', None], ['bets', 'He', None], ['shoots', 'He', None], ['broke', 'he', None], ['despondent', 'he', None], ['suicide', 'he', None]] [['walks into', 'man', None], ['goes to', 'man', None], ['bets', 'He', None], ['shoots', 'He', None], ['broke', 'he', None], ['despondent', 'he', None], ['suicide', 'he', None]]
+Event_score 3.7237409055233
+KG_score: 2.350727652814239
+$$$$: {'Entity': ['Kids', 'Santa'], 'Relation': [['EventEqual', 'taken', 'getting their pictures'], ['EventEqual', 'shoot', 'getting their pictures']], 'Event': [['getting their pictures', None, None], ['taken', 'Kids', 'Santa'], ['shoot', None, None]]}
+Entity_score 0.8587062954902649
+**************relation_score*********************
+Relation_score -0.2128477469086647
+**************event_score*********************
+[['getting their pictures', None, None], ['taken', 'Kids', 'Santa'], ['shoot', None, None]] [['getting their pictures', None, None], ['taken', 'Kids', 'Santa'], ['shoot', None, None]]
+Event_score 1.1889848709106445
+KG_score: 0.6054983284324408
+$$$$: {'Entity': ['It', 'instant coffee', 'no water'], 'Relation': [['EntityEqual', 'instant coffee', 'It']], 'Event': [['added', 'no water', 'instant coffee']]}
+Entity_score 1.2683245539665222
+**************relation_score*********************
+Relation_score -0.014588318765163422
+**************event_score*********************
+[['added', 'no water', 'instant coffee']] [['added', 'no water', 'instant coffee']]
+Event_score 0.2902583107352257
+KG_score: 0.5095182001590729
+$$$$: {'Entity': ['man', 'radiation suit', 'suit', 'astronaut'], 'Relation': [['EntityEqual', 'astronaut', 'man'], ['EventCause', 'broken', 'die'], ['Event_att', 'from radiation', 'die'], ['EntityEqual', 'suit', 'radiation suit']], 'Event': [['on a space walk', 'man', None], ['broken', 'suit', None], ['die', None, None]]}
+Entity_score 1.6786193251609802
+**************relation_score*********************
+Relation_score -0.1624984983354807
+**************event_score*********************
+[['on a space walk', 'man', None], ['broken', 'suit', None], ['die', None, None]] [['on a space walk', 'man', None], ['broken', 'suit', None], ['die', None, None]]
+Event_score 1.4802445471286774
+KG_score: 0.9888005734048784
+$$$$: {'Entity': ['model train set', 'train'], 'Relation': [['EntityEqual', 'model train set', 'train']], 'Event': []}
+Entity_score 0.8882169723510742
+**************relation_score*********************
+Relation_score 0.09568967670202255
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.32468919418752196
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': ['joker', 'his rifle and a silencer', 'the twelfth', 'a bullet', 'he'], 'Relation': [['Event_att', 'in a nearby house', 'living'], ['EventTemporal', 'stroke', 'fired'], ['Event_att', 'at the bell', 'fired'], ['NC2Event', 'using', 'fired']], 'Event': [['living', 'joker', None], ['stroke', None, None], ['fired', None, None], ['using', 'his rifle and a silencer', None]]}
+Entity_score 2.1061438024044037
+**************relation_score*********************
+Relation_score -0.3516363650560379
+**************event_score*********************
+[['living', 'joker', None], ['stroke', None, None], ['fired', None, None], ['using', 'his rifle and a silencer', None]] [['living', 'joker', None], ['stroke', None, None], ['fired', None, None], ['using', 'his rifle and a silencer', None]]
+Event_score 1.8926540911197662
+KG_score: 1.2035633043944838
+$$$$: {'Entity': ['a telephone directory', 'book'], 'Relation': [['EntityEqual', 'a telephone directory', 'book']], 'Event': []}
+Entity_score 0.8640898764133453
+**************relation_score*********************
+Relation_score -0.09670094400644302
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.2532383476942778
+$$$$: {'Entity': ['man', 'fox', 'he', 'duck'], 'Relation': [['EventTemporal', 'took', 'took'], ['EntityEqual', 'he', 'man'], ['Event_att', 'on the far side of the river', 'left'], ['Event_att', 'with the duck', 'returned'], ['Event_att', 'on the near side', 'left'], ['EventTemporal', 'took', 'left'], ['EventTemporal', 'left', 'returned'], ['EventTemporal', 'returned', 'left'], ['EventTemporal', 'left', 'returned and took']], 'Event': [['took', 'man', None], ['came back', None, None], ['took', 'he', None], ['left', 'he', 'fox'], ['returned', 'he', None], ['left', 'duck', 'he'], ['returned and took', 'he', 'duck']]}
+Entity_score 1.6262823939323425
+**************relation_score*********************
+Relation_score 0.4028971940279007
+**************event_score*********************
+[['took', 'man', None], ['came back', None, None], ['took', 'he', None], ['left', 'he', 'fox'], ['returned', 'he', None], ['left', 'duck', 'he'], ['returned and took', 'he', 'duck']] [['took', 'man', None], ['came back', None, None], ['took', 'he', None], ['left', 'he', 'fox'], ['returned', 'he', None], ['left', 'duck', 'he'], ['returned and took', 'he', 'duck']]
+Event_score 3.1299704927951097
+KG_score: 1.7025195266492668
+$$$$: {'Entity': ['man', 'fox and corn', 'duck'], 'Relation': [['Event_att', 'to the back of the boat with a rope', 'tied'], ['Event_att', 'along behind the boat', 'swam']], 'Event': [['tied', 'man', None], ['swam', 'duck', None], ['ferried', 'man', None]]}
+Entity_score 1.273906260728836
+**************relation_score*********************
+Relation_score -0.2631286233663559
+**************event_score*********************
+[['tied', 'man', None], ['swam', 'duck', None], ['ferried', 'man', None]] [['tied', 'man', None], ['swam', 'duck', None], ['ferried', 'man', None]]
+Event_score 1.6479331329464912
+KG_score: 0.8773745542019606
+$$$$: {'Entity': ['a long rope', 'He'], 'Relation': [['Event_att', 'from point A to point B', 'stretches']], 'Event': [['stretches', 'He', None]]}
+Entity_score 0.8519149720668793
+**************relation_score*********************
+Relation_score -0.11998718231916428
+**************event_score*********************
+[['stretches', 'He', None]] [['stretches', 'He', None]]
+Event_score 0.5169554501771927
+KG_score: 0.41213146917521953
+$$$$: {'Entity': ['laboratory rats', 'Ben', 'a certain maze', 'Bill'], 'Relation': [['EntityEqual', 'Ben', 'laboratory rats'], ['EntityEqual', 'Bill', 'laboratory rats'], ['Event_att', 'many times', 'run through'], ['Event_att', 'quickly', 'has learned to complete'], ['Event_att', 'for the first time', 'introduced to the course'], ['Event_att', 'ten times', 'takes'], ['EventCause', 'introduced to the course', 'takes']], 'Event': [['run through', 'Bill', None], ['has learned to complete', 'Bill', None], ['introduced to the course', 'Ben', None], ['takes', None, None]]}
+Entity_score 1.6768529117107391
+**************relation_score*********************
+Relation_score -0.43579450249671936
+**************event_score*********************
+[['run through', 'Bill', None], ['has learned to complete', 'Bill', None], ['introduced to the course', 'Ben', None], ['takes', None, None]] [['run through', 'Bill', None], ['has learned to complete', 'Bill', None], ['introduced to the course', 'Ben', None], ['takes', None, None]]
+Event_score 2.04243041574955
+KG_score: 1.083551312237978
+$$$$: {'Entity': ['brick', 'duck'], 'Relation': [['Entity_att', 'in its mouth', 'brick']], 'Event': [['grabbed', 'duck', None], ['flew off with', 'duck', None]]}
+Entity_score 0.8431797623634338
+**************relation_score*********************
+Relation_score -0.12246891856193542
+**************event_score*********************
+[['grabbed', 'duck', None], ['flew off with', 'duck', None]] [['grabbed', 'duck', None], ['flew off with', 'duck', None]]
+Event_score 1.0151029378175735
+KG_score: 0.5728185479342938
+$$$$: {'Entity': ['brick', 'duck'], 'Relation': [['Entity_att', 'in its mouth', 'brick']], 'Event': [['had', 'duck', None]]}
+Entity_score 0.8431797623634338
+**************relation_score*********************
+Relation_score -0.12246891856193542
+**************event_score*********************
+[['had', 'duck', None]] [['had', 'duck', None]]
+Event_score 0.496158204972744
+KG_score: 0.4015667860955
+$$$$: {'Entity': ['angry wife', 'his wife', "the man's prized stamp collection", 'his mistress', 'man', 'he', 'his own stamps'], 'Relation': [['EventTemporal', 'left', 'live with'], ['Event_att', 'for sale', 'advertised'], ['EntityEqual', 'his own stamps', "the man's prized stamp collection"], ['EventCause', 'advertised', 'bought'], ['EntityEqual', 'he', 'man'], ['EntityPartof', "the man's prized stamp collection", 'man']], 'Event': [['left', 'man', None], ['live with', 'man', None], ['advertised', 'angry wife', None], ['bought', 'he', None], ['stop anyone else doing so', 'he', None]]}
+Entity_score 3.066767007112503
+**************relation_score*********************
+Relation_score 0.0016389992088079453
+**************event_score*********************
+[['left', 'man', None], ['live with', 'man', None], ['advertised', 'angry wife', None], ['bought', 'he', None], ['stop anyone else doing so', 'he', None]] [['left', 'man', None], ['live with', 'man', None], ['advertised', 'angry wife', None], ['bought', 'he', None], ['stop anyone else doing so', 'he', None]]
+Event_score 2.718020923435688
+KG_score: 1.9095208868198097
+$$$$: {'Entity': ['salt', 'sheep', 'road', 'they'], 'Relation': [['EntityEqual', 'they', 'sheep'], ['EventCause', 'liked to eat', 'kept coming to']], 'Event': [['kept coming to', 'sheep', None], ['liked to eat', 'they', None], ['put on', 'salt', 'road'], ['stop it freezing', 'salt', 'road']]}
+Entity_score 1.6439369022846222
+**************relation_score*********************
+Relation_score -0.09707982838153839
+**************event_score*********************
+[['kept coming to', 'sheep', None], ['liked to eat', 'they', None], ['put on', 'salt', 'road'], ['stop it freezing', 'salt', 'road']] [['kept coming to', 'sheep', None], ['liked to eat', 'they', None], ['put on', 'salt', 'road'], ['stop it freezing', 'salt', 'road']]
+Event_score 1.9331393614411354
+KG_score: 1.1483988236635922
+$$$$: {'Entity': ['left-hander', 'either hand', 'Pete', 'right-handed', 'he'], 'Relation': [['EntityEqual', 'he', 'Pete'], ['Event_att', 'switched after the first set', 'started off playing'], ['EntityPartof', 'right-handed', 'either hand'], ['EntityPartof', 'left-hander', 'either hand']], 'Event': [['play tennis with', 'Pete', None], ['better as', 'he', None], ['started off playing', 'Pete', None]]}
+Entity_score 2.1940384805202484
+**************relation_score*********************
+Relation_score 0.017731541767716408
+**************event_score*********************
+[['play tennis with', 'Pete', None], ['better as', 'he', None], ['started off playing', 'Pete', None]] [['play tennis with', 'Pete', None], ['better as', 'he', None], ['started off playing', 'Pete', None]]
+Event_score 1.6669734120368958
+KG_score: 1.279985333327204
+$$$$: {'Entity': ['fugitive', 'He', 'Fire, fire!', 'audience'], 'Relation': [['EventEqual', 'rushed for the exits', 'Pandemonium broke out'], ['EventCause', 'shouted', 'Pandemonium broke out'], ['Event_att', 'in the confusion', 'escaped']], 'Event': [['leapt up', 'fugitive', None], ['shouted', 'fugitive', None], ['Pandemonium broke out', None, None], ['rushed for the exits', 'audience', None], ['escaped', None, None]]}
+Entity_score 1.7045970261096954
+**************relation_score*********************
+Relation_score -0.2979155406355858
+**************event_score*********************
+[['leapt up', 'fugitive', None], ['shouted', 'fugitive', None], ['Pandemonium broke out', None, None], ['rushed for the exits', 'audience', None], ['escaped', None, None]] [['leapt up', 'fugitive', None], ['shouted', 'fugitive', None], ['Pandemonium broke out', None, None], ['rushed for the exits', 'audience', None], ['escaped', None, None]]
+Event_score 2.5863099098205566
+KG_score: 1.31768716044724
+$$$$: {'Entity': ['He', 'train', 'his nephew', 'roller-coaster', 'banker'], 'Relation': [['EntityEqual', 'roller-coaster', 'train'], ['Event_att', 'for a ride', 'take'], ['NC2Event', 'promised', 'take'], ['NC2Event', 'hated', 'experience'], ['EventEqual', 'experience', 'take'], ['EntityEqual', 'He', 'banker']], 'Event': [['promised', 'banker', None], ['take', 'banker', None], ['hated', 'banker', None], ['experience', None, None], ['relieved', None, None]]}
+Entity_score 2.1562211513519287
+**************relation_score*********************
+Relation_score -0.2519614566117525
+**************event_score*********************
+[['promised', 'banker', None], ['take', 'banker', None], ['hated', 'banker', None], ['experience', None, None], ['relieved', None, None]] [['promised', 'banker', None], ['take', 'banker', None], ['hated', 'banker', None], ['experience', None, None], ['relieved', None, None]]
+Event_score 2.458697810769081
+KG_score: 1.439775976818055
+$$$$: {'Entity': ['a year', 'a day', 'place', 'Venus'], 'Relation': [['EntityEqual', 'Venus', 'place']], 'Event': [['longer than', 'a day', 'a year']]}
+Entity_score 1.685217797756195
+**************relation_score*********************
+Relation_score -0.08767158538103104
+**************event_score*********************
+[['longer than', 'a day', 'a year']] [['longer than', 'a day', 'a year']]
+Event_score 0.4325783774256706
+KG_score: 0.6699411146342755
+$$$$: {'Entity': ['Queen Victoria', 'boy', 'letter', "boy's grandmother"], 'Relation': [['EntityEqual', 'Queen Victoria', "boy's grandmother"], ['Event_att', 'for five pounds sterling', 'sold'], ['Event_att', 'over $20', 'sold']], 'Event': [['sold', 'boy', None]]}
+Entity_score 1.7411889731884003
+**************relation_score*********************
+Relation_score -0.2642882838845253
+**************event_score*********************
+[['sold', 'boy', None]] [['sold', 'boy', None]]
+Event_score 0.5451847165822983
+KG_score: 0.6672881839424372
+$$$$: {'Entity': ['whole family', 'couple', "his father-in-law's pockets", 'his wallet', 'camera', 'groom', 'the video of the wedding'], 'Relation': [['Event_att', 'Two weeks later', 'returned from their honeymoon'], ['EntityPartof', 'couple', 'whole family'], ['EventTemporal', 'going through', 'stealing'], ['EventSameTime', 'stealing', 'caught on']], 'Event': [['returned from their honeymoon', 'couple', None], ['sat down to watch', 'whole family', None], ['going through', 'groom', None], ['stealing', 'groom', None], ['caught on', None, None]]}
+Entity_score 3.079627513885498
+**************relation_score*********************
+Relation_score -0.26152968406677246
+**************event_score*********************
+[['returned from their honeymoon', 'couple', None], ['sat down to watch', 'whole family', None], ['going through', 'groom', None], ['stealing', 'groom', None], ['caught on', None, None]] [['returned from their honeymoon', 'couple', None], ['sat down to watch', 'whole family', None], ['going through', 'groom', None], ['stealing', 'groom', None], ['caught on', None, None]]
+Event_score 2.660284772515297
+KG_score: 1.8078662587702277
+$$$$: {'Entity': ["Picasso's rough sketch of the plans", 'cost of the construction work', 'builder', 'man', 'Picasso'], 'Relation': [['EntityEqual', 'Picasso', 'man'], ['NC2Event', 'decided', 'building the extension'], ['EntityPartof', "Picasso's rough sketch of the plans", 'Picasso']], 'Event': [['decided', 'builder', None], ['building the extension', None, None], ['be able to retain', 'builder', None], ['worth far more than', "Picasso's rough sketch of the plans", None]]}
+Entity_score 2.104819595813751
+**************relation_score*********************
+Relation_score -0.08379366248846054
+**************event_score*********************
+[['decided', 'builder', None], ['building the extension', None, None], ['be able to retain', 'builder', None], ['worth far more than', "Picasso's rough sketch of the plans", None]] [['decided', 'builder', None], ['building the extension', None, None], ['be able to retain', 'builder', None], ['worth far more than', "Picasso's rough sketch of the plans", None]]
+Event_score 2.125010795891285
+KG_score: 1.3681921206414702
+$$$$: {'Entity': ['They', 'river'], 'Relation': [['Entity_att', 'only six inches deep', 'river'], ['EventTemporal', 'spread out', 'waded across']], 'Event': [['spread out', 'They', None], ['waded across', 'They', 'river']]}
+Entity_score 0.8075657784938812
+**************relation_score*********************
+Relation_score -0.16069848090410233
+**************event_score*********************
+[['spread out', 'They', None], ['waded across', 'They', 'river']] [['spread out', 'They', None], ['waded across', 'They', 'river']]
+Event_score 1.041686661541462
+KG_score: 0.5572228065133095
+$$$$: {'Entity': ['woman', 'She', "a pirate's treasure"], 'Relation': [['EntityEqual', 'She', 'woman'], ['Event_att', 'for seven years', 'not rescued']], 'Event': [['shipwrecked', 'woman', None], ['found', 'She', None], ['not rescued', 'She', None]]}
+Entity_score 1.2569442689418793
+**************relation_score*********************
+Relation_score -0.05067363381385803
+**************event_score*********************
+[['shipwrecked', 'woman', None], ['found', 'She', None], ['not rescued', 'She', None]] [['shipwrecked', 'woman', None], ['found', 'She', None], ['not rescued', 'She', None]]
+Event_score 1.6009073853492737
+KG_score: 0.9263687467575072
+$$$$: {'Entity': ['boxer', 'anesthetist', 'his opponent', 'he', 'patient', 'count', 'last thing'], 'Relation': [['EntityEqual', 'boxer', 'patient'], ['EntityEqual', 'he', 'patient'], ['EventSameTime', 'heard', 'counting 1, 2, 3, 4'], ['NC2Event', 'automatically tries to', 'beat']], 'Event': [['heard', 'he', None], ['counting 1, 2, 3, 4', None, None], ['comes round', 'he', None], ['resume the fight against', 'he', 'his opponent'], ['automatically tries to', None, None], ['beat', None, 'he']]}
+Entity_score 3.0347710847854614
+**************relation_score*********************
+Relation_score -0.2599068731069565
+**************event_score*********************
+[['heard', 'he', None], ['counting 1, 2, 3, 4', None, None], ['comes round', 'he', None], ['resume the fight against', 'he', 'his opponent'], ['automatically tries to', None, None], ['beat', None, 'he']] [['heard', 'he', None], ['counting 1, 2, 3, 4', None, None], ['comes round', 'he', None], ['resume the fight against', 'he', 'his opponent'], ['automatically tries to', None, None], ['beat', None, 'he']]
+Event_score 3.002166450023651
+KG_score: 1.9064201183617118
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': ['the stars of the movie', 'fans', 'Joe', 'Tom', 'his autograph'], 'Relation': [['EntityEqual', 'Joe', 'the stars of the movie'], ['EntityEqual', 'Tom', 'the stars of the movie'], ['Event_att', 'in a sequence in the movie', 'shot'], ['EventTemporal', 'left', 'mobbed by'], ['EntityPartof', 'his autograph', 'Tom']], 'Event': [['shot', 'Tom', 'Joe'], ['left', 'Tom', None], ['mobbed by', 'Tom', None], ['seeking', 'fans', None]]}
+Entity_score 2.1293070018291473
+**************relation_score*********************
+Relation_score -0.6311255022883415
+**************event_score*********************
+[['shot', 'Tom', 'Joe'], ['left', 'Tom', None], ['mobbed by', 'Tom', None], ['seeking', 'fans', None]] [['shot', 'Tom', 'Joe'], ['left', 'Tom', None], ['mobbed by', 'Tom', None], ['seeking', 'fans', None]]
+Event_score 2.319419287145138
+KG_score: 1.2598082596063613
+$$$$: {'Entity': ['He', 'his car', 'isolated area', 'police', 'man', 'driver', 'car'], 'Relation': [['EntityEqual', 'driver', 'man'], ['EntityEqual', 'He', 'man'], ['NC2Event', 'made it look as', 'stolen and vandalized'], ['EventTemporal', 'drove', 'made it look as'], ['NC2Event', 'stolen', 'report']], 'Event': [['in a fatal hit-and-run accident', 'driver', None], ['drove', 'He', None], ['stolen and vandalized', None, None], ['made it look as', None, None], ['phoned', None, 'He'], ['report', 'He', None], ['stolen', None, None]]}
+Entity_score 2.9517167508602142
+**************relation_score*********************
+Relation_score -0.18643671460449696
+**************event_score*********************
+[['in a fatal hit-and-run accident', 'driver', None], ['drove', 'He', None], ['stolen and vandalized', None, None], ['made it look as', None, None], ['phoned', None, 'He'], ['report', 'He', None], ['stolen', None, None]] [['in a fatal hit-and-run accident', 'driver', None], ['drove', 'He', None], ['stolen and vandalized', None, None], ['made it look as', None, None], ['phoned', None, 'He'], ['report', 'He', None], ['stolen', None, None]]
+Event_score 3.5060571655631065
+KG_score: 2.0695412766002117
+$$$$: {'Entity': ['another motorcyclist', 'motorcyclist', 'block', 'examiner', 'man', 'he'], 'Relation': [['EntityEqual', 'examiner', 'man'], ['EventCause', 'instructed', 'go round'], ['EventTemporal', 'go round', 'do an emergency stop'], ['Event_att', 'from the sidewalk', 'stepped out'], ['NC2Event', 'Knowing nothing of', 'arrangement'], ['EventEqual', 'arrangement', 'do an emergency stop'], ['EntityEqual', 'he', 'another motorcyclist']], 'Event': [['testing', 'man', None], ['instructed', 'man', None], ['go round', None, None], ['do an emergency stop', 'motorcyclist', None], ['stepped out', 'examiner', None], ['came', 'another motorcyclist', None], ['similar appearance', 'another motorcyclist', 'motorcyclist'], ['Knowing nothing of', 'another motorcyclist', None], ['arrangement', None, None], ['hit', 'examiner', 'he']]}
+Entity_score 2.5860578417778015
+**************relation_score*********************
+Relation_score -0.8175990581512451
+**************event_score*********************
+[['testing', 'man', None], ['instructed', 'man', None], ['go round', None, None], ['do an emergency stop', 'motorcyclist', None], ['stepped out', 'examiner', None], ['came', 'another motorcyclist', None], ['similar appearance', 'another motorcyclist', 'motorcyclist'], ['Knowing nothing of', 'another motorcyclist', None], ['arrangement', None, None], ['hit', 'examiner', 'he']] [['testing', 'man', None], ['instructed', 'man', None], ['go round', None, None], ['do an emergency stop', 'motorcyclist', None], ['stepped out', 'examiner', None], ['came', 'another motorcyclist', None], ['similar appearance', 'another motorcyclist', 'motorcyclist'], ['Knowing nothing of', 'another motorcyclist', None], ['arrangement', None, None], ['hit', 'examiner', 'he']]
+Event_score 5.300144640728831
+KG_score: 2.332639130037278
+$$$$: {'Entity': ['water', 'fire-fighting plane', 'plane', 'the unfortunate swimmer', 'fire'], 'Relation': [['Event_att', 'from the lake', 'scooped up'], ['EntityEqual', 'plane', 'fire-fighting plane']], 'Event': [['scooped up', 'fire-fighting plane', None], ['drop', 'water', None], ['picked up', 'plane', None]]}
+Entity_score 2.1495514810085297
+**************relation_score*********************
+Relation_score -0.1029948741197586
+**************event_score*********************
+[['scooped up', 'fire-fighting plane', None], ['drop', 'water', None], ['picked up', 'plane', None]] [['scooped up', 'fire-fighting plane', None], ['drop', 'water', None], ['picked up', 'plane', None]]
+Event_score 1.6341515928506851
+KG_score: 1.2146337059140206
+$$$$: {'Entity': ['a secret service agent', 'priest', 'a confessional in a church', 'The man he confessed to', 'church', 'an enemy agent', 'man', 'several enemy agents'], 'Relation': [['EntityEqual', 'a secret service agent', 'man'], ['EventSameTime', 'under suspicion', 'been followed'], ['NC2Event', 'confessed to', 'killings'], ['EventEqual', 'killings', 'recently killed'], ['EntityEqual', 'an enemy agent', 'The man he confessed to'], ['NC2Event', 'seen', 'enter']], 'Event': [['recently killed', 'man', None], ['entered', None, 'man'], ['confessed to', 'man', None], ['under suspicion', 'man', None], ['been followed', 'man', None], ['killings', None, None], ['not', 'The man he confessed to', None], ['seen', 'an enemy agent', None], ['enter', 'man', None]]}
+Entity_score 3.5388828814029694
+**************relation_score*********************
+Relation_score -0.13145183958113194
+**************event_score*********************
+[['recently killed', 'man', None], ['entered', None, 'man'], ['confessed to', 'man', None], ['under suspicion', 'man', None], ['been followed', 'man', None], ['killings', None, None], ['not', 'The man he confessed to', None], ['seen', 'an enemy agent', None], ['enter', 'man', None]] [['recently killed', 'man', None], ['entered', None, 'man'], ['confessed to', 'man', None], ['under suspicion', 'man', None], ['been followed', 'man', None], ['killings', None, None], ['not', 'The man he confessed to', None], ['seen', 'an enemy agent', None], ['enter', 'man', None]]
+Event_score 4.731432214379311
+KG_score: 2.6858248745463786
+$$$$: {'Entity': ['the front door of his van', 'the sliding door', 'One', 'the back of the van', 'other'], 'Relation': [['EventCause', 'the water pressure', 'could not'], ['EventTemporal', 'climbed into', 'opened'], ['EventCause', 'opened', 'escaped']], 'Event': [['tried to open', 'One', None], ['could not', 'One', 'the front door of his van'], ['the water pressure', None, None], ['climbed into', 'other', None], ['opened', 'other', None], ['escaped', 'other', None]]}
+Entity_score 2.1176472902297974
+**************relation_score*********************
+Relation_score -0.06374271959066391
+**************event_score*********************
+[['tried to open', 'One', None], ['could not', 'One', 'the front door of his van'], ['the water pressure', None, None], ['climbed into', 'other', None], ['opened', 'other', None], ['escaped', 'other', None]] [['tried to open', 'One', None], ['could not', 'One', 'the front door of his van'], ['the water pressure', None, None], ['climbed into', 'other', None], ['opened', 'other', None], ['escaped', 'other', None]]
+Event_score 2.972189612686634
+KG_score: 1.6586110804975034
+$$$$: {'Entity': ['lighthouse-keeper', 'He', 'rocks', 'something', 'light', 'man', 'ship', 'radio'], 'Relation': [['EntityEqual', 'lighthouse-keeper', 'man'], ['Event_att', 'in the darkness', 'woke up'], ['Entity_att', 'with a nagging', 'He'], ['NC2Event', 'feeling', 'forgotten'], ['Event_att', 'with great loss of life', 'crashed onto'], ['EventCause', 'crashed onto', 'heard a report'], ['NC2Event', 'realized', 'crashed onto'], ['Entity_att', 'that night', 'light'], ['EventCause', 'forgot to start', 'crashed onto']], 'Event': [['woke up', None, None], ['feeling', 'He', None], ['forgotten', 'He', None], ['turned on', 'He', None], ['heard a report', 'He', None], ['crashed onto', 'ship', None], ['realized', 'He', None], ['forgot to start', None, 'He']]}
+Entity_score 3.3138733506202698
+**************relation_score*********************
+Relation_score -0.8026466816663742
+**************event_score*********************
+[['woke up', None, None], ['feeling', 'He', None], ['forgotten', 'He', None], ['turned on', 'He', None], ['heard a report', 'He', None], ['crashed onto', 'ship', None], ['realized', 'He', None], ['forgot to start', None, 'He']] [['woke up', None, None], ['feeling', 'He', None], ['forgotten', 'He', None], ['turned on', 'He', None], ['heard a report', 'He', None], ['crashed onto', 'ship', None], ['realized', 'He', None], ['forgot to start', None, 'He']]
+Event_score 4.221503645181656
+KG_score: 2.2218010036647318
+$$$$: {'Entity': ['movie', 'Susan', 'her videocassette recorder'], 'Relation': [['Event_att', 'a week earlier', 'shown'], ['EventTemporal', 'taped it then on', 'watch']], 'Event': [['shown', 'movie', None], ['watch', 'Susan', 'movie'], ['taped it then on', 'Susan', None]]}
+Entity_score 1.2861100435256958
+**************relation_score*********************
+Relation_score -0.23864738643169403
+**************event_score*********************
+[['shown', 'movie', None], ['watch', 'Susan', 'movie'], ['taped it then on', 'Susan', None]] [['shown', 'movie', None], ['watch', 'Susan', 'movie'], ['taped it then on', 'Susan', None]]
+Event_score 1.4283144176006317
+KG_score: 0.8170064346492291
+$$$$: {'Entity': ['Many', 'a religious cult', 'his followers', 'man', 'his own children', 'he'], 'Relation': [['NC2Event', 'Believing', 'the world would end'], ['Event_att', 'that night', 'the world would end'], ['NC2Event', 'offered', 'taking poison'], ['NC2Event', 'offered', 'seeing the destruction of the world'], ['EntityPartof', 'his own children', 'Many'], ['NC2Event', 'chosen', 'taking poison'], ['EventCause', 'taking poison', 'died']], 'Event': [['the leader of', 'man', None], ['Believing', 'man', None], ['the world would end', None, None], ['taking poison', None, None], ['offered', 'he', None], ['seeing the destruction of the world', 'his followers', None], ['chosen', 'Many', None], ['died', 'Many', None], ['taking poison', None, None]]}
+Entity_score 2.5757372975349426
+**************relation_score*********************
+Relation_score -0.6503907293081284
+**************event_score*********************
+[['the leader of', 'man', None], ['Believing', 'man', None], ['the world would end', None, None], ['taking poison', None, None], ['offered', 'he', None], ['seeing the destruction of the world', 'his followers', None], ['chosen', 'Many', None], ['died', 'Many', None], ['taking poison', None, None]] [['the leader of', 'man', None], ['Believing', 'man', None], ['the world would end', None, None], ['taking poison', None, None], ['offered', 'he', None], ['seeing the destruction of the world', 'his followers', None], ['chosen', 'Many', None], ['died', 'Many', None], ['taking poison', None, None]]
+Event_score 4.5592348501086235
+KG_score: 2.1399118680506946
+$$$$: {'Entity': ['He', 'an Indian brave', 'a war party', 'a cavalry troop'], 'Relation': [['EntityEqual', 'an Indian brave', 'He'], ['NC2Event', 'alerting', 'the approach of']], 'Event': [['sent smoke signals', 'He', None], ['the approach of', None, None], ['alerting', 'He', None]]}
+Entity_score 1.7524446249008179
+**************relation_score*********************
+Relation_score -0.1343194991350174
+**************event_score*********************
+[['sent smoke signals', 'He', None], ['the approach of', None, None], ['alerting', 'He', None]] [['sent smoke signals', 'He', None], ['the approach of', None, None], ['alerting', 'He', None]]
+Event_score 1.540939062833786
+KG_score: 1.0424911822378635
+$$$$: {'Entity': ['woman', 'Eve', "God's instruction", 'Adam'], 'Relation': [['EntityEqual', 'Eve', 'woman'], ['Event_att', 'the forbidden fruit from the tree in the Garden of Eden', 'gave'], ['EventCause', 'gave', 'breaking'], ['EventCause', 'became mortal', 'died']], 'Event': [['gave', 'woman', 'Adam'], ['breaking', None, None], ['became mortal', 'Adam', None], ['died', 'Adam', None]]}
+Entity_score 1.658752679824829
+**************relation_score*********************
+Relation_score -0.3740980997681618
+**************event_score*********************
+[['gave', 'woman', 'Adam'], ['breaking', None, None], ['became mortal', 'Adam', None], ['died', 'Adam', None]] [['gave', 'woman', 'Adam'], ['breaking', None, None], ['became mortal', 'Adam', None], ['died', 'Adam', None]]
+Event_score 1.8465786650776863
+KG_score: 1.0333069708943365
+$$$$: {'Entity': ['man', 'boy', 'a plank of wood', "the roof of the man's house"], 'Relation': [['Event_att', 'over the chimney', 'placed'], ['Event_att', 'in his parlor', 'been asleep'], ['Event_att', 'by fumes from his fire', 'suffocated'], ['EventCause', 'placed', 'suffocated']], 'Event': [['climbed onto', 'boy', None], ['placed', 'boy', None], ['been asleep', 'man', None], ['suffocated', 'man', None]]}
+Entity_score 1.7054278254508972
+**************relation_score*********************
+Relation_score -0.5240488722920418
+**************event_score*********************
+[['climbed onto', 'boy', None], ['placed', 'boy', None], ['been asleep', 'man', None], ['suffocated', 'man', None]] [['climbed onto', 'boy', None], ['placed', 'boy', None], ['been asleep', 'man', None], ['suffocated', 'man', None]]
+Event_score 2.144598975777626
+KG_score: 1.097572716549039
+$$$$: {'Entity': ['six toes on one foot', 'He', "the baby's toes", 'This little piggy went to market, this little piggy stayed home ...', 'baby', 'man'], 'Relation': [['EventSameTime', 'recites the nursery rhyme', 'wiggling'], ['NC2Event', 'finds', 'has'], ['EntityEqual', 'He', 'man']], 'Event': [['recites the nursery rhyme', 'man', None], ['wiggling', 'man', None], ['has', None, None], ['finds', 'He', None]]}
+Entity_score 2.5734234750270844
+**************relation_score*********************
+Relation_score -0.01920291967689991
+**************event_score*********************
+[['recites the nursery rhyme', 'man', None], ['wiggling', 'man', None], ['has', None, None], ['finds', 'He', None]] [['recites the nursery rhyme', 'man', None], ['wiggling', 'man', None], ['has', None, None], ['finds', 'He', None]]
+Event_score 1.952256053686142
+KG_score: 1.4871372809819878
+$$$$: {'Entity': ['mother', 'The older twin', 'Kerry', 'March 1st', "the twins' mother", 'the younger twin', 'Terry', 'February 28'], 'Relation': [['Event_att', 'from Guam to Hawaii', 'travelling'], ['EventSameTime', 'went into labo', 'travelling'], ['EntityEqual', 'Terry', 'The older twin'], ['Event_att', 'on March 1st', 'born'], ['EntityEqual', 'mother', "the twins' mother"], ['EntityEqual', 'the younger twin', 'Kerry'], ['EventTemporal', 'crossed the International Date Line', 'born'], ['Event_att', 'February 28th', 'born'], ['Event_att', 'In leap years', 'two days before']], 'Event': [['went into labo', "the twins' mother", None], ['travelling', "the twins' mother", None], ['born', 'Terry', None], ['crossed the International Date Line', 'mother', None], ['born', 'Kerry', None], ['two days before', None, None]]}
+Entity_score 3.563666492700577
+**************relation_score*********************
+Relation_score -0.6199047639966011
+**************event_score*********************
+[['went into labo', "the twins' mother", None], ['travelling', "the twins' mother", None], ['born', 'Terry', None], ['crossed the International Date Line', 'mother', None], ['born', 'Kerry', None], ['two days before', None, None]] [['went into labo', "the twins' mother", None], ['travelling', "the twins' mother", None], ['born', 'Terry', None], ['crossed the International Date Line', 'mother', None], ['born', 'Kerry', None], ['two days before', None, None]]
+Event_score 2.9643591418862343
+KG_score: 1.9496798872947694
+$$$$: {'Entity': ['one person', 'A'], 'Relation': [['EntityEqual', 'A', 'one person'], ['Event_att', 'he would be happy with as his share', 'cut a piece of the cake'], ['EventTemporal', 'cut a piece of the cake', 'go round']], 'Event': [['Pick', None, None], ['cut a piece of the cake', 'A', None], ['go round', None, None]]}
+Entity_score 0.751643180847168
+**************relation_score*********************
+Relation_score -0.22653939574956894
+**************event_score*********************
+[['Pick', None, None], ['cut a piece of the cake', 'A', None], ['go round', None, None]] [['Pick', None, None], ['cut a piece of the cake', 'A', None], ['go round', None, None]]
+Event_score 1.3756493926048279
+KG_score: 0.6272485486418009
+$$$$: {'Entity': ['the flap', 'needle', 'letter', 'wife', 'a small gap', 'gap and under the fold of the letter'], 'Relation': [['Entity_att', 'at the top of the envelope', 'a small gap'], ['Event_att', 'tightly around', 'wound'], ['EntityPartof', 'a small gap', 'gap and under the fold of the letter'], ['EntityPartof', 'the flap', 'gap and under the fold of the letter'], ['EventTemporal', 'wound', 'removed'], ['Event_att', 'in reverse', 'actions'], ['EventTemporal', 'removed', 'read']], 'Event': [['folded over', 'the flap', None], ['inserted a knitting needle', 'wife', None], ['rotating', None, 'wife'], ['wound', 'wife', None], ['removed', 'wife', 'needle'], ['read', 'letter', 'wife'], ['actions', 'wife', None]]}
+Entity_score 2.582534223794937
+**************relation_score*********************
+Relation_score -0.480069175362587
+**************event_score*********************
+[['folded over', 'the flap', None], ['inserted a knitting needle', 'wife', None], ['rotating', None, 'wife'], ['wound', 'wife', None], ['removed', 'wife', 'needle'], ['read', 'letter', 'wife'], ['actions', 'wife', None]] [['folded over', 'the flap', None], ['inserted a knitting needle', 'wife', None], ['rotating', None, 'wife'], ['wound', 'wife', None], ['removed', 'wife', 'needle'], ['read', 'letter', 'wife'], ['actions', 'wife', None]]
+Event_score 3.4419435039162636
+KG_score: 1.8296548222750426
+$$$$: {'Entity': ['Some captains', 'men', 'sailors', 'the image of Christ', "a man's back"], 'Relation': [['EntityEqual', 'sailors', 'men'], ['Event_att', 'on board ship', 'often flogged'], ['EventCause', 'minor offenses', 'often flogged'], ['NC2Event', 'refused', 'whip'], ['EventCause', 'carried', 'refused']], 'Event': [['often flogged', 'sailors', None], ['minor offenses', 'sailors', None], ['refused', 'Some captains', None], ['whip', None, 'Some captains'], ['carried', "a man's back", None]]}
+Entity_score 2.1420585215091705
+**************relation_score*********************
+Relation_score -0.49270741641521454
+**************event_score*********************
+[['often flogged', 'sailors', None], ['minor offenses', 'sailors', None], ['refused', 'Some captains', None], ['whip', None, 'Some captains'], ['carried', "a man's back", None]] [['often flogged', 'sailors', None], ['minor offenses', 'sailors', None], ['refused', 'Some captains', None], ['whip', None, 'Some captains'], ['carried', "a man's back", None]]
+Event_score 2.7089260667562485
+KG_score: 1.4382314667105676
+$$$$: {'Entity': ['a Westerner', 'suitcases', 'people', 'any large item', 'Pat', 'Most Japanese'], 'Relation': [['Entity_att', 'in Tokyo', 'a Westerner'], ['EntityEqual', 'a Westerner', 'Pat'], ['Event_att', 'in Tokyo', 'Houses there are small'], ['EventCause', 'Houses there are small', 'save space'], ['Entity_att', 'might use only occasionally', 'any large item'], ['EventCause', 'save space', 'tend to rent'], ['Event_att', 'take on holiday', 'rent']], 'Event': [['Houses there are small', None, None], ['save space', None, None], ['tend to rent', 'people', None], ['rent', 'Most Japanese', None]]}
+Entity_score 2.6121701300144196
+**************relation_score*********************
+Relation_score -0.5836069509387016
+**************event_score*********************
+[['Houses there are small', None, None], ['save space', None, None], ['tend to rent', 'people', None], ['rent', 'Most Japanese', None]] [['Houses there are small', None, None], ['save space', None, None], ['tend to rent', 'people', None], ['rent', 'Most Japanese', None]]
+Event_score 1.9745408222079277
+KG_score: 1.3210243204236032
+$$$$: {'Entity': ['one winner and one loser', 'Everyone', 'The number of the matches', '212', 'the number of matches', 'the number of losers', 'Each match'], 'Relation': [['EntityEqual', '212', 'The number of the matches'], ['Event_att', 'exactly once', 'loses']], 'Event': [['produce', 'Each match', None], ['loses', 'Everyone', None], ['the same as', 'the number of matches', None]]}
+Entity_score 3.0898048877716064
+**************relation_score*********************
+Relation_score -0.08824879676103592
+**************event_score*********************
+[['produce', 'Each match', None], ['loses', 'Everyone', None], ['the same as', 'the number of matches', None]] [['produce', 'Each match', None], ['loses', 'Everyone', None], ['the same as', 'the number of matches', None]]
+Event_score 1.5993729084730148
+KG_score: 1.5183065698295835
+$$$$: {'Entity': ['an habitual sleepwalker', 'He', 'the cold sensation', 'water', "man's wife", 'the front door', 'the key', 'road'], 'Relation': [['EntityEqual', "man's wife", 'an habitual sleepwalker'], ['Event_att', 'previously', 'opened'], ['Event_att', 'in her sleep', 'opened'], ['Event_att', 'in the bucket of cold water', 'placed'], ['EventTemporal', 'reached into', 'get'], ['EventCause', 'get', 'waken']], 'Event': [['opened', "man's wife", None], ['walked out into', "man's wife", None], ['placed', 'He', None], ['waken', None, "man's wife"], ['reached into', "man's wife", None], ['get', "man's wife", 'the key']]}
+Entity_score 3.473832219839096
+**************relation_score*********************
+Relation_score -0.5697706490755081
+**************event_score*********************
+[['opened', "man's wife", None], ['walked out into', "man's wife", None], ['placed', 'He', None], ['waken', None, "man's wife"], ['reached into', "man's wife", None], ['get', "man's wife", 'the key']] [['opened', "man's wife", None], ['walked out into', "man's wife", None], ['placed', 'He', None], ['waken', None, "man's wife"], ['reached into', "man's wife", None], ['get', "man's wife", 'the key']]
+Event_score 2.9913806542754173
+KG_score: 1.9454959342628717
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+$$$$: {'Entity': [], 'Relation': [], 'Event': []}
+Entity_score 0.0
+**************relation_score*********************
+Relation_score 0.0
+**************event_score*********************
+[] []
+Event_score 0.0
+KG_score: 0.0
+* 0.7641807280906849

@@ -1,0 +1,399 @@
+[
+    {
+        "Entity": [
+            "robbery",
+            "his life savings",
+            "jewels and gold",
+            "by the fall from the window.",
+            "scene",
+            "chandelier",
+            "man"
+        ],
+        "Relation": [
+            [
+                "EntityEqual",
+                "his life savings",
+                "jewels and gold"
+            ],
+            [
+                "Event_att",
+                "in an attempt",
+                "turned on"
+            ],
+            [
+                "EventCause",
+                "turned on",
+                "look like"
+            ]
+        ],
+        "Event": [
+            [
+                "killed",
+                "man",
+                null
+            ],
+            [
+                "turned on",
+                "chandelier",
+                null
+            ],
+            [
+                "stage",
+                "scene",
+                null
+            ],
+            [
+                "look like",
+                "scene",
+                "robbery"
+            ]
+        ]
+    },
+    {
+        "Entity": [
+            "bartender",
+            "hiccups",
+            "man",
+            "gun"
+        ],
+        "Relation": [
+            [
+                "NC2Event",
+                "realized",
+                "had"
+            ]
+        ],
+        "Event": [
+            [
+                "had",
+                "man",
+                null
+            ],
+            [
+                "realized",
+                "bartender",
+                null
+            ],
+            [
+                "frightening",
+                null,
+                "man"
+            ],
+            [
+                "cure",
+                "bartender",
+                "hiccups"
+            ]
+        ]
+    },
+    {
+        "Entity": [
+            "his hand",
+            "man",
+            "bandage"
+        ],
+        "Relation": [
+            [
+                "NC2Event",
+                "didn't want",
+                "dirty"
+            ]
+        ],
+        "Event": [
+            [
+                "had",
+                "man",
+                null
+            ],
+            [
+                "on",
+                "bandage",
+                "his hand"
+            ],
+            [
+                "didn't want",
+                "man",
+                null
+            ],
+            [
+                "dirty",
+                "bandage",
+                null
+            ]
+        ]
+    },
+    {
+        "Entity": [
+            "woman",
+            "himself",
+            "her husband"
+        ],
+        "Relation": [
+            [
+                "EventCause",
+                "in shock",
+                "did not realize"
+            ],
+            [
+                "EntityEqual",
+                "himself",
+                "her husband"
+            ]
+        ],
+        "Event": [
+            [
+                "in shock",
+                "woman",
+                null
+            ],
+            [
+                "did not realize",
+                "woman",
+                null
+            ],
+            [
+                "killed",
+                "her husband",
+                null
+            ]
+        ]
+    },
+    {
+        "Entity": [
+            "test",
+            "he",
+            "one",
+            "rightful heir"
+        ],
+        "Relation": [
+            [
+                "NC2Event",
+                "known",
+                "sent packing"
+            ],
+            [
+                "EntityEqual",
+                "he",
+                "rightful heir"
+            ],
+            [
+                "EventCause",
+                "sent packing",
+                "refused"
+            ]
+        ],
+        "Event": [
+            [
+                "agreed",
+                "one",
+                null
+            ],
+            [
+                "was not",
+                "one",
+                null
+            ],
+            [
+                "known",
+                "rightful heir",
+                null
+            ],
+            [
+                "sent packing",
+                null,
+                null
+            ],
+            [
+                "refused",
+                "one",
+                null
+            ],
+            [
+                "was",
+                "one",
+                null
+            ]
+        ]
+    },
+    {
+        "Entity": [
+            "his own vomit",
+            "hiccups",
+            "hospital",
+            "he",
+            "old man"
+        ],
+        "Relation": [
+            [
+                "EventCause",
+                "choking on",
+                "rushed"
+            ],
+            [
+                "EventSameTime",
+                "stopped",
+                "got to"
+            ],
+            [
+                "EventTemporal",
+                "got to",
+                "treated"
+            ]
+        ],
+        "Event": [
+            [
+                "rushed",
+                "old man",
+                null
+            ],
+            [
+                "choking on",
+                "he",
+                null
+            ],
+            [
+                "stopped",
+                "hiccups",
+                null
+            ],
+            [
+                "got to",
+                "he",
+                "hospital"
+            ],
+            [
+                "treated",
+                "he",
+                null
+            ]
+        ]
+    },
+    {
+        "Entity": [
+            "hole",
+            "man",
+            "bullet",
+            "rifle"
+        ],
+        "Relation": [
+            [
+                "Event_att",
+                "rom a distance",
+                "shot"
+            ],
+            [
+                "EventCause",
+                "shot",
+                "left"
+            ]
+        ],
+        "Event": [
+            [
+                "shot",
+                null,
+                "man"
+            ],
+            [
+                "through",
+                "bullet",
+                "man"
+            ],
+            [
+                "left",
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "Entity": [
+            "on the marble floor",
+            "him",
+            "three balls",
+            "in the head, neck, and chest",
+            "He",
+            "juggling skills",
+            "juggler",
+            "man"
+        ],
+        "Relation": [
+            [
+                "EntityEqual",
+                "juggler",
+                "man"
+            ],
+            [
+                "EventCause",
+                "slipped and fell",
+                "died"
+            ],
+            [
+                "EntityPartof",
+                "in the head, neck, and chest",
+                "him"
+            ]
+        ],
+        "Event": [
+            [
+                "practicing",
+                "man",
+                null
+            ],
+            [
+                "died",
+                null,
+                null
+            ],
+            [
+                "slipped and fell",
+                "He",
+                null
+            ],
+            [
+                "hit",
+                "three balls",
+                null
+            ]
+        ]
+    },
+    {
+        "Entity": [
+            "snake",
+            "man"
+        ],
+        "Relation": [],
+        "Event": [
+            [
+                "killed",
+                null,
+                "man"
+            ]
+        ]
+    },
+    {
+        "Entity": [
+            "him",
+            "man",
+            "water"
+        ],
+        "Relation": [
+            [
+                "EntityEqual",
+                "him",
+                "man"
+            ]
+        ],
+        "Event": [
+            [
+                "poisoned",
+                "man",
+                null
+            ],
+            [
+                "could have saved",
+                "water",
+                null
+            ]
+        ]
+    }
+]

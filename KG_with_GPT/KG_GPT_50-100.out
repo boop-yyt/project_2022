@@ -1,0 +1,1898 @@
+nohup: ignoring input
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/feature_extraction/image.py:167: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dtype=np.int):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/feature_extraction/text.py:17: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  from collections import Mapping, defaultdict
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:35: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:597: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:836: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:862: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, positive=False):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1074: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=1, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1306: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=1, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1442: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, positive=False):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:152: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  precompute=False, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:318: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, random_state=None,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:575: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=4 * np.finfo(np.float).eps, n_jobs=1,
+PUZZLE: A man is lying dead in a room.  There is a large pile of gold and jewels on the floor, a chandelier attached to the ceiling, and a large open window. What happened?
+* Was the man killed by the chandelier?
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/transformers/models/t5/tokenization_t5_fast.py:166: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  FutureWarning,
+# ::snt Was the man killed by the chandelier?
+(k / kill-01
+      :polarity (a / amr-unknown)
+      :ARG0 (c / chandelier)
+      :ARG1 (m / man))
+* No.
+* The man was killed by a sniper who shot him from outside the window. The gold and jewels are unrelated to the man's death.
+Edit score is :  0.8478105996496959
+PUZZLE: A man is lying dead in a room.  There is a large pile of gold and jewels on the floor, a chandelier attached to the ceiling, and a large window through which rays are coming.
+* Is the man's body blocking the door?
+# ::snt Is the man's body blocking the door?
+(b / block-01
+      :polarity (a / amr-unknown)
+      :ARG0 (b2 / body
+            :part-of (m / man))
+      :ARG1 (d / door))
+* No.
+* The man committed suicide by jumping out the window and impaling himself on the chandelier.
+Edit score is :  0.5736114660533266
+* Is the man's body blocking the window?
+# ::snt Is the man's body blocking the window?
+(b / block-01
+      :polarity (a / amr-unknown)
+      :ARG0 (b2 / body
+            :part-of (m / man))
+      :ARG1 (w / window))
+* No.
+* The man committed suicide by jumping out the window and impaling himself on the chandelier. The jewels are reflections of the sun off the chandelier.
+Edit score is :  0.5633103838972421
+* Could the man have died from falling out the window?
+# ::snt Could the man have died from falling out the window?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (d / die-01
+            :ARG1 (m / man)
+            :ARG1-of (c / cause-01
+                  :ARG0 (f / fall-01
+                        :ARG1 m
+                        :direction (o / out-06
+                              :ARG2 (w / window))))))
+* No.
+* The man was killed by the chandelier falling on him. The pile of gold and jewels are his life savings, and the rays coming in through the window are from the sun.
+Edit score is :  0.5962477086508094
+* Could the man have died from the chandelier falling on him?
+# ::snt Could the man have died from the chandelier falling on him?
+(p / possible-01
+      :ARG1 (d / die-01
+            :ARG1 (m / man)
+            :ARG1-of (c / cause-01
+                  :ARG0 (f / fall-01
+                        :ARG1 (c2 / chandelier)
+                        :ARG4 m)))
+      :polarity (a / amr-unknown))
+* No.
+* The man was poisoned and the poison was in the gold.
+Edit score is :  0.6290944420455247
+* Could the man have been killed by someone else in the room?
+# ::snt Could the man have been killed by someone else in the room?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (k / kill-01
+            :ARG0 (s / someone
+                  :mod (e / else)
+                  :location (r / room))
+            :ARG1 (m / man)))
+* No.
+* The man died from starvation.
+Edit score is :  0.6581382619875001
+PUZZLE: A man enters the elevator of a high rise apartment building, takes off one glove, and pushes the button for the tenth floor.  The next day, the same man enters the elevator, "puts on" one glove, and pushes the button for the tenth floor. Why?
+* Was the glove wet?
+# ::snt Was the glove wet?
+(w / wet-01
+      :polarity (a / amr-unknown)
+      :ARG1 (g / glove))
+* Irrelevant.
+* It was winter and the man wanted to keep his hand warm.
+Edit score is :  0.5366996618922063
+* Did the man want to go to the tenth floor?
+# ::snt Did the man want to go to the tenth floor?
+(w / want-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (g / go-01
+            :ARG1 m
+            :ARG4 (f / floor
+                  :ord (o / ordinal-entity
+                        :value 10))))
+* Irrelevant.
+* The man was carrying a piece of paper with a phone number on it that he wanted to save. He took off his glove to avoid getting the paper wet and put it in his pocket. The next day, he put the glove back on to keep the paper from getting crumpled.
+Edit score is :  0.6188554381265893
+* Is the man bald?
+# ::snt Is the man bald?
+(b / bald
+      :polarity (a / amr-unknown)
+      :domain (m / man))
+* No.
+* The man has a tattoo on his hand that he does not want others to see.
+Edit score is :  0.5904569212611701
+* 
+* No.
+* The man was carrying a cake and didn't want to get his glove dirty.
+Edit score is :  0.5789138411497028
+* Does the man have a tattoo?
+# ::snt Does the man have a tattoo?
+(t / tattoo-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man))
+* Irrelevant.
+* The man has eczema on his hand and the glove is to protect his hand from the itch.
+Edit score is :  0.5740019369085952
+PUZZLE: A woman came home with a bag of groceries, got the mail, and walked into the house.  On the way to the kitchen, she went through the living room and looked at her husband, who had blown his brains out.  She then continued to the kitchen, put away the groceries, and made dinner. Why?
+* Did the woman know her husband was dead?
+# ::snt Did the woman know her husband was dead?
+(k / know-01
+      :ARG0 (w / woman)
+      :ARG1 (d / die-01
+            :ARG1 (p / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG1 w
+                        :ARG2 (h2 / husband))))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The woman was deaf.
+Edit score is :  0.5668913901025241
+* Why did the woman continue to the kitchen?
+# ::snt Why did the woman continue to the kitchen?
+(c / continue-01
+      :ARG0 (w / woman)
+      :ARG4 (k / kitchen)
+      :ARG1-of (c2 / cause-01
+            :ARG0 (a / amr-unknown)))
+* Irrelevant.
+* The woman was deaf.
+Edit score is :  0.5668913901025241
+* Did the woman have a mental illness?
+# ::snt Did the woman have a mental illness?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (w / woman)
+      :ARG1 (ii / ill-01
+            :ARG1 w
+            :mod (m / mind)))
+* Irrelevant.
+* The woman was deaf.
+Edit score is :  0.5668913901025241
+* 
+* No.
+* The woman was in shock and acted on autopilot.
+Edit score is :  0.6263262449771999
+* Why did the woman put away the groceries?
+# ::snt Why did the woman put away the groceries?
+(p / put-01
+      :ARG0 (w / woman)
+      :ARG1 (g / grocery)
+      :ARG2 (a / away)
+      :ARG1-of (c / cause-01
+            :ARG0 (a2 / amr-unknown)))
+* Irrelevant.
+* The woman was deaf, and she couldn't hear the gunshot.
+Edit score is :  0.6523960224449766
+PUZZLE: The king dies and two men both claim to be his long-lost son.  One of the king's advisors proposes a test to determine the identity of the true heir.  One claimant agrees to the test; the other refuses.  The one who agreed is sent packing; the one who refused is identified as the rightful heir.  Why?
+* Could the one who agreed to the test have been the rightful heir?
+# ::snt Could the one who agreed to the test have been the rightful heir?
+(p / possible-01
+      :ARG1 (h / heir
+            :ARG2-of (r / right-05)
+            :domain (o / one
+                  :ARG0-of (a / agree-01
+                        :ARG1 (t / test-01))))
+      :polarity (a2 / amr-unknown))
+* No.
+* The true heir knew that he was the king's son and did not need to take the test.  The imposter knew that he would fail the test, so he refused.
+Edit score is :  0.8230327175996592
+PUZZLE: An old man gets the hiccups.  Soon, he is rushed to the hospital. Why?
+* Could the old man's hiccups have been cured at home?
+# ::snt Could the old man's hiccups have been cured at home?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (c / cure-01
+            :ARG1 (h / hiccup
+                  :poss (m / man
+                        :mod (o / old)))
+            :location (h2 / home)))
+* No.
+* The old man's hiccups were caused by a tumor on his brain.
+Edit score is :  0.5877149637815915
+* Did the old man have a life-threatening condition?
+# ::snt Did the old man have a life-threatening condition?
+(h / have-03
+      :ARG0 (m / man
+            :mod (o / old))
+      :ARG1 (c / condition
+            :ARG0-of (t / threaten-01
+                  :ARG1 (l / life)))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The old man's hiccups were caused by a build-up of carbon dioxide in his blood. The hiccups stopped when he was given oxygen at the hospital.
+Edit score is :  0.6659666437295771
+PUZZLE: A man is found dead outside a large building with a hole in him. What happened?
+* Could he have been shot?
+# ::snt Could he have been shot?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (s / shoot-02
+            :ARG1 (h / he)))
+* No.
+* The man fell from the building.
+Edit score is :  0.5778477139610105
+* Did he jump out of the building?
+# ::snt Did he jump out of the building?
+(j / jump-03
+      :polarity (a / amr-unknown)
+      :ARG0 (h / he)
+      :ARG2 (o / out-06
+            :ARG1 h
+            :ARG2 (b / building)))
+* Irrelevant.
+* The man was a victim of a prank. Someone had set up a large fan to blow air out of the building, and the man was blown through the hole in the wall.
+Edit score is :  0.6818686465669778
+PUZZLE: A man is found dead outside a large marble building with three holes in him. What happened?
+* Was the man shot?
+# ::snt Was the man shot?
+(s / shoot-02
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man))
+* No.
+* The man committed suicide by jumping out of the building and landing on the spikes below.
+Edit score is :  0.6220249466571298
+* Did the man fall from the building?
+# ::snt Did the man fall from the building?
+(f / fall-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG3 (b / building))
+* Irrelevant.
+* The man was hit by a marble that fell from the building.
+Edit score is :  0.595109710550887
+* Did the man die from the holes in his body?
+# ::snt Did the man die from the holes in his body?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (h / hole
+                  :location (b / body
+                        :poss m))))
+* Irrelevant.
+* The man was a victim of a drive-by shooting. The holes in the building were bullet holes.
+Edit score is :  0.6544777173329718
+PUZZLE: A man dies in his own home. What happened?
+* Could he have been poisoned?
+# ::snt Could he have been poisoned?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (p2 / poison-01
+            :ARG1 (h / he)))
+* No.
+* The man committed suicide.
+Edit score is :  0.5157388663967611
+* Did he have a heart attack?
+# ::snt Did he have a heart attack?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (h2 / he)
+      :ARG1 (h3 / heart-attack))
+* Irrelevant.
+* The man was electrocuted while taking a bath.
+Edit score is :  0.6308760683760685
+* Was he shot?
+# ::snt Was he shot?
+(s / shoot-02
+      :polarity (a / amr-unknown)
+      :ARG1 (h / he))
+* No.
+* The man committed suicide.
+Edit score is :  0.5157388663967611
+* Did he die of natural causes?
+# ::snt Did he die of natural causes?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (h / he)
+      :ARG1-of (c / cause-01
+            :ARG0 (n / natural-03)))
+* Irrelevant.
+* The man committed suicide.
+Edit score is :  0.5157388663967611
+* Did he die in his sleep?
+# ::snt Did he die in his sleep?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (h / he)
+      :time (s / sleep-01
+            :ARG0 h))
+* Irrelevant.
+* The man committed suicide.
+Edit score is :  0.5157388663967611
+PUZZLE: A man dies of thirst in his own home. What happened?
+* Did the man have any water to drink?
+# ::snt Did the man have any water to drink?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (w / water
+            :mod (a2 / any)
+            :ARG1-of (d / drink-01
+                  :ARG0 m)))
+* Irrelevant.
+* The man's house was on fire, and he died of thirst while trying to escape.
+Edit score is :  0.7591659841659841
+PUZZLE: A body is discovered in a park in Chicago in the middle of summer. It has a fractured skull and many other broken bones, but the cause of death was hypothermia. What happened?
+* Was the body found in a cold place?
+# ::snt Was the body found in a cold place?
+(f / find-01
+      :polarity (a / amr-unknown)
+      :ARG1 (b / body)
+      :location (p / place
+            :ARG1-of (c / cold-01)))
+* No.
+* The body was dumped in the park after the person died from hypothermia elsewhere.
+Edit score is :  0.5900252638482394
+* Was the body found in the winter?
+# ::snt Was the body found in the winter?
+(f / find-01
+      :polarity (a / amr-unknown)
+      :ARG1 (b / body)
+      :time (d / date-entity
+            :season (w / winter)))
+* No.
+* The body was probably dumped in the park after being killed elsewhere. The summer heat caused the body to decompose, which released fluids that cooled the body and caused hypothermia.
+Edit score is :  0.6495720043361684
+* Did the person die from a fall?
+# ::snt Did the person die from a fall?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (p / person)
+      :ARG1-of (c / cause-01
+            :ARG0 (f / fall-01
+                  :ARG1 p)))
+* Irrelevant.
+* The person was most likely a victim of a hit and run. The person was hit by a car and the impact of the collision caused many broken bones. The person was then left in the park where they eventually died from hypothermia.
+Edit score is :  0.7213268262753952
+PUZZLE: A man is lying drowned in a dead forest. What happened?
+* Was the man's death accidental?
+# ::snt Was the man's death accidental?
+(a / accidental
+      :polarity (a2 / amr-unknown)
+      :domain (d / die-01
+            :ARG1 (m / man)))
+* No.
+* The man was murdered.
+Edit score is :  0.5376512517853774
+* Did the man die of a heart attack?
+# ::snt Did the man die of a heart attack?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (h / heart-attack)))
+* Irrelevant.
+* The man was murdered.
+Edit score is :  0.5376512517853774
+* Did the man die of dehydration?
+# ::snt Did the man die of dehydration?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (d2 / dehydrate-01
+                  :ARG1 m)))
+* Irrelevant.
+* The man was murdered.
+Edit score is :  0.5376512517853774
+* Did the man die of a gunshot wound?
+# ::snt Did the man die of a gunshot wound?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (w / wound-01
+                  :ARG0 (s / shoot-02
+                        :ARG1 m
+                        :instrument (g / gun)))))
+* Irrelevant.
+* The man was murdered.
+Edit score is :  0.5376512517853774
+* Did the man die of foul play?
+# ::snt Did the man die of foul play?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (p / play-01
+                  :mod (f / foul))))
+* Irrelevant.
+* The man committed suicide.
+Edit score is :  0.5141915704678678
+PUZZLE: Three men die.  On the pavement are pieces of ice and broken glass. What happened?
+* Did a car crash?
+# ::snt Did a car crash?
+(c / crash-01
+      :ARG1 (c2 / car)
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The men were eating ice cream and dropped their cones.
+Edit score is :  0.5380599647266314
+* Were the men killed instantly?
+# ::snt Were the men killed instantly?
+(k / kill-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :manner (ii / instant))
+* No.
+* The men were walking on the sidewalk and slipped on the ice. They hit their heads on the pavement and died.
+Edit score is :  0.5743168669336893
+* Did the men die from the cold?
+# ::snt Did the men die from the cold?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (c2 / cold-01)))
+* No.
+* The men were fighting and one of them was knocked through a window. He hit the pavement and died. The other two men were killed by the glass and ice that fell on them.
+Edit score is :  0.5905018534359852
+* Did the men die from the glass?
+# ::snt Did the men die from the glass?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (g / glass)))
+* No.
+* The men were killed by a sniper.The ice and glass were from a nearby building that was hit by a stray bullet.
+Edit score is :  0.5601698030778869
+* 
+* No.
+* The men were killed by a gang.The ice was used to keep the bodies from stiffening so that they could be disposed of more easily.The glass was from a nearby window that was broken by the gang.
+Edit score is :  0.5984726045926893
+PUZZLE: If he had wanted chocolate ice cream, his brother would be alive today. What happened?
+* Did he want chocolate ice cream?
+# ::snt Did he want chocolate ice cream?
+(w / want-01
+      :polarity (a / amr-unknown)
+      :ARG0 (h / he)
+      :ARG1 (ii / ice-cream
+            :consist-of (c / chocolate)))
+* Irrelevant.
+* The man's brother was killed in a car accident. The man blames himself because he had an argument with his brother earlier that day and didn't tell him that he loved him. If he had told his brother that he loved him, his brother would have been in a better mood and wouldn't have been speeding.
+Edit score is :  0.6308630702796746
+* Did his brother die?
+# ::snt Did his brother die?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (h2 / he)
+                  :ARG2 (b / brother))))
+* No.
+* He wanted vanilla, but there was only chocolate. His brother, who was eating the last of the vanilla, offered to share, but he refused and his brother died of anaphylactic shock.
+Edit score is :  0.5812107434891128
+* What would have happened if he had wanted chocolate ice cream?
+# ::snt What would have happened if he had wanted chocolate ice cream?
+(h / have-condition-91
+      :ARG1 (a / amr-unknown)
+      :ARG2 (w / want-01
+            :ARG0 (h2 / he)
+            :ARG1 (ii / ice-cream
+                  :consist-of (c / chocolate))))
+* No.
+* The brother would be alive if he had wanted vanilla ice cream instead.
+Edit score is :  0.5422510198403666
+* 
+* No.
+* He wanted vanilla ice cream, but his brother wanted chocolate. They argued and his brother died as a result.
+Edit score is :  0.5563796781074268
+* 
+* No.
+* He wanted strawberry ice cream, but there was only chocolate. His brother, who was with him at the time, died in a violent manner due to an altercation with the ice cream vendor.
+Edit score is :  0.5786407190902423
+PUZZLE: A man kills his wife, then goes inside his house and kills himself. What happened?
+* Did the man feel remorse after killing his wife?
+# ::snt Did the man feel remorse after killing his wife?
+(f / feel-01
+      :ARG0 (m / man)
+      :ARG1 (r / remorse)
+      :polarity (a / amr-unknown)
+      :time (a2 / after
+            :op1 (k / kill-01
+                  :ARG0 m
+                  :ARG1 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 m
+                              :ARG2 (w / wife))))))
+* Irrelevant.
+* The man was jealous of his wife and wanted her dead. He killed her, then realized that he would be caught and convicted, so he killed himself.
+Edit score is :  0.6243281444505043
+* Did the wife die instantly?
+# ::snt Did the wife die instantly?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (w / wife)))
+      :manner (ii / instant))
+* No.
+* The man killed his wife, then went inside his house and killed himself.
+Edit score is :  0.5729792490285094
+* Was the wife's death intentional?
+# ::snt Was the wife's death intentional?
+(ii / intend-01
+      :polarity (a / amr-unknown)
+      :ARG1 (d / die-01
+            :ARG1 (p / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG2 (w / wife)))))
+* No.
+* The man killed his wife accidentally, then felt so guilty that he killed himself.
+Edit score is :  0.5588507177005222
+* Did the man feel happy after killing his wife?
+# ::snt Did the man feel happy after killing his wife?
+(f / feel-01
+      :ARG0 (m / man)
+      :ARG1 (h / happy-01)
+      :polarity (a / amr-unknown)
+      :time (a2 / after
+            :op1 (k / kill-01
+                  :ARG0 m
+                  :ARG1 (p / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 m
+                              :ARG2 (w / wife))))))
+* Irrelevant.
+* The man killed his wife accidentally, then killed himself out of guilt.
+Edit score is :  0.5497723710698401
+* Did the man kill his wife for a specific reason?
+# ::snt Did the man kill his wife for a specific reason?
+(k / kill-01
+      :ARG0 (m / man)
+      :ARG1 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 m
+                  :ARG2 (w / wife)))
+      :polarity (a / amr-unknown)
+      :ARG1-of (c / cause-01
+            :ARG0 (r / reason
+                  :ARG1-of (s / specific-02))))
+* Irrelevant.
+* The man killed his wife in a fit of rage, then realized what he had done and killed himself out of guilt.
+Edit score is :  0.5922431954356282
+PUZZLE: If he'd turned on the light, he'd have lived. What happened?
+* He was shot?
+# ::snt He was shot?
+(s / shoot-02
+      :polarity (a / amr-unknown)
+      :ARG1 (h / he))
+* No.
+* He was hanged.
+Edit score is :  0.5321428571428571
+* He died of natural causes?
+# ::snt He died of natural causes?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (h / he)
+      :ARG1-of (c / cause-01
+            :ARG0 (n / natural-03)))
+* No.
+* He was killed in a car accident.
+Edit score is :  0.5294642857142857
+* He was in a dark room?
+# ::snt He was in a dark room?
+(h / he
+      :polarity (a / amr-unknown)
+      :location (r / room
+            :ARG1-of (d / dark-02)))
+* No.
+* He was in a dark room and tripped over a wire that was strung across the room at ankle level. If he had turned on the light, he would have seen the wire and avoided it.
+Edit score is :  0.6059427022841657
+* He was in a car accident?
+# ::snt He was in a car accident?
+(a / accident
+      :polarity (a2 / amr-unknown)
+      :mod (c / car)
+      :domain (h / he))
+* No.
+* He was in a fight. If he had turned on the light, he would have seen his opponent and been able to defend himself better.
+Edit score is :  0.5797848616030433
+* He was electrocuted?
+# ::snt He was electrocuted?
+(e / electrocute-01
+      :polarity (a / amr-unknown)
+      :ARG1 (h / he))
+* No.
+* He was being chased by a murderer and hid in a closet. If he had turned on the light, the murderer would have seen him and killed him.
+Edit score is :  0.5946872778962331
+PUZZLE: A man is found dead on the floor in the living room. What happened?
+* Was the man killed?
+# ::snt Was the man killed?
+(k / kill-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man))
+* No.
+* The man committed suicide.
+Edit score is :  0.5557971440324381
+* Did the man die of natural causes?
+# ::snt Did the man die of natural causes?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (n / natural-03)))
+* Irrelevant.
+* The man committed suicide.
+Edit score is :  0.5557971440324381
+* Could the man have been saved?
+# ::snt Could the man have been saved?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (s / save-02
+            :ARG1 (m / man)))
+* No.
+* The man committed suicide.
+Edit score is :  0.5557971440324381
+* Did the man die of a disease?
+# ::snt Did the man die of a disease?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (d2 / disease)))
+* Irrelevant.
+* The man committed suicide.
+Edit score is :  0.5557971440324381
+* Was the man poisoned?
+# ::snt Was the man poisoned?
+(p / poison-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man))
+* No.
+* The man committed suicide.
+Edit score is :  0.5557971440324381
+PUZZLE: A man went into a restaurant, had a large meal, and paid nothing for it. What happened?
+* Did the man have a coupon?
+# ::snt Did the man have a coupon?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (c / coupon))
+* Irrelevant.
+* The man was a member of the clean plate club.
+Edit score is :  0.6192766124537671
+* Did the man know the owner of the restaurant?
+# ::snt Did the man know the owner of the restaurant?
+(k / know-01
+      :ARG0 (m / man)
+      :ARG1 (p / person
+            :ARG0-of (o / own-01
+                  :ARG1 (r / restaurant)))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The man was a cannibal and ate the owner of the restaurant.
+Edit score is :  0.6171528517894592
+* Did the man eat the entire meal?
+# ::snt Did the man eat the entire meal?
+(e / eat-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (m2 / meal
+            :mod (e2 / entire)))
+* Irrelevant.
+* The man was a food critic.
+Edit score is :  0.6344268476621419
+* Did the man steal the food?
+# ::snt Did the man steal the food?
+(s / steal-01
+      :ARG0 (m / man)
+      :ARG1 (f / food)
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The man was a beggar who had been given the food by the restaurant owner.
+Edit score is :  0.6046199301638463
+* Did the man pay for the meal?
+# ::snt Did the man pay for the meal?
+(p / pay-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG3 (m2 / meal))
+* Irrelevant.
+* The man was a beggar and the restaurant was a soup kitchen.
+Edit score is :  0.6171528517894592
+PUZZLE: A U.S. Navy sailor on the deck of a cruiser noticed an explosive mine in the water directly in the path of the ship.  With no time to communicate the situation to the captain of the ship, the sailor saved the lives of the crew and the ship. What happened?
+* Did the sailor have time to warn the other crew members?
+# ::snt Did the sailor have time to warn the other crew members?
+(h / have-03
+      :ARG0 (p / person
+            :ARG0-of (s / sail-01))
+      :ARG1 (t / time
+            :purpose (w / warn-01
+                  :ARG0 p
+                  :ARG2 (p2 / person
+                        :ARG0-of (h2 / have-org-role-91
+                              :ARG1 (c / crew)
+                              :ARG2 (m / member))
+                        :mod (o / other))))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The sailor jumped into the water and swam to the mine, where he attached his belt to the mine and swam away from the ship before the mine exploded.
+Edit score is :  0.6946187708260143
+PUZZLE: A man leaves a motel room, goes to his car, and honks the horn. What happened?
+* Did the man pay for his motel room?
+# ::snt Did the man pay for his motel room?
+(p / pay-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG3 (r / room
+            :mod (m2 / motel)
+            :poss m))
+* Irrelevant.
+* The man left his lights on in the room and was honking the horn to alert the motel staff so that they could turn the lights off for him.
+Edit score is :  0.6336654880531447
+* Did anyone else honk their horn?
+# ::snt Did anyone else honk their horn?
+(h / honk-01
+      :polarity (a / amr-unknown)
+      :ARG0 (a2 / anyone
+            :mod (e / else))
+      :ARG1 (h2 / horn
+            :poss a2))
+* Irrelevant.
+* The man left his lights on in his motel room.
+Edit score is :  0.5446873102610807
+* Did the man get in his car?
+# ::snt Did the man get in his car?
+(g / get-05
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG2 (c / car
+            :poss m))
+* Irrelevant.
+* The man left his key in the room.
+Edit score is :  0.5398762212286803
+* Did the man want to get someone's attention?
+# ::snt Did the man want to get someone's attention?
+(w / want-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (g / get-01
+            :ARG0 m
+            :ARG1 (a2 / attend-02
+                  :ARG0 (s / someone))))
+* Irrelevant.
+* The man forgot his room key.
+Edit score is :  0.5312039205481829
+* 
+* No.
+* The man wanted to check to see if his car horn worked.
+Edit score is :  0.5553531673750253
+PUZZLE: As I drive to work on my motorcycle, there is one corner which I go around at a certain speed whether it's rainy or sunny.  If it's cloudy but not raining, however, I usually go faster. What happened?
+* Is the road more slippery when it's cloudy but not raining?
+# ::snt Is the road more slippery when it's cloudy but not raining?
+(h / have-degree-91
+      :ARG1 (r / road)
+      :ARG2 (s / slippery)
+      :ARG3 (m / more)
+      :time (c / contrast-01
+            :ARG1 (c2 / cloudy)
+            :ARG2 (r2 / rain-01
+                  :polarity -))
+      :polarity (a / amr-unknown))
+* No.
+* The driver is more likely to encounter law enforcement when it's sunny, so he goes faster when it's cloudy to avoid being pulled over.
+Edit score is :  0.6474813359620546
+* Do you know why you go faster when it's cloudy but not raining?
+# ::snt Do you know why you go faster when it's cloudy but not raining?
+(k / know-01
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :ARG0-of (c / cause-01
+                  :ARG1 (g / go-06
+                        :ARG0 y
+                        :ARG1-of (h / have-degree-91
+                              :ARG2 (f / fast-02
+                                    :ARG1 g)
+                              :ARG3 (m / more))
+                        :time (c2 / contrast-01
+                              :ARG1 (c3 / cloudy)
+                              :ARG2 (r / rain-01
+                                    :polarity -)))))
+      :polarity (a / amr-unknown))
+* No.
+* The reason is that the traffic is usually heavier when it's sunny, so I go faster when it's cloudy to make up for the time I'll lose in traffic.
+Edit score is :  0.6594496260250519
+PUZZLE: A man opens his mouth and dies shortly afterwards. What happened?
+* Was there anything in his mouth?
+# ::snt Was there anything in his mouth?
+(b / be-located-at-91
+      :polarity (a / amr-unknown)
+      :ARG1 (a2 / anything)
+      :ARG2 (m / mouth
+            :part-of (h / he)))
+* No.
+* The man was a ventriloquist and his dummy was killed in a car accident.
+Edit score is :  0.6469562404343062
+* Was he poisoned?
+# ::snt Was he poisoned?
+(p / poison-01
+      :polarity (a / amr-unknown)
+      :ARG1 (h / he))
+* No.
+* The man was a ventriloquist and his dummy was stuck.
+Edit score is :  0.5996512973406861
+* Did he have a pre-existing condition?
+# ::snt Did he have a pre-existing condition?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (h2 / he)
+      :ARG1 (c / condition
+            :ARG1-of (p / preexist-01)))
+* Irrelevant.
+* The man was yawning.
+Edit score is :  0.5939365555139253
+* Did he die of natural causes?
+# ::snt Did he die of natural causes?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (h / he)
+      :ARG1-of (c / cause-01
+            :ARG0 (n / natural-03)))
+* Irrelevant.
+* The man was a ventriloquist and his dummy was sitting on his lap. When he opened his mouth, the dummy's head fell off, causing him to die of shock.
+Edit score is :  0.8495331850579642
+PUZZLE: A married couple goes to a movie.  During the movie the husband strangles the wife.  He is able to get her body home without attracting attention. What happened?
+* Could the husband have gotten the wife's body out of the theater without anyone noticing?
+# ::snt Could the husband have gotten the wife's body out of the theater without anyone noticing?
+(p / possible-01
+      :ARG1 (g / get-05
+            :ARG0 (p2 / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG2 (h2 / husband)))
+            :ARG1 (b / body
+                  :poss (p3 / person
+                        :ARG0-of (h3 / have-rel-role-91
+                              :ARG2 (w / wife))))
+            :ARG2 (o / out-06
+                  :ARG1 b
+                  :ARG2 (t / theater))
+            :manner (n / notice-01
+                  :polarity -
+                  :ARG0 (a / anyone)
+                  :ARG1 g))
+      :polarity (a2 / amr-unknown))
+* Irrelevant.
+* The couple went to see a 3D movie.
+Edit score is :  0.6676343264578559
+PUZZLE: Music stops and a woman dies. What happened?
+* Was the woman a musician?
+# ::snt Was the woman a musician?
+(m / musician
+      :polarity (a / amr-unknown)
+      :domain (w / woman))
+* No.
+* The woman was a singer. She was singing when the music stopped, and she died because she could not continue singing without the music.
+Edit score is :  0.6200333519684853
+* Was the woman dancing?
+# ::snt Was the woman dancing?
+(d / dance-01
+      :polarity (a / amr-unknown)
+      :ARG0 (w / woman))
+* No.
+* The woman was an opera singer. She was singing when the music stopped, and she died because she could no longer sing.
+Edit score is :  0.6084195637809242
+* Did the woman have headphones on?
+# ::snt Did the woman have headphones on?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (w / woman)
+      :ARG1 (h2 / headphone
+            :ARG1-of (o / on-01)))
+* Irrelevant.
+* The woman was at a live concert. When the music stopped, she had a heart attack and died.
+Edit score is :  0.6011045501964388
+* Did the woman have a heart condition?
+# ::snt Did the woman have a heart condition?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (w / woman)
+      :ARG1 (c / condition
+            :mod (h2 / heart)))
+* Irrelevant.
+* The woman was in an elevator when the power went out and she was stuck. She died of dehydration.
+Edit score is :  0.6021594368340945
+* Did the woman die of natural causes?
+# ::snt Did the woman die of natural causes?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (w / woman)
+      :ARG1-of (c / cause-01
+            :ARG0 (n / natural-03)))
+* Irrelevant.
+* 
+Edit score is :  0.0
+PUZZLE: A woman is murdered in front of hundreds of people, but they all think it's an accident. What happened?
+* Was she pushed?
+# ::snt Was she pushed?
+(p / push-01
+      :polarity (a / amr-unknown)
+      :ARG1 (s / she))
+* No.
+* She was killed by a sniper from a nearby building.
+Edit score is :  0.5194954128440367
+* Did she fall?
+# ::snt Did she fall?
+(f / fall-01
+      :polarity (a / amr-unknown)
+      :ARG1 (s / she))
+* Irrelevant.
+* She was poisoned.
+Edit score is :  0.5392756490975595
+* Did somebody shoot her?
+# ::snt Did somebody shoot her?
+(s / shoot-02
+      :polarity (a / amr-unknown)
+      :ARG0 (s2 / somebody)
+      :ARG1 (s3 / she))
+* Irrelevant.
+* She was killed by a poisonous snake that was hidden in a bouquet of flowers that someone had given her.
+Edit score is :  0.6177657037103016
+* Did somebody kill her?
+# ::snt Did somebody kill her?
+(k / kill-01
+      :polarity (a / amr-unknown)
+      :ARG0 (s / somebody)
+      :ARG1 (s2 / she))
+* Irrelevant.
+* She was an acrobat and she was killed during her act.
+Edit score is :  0.5552967414509813
+* Was she killed with a knife?
+# ::snt Was she killed with a knife?
+(k / kill-01
+      :polarity (a / amr-unknown)
+      :ARG1 (s / she)
+      :instrument (k2 / knife))
+* No.
+* She was killed with poison
+Edit score is :  0.5235630831961107
+PUZZLE: Charlie died when the music stopped. What happened?
+* Was Charlie a musician?
+# ::snt Was Charlie a musician?
+(m / musician
+      :polarity (a / amr-unknown)
+      :domain (p / person
+            :name (n / name
+                  :op1 "Charlie")))
+* No.
+* Charlie was a contestant on a game show. The game was "musical chairs" and the prize was a million dollars.
+Edit score is :  0.8509457537586347
+PUZZLE: Abel walks out of the ocean.  Cain asks him who he is, and Abel answers.  Cain kills Abel. What happened?
+* Did Abel know Cain?
+# ::snt Did Abel know Cain?
+(k / know-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Abel"))
+      :ARG1 (p2 / person
+            :name (n2 / name
+                  :op1 "Cain"))
+      :polarity (a / amr-unknown))
+* No.
+* Cain killed Abel because Abel was a stranger and he didn't want anyone on his land.
+Edit score is :  0.5469726674264123
+* Did Abel do anything to Cain?
+# ::snt Did Abel do anything to Cain?
+(d / do-02
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Abel"))
+      :ARG1 (a / anything)
+      :ARG2 (p2 / person
+            :name (n2 / name
+                  :op1 "Cain"))
+      :polarity (a2 / amr-unknown))
+* Irrelevant.
+* Cain killed Abel because Abel was innocent and had done nothing wrong.
+Edit score is :  0.5515636918382913
+* Is Abel related to Cain?
+# ::snt Is Abel related to Cain?
+(r / relate-01
+      :ARG1 (p / person
+            :name (n / name
+                  :op1 "Abel"))
+      :ARG2 (p2 / person
+            :name (n2 / name
+                  :op1 "Cain"))
+      :polarity (a / amr-unknown))
+* No.
+* Cain killed Abel because he was jealous of Abel's relationship with God.
+Edit score is :  0.530272576867004
+* Did Abel know he was going to die?
+# ::snt Did Abel know he was going to die?
+(k / know-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Abel"))
+      :ARG1 (d / die-01
+            :ARG1 p)
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* Cain killed Abel because he was jealous of Abel's relationship with God.
+Edit score is :  0.530272576867004
+* 
+* No.
+* Cain killed Abel because he was jealous of Abel's relationship with God.
+Edit score is :  0.530272576867004
+PUZZLE: A man is riding a subway.  He meets a one-armed man, who pulls out a gun and shoots him. What happened?
+* Did the one-armed man have a motive?
+# ::snt Did the one-armed man have a motive?
+(m / motive
+      :polarity (a / amr-unknown)
+      :domain (m2 / man
+            :ARG1-of (a2 / arm-01
+                  :quant 1)))
+* No.
+* The one-armed man was a doctor and the man on the subway was having a heart attack. The doctor saved his life by shooting him with adrenaline.
+Edit score is :  0.5962076913950611
+* Did the one-armed man know the man he shot?
+# ::snt Did the one-armed man know the man he shot?
+(k / know-01
+      :ARG0 (m / man
+            :ARG1-of (a / arm-01
+                  :quant 1))
+      :ARG1 (m2 / man
+            :ARG1-of (s / shoot-02
+                  :ARG0 m))
+      :polarity (a2 / amr-unknown))
+* Irrelevant.
+* The one-armed man was a pickpocket. The man he shot was a plain-clothes police officer who was attempting to apprehend him.
+Edit score is :  0.5630983786433349
+* Was the gun real?
+# ::snt Was the gun real?
+(r / real-04
+      :polarity (a / amr-unknown)
+      :ARG1 (g / gun))
+* Irrelevant.
+* The man was a victim of a random act of violence.
+Edit score is :  0.5464893538642893
+* Did the one-armed man have a gun?
+# ::snt Did the one-armed man have a gun?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man
+            :ARG1-of (a2 / arm-01
+                  :quant 1))
+      :ARG1 (g / gun))
+* Irrelevant.
+* The man was killed by a stray bullet.
+Edit score is :  0.5357758480502163
+* Did the one-armed man have a gun?
+# ::snt Did the one-armed man have a gun?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man
+            :ARG1-of (a2 / arm-01
+                  :quant 1))
+      :ARG1 (g / gun))
+* Irrelevant.
+* The man was a victim of a mugging. The mugger demanded his money and when the man reached into his pocket, the mugger thought he was going for a gun and shot him.
+Edit score is :  0.5958537171359826
+PUZZLE: A man sends a package to someone in Europe and gets a note back saying "Thank you.  I received it." What happened?
+* Did the man send the package to himself?
+# ::snt Did the man send the package to himself?
+(s / send-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (p / package)
+      :ARG2 m)
+* Irrelevant.
+* The man sent a bill to someone in Europe and got a note back saying "Thank you. I received it."
+Edit score is :  0.5764582937488124
+* Did the man get the note back before or after he sent the package?
+# ::snt Did the man get the note back before or after he sent the package?
+(g / get-back-09
+      :ARG0 (m / man)
+      :ARG1 (n / note)
+      :polarity (a / amr-unknown)
+      :time (o / or
+            :op1 (b / before
+                  :op1 (s / send-01
+                        :ARG0 m
+                        :ARG1 (p / package)))
+            :op2 (a2 / after
+                  :op1 s)))
+* Irrelevant.
+* The man sent a postcard.
+Edit score is :  0.556107099879663
+* Did the man send the package to Europe?
+# ::snt Did the man send the package to Europe?
+(s / send-01
+      :ARG0 (m / man)
+      :ARG1 (p / package)
+      :ARG2 (c / continent
+            :name (n / name
+                  :op1 "Europe"))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The man sent a letter, not a package.
+Edit score is :  0.5357758480502163
+* Did the man send the package to someone in Europe?
+# ::snt Did the man send the package to someone in Europe?
+(s / send-01
+      :ARG0 (m / man)
+      :ARG1 (p / package)
+      :ARG2 (s2 / someone
+            :location (c / continent
+                  :name (n / name
+                        :op1 "Europe")))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The man sent a note to someone in Europe and got a package back.
+Edit score is :  0.5541328219013237
+* Did the man get a note back saying "Thank you. I received it."?
+# ::snt Did the man get a note back saying "Thank you.
+(g / get-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (n / note
+            :ARG0-of (s / say-01
+                  :ARG1 (t / thank-01
+                        :ARG0 m
+                        :ARG1 (y / you))))
+      :direction (b / back))
+# ::snt I received it."?
+(r / receive-01
+      :polarity (a / amr-unknown)
+      :ARG0 (ii / i)
+      :ARG1 (ii2 / it))
+* Irrelevant.
+* The man sent a package to Europe and got a note back saying "Thank you. I received it."
+Edit score is :  0.5572058559097318
+PUZZLE: Variant wording: Two men throw a box off of a cliff. What happened?
+* Did the box land on the man?
+# ::snt Did the box land on the man?
+(l / land-01
+      :polarity (a / amr-unknown)
+      :ARG1 (b / box)
+      :ARG2 (m / man))
+* Irrelevant.
+* Both men jumped off the cliff after the box.
+Edit score is :  0.5424045100210902
+* Did the box land on something else?
+# ::snt Did the box land on something else?
+(l / land-01
+      :polarity (a / amr-unknown)
+      :ARG1 (b / box)
+      :ARG2 (s / something
+            :mod (e / else)))
+* Irrelevant.
+* The box was empty.
+Edit score is :  0.4905968144310113
+* What was in the box?
+# ::snt What was in the box?
+(b / be-located-at-91
+      :ARG1 (a / amr-unknown)
+      :ARG2 (b2 / box))
+* No.
+* Two men throw a box of chocolates off of a cliff.
+Edit score is :  0.5328601388742026
+* 
+* No.
+* The box was empty.
+Edit score is :  0.4905968144310113
+* Was the box empty?
+# ::snt Was the box empty?
+(e / empty
+      :polarity (a / amr-unknown)
+      :domain (b / box))
+* No.
+* The box contained the other man's wife.
+Edit score is :  0.5513137689303492
+PUZZLE: A man in a Sherlock Holmes-style cape walks into a room, places a box on the table and leaves. Why?
+* Was the box empty?
+# ::snt Was the box empty?
+(e / empty
+      :polarity (a / amr-unknown)
+      :domain (b / box))
+* No.
+* The man was a magician. The box contained a rabbit and the cape was part of his disguise.
+Edit score is :  0.6974802059508814
+PUZZLE: An ordinary American citizen, with no passport, visits over thirty foreign countries in one day.  He is welcomed in each country, and leaves each one of his own accord. Why?
+* Could the man speak the native language of each country?
+# ::snt Could the man speak the native language of each country?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (s / speak-01
+            :ARG0 (m / man)
+            :ARG3 (l / language
+                  :mod (n / native)
+                  :poss (c / country
+                        :mod (e / each)))))
+* Irrelevant.
+* The man went to the United Nations.
+Edit score is :  0.5647155445027785
+* Did the man have a time machine?
+# ::snt Did the man have a time machine?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (m2 / machine
+            :mod (t / time)))
+* Irrelevant.
+* The man was a balloonist, and traveled from country to country in his hot air balloon.
+Edit score is :  0.6536075027472582
+PUZZLE: A man is sitting in bed.  He makes a phone call, saying nothing, and then goes to sleep. What happened?
+* Could the man hear the other person on the phone?
+# ::snt Could the man hear the other person on the phone?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (h / hear-01
+            :ARG0 (m / man)
+            :ARG1 (p2 / person
+                  :mod (o / other))
+            :medium (p3 / phone)))
+* Irrelevant.
+* The man was deaf.
+Edit score is :  0.5201380197469058
+* Did the man say anything during the phone call?
+# ::snt Did the man say anything during the phone call?
+(s / say-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (a2 / anything)
+      :time (c / call-02
+            :medium (p / phone)))
+* Irrelevant.
+* The man was deaf.
+Edit score is :  0.5201380197469058
+* Did the man dial the phone himself?
+# ::snt Did the man dial the phone himself?
+(d / dial-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (p / phone))
+* Irrelevant.
+* The man was making a phone call to a suicide hotline.
+Edit score is :  0.5783710245773674
+* Did the man say anything during the phone call?
+# ::snt Did the man say anything during the phone call?
+(s / say-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (a2 / anything)
+      :time (c / call-02
+            :medium (p / phone)))
+* Irrelevant.
+* The man was deaf.
+Edit score is :  0.5201380197469058
+* 
+* No.
+* The man was making a prank call.
+Edit score is :  0.542355391596126
+PUZZLE: A man is sleeping in bed at 3 a.m. when the telephone rings.  As the man lifts the receiver, the caller hangs up. What happened?
+* Did the man sleep through the whole thing?
+# ::snt Did the man sleep through the whole thing?
+(s / sleep-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :duration (t / thing
+            :mod (w / whole)))
+* Irrelevant.
+* The man was sleepwalking and picked up the phone in his sleep. When he realized he was talking to nobody, he hung up and went back to bed.
+Edit score is :  0.8258576267421844
+PUZZLE: A man tries to buy poison to kill his wife.  The pharmacist figures out what he's up to and finds a way to ensure that he can't kill his wife. How to do this?
+* Can the man still kill his wife?
+# ::snt Can the man still kill his wife?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (k / kill-01
+            :ARG0 (m / man)
+            :ARG1 (p2 / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG1 m
+                        :ARG2 (w / wife)))
+            :mod (s / still)))
+* Irrelevant.
+* The pharmacist sells the man a poison that is only effective if the person taking it believes that it is poison.
+Edit score is :  0.6562208216619981
+PUZZLE: A man was walking down a road when a stone lodged itself between his foot and his sandal.  He leaned against a pole and, with his head down to watch, he shook his foot to dislodge the stone.  Another man came up and broke the first man's arm in three places. What happened?
+* Did the first man see the second man coming?
+# ::snt Did the first man see the second man coming?
+(s / see-01
+      :ARG0 (m / man
+            :ord (o / ordinal-entity
+                  :value 1))
+      :ARG1 (c / come-01
+            :ARG1 (m2 / man
+                  :ord (o2 / ordinal-entity
+                        :value 2)))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The second man was a doctor.
+Edit score is :  0.5531705331705332
+* Was the second man's action justified?
+# ::snt Was the second man's action justified?
+(j / justify-01
+      :polarity (a / amr-unknown)
+      :ARG1 (a2 / act-02
+            :ARG0 (m / man
+                  :ord (o / ordinal-entity
+                        :value 2))))
+* No.
+* The second man was a doctor who saw that the first man was shaking his arm vigorously and knew that if he didn't intervene, the first man would dislocate his shoulder.
+Edit score is :  0.8276733550442974
+PUZZLE: A man is sitting suspended over two pressurized containers. Suddenly, he dies. What happened?
+* Could the containers have been holding gas?
+# ::snt Could the containers have been holding gas?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (h / hold-01
+            :ARG0 (c / container)
+            :ARG1 (g / gas)))
+* No.
+* The man was sitting on a seat over two pressurized containers of water. The seat suddenly broke, causing the man to fall into the water and drown.
+Edit score is :  0.5905830767052493
+* Did the containers have anything to do with the man's death?
+# ::snt Did the containers have anything to do with the man's death?
+(h / have-to-do-with-04
+      :polarity (a / amr-unknown)
+      :ARG0 (c / container)
+      :ARG1 (d / die-01
+            :ARG1 (m / man))
+      :ARG2 (a2 / anything))
+* No.
+* The man was sitting on a chair that was suspended over two pressurized containers of water. The man died of a heart attack.
+Edit score is :  0.5959639953542393
+* Did the man die of natural causes?
+# ::snt Did the man die of natural causes?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (n / natural-03)))
+* Irrelevant.
+* The man was sitting on a chair over two pressurized containers of water. The chair broke, and the man drowned.
+Edit score is :  0.5959565163833457
+* 
+* No.
+* The man committed suicide.
+Edit score is :  0.5786324786324787
+* Could the man have been poisoned?
+# ::snt Could the man have been poisoned?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (p2 / poison-01
+            :ARG1 (m / man)))
+* No.
+* The man was sitting on a bomb.
+Edit score is :  0.6093434343434344
+PUZZLE: A man is dead in a puddle of blood and water on the floor of a locked room. What happened?
+* Could the man have committed suicide?
+# ::snt Could the man have committed suicide?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (c / commit-02
+            :ARG0 (m / man)
+            :ARG1 (s / suicide)))
+* No.
+* The man was killed by a poisoned dart that was shot through a hole in the door. The dart was shot with enough force to pierce the man's skin and inject the poison into his bloodstream. The poison was quickly absorbed by the man's body and caused his death. The puddle of blood and water on the floor was created when the man's body fell to the ground and his blood mixed with the water that was already on the floor.
+Edit score is :  0.5519919214772155
+* Could the man have been murdered?
+# ::snt Could the man have been murdered?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / murder-01
+            :ARG1 (m2 / man)))
+* No.
+* The man was electrocuted while taking a shower.
+Edit score is :  0.6537261082525997
+PUZZLE: A man is found hanging in a locked room with a puddle of water under his feet. What happened?
+* Was the man's death a suicide?
+# ::snt Was the man's death a suicide?
+(s / suicide
+      :polarity (a / amr-unknown)
+      :domain (d / die-01
+            :ARG1 (m / man)))
+* No.
+* The man was killed by electrocution. The puddle of water was created by the melting of the ice that was used to conduct the electricity.
+Edit score is :  0.5831167350661195
+* Did the man die of thirst?
+# ::snt Did the man die of thirst?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (t / thirst-01
+                  :ARG0 m)))
+* Irrelevant.
+* The man was hanged and the puddle of water was from the melting ice that was used to keep the rope from burning the man's skin.
+Edit score is :  0.5536575369939223
+* Did the man die of dehydration?
+# ::snt Did the man die of dehydration?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :ARG1-of (c / cause-01
+            :ARG0 (d2 / dehydrate-01
+                  :ARG1 m)))
+* Irrelevant.
+* The man was killed by someone else and the puddle of water was left there to make it look like a suicide.
+Edit score is :  0.57854066691276
+* Did someone else kill the man?
+# ::snt Did someone else kill the man?
+(k / kill-01
+      :polarity (a / amr-unknown)
+      :ARG0 (s / someone
+            :mod (e / else))
+      :ARG1 (m / man))
+* Irrelevant.
+* The man was killed by a snake. The snake was in the puddle of water and bit the man when he stepped in it.
+Edit score is :  0.5414057202122143
+* 
+* No.
+* The man was electrocuted. The puddle of water was from the man's body melting the snow that was on the floor.
+Edit score is :  0.5949921207969786
+PUZZLE: A man is found hanging in a locked room. What happened?
+* Was the man's death a suicide?
+# ::snt Was the man's death a suicide?
+(s / suicide
+      :polarity (a / amr-unknown)
+      :domain (d / die-01
+            :ARG1 (m / man)))
+* No.
+* The man was murdered.
+Edit score is :  0.49504160142458015
+* Did the man die by accident?
+# ::snt Did the man die by accident?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :manner (a2 / accident))
+* Irrelevant.
+* The man was murdered.
+Edit score is :  0.49504160142458015
+* Did someone else kill the man?
+# ::snt Did someone else kill the man?
+(k / kill-01
+      :polarity (a / amr-unknown)
+      :ARG0 (s / someone
+            :mod (e / else))
+      :ARG1 (m / man))
+* Irrelevant.
+* The man was not dead when he was found hanging in the room. He was still alive and later died in the hospital.
+Edit score is :  0.5457037308101138
+* Was the room locked from the inside or the outside?
+# ::snt Was the room locked from the inside or the outside?
+(l / lock-01
+      :ARG1 (r / room)
+      :ARG2 (a / amr-choice
+            :op1 (ii / inside)
+            :op2 (o / outside)))
+* No.
+* The man was killed by someone else and the room was locked from the outside to make it look like a suicide.
+Edit score is :  0.6191896523970495
+* 
+* No.
+* The man was already dead when he was found in the room.
+Edit score is :  0.6360627552116913
+PUZZLE: Mr. H meets Mr. X in a hotel bar; after a heated discussion, they leave the bar.  Suddenly, Mr. X clutches his chest, then punches Mr. H in the face. What happened?
+* Did Mr. H have a heart attack?
+# ::snt Did Mr. H have a heart attack?
+(h / have-03
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Mr."
+                  :op2 "H"))
+      :ARG1 (h2 / heart-attack)
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* Mr. X had a heart attack, and Mr. H punched him in the face to revive him.
+Edit score is :  0.5965310957792537
+* Did Mr. X hit Mr. H first?
+# ::snt Did Mr. X hit Mr. H first?
+(h / hit-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Mr."
+                  :op2 "X"))
+      :ARG1 (p2 / person
+            :name (n2 / name
+                  :op1 "Mr."
+                  :op2 "H"))
+      :ord (o / ordinal-entity
+            :value 1)
+      :polarity (a / amr-unknown))
+* No.
+* Mr. X was having a heart attack, and Mr. H punched him in the face in an attempt to help him.
+Edit score is :  0.6027702675658687
+* Did Mr. H hit Mr. X first?
+# ::snt Did Mr. H hit Mr. X first?
+(h / hit-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Mr."
+                  :op2 "H"))
+      :ARG1 (p2 / person
+            :name (n2 / name
+                  :op1 "Mr."
+                  :op2 "X"))
+      :ord (o / ordinal-entity
+            :value 1)
+      :polarity (a / amr-unknown))
+* No.
+* Mr. X was having a heart attack, and Mr. H punched him in the face to save his life.
+Edit score is :  0.5986316964964652
+* Did Mr. H say something to provoke Mr. X?
+# ::snt Did Mr. H say something to provoke Mr. X?
+(s / say-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Mr."
+                  :op2 "H"))
+      :ARG1 (s2 / something)
+      :polarity (a / amr-unknown)
+      :purpose (p2 / provoke-01
+            :ARG0 p
+            :ARG1 (p3 / person
+                  :name (n2 / name
+                        :op1 "Mr."
+                        :op2 "X"))))
+* Irrelevant.
+* Mr. X was having a heart attack, and Mr. H punched him in the face in an attempt to revive him.
+Edit score is :  0.6000368860958795
+* Did Mr. X have a heart attack?
+# ::snt Did Mr. X have a heart attack?
+(h / have-03
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Mr."
+                  :op2 "X"))
+      :ARG1 (h2 / heart-attack)
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* Mr. X was having a heart attack, and Mr. H punched him in the chest to try to revive him.
+Edit score is :  0.5913796236606854
+PUZZLE: Two friends have just had lunch in a restaurant.  At the end of the meal, one draws a pistol and shoots the other. What happened?
+* Was the restaurant crowded?
+# ::snt Was the restaurant crowded?
+(c / crowd-01
+      :polarity (a / amr-unknown)
+      :ARG1 (r / restaurant))
+* No.
+* The friends were arguing over who would pay the bill. The one who shot the other was the one who ended up paying.
+Edit score is :  0.656966157181324
+PUZZLE: A man driving his car turns on the radio.  He then pulls over to the side of the road and shoots himself. Why?
+* Did the man want to kill himself?
+# ::snt Did the man want to kill himself?
+(w / want-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (k / kill-01
+            :ARG0 m
+            :ARG1 m))
+* Irrelevant.
+* The man was a convicted murderer who had just been released from prison.  As part of his parole, he was not allowed to listen to the radio.
+Edit score is :  0.6738794883437064
+PUZZLE: The music stops and the man dies. Why?
+* Did the man have a heart condition?
+# ::snt Did the man have a heart condition?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (c / condition
+            :mod (h2 / heart)))
+* Irrelevant.
+* The man was a musician in a marching band. When the music stopped, he died because he was no longer in time with the rest of the band.
+Edit score is :  0.6690990560212103
+PUZZLE: A man is driving his car.  He turns on the radio, listens for five minutes, turns around, goes home, and shoots his wife. What happened?
+* Was the man's wife in the car with him?
+# ::snt Was the man's wife in the car with him?
+(a / accompany-01
+      :polarity (a2 / amr-unknown)
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (m / man)
+                  :ARG2 (w / wife)))
+      :ARG1 m
+      :location (c / car))
+* No.
+* The man received a call on the radio that his wife had been shot and killed.
+Edit score is :  0.6018037296680933
+* Did the man hear something on the radio that made him angry?
+# ::snt Did the man hear something on the radio that made him angry?
+(h / hear-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (s / something
+            :ARG0-of (m2 / make-02
+                  :ARG1 (a2 / anger-01
+                        :ARG1 m)))
+      :medium (r / radio))
+* Irrelevant.
+* The man had planned to shoot his wife before he left, but forgot until he heard the radio reminder.
+Edit score is :  0.6306827136614371
+* Did the man plan to shoot his wife when he left the house?
+# ::snt Did the man plan to shoot his wife when he left the house?
+(p / plan-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (s / shoot-02
+            :ARG0 m
+            :ARG1 (p2 / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG1 m
+                        :ARG2 (w / wife)))
+            :time (l / leave-11
+                  :ARG0 m
+                  :ARG1 (h2 / house))))
+* Irrelevant.
+* The man was a serial killer who only killed women. He heard on the radio that a woman had been killed five minutes ago, so he went home and killed his wife.
+Edit score is :  0.6855884168440357
+PUZZLE: She grabbed his ring, pulled on it, and dropped it. What happened?
+* Was the ring stuck on his finger?
+# ::snt Was the ring stuck on his finger?
+(s / stick-01
+      :polarity (a / amr-unknown)
+      :ARG1 (r / ring)
+      :ARG2 (f / finger
+            :part-of (h / he)))
+* No.
+* He was wearing a ring that was too loose and she was trying to tighten it.
+Edit score is :  0.6255902342858864
+* Did she mean to drop the ring?
+# ::snt Did she mean to drop the ring?
+(m / mean-02
+      :polarity (a / amr-unknown)
+      :ARG0 (s / she)
+      :ARG1 (d / drop-01
+            :ARG0 s
+            :ARG1 (r / ring)))
+* Irrelevant.
+* The man's finger was amputated.
+Edit score is :  0.5886368112174564
+* Did she grab the ring with her left hand or her right hand?
+# ::snt Did she grab the ring with her left hand or her right hand?
+(g / grab-01
+      :ARG0 (s / she
+            :part (h / hand
+                  :ARG1-of (l / left-19))
+            :part (h2 / hand
+                  :ARG1-of (r / right-04)))
+      :ARG1 (r2 / ring)
+      :ARG2 h2
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The man's finger was caught in the ring. She pulled on the ring to try to remove it from his finger, but it was too tight. So she ended up dropping the ring.
+Edit score is :  0.8108884533725299
+PUZZLE: A riverboat filled with passengers suddenly capsized, drowning most of those aboard.  What happened?
+* Was the boat overloaded?
+# ::snt Was the boat overloaded?
+(o / overload-01
+      :polarity (a / amr-unknown)
+      :ARG1 (b / boat))
+* No.
+* A large alligator swam under the boat, flipping it over with its tail.
+Edit score is :  0.6011091986995601
+* Did someone hit the boat?
+# ::snt Did someone hit the boat?
+(h / hit-01
+      :polarity (a / amr-unknown)
+      :ARG0 (s / someone)
+      :ARG1 (b / boat))
+* Irrelevant.
+* A hole was punctured in the side of the boat.
+Edit score is :  0.5648948095906662
+* Was the river too rough?
+# ::snt Was the river too rough?
+(r / rough-03
+      :polarity (a / amr-unknown)
+      :ARG1 (r2 / river)
+      :ARG2-of (h / have-degree-91
+            :ARG1 r2
+            :ARG3 (t / too)))
+* Irrelevant.
+* A large alligator swam under the boat, flipping it over with its tail.
+Edit score is :  0.6011091986995601
+* Did the boat hit something?
+# ::snt Did the boat hit something?
+(h / hit-01
+      :ARG0 (b / boat)
+      :ARG1 (s / something)
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The boat was hit by a large wave.
+Edit score is :  0.6441975134163241
+* Did the passengers all drown?
+# ::snt Did the passengers all drown?
+(d / drown-02
+      :polarity (a / amr-unknown)
+      :ARG1 (p / passenger
+            :mod (a2 / all)))
+* No.
+* The boat was hit by a large wave and capsized, but some of the passengers were able to swim to safety.
+Edit score is :  0.6955374781307669
+PUZZLE: A woman walks into a small room and screams. What happened?
+* Was the room dark?
+# ::snt Was the room dark?
+(d / dark-02
+      :polarity (a / amr-unknown)
+      :ARG1 (r / room))
+* Irrelevant.
+* The woman saw a spider.
+Edit score is :  0.6044020770363482
+* Did the woman fall?
+# ::snt Did the woman fall?
+(f / fall-01
+      :polarity (a / amr-unknown)
+      :ARG1 (w / woman))
+* Irrelevant.
+* The woman saw a spider.
+Edit score is :  0.6044020770363482
+* Did someone else enter the room?
+# ::snt Did someone else enter the room?
+(e / enter-01
+      :polarity (a / amr-unknown)
+      :ARG0 (s / someone
+            :mod (e2 / else))
+      :ARG1 (r / room))
+* Irrelevant.
+* The woman was startled by a mouse.
+Edit score is :  0.6104575163398693
+* Did the woman see something in the room?
+# ::snt Did the woman see something in the room?
+(s / see-01
+      :polarity (a / amr-unknown)
+      :ARG0 (w / woman)
+      :ARG1 (s2 / something)
+      :location (r / room))
+* Irrelevant.
+* The woman was afraid of small spaces.
+Edit score is :  0.5842254018724606
+* Did the woman hit her head?
+# ::snt Did the woman hit her head?
+(h / hit-01
+      :polarity (a / amr-unknown)
+      :ARG0 (w / woman
+            :part (h2 / head))
+      :ARG1 h2)
+* Irrelevant.
+* The woman was startled by a mouse.
+Edit score is :  0.6104575163398693
+PUZZLE: A rope breaks.  A bell rings.  A man dies. What happened?
+* Was the man ring the bell?
+# ::snt Was the man ring the bell?
+(r / ring-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (b / bell))
+* Irrelevant.
+* The man was hanged.
+Edit score is :  0.5259746588693958
+* Was the man's death caused by the rope breaking?
+# ::snt Was the man's death caused by the rope breaking?
+(c / cause-01
+      :polarity (a / amr-unknown)
+      :ARG0 (b / break-01
+            :ARG1 (r / rope))
+      :ARG1 (d / die-01
+            :ARG1 (m / man)))
+* No.
+* The man was hanged.
+Edit score is :  0.5259746588693958
+* Did the rope breaking and the bell ringing happen at the same time?follow_up_A:No.
+# ::snt Did the rope breaking and the bell ringing happen at the same time?follow_up_A:
+(f / follow-up-03
+      :ARG1 (p / person
+            :name (n / name
+                  :op1 "A"))
+      :polarity (a / amr-unknown)
+      :ARG2 (t / time
+            :ARG1-of (s / same-01
+                  :ARG2 (b / break-01
+                        :ARG1 (r / rope))
+                  :ARG3 (r2 / ring-01
+                        :ARG1 (b2 / bell)))))
+# ::snt No.
+(n / no)
+* No.
+* The man was ring the bell at a church. The rope breaking was not related to the man's death, which was caused by a heart attack.
+Edit score is :  0.6831319444444445
+PUZZLE: A bell rings.  A man dies.  A bell rings. What happened?
+* Did the first bell ring kill the man?
+# ::snt Did the first bell ring kill the man?
+(k / kill-01
+      :polarity (a / amr-unknown)
+      :ARG0 (r / ring-01
+            :ARG1 (b / bell
+                  :ord (o / ordinal-entity
+                        :value 1)))
+      :ARG1 (m / man))
+* Irrelevant.
+* The man was a boxer.
+Edit score is :  0.5582387340901273
+* Did the second bell ring mean that someone found the man's body?
+# ::snt Did the second bell ring mean that someone found the man's body?
+(m / mean-01
+      :polarity (a / amr-unknown)
+      :ARG1 (r / ring-01
+            :ARG1 (b / bell
+                  :ord (o / ordinal-entity
+                        :value 2)))
+      :ARG2 (f / find-01
+            :ARG0 (s / someone)
+            :ARG1 (b2 / body
+                  :poss (m2 / man))))
+* Irrelevant.
+* The man was a bell ringer, and the first bell he rang signified the end of his shift. The second bell he rang signified his death.
+Edit score is :  0.724758415379073
+PUZZLE: The wind stopped blowing and the man died. What happened?
+* Was the man a windmill?
+# ::snt Was the man a windmill?
+(w / windmill
+      :polarity (a / amr-unknown)
+      :domain (m / man))
+* No.
+* The man was a kite.
+Edit score is :  0.5539268152698279
+* Did the man have an illness?
+# ::snt Did the man have an illness?
+(ii / ill-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man))
+* No.
+* The man was a kite.
+Edit score is :  0.5539268152698279
+* Did the man kill himself?
+# ::snt Did the man kill himself?
+(k / kill-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 m)
+* Irrelevant.
+* The man was a kite.
+Edit score is :  0.5539268152698279
+* Was the man's death caused by a natural disaster?
+# ::snt Was the man's death caused by a natural disaster?
+(c / cause-01
+      :ARG0 (n / natural-disaster)
+      :ARG1 (d / die-01
+            :ARG1 (m / man))
+      :polarity (a / amr-unknown))
+* No.
+* The man was a kite surfer. When the wind stopped blowing, he was no longer able to stay afloat and he died.
+Edit score is :  0.6040679841517741
+* 
+* No.
+* The man was a kite.
+Edit score is :  0.5539268152698279

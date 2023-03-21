@@ -1,0 +1,163 @@
+nohup: ignoring input
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/feature_extraction/image.py:167: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dtype=np.int):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/feature_extraction/text.py:17: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  from collections import Mapping, defaultdict
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:35: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:597: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:836: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:862: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, positive=False):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1074: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=1, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1306: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=1, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1442: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, positive=False):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:152: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  precompute=False, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:318: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, random_state=None,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:575: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=4 * np.finfo(np.float).eps, n_jobs=1,
+PUZZLE: A man is lying dead in a room.  There is a large pile of gold and jewels on the floor, a chandelier attached to the ceiling, and a large open window. What happened?
+* Was the man killed by the chandelier?
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/transformers/models/t5/tokenization_t5_fast.py:166: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  FutureWarning,
+# ::snt Was the man killed by the chandelier?
+(k / kill-01
+      :polarity (a / amr-unknown)
+      :ARG0 (c / chandelier)
+      :ARG1 (m / man))
+* No.
+* The man was killed by a large bird that flew in through the window and knocked the chandelier onto him.
+Edit score is :  0.8393511190884121
+PUZZLE: Variant which puts this in section 2: same statement, ending with "a large window through which rays are coming." What happend?
+* Did the man see the window?
+# ::snt Did the man see the window?
+(s / see-01
+      :ARG0 (m / man)
+      :ARG1 (w / window)
+      :polarity (a / amr-unknown))
+* 
+* Yes. The man saw the window and realized that he was about to be hit by a ray of sunlight. He then said "Thank you" and left the bar.
+Edit score is :  0.6745576061365535
+PUZZLE: A man enters the elevator of a high rise apartment building, takes off one glove, and pushes the button for the tenth floor.  The next day, the same man enters the elevator, "puts on" one glove, and pushes the button for the tenth floor. Why?
+* Did he forget to put on a glove?
+# ::snt Did he forget to put on a glove?
+(f / forget-01
+      :polarity (a / amr-unknown)
+      :ARG0 (h / he)
+      :ARG1 (p / put-on-08
+            :ARG0 h
+            :ARG1 (g / glove)))
+* Irrelevant.
+* The man is a doctor. He was carrying a jar of specimens and didn't want to contaminate them with the germs on his hand.
+Edit score is :  0.570386340921173
+* Did he put the glove on after pushing the button?
+# ::snt Did he put the glove on after pushing the button?
+(p / put-on-08
+      :polarity (a / amr-unknown)
+      :ARG0 (h / he)
+      :ARG1 (g / glove)
+      :time (a2 / after
+            :op1 (p2 / push-01
+                  :ARG0 h
+                  :ARG1 (b / button))))
+* Irrelevant.
+* The man has a medical condition that causes his hands to sweat profusely.  Wearing the glove on one hand prevents his hand from sweating and leaving a visible wet spot on the elevator button.
+Edit score is :  0.6111345697758827
+* Did the man have a preference for the tenth floor?
+# ::snt Did the man have a preference for the tenth floor?
+(p / prefer-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (f / floor
+            :ord (o / ordinal-entity
+                  :value 10)))
+* No.
+* The man had a cut on his hand and did not want to get blood on the buttons.
+Edit score is :  0.5757140448490979
+* Was the man in a hurry?
+# ::snt Was the man in a hurry?
+(h / hurry-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man))
+* Irrelevant.
+* The man had a cut on his hand and did not want to get blood on the buttons.
+Edit score is :  0.5757140448490979
+* Did the man want to avoid getting the button dirty?
+# ::snt Did the man want to avoid getting the button dirty?
+(w / want-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (a2 / avoid-01
+            :ARG0 m
+            :ARG1 (g / get-04
+                  :ARG0 m
+                  :ARG1 (d / dirty-02
+                        :ARG1 (b / button)))))
+* Irrelevant.
+* The man was a doctor and was wearing a latex glove. He took it off to push the button so as not to contaminate it and put it back on to avoid contaminating himself.
+Edit score is :  0.606683880585785
+PUZZLE: A woman came home with a bag of groceries, got the mail, and walked into the house.  On the way to the kitchen, she went through the living room and looked at her husband, who had blown his brains out.  She then continued to the kitchen, put away the groceries, and made dinner. Why?
+* Was the woman deaf?
+# ::snt Was the woman deaf?
+(d / deaf-02
+      :polarity (a / amr-unknown)
+      :ARG1 (w / woman))
+* Irrelevant.
+* The woman was blind.
+Edit score is :  0.5782969885773624
+* Did the woman know her husband had killed himself?
+# ::snt Did the woman know her husband had killed himself?
+(k / know-01
+      :ARG0 (w / woman)
+      :ARG1 (k2 / kill-01
+            :ARG0 (p / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG1 w
+                        :ARG2 (h2 / husband)))
+            :ARG1 p)
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The woman was a sociopath who didn't care about her husband.
+Edit score is :  0.6335410176531672
+* Was the woman crazy?
+# ::snt Was the woman crazy?
+(c / craze-01
+      :polarity (a / amr-unknown)
+      :ARG1 (w / woman))
+* No.
+* The woman was a robot, and did not have the capacity to feel shock or horror.
+Edit score is :  0.650821728192649
+PUZZLE: The king dies and two men both claim to be his long-lost son.  One of the king's advisors proposes a test to determine the identity of the true heir.  One claimant agrees to the test; the other refuses.  The one who agreed is sent packing; the one who refused is identified as the rightful heir.  Why?
+* Could the king's advisor be lying?
+# ::snt Could the king's advisor be lying?
+(p / possible-01
+      :ARG1 (l / lie-08
+            :ARG0 (p2 / person
+                  :ARG0-of (a / advise-01
+                        :ARG1 (k / king))))
+      :polarity (a2 / amr-unknown))
+* No.
+* The one who agreed to the test is the true heir, because the one who refused would have known that he would fail the test (since he is not the true heir).
+Edit score is :  0.8220101425177567

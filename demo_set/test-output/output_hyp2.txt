@@ -1,0 +1,17 @@
+PUZZLE: A man is lying  dead face down in the desert wearing a backpack, and the man's shoelaces is untied. What happend?
+* Did the man die of thirst?
+* Irrelevant.
+* The man was hiking in the desert when he died. Most likely, he died of thirst, but the cause of death is not relevant to the puzzle.
+Edit score is :  0.5741985068072025
+* Did the man die of a snake bite?
+* No.
+* The man was hiking in the desert when he died. Most likely, he died of thirst. However, the fact that his shoelaces were untied suggests that he may have died of a heart attack or some other sudden medical emergency.
+Edit score is :  0.5639987392178157
+* Did the man die of a heart attack?
+* No.
+* The man was hiking in the desert when he had a heart attack and died. His shoelaces were untied because he was in the process of taking his shoes off when he collapsed.
+Edit score is :  0.5608868184955141
+* Did the man die of a gunshot wound?
+* No.
+* The man was hiking in the desert when he died. Most likely, he died of heat exhaustion. The fact that his shoelaces are untied suggests that he was in a hurry when he died and didn't have time to tie them.
+Edit score is :  0.5520555377444574

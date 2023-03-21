@@ -1,0 +1,50 @@
+nohup: ignoring input
+PUZZLE: Two dead people sit in their cars on a street. How could this be?
+* Are they in a car accident?
+* Yes.
+None!!
+* The two people are in a car accident and they are both dead.
+Edit score is :  0.5891169995490836
+sacre_score is :  1.774994152952981
+* Are they both in the same car?
+* No.
+None!!
+None!!
+None!!
+None!!
+None!!
+None!!
+* The first person is in a car that was hit by a drunk driver. The second person is the drunk driver.
+Edit score is :  0.6320646340767064
+sacre_score is :  1.0912453767932568
+* Are they both dead?
+* Yes.
+None!!
+None!!
+* One person committed suicide in their car, while the other was killed in a car accident.
+Edit score is :  0.5993130500172754
+sacre_score is :  1.8900924361305647
+None!!
+None!!
+None!!
+None!!
+Shuffle Edit score is :  0.6059922257559696
+Shuffle sacre_score is :  1.8900924361305647
+PUZZLE: A man is found shot to death in the front seat of his car; a gun lies out of his reach in the back seat.  All the windows are closed and the doors are locked; there are no bullet holes anywhere in the car.  (SP, from _The Next Book of OMNI Games_; partial AC wording) How could this be?
+* Did the man shoot himself?
+* No.
+* The man was in a convertible; the top was up.
+Edit score is :  0.5996844536111552
+sacre_score is :  11.282878483968254
+* Did someone else shoot the man?
+* Yes.
+* The man was shot with a gun that fires bullets that dissolve in air after a few seconds.
+Edit score is :  0.6447694284177491
+sacre_score is :  1.3338359564519315
+* Did the person who shot the man do so through the car's sunroof?
+* No.
+* The person who shot the man was in the back seat; the man was shot with a silenced gun.
+Edit score is :  0.6628803835429581
+sacre_score is :  4.965096889277056
+Shuffle Edit score is :  0.6228350144447402
+Shuffle sacre_score is :  14.529580795237463

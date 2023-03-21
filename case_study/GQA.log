@@ -1,0 +1,143 @@
+nohup: ignoring input
+2022-12-29 13:09:49.455787: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-12-29 13:09:49.701089: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-12-29 13:09:50.728575: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-12-29 13:09:50.728665: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-12-29 13:09:50.728675: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-12-29 13:09:52.068548: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcusolver.so.11'; dlerror: libcusolver.so.11: cannot open shared object file: No such file or directory
+2022-12-29 13:09:52.069295: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open shared object file: No such file or directory
+2022-12-29 13:09:52.069333: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+INFO:tensorflow:Running BLEURT scoring.
+I1229 13:09:52.069525 139783682541312 score_files.py:168] Running BLEURT scoring.
+INFO:tensorflow:Reading checkpoint ../../BLEURT-20.
+I1229 13:09:52.069779 139783682541312 score.py:160] Reading checkpoint ../../BLEURT-20.
+INFO:tensorflow:Config file found, reading.
+I1229 13:09:52.069899 139783682541312 checkpoint.py:91] Config file found, reading.
+INFO:tensorflow:Will load checkpoint BLEURT-20
+I1229 13:09:52.070108 139783682541312 checkpoint.py:95] Will load checkpoint BLEURT-20
+INFO:tensorflow:Loads full paths and checks that files exists.
+I1229 13:09:52.070175 139783682541312 checkpoint.py:97] Loads full paths and checks that files exists.
+INFO:tensorflow:... name:BLEURT-20
+I1229 13:09:52.070218 139783682541312 checkpoint.py:101] ... name:BLEURT-20
+INFO:tensorflow:... bert_config_file:bert_config.json
+I1229 13:09:52.070258 139783682541312 checkpoint.py:101] ... bert_config_file:bert_config.json
+INFO:tensorflow:... max_seq_length:512
+I1229 13:09:52.070315 139783682541312 checkpoint.py:101] ... max_seq_length:512
+INFO:tensorflow:... vocab_file:None
+I1229 13:09:52.070357 139783682541312 checkpoint.py:101] ... vocab_file:None
+INFO:tensorflow:... do_lower_case:None
+I1229 13:09:52.070395 139783682541312 checkpoint.py:101] ... do_lower_case:None
+INFO:tensorflow:... sp_model:sent_piece
+I1229 13:09:52.070431 139783682541312 checkpoint.py:101] ... sp_model:sent_piece
+INFO:tensorflow:... dynamic_seq_length:True
+I1229 13:09:52.070491 139783682541312 checkpoint.py:101] ... dynamic_seq_length:True
+INFO:tensorflow:Creating BLEURT scorer.
+I1229 13:09:52.070536 139783682541312 score.py:167] Creating BLEURT scorer.
+INFO:tensorflow:Creating SentencePiece tokenizer.
+I1229 13:09:52.070576 139783682541312 tokenizers.py:79] Creating SentencePiece tokenizer.
+INFO:tensorflow:Creating SentencePiece tokenizer.
+I1229 13:09:52.070629 139783682541312 tokenizers.py:58] Creating SentencePiece tokenizer.
+INFO:tensorflow:Will load model: ../../BLEURT-20/sent_piece.model.
+I1229 13:09:52.070668 139783682541312 tokenizers.py:60] Will load model: ../../BLEURT-20/sent_piece.model.
+INFO:tensorflow:SentencePiece tokenizer created.
+I1229 13:09:52.855136 139783682541312 tokenizers.py:64] SentencePiece tokenizer created.
+INFO:tensorflow:Creating Eager Mode predictor.
+I1229 13:09:52.855550 139783682541312 score.py:56] Creating Eager Mode predictor.
+INFO:tensorflow:Loading model.
+I1229 13:09:52.855616 139783682541312 score.py:61] Loading model.
+2022-12-29 13:09:55.002929: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+INFO:tensorflow:BLEURT initialized.
+I1229 13:10:02.928549 139783682541312 score.py:173] BLEURT initialized.
+INFO:tensorflow:Computing BLEURT scores...
+I1229 13:10:02.928831 139783682541312 score_files.py:132] Computing BLEURT scores...
+INFO:tensorflow:BLEURT scores computed.
+I1229 13:13:52.199588 139783682541312 score_files.py:140] BLEURT scores computed.
+INFO:tensorflow:Done.
+I1229 13:13:52.200316 139783682541312 score_files.py:150] Done.
+0.3628467321395874
+0.35779839754104614
+0.3786815404891968
+0.5367321968078613
+0.2787937521934509
+0.5978569984436035
+0.564296543598175
+0.7209659218788147
+0.6077354550361633
+0.29927968978881836
+0.4193339943885803
+0.32647332549095154
+0.48516857624053955
+0.39634305238723755
+0.16047558188438416
+0.3425760269165039
+0.32618600130081177
+0.4275254011154175
+0.34941279888153076
+0.41432666778564453
+0.6319962739944458
+0.31367814540863037
+0.44275420904159546
+0.3925831913948059
+0.43861889839172363
+0.4191095232963562
+0.2088439166545868
+0.42993032932281494
+0.36533552408218384
+0.34603631496429443
+0.4973168969154358
+0.5415164232254028
+0.3707810938358307
+0.5261233448982239
+0.4611976146697998
+0.42640143632888794
+0.48842281103134155
+0.3723738193511963
+0.3194807171821594
+0.3211979269981384
+0.2930728793144226
+0.38241469860076904
+0.4043835997581482
+0.29362058639526367
+0.36362403631210327
+0.3480217158794403
+0.29831409454345703
+0.3708578944206238
+0.3983796238899231
+0.3765251040458679
+0.4136431813240051
+0.3730350136756897
+0.3698067367076874
+0.35080599784851074
+0.3221767544746399
+0.41474539041519165
+0.46023184061050415
+0.5095561742782593
+0.2672594487667084
+0.45245474576950073
+0.33252525329589844
+0.4585599899291992
+0.3579394221305847
+0.34859907627105713
+0.4053548574447632
+0.49550050497055054
+0.4101409316062927
+0.2500384747982025
+0.34126079082489014
+0.40061038732528687
+0.4715607166290283
+0.35928311944007874
+0.36002641916275024
+0.38271480798721313
+0.4580554962158203
+0.34033966064453125
+0.18369078636169434
+0.4628404974937439
+0.5398465394973755
+0.3595818877220154
+0.39973902702331543
+0.5109624862670898
+0.36391347646713257
+0.2302931547164917

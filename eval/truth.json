@@ -1,0 +1,61 @@
+[
+    {
+        "truth": {
+            "Entity": [
+                "abalone",
+                "what",
+                "man's wife"
+            ],
+            "Relation": [
+                [
+                    "EntityEqual",
+                    "a desert island",
+                    "there"
+                ],
+                [
+                    "Entity_att",
+                    "he said",
+                    "what"
+                ],
+                [
+                    "EntityEqual",
+                    "abalone",
+                    "what"
+                ],
+                [
+                    "EntityPartof",
+                    "what",
+                    "man's wife"
+                ],
+                [
+                    "EventEqual",
+                    "wrecked on",
+                    "wreck"
+                ],
+                [
+                    "EventCause",
+                    "wreck",
+                    "had died in"
+                ],
+                [
+                    "EntityPartof",
+                    "man",
+                    "they"
+                ]
+                
+            ],
+            "Event": [
+                [
+                    "in",
+                    "man",
+                    null
+                ],
+                [
+                    "wrecked on",
+                    "ship",
+                    "a desert island"
+                ]
+            ]
+        }
+    }
+]

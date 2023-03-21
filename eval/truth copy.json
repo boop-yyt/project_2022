@@ -1,0 +1,156 @@
+[
+    {
+        "truth": {
+            "Entity": [
+                "abalone",
+                "what",
+                "man's wife",
+                "they",
+                "there",
+                "his wife",
+                "he",
+                "food",
+                "himself",
+                "civilization",
+                "a desert island",
+                "another passenger",
+                "ship",
+                "man"
+            ],
+            "Relation": [
+                [
+                    "EntityEqual",
+                    "a desert island",
+                    "there"
+                ],
+                [
+                    "Entity_att",
+                    "he said",
+                    "what"
+                ],
+                [
+                    "EntityEqual",
+                    "abalone",
+                    "what"
+                ],
+                [
+                    "EntityPartof",
+                    "what",
+                    "man's wife"
+                ],
+                [
+                    "EventEqual",
+                    "wrecked on",
+                    "wreck"
+                ],
+                [
+                    "EventCause",
+                    "wreck",
+                    "had died in"
+                ],
+                [
+                    "EntityPartof",
+                    "man",
+                    "they"
+                ],
+                [
+                    "EntityPartof",
+                    "another passenger",
+                    "they"
+                ],
+                [
+                    "EntityEqual",
+                    "man",
+                    "man"
+                ],
+                [
+                    "NC2Event",
+                    "realizes",
+                    "ate"
+                ],
+                [
+                    "EventTemporal",
+                    "realizes",
+                    "kills"
+                ],
+                [
+                    "EntityEqual",
+                    "man's wife",
+                    "his wife"
+                ],
+                [
+                    "EntityEqual",
+                    "he",
+                    "he"
+                ],
+                [
+                    "EntityEqual",
+                    "man",
+                    "he"
+                ]
+            ],
+            "Event": [
+                [
+                    "in",
+                    "man",
+                    null
+                ],
+                [
+                    "wrecked on",
+                    "ship",
+                    "a desert island"
+                ],
+                [
+                    "left",
+                    null,
+                    null
+                ],
+                [
+                    "brought",
+                    "another passenger",
+                    null
+                ],
+                [
+                    "had died in",
+                    "man's wife",
+                    null
+                ],
+                [
+                    "wreck",
+                    null,
+                    null
+                ],
+                [
+                    "suspects",
+                    "man",
+                    null
+                ],
+                [
+                    "return",
+                    "they",
+                    null
+                ],
+                [
+                    "orders",
+                    "he",
+                    null
+                ],
+                [
+                    "realizes",
+                    "he",
+                    null
+                ],
+                [
+                    "ate",
+                    null,
+                    null
+                ],
+                [
+                    "kills",
+                    "he",
+                    null
+                ]
+            ]
+        }
+    }
+]

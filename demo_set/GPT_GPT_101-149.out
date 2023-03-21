@@ -1,0 +1,674 @@
+nohup: ignoring input
+PUZZLE: The music stopped and the man died. What happened?
+* Was the man plugged into the stereo?
+* No.
+* The man had a heart attack.
+Edit score is :  0.5315784832451499
+* Did the man have a heart condition?
+* Irrelevant.
+* The man was a contestant on a game show and the music stopped when he got the final question wrong.
+Edit score is :  0.6978310675679097
+PUZZLE: A rope breaks.  A bell rings.  A boy dies. What happened?
+* Did the boy die because the rope broke?
+* No.
+* The boy was playing with a rope in a bell tower.  The rope broke and he fell, ringing the bell on the way down.
+Edit score is :  0.6593110155610156
+PUZZLE: Joe leaves his house, wearing a mask and carrying an empty sack.  An hour later he returns.  The sack is now full.  He goes into a room and turns out the lights. What happened?
+* Was Joe wearing the mask when he returned?
+* Irrelevant.
+* Joe went trick-or-treating.
+Edit score is :  0.6527777777777778
+PUZZLE: A woman buys a new pair of shoes, goes to work, and dies. What happened?
+* Did the shoes fit?
+* No.
+* The shoes were too small and caused her feet to swell up so much that she died from blood poisoning.
+Edit score is :  0.6497748021911138
+* Did the woman have a heart attack?
+* Irrelevant.
+* The woman was electrocuted when she stepped on a live wire while wearing the new shoes.
+Edit score is :  0.6452979560837145
+* Did the shoes kill the woman?
+* Yes.
+* The woman was electrocuted when she stepped on a live wire while wearing the new shoes.
+Edit score is :  0.6452979560837145
+* Did the shoes have a poisonous snake in them?
+* Irrelevant.
+* The woman was electrocuted when she stepped on a live wire while wearing the shoes.
+Edit score is :  0.6429046374175948
+* 
+* Irrelevant.
+* The woman was electrocuted when she stepped on a live wire while wearing the shoes.
+Edit score is :  0.6429046374175948
+PUZZLE: A woman sees her husband entering a certain place of business and insists on dissolving their partnership. What happened?
+* Did the husband enter a business that was related to their partnership?
+* Yes.
+* The husband entered a brothel.
+Edit score is :  0.6141318788895882
+* Did the husband enter the business with the intention of Dissolving the partnership?
+* No.
+* The husband was cheating on his wife with another woman and she found out.
+Edit score is :  0.6460697919571855
+* Did the husband enter the business to meet with someone?
+* Yes.
+* The husband was meeting with a divorce lawyer.
+Edit score is :  0.6031484157800956
+* Did the husband enter the business to meet with his wife?
+* No.
+* The husband entered the business to meet with his mistress.
+Edit score is :  0.6129019068241051
+* Did the husband enter the business to meet with a potential business partner?
+* Yes.
+* The husband was cheating on his wife with a potential business partner.
+Edit score is :  0.6361904170987748
+PUZZLE: A woman has incontrovertible proof in court that her husband was murdered by her sister.  The judge declares, "This is the strangest case I've ever seen.  Though it's a cut-and-dried case, this woman cannot be punished." What happened?
+* Why can't the woman be punished?
+* Irrelevant.
+* The woman is the judge.
+Edit score is :  0.606280193236715
+* Why did the judge declare it the strangest case?
+* Irrelevant.
+* The woman is the judge.
+Edit score is :  0.606280193236715
+* Did the woman have a motive to kill her sister?
+* No.
+* The woman is the judge.
+Edit score is :  0.606280193236715
+* Did the sister have a motive to kill the husband?
+* No.
+* The woman is the judge.
+Edit score is :  0.606280193236715
+* 
+* No.
+* The woman and her sister are both the husband's wives, and polygamy is not punishable in the jurisdiction.
+Edit score is :  0.6015423779574722
+PUZZLE: A man and his brother are in a bar drinking.  They begin to argue  and the brother won't get out of the man's face, shouting and cursing.  The man, finally fed up, pulls out a pistol and blows his brother's brains out.  He sits down to die. What happened?
+* Did the man's brother have a weapon?
+* No.
+* The man had hiccups.
+Edit score is :  0.5600081810744477
+* Did the man's brother provoke him?
+* No.
+* The man had been drinking too much and his brother was trying to get him to leave the bar.  The man thought his brother was trying to fight him and so he shot him.
+Edit score is :  0.8282932988616576
+PUZZLE: Hans and Fritz are German spies during World War II.  They try to enter America, posing as returning tourists.  Hans is immediately arrested. What happened?
+* Was Fritz arrested?
+* Yes.
+* The United States had not yet entered the war, so they were not looking for German spies.
+Edit score is :  0.5544473167527774
+* Did they have the same papers?
+* No.
+* Fritz had a passport, Hans did not.
+Edit score is :  0.5398145253725123
+* Did Hans have fake papers?
+* No.
+* Fritz had the correct papers, but Hans did not.
+Edit score is :  0.5297494710595879
+* Did Fritz have fake papers?
+* Yes.
+* Fritz had fake papers, and Hans did not.
+Edit score is :  0.5243865604368886
+* Why was Hans arrested?
+* Irrelevant.
+* Fritz was arrested because his papers were fake. Hans was arrested because he was speaking German.
+Edit score is :  0.5741243863489727
+PUZZLE: A man is found dead on a path 200 feet from a gate.  Other than his clothes, all he had with him was a stick. What happened?
+* Was the man killed?
+* No.
+* The man was a hiker who used the stick to help him hike. When he died, he was 200 feet from the gate.
+Edit score is :  0.6238853358520475
+* Did the man use the stick to kill himself?
+* No.
+* The man was a tightrope walker. He was carrying the stick to balance himself.
+Edit score is :  0.6173160173160173
+* Did the man die of natural causes?
+* No.
+* The man was playing a game of fetch with his dog. He died of a heart attack before he could throw the stick and the dog was too far away to bring it back to him.
+Edit score is :  0.8296273291925467
+PUZZLE: A man is found dead in an alley lying in a red pool with two sticks crossed near his head. What happened?
+* Was the man stabbed?
+* No.
+* The man was playing hopscotch and was killed by a passing car.
+Edit score is :  0.6664789213176311
+PUZZLE: A married couple was speeding into town when their sedan ran out of gas.  The man went for help after making sure his wife closed the windows and locked the doors of the car.  Upon his return, he found his wife dead and a stranger in the car.  The windows were still closed, the doors were still locked, and no damage was done to the car.  (SP, from _The Next Book of OMNI Games_; earlier from _How Come?_) What happened?
+* Did the stranger kill the wife?
+* No.
+* The wife had a heart attack when she saw a mouse in the car.
+Edit score is :  0.640359477124183
+* Did the wife die of a heart attack?
+* No.
+* The wife suffocated from the exhaust fumes while the husband was gone.
+Edit score is :  0.6041169099218635
+* Did the wife die of carbon monoxide poisoning?
+* No.
+* The wife suffocated from the lack of oxygen. The husband, not knowing this, went for help, leaving the windows and doors closed. The stranger, also not knowing this, got into the car to wait for the husband. When the husband returned and found the stranger in the car, he assumed that the stranger had killed his wife.
+Edit score is :  0.642075281975393
+* Did the wife die of natural causes?
+* No.
+* The stranger was the wife's lover, and she committed suicide when she saw her husband coming.
+Edit score is :  0.6666549905657105
+PUZZLE: Two people are dead in a car, which is locked from the inside. There's a lot of blood. What happened?
+* Was the car crashed?
+* No.
+* The two people were shot.
+Edit score is :  0.5430527497194163
+* Was there a struggle?
+* No.
+* The two people committed suicide by carbon monoxide poisoning.
+Edit score is :  0.6211434394546349
+* Were they poisoned?
+* No.
+* They committed suicide by carbon monoxide poisoning.
+Edit score is :  0.5866516486671526
+* Did they shoot each other?
+* No.
+* They were both vampires who died when the sun came up and they were locked in the car.
+Edit score is :  0.7000352003272253
+PUZZLE: A woman lies dead in the street near a car. What happened?
+* Was she killed by the car?
+* No.
+* The woman had a heart attack and fell out of the car.
+Edit score is :  0.6107378102387232
+* Did she have a heart attack?
+* No.
+* She was hit by a car while crossing the street.
+Edit score is :  0.6030309963048467
+* Did she die of natural causes?
+* No.
+* She was shot.
+Edit score is :  0.6386821064240419
+* Was she shot?
+* No.
+* The woman was a victim of a hit and run.
+Edit score is :  0.5543906810035842
+* Was she stabbed?
+* No.
+* The woman was hit by a car while lying in the street.
+Edit score is :  0.581890379622524
+PUZZLE: Tim and Greg were talking.  Tim said "The terror of flight."  Greg said "The gloom of the grave."  Greg was arrested.  (MPW original, from "No Refuge Could Save," by Isaac Asimov) What happened?
+* Could Tim have been arrested?
+* No.
+* Greg was arrested because he quoted John C. Calhoun, who was an American slaveholder and defender of slavery.
+Edit score is :  0.5743673479703504
+* Did Tim say anything else?
+* No.
+* Greg was arrested for saying "The gloom of the grave" in reference to suicide, which is illegal in the country they were in.
+Edit score is :  0.6042166533368879
+* Did Greg say anything else?
+* No.
+* Greg was arrested because he made a terrorist threat.
+Edit score is :  0.5585139560268205
+* Was Tim talking to anyone else?
+* No.
+* Greg made a quote from Shakespeare without attribution, which is plagiarism.
+Edit score is :  0.543966902425315
+* Did Greg say anything else?
+* No.
+* Tim and Greg were talking about two different things. Tim was talking about the fear of flying, and Greg was talking about the gloom of the grave.
+Edit score is :  0.6027482302016179
+PUZZLE: A woman throws something out a window and dies. What happened?
+* Was the woman standing on a stool?
+* No.
+* The woman was standing on the edge of a building and threw herself out the window.
+Edit score is :  0.820263392359951
+PUZZLE: A man is found dead in his parked car.  Tire tracks lead up to the car and away. What happened?
+* Was the car parked on a hill?
+* Irrelevant.
+* The man committed suicide by running the car's engine in a closed garage.
+Edit score is :  0.6202094158400252
+* Was the man killed by the tire tracks?
+* No.
+* The man committed suicide by carbon monoxide poisoning, and the tire tracks were made by the police or ambulance.
+Edit score is :  0.6447235663668377
+* Did the man drive the car into the tire tracks?
+* No.
+* The man was killed by a hit-and-run driver. The tire tracks belong to the killer's car.
+Edit score is :  0.6149191664330437
+* Was the man pushed into the tire tracks?
+* No.
+* The man was killed by a hit and run driver. The tire tracks lead up to the car because the car was pushed into them by the hit and run driver.
+Edit score is :  0.6985212466797378
+PUZZLE: It is winter in the city, and snow lies everywhere. Two sets of tire tracks  lead into a garage.  Only one set leads out again. A man lies dead inside. What happened?
+* Did the man drive into the garage?
+* No.
+* The man was already in the garage when it started to snow.He couldn't get his car out, so he tried to walk to a nearby house for help.   Unfortunately, he didn't make it and died of exposure.
+Edit score is :  0.8320327048357898
+PUZZLE: A man is returning from Switzerland by train.  If he had been in a non-smoking car he would have died. What happened?
+* Was there a fire in the man's car?
+* Irrelevant.
+* The man was a heavy smoker and had a heart attack. The only available car was the smoking car, so he went there. The smoking car was full, so he had to stand. He died of a heart attack brought on by the smoke.
+Edit score is :  0.6734380111847217
+PUZZLE: A man dies on a train he does not ordinarily catch. What happened?
+* Was the train late?
+* Irrelevant.
+* The man was pushed onto the train tracks by someone and died when he was hit by the train.
+Edit score is :  0.5830270639627108
+* Did the man have a heart attack?
+* No.
+* The man was murdered.
+Edit score is :  0.6021635830553028
+* Was the man pushed onto the tracks?
+* No.
+* The man was a suicide.
+Edit score is :  0.6064788007463167
+* Did someone kill the man?
+* No.
+* The man was a hobo who was hiding in one of the train's cars and died when the train went through a tunnel.
+Edit score is :  0.5847053360717199
+* Did the man die of natural causes?
+* No.
+* The man was a tightrope walker who was practicing on the train tracks. He lost his balance and fell, dying instantly.
+Edit score is :  0.6007332488224209
+PUZZLE: Two men are digging a trench.  They look at each other and start to argue.  They make a phone call.  One man leaves for home and the other angrily continues to dig. What happened?
+* Did they argue about the phone call?
+* No.
+* The men were arguing about the depth of the trench.  One man thought it should be six feet deep, while the other thought it should only be four feet deep.  They made a phone call to their boss to ask him what the depth of the trench should be.  The boss said it should be six feet deep, so the man who thought it should be six feet deep won the argument and the other man left in anger.
+Edit score is :  0.8447478811026139
+PUZZLE: Two men are kidnapped and are placed in the trunk of a car.  The next morning, when the trunk is opened, one man is alive and the other is dead. What happened?
+* Did the man who survived have any injuries?
+* No.
+* The man who survived was the taller of the two, and he was able to stand up and breathe through a small hole in the trunk.
+Edit score is :  0.6896154768107641
+PUZZLE: A man urinates and dies. What happened?
+* Did he die because he caught a disease from the urine?
+* No.
+* The man died because he was electrocuted.
+Edit score is :  0.5905895131825812
+* Did the man die because he drank his own urine?
+* No.
+* The man died because he was electrocuted by a toaster that was in the bathtub with him.
+Edit score is :  0.7114527731385968
+PUZZLE: A man wakes up one night to get some water.  He turns off the light and goes back to bed.  The next morning he looks out the window, screams, and kills himself. What happened?
+* Was the window clean?
+* Irrelevant.
+* The man woke up in the middle of the night and saw a spider on his bed. He turned off the light to go back to bed, and the next morning he saw the spider on the window and thought it was on his bed, so he screamed and killed himself.
+Edit score is :  0.8501194854600943
+PUZZLE: The light goes out and a man dies. What happened?
+* Did the man touch the light switch?
+* Irrelevant.
+* The man was electrocuted.
+Edit score is :  0.5290253064452353
+* Did the man die of natural causes?
+* No.
+* The man was electrocuted.
+Edit score is :  0.5290253064452353
+* Did the man die of a heart attack?
+* No.
+* The man was electrocuted.
+Edit score is :  0.5290253064452353
+* Did the man die because he was electrocuted?
+* No.
+* The man was hanged.
+Edit score is :  0.540845490555174
+* Did the man die because he was shot?
+* No.
+* The man was hanging from a noose in the middle of the room and the light went out because the power was cut off.
+Edit score is :  0.637191119060834
+PUZZLE: A man is dead in a room with a small pile of pieces of wood and sawdust in one corner. What happened?
+* Was the man killed with the wood or sawdust?
+* Irrelevant.
+* The man committed suicide by sawing himself in half.
+Edit score is :  0.5983697372586262
+* Did the man die in the room?
+* No.
+* The man was a carpenter. He died after being stung by a bee while working outside. The small pile of wood and sawdust was from his last project.
+Edit score is :  0.6376841022308859
+* Did someone else kill the man?
+* No.
+* The man committed suicide by sawing himself in half.
+Edit score is :  0.5983697372586262
+* Did the man kill himself?
+* Yes.
+* The man committed suicide by sawing himself in half.
+Edit score is :  0.5983697372586262
+* Did the man die by sawing himself in half?
+* No.
+* The man died by eating wood and sawdust.
+Edit score is :  0.5750595624864631
+PUZZLE: A man sees sawdust and chooses to living. Why?
+* Is the man a carpenter?
+* Irrelevant.
+* The man is a snake.
+Edit score is :  0.6298684210526316
+* Did the man choose to live in the sawdust?
+* No.
+* The man was on death row and chose to have a sawdust-lined coffin because he wanted to be cremated.
+Edit score is :  0.5990319865319865
+* Is the man a woodworker?
+* Irrelevant.
+* The man is a snake.
+Edit score is :  0.6298684210526316
+* Why did the man choose to live in the sawdust?
+* Irrelevant.
+* The man was sawing wood and the sawdust was getting in his eyes, so he chose to live in order to avoid the sawdust.
+Edit score is :  0.6034283196239718
+* 
+* Irrelevant.
+* The man is a snake.
+Edit score is :  0.6298684210526316
+PUZZLE: A pile of sawdust, no net, a man dies. What happened?
+* Did the man jump into the sawdust?
+* No.
+* The man was sawing wood and ran out of sawdust.
+Edit score is :  0.5936481620372197
+* Did the man fall into the sawdust?
+* No.
+* The man was sawing wood and the sawdust pile was his sawdust.
+Edit score is :  0.62201366022394
+* Was the sawdust on fire?
+* No.
+* The man was sawing wood.
+Edit score is :  0.5600044365572315
+* Was the man already dead when he fell into the sawdust?
+* Yes.
+* The man was a woodworker who was sawing a piece of wood. The sawdust pile was below the wood, so as he was sawing, the sawdust fell on him and eventually covered him. He suffocated and died.
+Edit score is :  0.71003424311695
+PUZZLE: Two men are dead next to a pile of wood and a rope. What happened?
+* Was the wood chopped?
+* Irrelevant.
+* The men were in a race to see who could chop the most wood. One man won, but the other man cheated by using a rope to tie his logs together. When the judges found out, they disqualified the cheating man and he was so angry that he killed the other man.
+Edit score is :  0.832561793045664
+PUZZLE: A writer with an audience of millions insisted that he was never to be interrupted while writing.  After the day when he actually was interrupted, he never wrote again. What happened?
+* Was the interruption significant?
+* Yes.
+* The interruption was a person coming in to ask for an autograph.
+Edit score is :  0.6714341692789968
+PUZZLE: A seated woman is writing a letter.  She dies because there's a thunderstorm outside. What happened?
+* Was the woman electrocuted?
+* No.
+* The woman had a heart attack.
+Edit score is :  0.6082375478927203
+* Did the woman have a heart attack?
+* No.
+* The woman was hit by lightning.
+Edit score is :  0.6258286985539488
+* Did the woman die of natural causes?
+* No.
+* The woman was killed by a flying object during the thunderstorm.
+Edit score is :  0.6923569465267366
+PUZZLE: A woman is in a Q when there is a flash of lightning and she dies. What happened?
+* Was she electrocuted?
+* No.
+* She had a heart attack.
+Edit score is :  0.4679089026915115
+* Did the flash of lightning start a fire that killed her?
+* No.
+* The woman had a heart attack.
+Edit score is :  0.480213840448197
+* Did the flash of lightning frighten her so much that she had a heart attack and died?
+* No.
+* She was already dead when she entered the Q.
+Edit score is :  0.5614844093104963
+* Did the flash of lightning strike her directly?
+* No.
+* She was in a Q and was struck by lightning.
+Edit score is :  0.5632248855052637
+* Did the woman die from the Q?
+* No.
+* The woman was in a hot air balloon. The flash of lightning burst the balloon, and she fell to her death.
+Edit score is :  0.6132486247418535
+PUZZLE: In the middle of the ocean is a yacht.  Several corpses are floating in the water nearby. What happened?
+* Did the yacht crash?
+* No.
+* The yacht ran over a floating mine.
+Edit score is :  0.5385684003331063
+* Did the people on the yacht die?
+* Yes.
+* The people on the yacht committed suicide.
+Edit score is :  0.5422997038850698
+* Did the people drown?
+* Yes.
+* The people on the yacht committed suicide by jumping into the ocean and drowning.
+Edit score is :  0.591282034495818
+* Did the people jump overboard?
+* Yes.
+* The people on the yacht committed suicide by jumping overboard.
+Edit score is :  0.5572501072501073
+* Were the people on the yacht trying to escape something?
+* No.
+* The people on the yacht committed suicide.
+Edit score is :  0.5422997038850698
+PUZZLE: A man is born in 1972 and dies in 1952 at the age of 25. What happened?
+* Was the man born in a different year than he died?
+* Yes.
+* The man was born in a leap year.
+Edit score is :  0.5690419740077274
+* Did the man travel through time?
+* Irrelevant.
+* The man was born in a leap year.
+Edit score is :  0.5690419740077274
+* Is the puzzle a riddle?
+* No.
+* The man was born in a leap year.
+Edit score is :  0.5690419740077274
+* Did the man die before he was born?
+* No.
+* The man was born in a leap year.
+Edit score is :  0.5690419740077274
+* Did the man have a twin?
+* Irrelevant.
+* The man was born in 1972 and his twin brother was born in 1952. The man died in 1952 at the age of 25.
+Edit score is :  0.6533843674456083
+PUZZLE: A man is found dead in the arctic with a pack on his back. What happened?
+* Could the man have been killed by a bear?
+* No.
+* The man most likely died of hypothermia.
+Edit score is :  0.6290300546448088
+* Did the man die of exposure?
+* No.
+* The man was a hiker who died of starvation. The pack on his back was full of food.
+Edit score is :  0.6140136537977402
+* Did the man die of a heart attack?
+* No.
+* The man was mauled by a walrus.
+Edit score is :  0.5469097563227653
+* Did the man die of starvation?
+* No.
+* The man was mauled by a polar bear, but died from hypothermia before he could reach his pack of food.
+Edit score is :  0.5915870988381803
+* Did the man die of thirst?
+* No.
+* The man was mauled by a polar bear and died before he could reach his pack of food.
+Edit score is :  0.6044023086883051
+PUZZLE: A man pushes a car up to a hotel and tells the owner he's bankrupt. What happened?
+* Did the man push the car up to the hotel by himself?
+* Irrelevant.
+* The man sold the car to the hotel owner for the price of a room for the night.
+Edit score is :  0.5306267806267807
+* Is the man telling the truth?
+* Yes.
+* The man had won the car in a raffle but could not afford the taxes so he pushed it up to the hotel and sold it to the owner.
+Edit score is :  0.4974963103520979
+* Why did the man push the car up to the hotel?
+* Irrelevant.
+* The man is a valet and was parking the car for the hotel guest.
+Edit score is :  0.4943783068783068
+* 
+* Irrelevant.
+* The man had won the car in a bet and was unable to pay for it, so he pushed it up to the hotel and told the owner he was bankrupt in hopes that the owner would take the car and forgive the debt.
+Edit score is :  0.47197353349008253
+* Did the man have help pushing the car up to the hotel?
+* No.
+* The man was too tired to push the car any further, so he decided to leave it at the hotel and go bankrupt.
+Edit score is :  0.5166197727021957
+PUZZLE: The car came out of the blue and the man came into some money. What happened?
+* Did the man get hit by the car?
+* Irrelevant.
+* The man won the lottery.
+Edit score is :  0.6031746031746033
+* Did the man find money on the ground?
+* Irrelevant.
+* The man won the lottery.
+Edit score is :  0.6031746031746033
+* Did the man win the lottery?
+* Irrelevant.
+* The man was hit by a car and received a settlement from the insurance company.
+Edit score is :  0.47243589743589737
+* Did the man ask for money from the car driver?
+* No.
+* The man was a pedestrian and the car drove by and splashed him with a puddle of water. The man got angry and yelled at the driver for ruining his suit. The driver felt guilty and gave the man some money.
+Edit score is :  0.5106185002736727
+* Did the man get the money from the car?
+* No.
+* The man was a hitchhiker and the driver picked him up.
+Edit score is :  0.46296296296296297
+PUZZLE: A man lies dead in a room with fifty-three bicycles in front of him. What happened?
+* Was the man a bike enthusiast?
+* Irrelevant.
+* The man was shot through the window of a building. The bicycles were in the room and were used as decoys by the killer.
+Edit score is :  0.8358369710201009
+PUZZLE: A man lies dead in a room with fifty-three bees in front of him. What happened?
+* Was the man stung by the bees?
+* No.
+* The man was a beekeeper and was wearing a bee suit. He suffered from anaphylactic shock and died as a result of being stung by a bee.
+Edit score is :  0.8486326928432192
+PUZZLE: There are 51 instead of 53. What happened?
+* Did someone take out two cards?
+* No.
+* Two cards were never put in the deck in the first place.
+Edit score is :  0.6450883498053309
+* Did someone put two extra cards in?
+* No.
+* Two cards are stuck together.
+Edit score is :  0.5828756917837378
+* Did the person miscount?
+* No.
+* The two jokers are missing from the deck.
+Edit score is :  0.5627274487030585
+* So there's actually 51 cards?
+* No.
+* There are 52 cards in a deck, not 53.
+Edit score is :  0.5424924924924925
+* There are 51 cards, but one is a joker.
+* No.
+* There are two jokers in the deck.
+Edit score is :  0.5573928944618599
+PUZZLE: A black man dressed all in black, wearing a black mask, stands at a crossroads in a totally black-painted town.  All of the streetlights in town are broken.  There is no moon.  A black-painted car without headlights drives straight toward him, but turns in time and doesn't hit him. What happened?
+* Was the man in the way of the car?
+* No.
+* The man was a police officer directing traffic.
+Edit score is :  0.5382598298959268
+* Did the car have its lights on?
+* No.
+* The car was being driven by a blind person.
+Edit score is :  0.5501351391487719
+* Did the car turn before it got to the man?
+* No.
+* The man was a ninja.
+Edit score is :  0.5521943573667712
+* Did the driver see the man?
+* Yes.
+* The driver of the car was the man's blind mother.
+Edit score is :  0.6064586754241926
+* 
+* No.
+* The driver was blind.
+Edit score is :  0.5506294471811713
+PUZZLE: Elsa can turn off her bedroom light at the door to her bedroom, and still make it acroos the room and into bed before the room gets dark. What happened?
+* Could Elsa see the bed from the door?
+* Yes.
+* Elsa's room has a motion sensor light.
+Edit score is :  0.6267270740954951
+* Did Elsa's room have a window?
+* Yes.
+* Elsa's room had a window and the moon was out.
+Edit score is :  0.6443754313319531
+* Did the light turn off automatically when Elsa left the room?
+* No.
+* Elsa's room had a light timer that turned the light off automatically after a certain amount of time.
+Edit score is :  0.5932893289328933
+* Did Elsa have a night light?
+* No.
+* Elsa's room was on a timer.
+Edit score is :  0.6056437389770722
+*  Did the lightbulb need to be screwed in?
+* No.
+* Elsa has super speed and can move faster than the speed of light.
+Edit score is :  0.5681929181929183
+PUZZLE: Bob and Carol and Ted and Alice all live in the same house.  Bob and Carol go out to a movie, and when they return, Alice is lying dead on the floor in a puddle of water and glass.  It is obvious that Ted killed her but Ted is not prosecuted or severely punished. What happened?
+* Why wasn't Ted prosecuted?
+* Irrelevant.
+* Alice killed herself.
+Edit score is :  0.6518207282913165
+PUZZLE: Bob and Carol and Romeo and Juliet all live in the same house.  Bob and Carol go out to a movie, and when they return, Juliet is lying dead on the floor in a puddle of water and glass.  It is obvious that Romeo killed her but Romeo is not prosecuted or severely punished. What happened?
+* Did Bob or Carol see the body when they got home?
+* Irrelevant.
+* Romeo and Juliet are fish.
+Edit score is :  0.8403778360300099
+PUZZLE: Tom and Jean lay dead in a puddle of water with broken pieces of glass and a baseball nearby. What happened?
+* Was Jean hit by the baseball?
+* No.
+* Tom and Jean were electrocuted by a broken lamp in a puddle of water. The baseball was unrelated.
+Edit score is :  0.8212222283477589
+PUZZLE: A dead man lies near a pile of bricks and a beetle on top of a book. What happened?
+* Can you see the man's face?
+* No.
+* The man was an archaeologist. He was looking at the beetle and bricks when he had a heart attack and died.
+Edit score is :  0.8496816184590803
+PUZZLE: Hiking in the mountains, you walk past a large field and camp a few miles farther on, at a stream.  It snows in the night, and the next day you find a cabin in the field with two dead bodies inside. What happened?
+* Did you build the cabin?
+* No.
+* The couple who owned the cabin had a fight and killed each other. The man built a cabin in the field, hoping to start a new life with his mistress, but she refused to leave her husband. In a rage, he killed her, then himself.
+Edit score is :  0.6161761761761763
+* Did you kill the people in the cabin?
+* No.
+* The people in the cabin killed each other.
+Edit score is :  0.6515801515801516
+PUZZLE: A man is sitting in a chair -- in a cabin -- on the side of a mountain -- dead. What happened?
+* Was the cabin on fire?
+* No.
+* The man committed suicide.
+Edit score is :  0.5046139256665572
+* Did the man die of a heart attack?
+* No.
+* The man committed suicide.
+Edit score is :  0.5046139256665572
+* Did the man die of natural causes?
+* No.
+* The man committed suicide.
+Edit score is :  0.5046139256665572
+* Was the man killed?
+* Yes.
+* The man was shot.
+Edit score is :  0.5442297501121031
+* Did someone kill the man?
+* No.
+* The man committed suicide.
+Edit score is :  0.5046139256665572
+PUZZLE: A cabin, on the side of a mountain, locked from the inside, is opened, and 30 people are found dead inside.  They had plenty of food and water. What happened?
+* Was there a gas leak?
+* Irrelevant.
+* The people killed each other.
+Edit score is :  0.5563772167970069
+* Did they die of a disease?
+* Irrelevant.
+* They committed mass suicide.
+Edit score is :  0.5281853281853283
+* Did they commit suicide?
+* No.
+* The people in the cabin were part of a study on sleep deprivation. They were not allowed to sleep for 30 days, and they all died as a result.
+Edit score is :  0.6442738387800312
+* Did they die of natural causes?
+* No.
+* The people in the cabin died of carbon monoxide poisoning from a faulty heater.
+Edit score is :  0.6843975887946575
+PUZZLE: Two people are playing cards.  One looks around and realizes he's going to die. What happened?
+* Did the other person know he was going to die?
+* No.
+* The first person had been poisoned and the other person didn't know.
+Edit score is :  0.6212182629462041
+* Did the first person have a heart attack?
+* No.
+* The first person realized he was going to die because he was sitting in a electric chair.
+Edit score is :  0.6437136655235173
+* Was the first person poisoned?
+* No.
+* The first person realized that he left the gas on at home and his family was going to die.
+Edit score is :  0.6466979847494553
+* Did the first person know he was going to die?
+* No.
+* The first person was playing Russian Roulette.
+Edit score is :  0.56340395605043
+* Did the first person have a heart attack?
+* No.
+* The first person was sitting in the electric chair.
+Edit score is :  0.5958070728291317

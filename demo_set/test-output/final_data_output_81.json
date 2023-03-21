@@ -1,0 +1,246 @@
+[
+    {
+        "puzzle": "A man in a Sherlock Holmes-style cape walks into a room, places a box on the table and leaves. Why?",
+        "question_list": [
+            "Did he want to hurt someone?",
+            "Did he want to be seen?"
+        ],
+        "answer_list": [
+            "No.",
+            "Yes."
+        ],
+        "final_answer": "He is wearing the cape to disguise the fact that he hasn't really cut off his arm as required.",
+        "solution_list": [
+            "He was delivering a bomb.",
+            "The man wanted to be seen so that people would know that he had solved the case."
+        ],
+        "log_info": [
+            {
+                "text": "He was delivering a bomb.",
+                "index": 0,
+                "logprobs": {
+                    "tokens": [
+                        "He",
+                        " was",
+                        " delivering",
+                        " a",
+                        " bomb",
+                        ".",
+                        "<|endoftext|>",
+                        "Q"
+                    ],
+                    "token_logprobs": [
+                        -1.0407399,
+                        -0.21588598,
+                        -0.56682664,
+                        -0.00040606305,
+                        -1.8535033,
+                        -0.68656796,
+                        -4.382537e-05,
+                        -1.0161963
+                    ],
+                    "top_logprobs": [
+                        {
+                            "The": -0.8234109
+                        },
+                        {
+                            " was": -0.21588598
+                        },
+                        {
+                            " delivering": -0.56682664
+                        },
+                        {
+                            " a": -0.00040606305
+                        },
+                        {
+                            " pizza": -0.35764414
+                        },
+                        {
+                            ".": -0.68656796
+                        },
+                        {
+                            "<|endoftext|>": -4.382537e-05
+                        },
+                        {
+                            "Q": -1.0161963
+                        }
+                    ],
+                    "text_offset": [
+                        839,
+                        841,
+                        845,
+                        856,
+                        858,
+                        863,
+                        864,
+                        864
+                    ]
+                },
+                "finish_reason": "stop"
+            },
+            {
+                "text": "The man wanted to be seen so that people would know that he had solved the case.",
+                "index": 0,
+                "logprobs": {
+                    "tokens": [
+                        "The",
+                        " man",
+                        " wanted",
+                        " to",
+                        " be",
+                        " seen",
+                        " so",
+                        " that",
+                        " people",
+                        " would",
+                        " know",
+                        " that",
+                        " he",
+                        " had",
+                        " solved",
+                        " the",
+                        " case",
+                        ".",
+                        "<|endoftext|>",
+                        "\n",
+                        "\\",
+                        "document",
+                        "class",
+                        "["
+                    ],
+                    "token_logprobs": [
+                        -0.41073424,
+                        -0.0012951661,
+                        -0.3534076,
+                        -0.07156743,
+                        -0.052796718,
+                        -0.020897534,
+                        -0.53963,
+                        -0.005474965,
+                        -0.2599589,
+                        -0.00019523638,
+                        -0.029777236,
+                        -0.76311046,
+                        -0.00097222155,
+                        -0.41633007,
+                        -0.42612043,
+                        -0.000292475,
+                        -0.33482644,
+                        -1.0444119e-05,
+                        -0.00034822334,
+                        -2.2395072,
+                        -1.1377037,
+                        -0.054210093,
+                        -0.0898362,
+                        -0.17985646
+                    ],
+                    "top_logprobs": [
+                        {
+                            "The": -0.41073424
+                        },
+                        {
+                            " man": -0.0012951661
+                        },
+                        {
+                            " wanted": -0.3534076
+                        },
+                        {
+                            " to": -0.07156743
+                        },
+                        {
+                            " be": -0.052796718
+                        },
+                        {
+                            " seen": -0.020897534
+                        },
+                        {
+                            " so": -0.53963
+                        },
+                        {
+                            " that": -0.005474965
+                        },
+                        {
+                            " people": -0.2599589
+                        },
+                        {
+                            " would": -0.00019523638
+                        },
+                        {
+                            " know": -0.029777236
+                        },
+                        {
+                            " he": -0.6278165
+                        },
+                        {
+                            " he": -0.00097222155
+                        },
+                        {
+                            " had": -0.41633007
+                        },
+                        {
+                            " solved": -0.42612043
+                        },
+                        {
+                            " the": -0.000292475
+                        },
+                        {
+                            " case": -0.33482644
+                        },
+                        {
+                            ".": -1.0444119e-05
+                        },
+                        {
+                            "<|endoftext|>": -0.00034822334
+                        },
+                        {
+                            "Q": -0.61628765
+                        },
+                        {
+                            "\\": -1.1377037
+                        },
+                        {
+                            "document": -0.054210093
+                        },
+                        {
+                            "class": -0.0898362
+                        },
+                        {
+                            "[": -0.17985646
+                        }
+                    ],
+                    "text_offset": [
+                        892,
+                        895,
+                        899,
+                        906,
+                        909,
+                        912,
+                        917,
+                        920,
+                        925,
+                        932,
+                        938,
+                        943,
+                        948,
+                        951,
+                        955,
+                        962,
+                        966,
+                        971,
+                        972,
+                        972,
+                        972,
+                        972,
+                        972,
+                        972
+                    ]
+                },
+                "finish_reason": "stop"
+            }
+        ],
+        "edit_score": [
+            0.5312355356476297,
+            0.6663635323724547
+        ]
+    }
+]

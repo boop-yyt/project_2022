@@ -1,0 +1,755 @@
+nohup: ignoring input
+PUZZLE: A man goes into a restaurant, orders abalone, eats one bite, and kills himself. What happened?
+PUZZLE: A man goes into a restaurant, orders albatross, eats one bite, and kills himself. What happened?
+PUZZLE: A man killed himself when he konws what he orderd is the soup of albatross.  why?
+PUZZLE: A man lives on the twelfth floor of an apartment building.  Every morning he takes the elevator down to the lobby and leaves the building.  In the evening, he gets into the elevator, and, if there is someone else in the elevator or if it was raining that day he goes back to his floor directly.  However, if there is nobody else in the elevator and it hasn't rained, he goes to the tenth floor and walks up two flights of stairs to his room. Why?
+PUZZLE: Emily regularly visits the twelfth floor of an apartment building by going to the tenth floor and walking up two flights of stairs. Last year she only took the elevator to the ninth floor. Why?
+PUZZLE: A man sitting on a park bench reads a newspaper article headlined "Death at Sea" and knows a murder has been committed. What happened?
+PUZZLE: A man lets go of a bowling ball.  A short while later, he is rushed to the hospital. What happened?
+PUZZLE: Two men enter a bar.  They both order identical drinks.  One lives; the other dies. Why?
+* Did the men have the same drink?
+* Yes.
+* The first man had poison in his drink, while the second man did not.
+Edit score is :  0.6487628785076066
+* Did one of the men have poison in his drink?
+* Yes.
+* The first man had been given an antidote to the poison before coming in, while the second man had not.
+Edit score is :  0.8235733444321125
+PUZZLE: A man walks into a bar and asks for a drink.  The bartender pulls out a gun and points it at him.  The man says, "Thank you", and walks out. What happened?
+* Did the man get a drink?
+* Irrelevant.
+* The man had the hiccups. The bartender realized this and chose instead to cure the hiccups by frightening the man with the gun.
+Edit score is :  0.685491079919358
+PUZZLE: Two women are talking.  One goes into the bathroom, comes out five minutes later, and kills the other. What happened?
+* Was the first woman in the bathroom the whole time?
+* No.
+* The first woman went into the bathroom, saw the other woman's reflection in the mirror, and killed her.
+Edit score is :  0.5968474656908852
+* Did the first woman have a weapon?
+* No.
+* The first woman went into the bathroom, saw the other woman through the crack in the door, and realized she was going to be killed. She then came out and killed the other woman before she could be killed herself.
+Edit score is :  0.6851421548884139
+PUZZLE: A man goes to hang his coat and realizes he will die that day. What happened?
+* Did the man take his coat off?
+* No.
+* The man had been diagnosed with a terminal illness and was told he would die that day. He went to hang his coat in his closet, realizing that he wouldn't need it anymore.
+Edit score is :  0.8380140313005937
+PUZZLE: Beulah died in the Appalachians, while Craig died at sea.  Everyone was much happier with Craig's death. What happened?
+* Why were they happier with Craig's death?
+* Irrelevant.
+* Craig's death was more poetic.
+Edit score is :  0.6636363636363636
+PUZZLE: An avid birdwatcher sees an unexpected bird.  Soon he's dead. What happened?
+* Did the birdwatcher have a heart condition?
+* Irrelevant.
+* The birdwatcher was looking through his binoculars when he saw a rare bird. He was so excited that he had a heart attack and died.
+Edit score is :  0.6470487209617645
+* Did the birdwatcher die of a heart attack?
+* No.
+* The birdwatcher was poisoned by the bird.
+Edit score is :  0.5414869800871921
+* Did the birdwatcher die because he was shot?
+* No.
+* The birdwatcher was electrocuted when he accidentally touched a power line while reaching for the bird.
+Edit score is :  0.6496923647620144
+* 
+* No.
+* The birdwatcher was hit by a car while he was crossing the street to get a better look at the bird.
+Edit score is :  0.6532718489240228
+PUZZLE: He was killed by breakfast. What happened?
+* Did he die from eating breakfast?
+* No.
+* He was electrocuted while making breakfast.
+Edit score is :  0.5483812393237119
+* Did he die from a disease?
+* No.
+* He was killed by a breakfast cereal box.
+Edit score is :  0.523191391941392
+* Was he poisoned?
+* No.
+* He was killed by a bomb hidden in his breakfast.
+Edit score is :  0.5132020757020757
+* Was he shot?
+* No.
+* He was killed by being hit by a frying pan that was being used to make breakfast.
+Edit score is :  0.6019852575408131
+* Did he die from a fall?
+* No.
+* He was killed by a lion.
+Edit score is :  0.4741260201786517
+PUZZLE: A man lay dead in a field.   Next to him was a gun.  One shot had been fired and because of that shot the man had died.  Yet the man was not shot; in fact, there was no wound or mark on the body. What happened?
+* Was the gun next to the man's body?
+* Irrelevant.
+* The man committed suicide by holding the gun to his head and pulling the trigger. The recoil from the gun caused the man's body to be flung backwards away from the gun.
+Edit score is :  0.5634148957319689
+* Did the man die instantly?
+* No.
+* The man committed suicide by holding the gun to his head and pulling the trigger. The force of the shot knocked him backwards and the gun landed next to his body.
+Edit score is :  0.537521687386186
+* Did the man commit suicide?
+* No.
+* The man was playing Russian roulette.
+Edit score is :  0.5970976278505441
+* Did the man die of natural causes?
+* No.
+* The man was poisoned and the gun was used to make it look like a suicide.
+Edit score is :  0.6607701921768077
+PUZZLE: Two brothers are involved in a murder.  Though it's clear that one of them actually committed the crime, neither can be punished. What happened?
+* Are the brothers twins?
+* Irrelevant.
+* The brothers are Siamese twins.
+Edit score is :  0.5923830957739434
+* Did the brothers have the same motive for the murder?
+* Yes.
+* The brothers are Siamese twins, and the crime was committed by the one who had the motive.
+Edit score is :  0.6875505201086597
+PUZZLE: A woman in France in 1959 is waiting in her room, with all the doors locked from the inside, for her husband to come home.  When he arrives, the house has burned to the ground and she's dead. What happened?
+* Did the woman die in the fire?
+* Yes.
+* The woman was cooking with a gas stove.  When she smelled gas, she lit a match to see if there was a leak. There was, and the explosion killed her and burned down the house.
+Edit score is :  0.6941746992624435
+PUZZLE: A man lies dead next to a cactus. Stuck to the cactus is a slip of paper. What happened?
+* Is the man next to the cactus?
+* No.
+* The man was killed by a cactus falling on top of him. The slip of paper is a note that was attached to the cactus before it fell.
+Edit score is :  0.6426381615581458
+* Is the cactus next to the man?
+* No.
+* The man was flying a plane. He ran out of fuel and had to crash land in the desert. The cactus was the only thing around so he used it as a target. The paper was his last will and testament.
+Edit score is :  0.6933556214555322
+PUZZLE: Passing by a window, you see two dead men in a room, with a gun and a deck of cards. What happened?
+* Did the men know each other?
+* Irrelevant.
+* The men were playing a game of Russian Roulette.
+Edit score is :  0.551911544227886
+* Was the gun loaded?
+* Yes.
+* The men were playing Russian Roulette.
+Edit score is :  0.5261981582308262
+* Did one man shoot the other?
+* Yes.
+* The two men were playing Russian Roulette.
+Edit score is :  0.5391078270388615
+* Did the men have a fight before shooting each other?
+* No.
+* The two men were playing a game of Russian Roulette.
+Edit score is :  0.5484055408193339
+* Did one man shoot the other in self-defense?
+* No.
+* The two men were playing a game of Russian roulette.
+Edit score is :  0.558780187583433
+PUZZLE: There are a carrot, a pile of pebbles, and a pipe lying together in the middle of a field. What happened?
+* Why is the carrot there?
+* Irrelevant.
+* A rabbit was eating the carrot, but ran away when it saw a person coming. The pebbles are there because the rabbit dug them up while looking for the carrot, and the pipe is there because the rabbit was playing with it before it saw the person.
+Edit score is :  0.5442314634322432
+* Did someone put the carrot there?
+* No.
+* A rabbit was eating the carrot and dropped it when a hawk flew overhead. The rabbit then hid in the pipe.
+Edit score is :  0.5817821067821067
+* Did the carrot come from a grocery store?
+* Irrelevant.
+* A rabbit was eating the carrot and dropped it when it saw a hawk. The pebbles are from the rabbit's burrow, and the pipe is part of a irrigation system for the field.
+Edit score is :  0.5667336010709505
+* Did the man leave the bar?
+* No.
+* The carrot, pebbles, and pipe were part of a field mouse's winter stash that was unearthed by a hungry fox.
+Edit score is :  0.6007009345794393
+* Why is the pipe there?
+* Irrelevant.
+* A bird was carrying the carrot in its beak. It flew over the field and dropped the carrot. The pebbles were already there, and the pipe was part of the field.
+Edit score is :  0.5464587100663051
+PUZZLE: Two dead people sit in their cars on a street. What happened?
+* Could they have gotten out of their cars?
+* Yes.
+* They were in a car accident and both died.
+Edit score is :  0.5663515907078138
+* Did a car hit them?
+* No.
+* They were in a car accident and both of them died.
+Edit score is :  0.5831139723414401
+* Did they both die at the same time?
+* Yes.
+* Were they poisoned?
+* Irrelevant.
+* They were in a gas chamber
+Edit score is :  0.5429448662925058
+* Did they die of natural causes?
+* No.
+* They were shot.
+Edit score is :  0.5126150911558637
+PUZZLE: A man is found shot to death in the front seat of his car; a gun lies out of his reach in the back seat.  All the windows are closed and the doors are locked; there are no bullet holes anywhere in the car. What happened?
+* Did the man shoot himself?
+* No.
+* The man was Murdered. The murderer shot the man from the backseat with a long range rifle, then placed the gun in the backseat to make it look like a suicide.
+Edit score is :  0.8367632895881598
+PUZZLE: A man is sitting in a room. Another person enters, carrying a closed cardboard box, and sits down nearby. Though the first man can't see, hear, or smell the box's contents, he knows what's in the box. What happened?
+* Is the box empty?
+* No.
+* The box contains a bomb.
+Edit score is :  0.5341636323513185
+* Does the box have a lid?
+* No.
+* The box contains a bomb.
+Edit score is :  0.5341636323513185
+* Is the box opaque?
+* Yes.
+* The box contains a cat.
+Edit score is :  0.5694148208914411
+* Is the box sealed?
+* No.
+* The box contains a cat.
+Edit score is :  0.5694148208914411
+* Is the box rectangular?
+* No.
+* The box contains a cat.
+Edit score is :  0.5694148208914411
+PUZZLE: There is blood on the ceiling of my bedroom. What happened?
+* Did someone get hurt?
+* No.
+* I killed a mosquito with my fly swatter and the blood got splattered on the ceiling.
+Edit score is :  0.7065542479010004
+PUZZLE: A man in uniform stands on the beach of a tropical island.  He takes out a cigarette, lights it, and begins smoking.  He takes out a letter and begins reading it.  The cigarette burns down between his fingers, but he doesn't throw it away.  He cries. What happened?
+* Was the man on duty?
+* Yes.
+* The man was on duty, and the letter he was reading was from his commanding officer, informing him that his entire unit had been killed in a surprise attack.
+Edit score is :  0.6906675906675906
+PUZZLE: A woman is heating her coffee in a small microwave oven.  She puts it in for exactly two minutes.  She then opens the door, closes it, then heats her coffee for two more seconds. What happened?
+* Did the woman put her coffee in for four minutes?
+* No.
+* She wanted to make sure her coffee was hot enough, so she heated it for two minutes, then checked it, then heated it for two more seconds.
+Edit score is :  0.6851658130834332
+PUZZLE: A man tries the new cologne his wife gave him for his birthday.  He goes out to get some food, and is killed. What happened?
+* Is the cologne poisonous?
+* No.
+* The cologne was so strong that it attracted a swarm of bees, which stung the man to death.
+Edit score is :  0.6154559016069338
+* Did the man's wife give him the cologne as a gift?
+* No.
+* The cologne was flammable, and the man was killed when he was exposed to a fire.
+Edit score is :  0.5704625722067583
+* 
+* No.
+* The cologne was highly flammable, and the man was killed when he was exposed to a flame.
+Edit score is :  0.5832905466626397
+* Did the man's wife want him to die?
+* No.
+* The cologne was highly flammable, and the man was killed when he went out into the sunlight wearing it and was set on fire.
+Edit score is :  0.6346754650781877
+* Did the man apply the cologne to his skin?
+* Yes.
+* The cologne was highly flammable, and the man was killed when he applied it and then came into contact with a flame.
+Edit score is :  0.6159963262073748
+PUZZLE: A man takes a two-week cruise to Mexico from the U.S.  Shortly after he gets back, he takes a three-day cruise which doesn't stop at any other ports.  He stays in his cabin all the time on both cruises.  As a result, he makes $250,000. What happened?
+* Did the man work on the cruise?
+* No.
+* The man was a drug smuggler.
+Edit score is :  0.5403880070546737
+* Did the man win the lottery?
+* Irrelevant.
+* The man is a drug smuggler.He smuggled drugs into the U.S. on the first cruise and smuggled them out of the U.S. on the second cruise.
+Edit score is :  0.6048910951196399
+* Did the man go on the cruise to Mexico for work?
+* No.
+* The man is a smuggler and he smuggled drugs on the cruise to Mexico and back. On the second cruise, he smuggled drugs into the U.S.
+Edit score is :  0.5959391736338301
+* Did the man go on the cruise to Mexico for pleasure?
+* Yes.
+* The man is a drug smuggler.He smuggles drugs on the cruise to Mexico and brings them back to the U.S. on the second cruise.
+Edit score is :  0.5914000931776872
+* Did the man stop at any ports on the three-day cruise?
+* No.
+* The man is a drug smuggler. He smuggled drugs on the two-week cruise from the U.S. to Mexico and then smuggled them back on the three-day cruise from Mexico to the U.S.
+Edit score is :  0.5998538011695906
+PUZZLE: A man is lying face down, dead, in the desert, with a match near his outstretched hand. What happened?
+* Was the man trying to light a fire?
+* No.
+* The man was trying to commit suicide by lighting a match and inhaling the fumes, but the wind blew the match out.
+Edit score is :  0.5862436974746181
+* Did the man die of thirst?
+* No.
+* The man committed suicide by lighting the match and inhaling the fumes.
+Edit score is :  0.5423692412800569
+* Did the man die of a snake bite?
+* No.
+* The man was trying to commit suicide by lighting the match and inhaling the fumes, but the wind blew the match out.
+Edit score is :  0.5878586153042674
+* Did the man die of a heart attack?
+* No.
+* The man committed suicide by inhaling the fumes from the match.
+Edit score is :  0.5257664589561141
+* Did the man die of exposure to the elements?
+* Yes.
+* The man was trying to light a fire to signal for help, but he died before he could succeed.
+Edit score is :  0.5808420278223648
+PUZZLE: A man is lying, dead, face down in the desert wearing a backpack. What happened?
+* Did he die of thirst?
+* Irrelevant.
+* The man was hiking in the desert when he was bitten by a snake. He died of the snake's venom, not of thirst.
+Edit score is :  0.5547619047619047
+* Did he die of a gunshot wound?
+* No.
+* He was hiking in the desert and fell off a cliff. The backpack prevented him from turning over and facing up, so he eventually died of exposure.
+Edit score is :  0.6307927385513592
+* Did he die of a snake bite?
+* No.
+* The man was hiking in the desert when he died.Most likely, he died of heat exhaustion.
+Edit score is :  0.615244954433475
+* Did he die of exposure?
+* Yes.
+* The man died of exposure after being stranded in the desert.
+Edit score is :  0.6666426166426166
+PUZZLE: A man is lying  dead face down in the desert wearing a backpack, and the man's shoelaces is untied. What happened?
+* Did the man die of thirst?
+* Irrelevant.
+* The man was hiking in the desert and died of a heart attack. The shoelaces being untied probably has no relation to his death.
+Edit score is :  0.59255892765967
+* Did the man die of a snake bite?
+* Irrelevant.
+* The man was hiking in the desert when he died. Most likely, he died of thirst. However, the cause of death is not relevant to the puzzle.
+Edit score is :  0.5705120067703374
+* Did the man die of a heart attack?
+* No.
+* The man was hiking in the desert when he had a heart attack and fell over. He died face down, and his shoelaces came untied.
+Edit score is :  0.5754815933637812
+* Did the man die of a gunshot wound?
+* No.
+* The man tripped on his untied shoelaces and died.
+Edit score is :  0.6999968024812745
+PUZZLE: A man with a pack on his back enters a field and dies. What happened?
+* Was the man's death caused by the pack?
+* Yes.
+* The man was a hiker who died of thirst. The pack was full of water, but the man could not reach it because it was on his back.
+Edit score is :  0.6499726327312535
+* Did the man die instantly?
+* No.
+* The man was carrying a bomb in his pack, and the bomb exploded, killing the man.
+Edit score is :  0.6539021164021165
+PUZZLE: A dead man lies in front of the post office; next to him is a parcel. What happened?
+* Was the parcel addressed to the dead man?
+* Irrelevant.
+* The man had a heart attack while he was mailing the parcel.
+Edit score is :  0.6896921649518698
+PUZZLE: She lost her job when she invited them to dinner. What happened?
+* She invited her boss to dinner?
+* No.
+* She invited a group of friends over for dinner and they made too much noise, causing her boss to fire her.
+Edit score is :  0.5783598317642616
+* She was fired because she didn't invite her boss to dinner?
+* No.
+* She was fired because she invited her boss's wife and children to dinner without his knowledge or consent.
+Edit score is :  0.5720106254150553
+* She was fired because she invited her boss to dinner?
+* No.
+* She was fired because she invited her coworkers to dinner and they all got food poisoning.
+Edit score is :  0.5535084767229369
+* She was fired because she invited them to dinner?
+* No.
+* She was fired because she invited her boss's rivals to dinner.
+Edit score is :  0.5466947171575502
+* She was fired because she didn't invite them to dinner?
+* No.
+* She was fired because she invited her boss's enemies to dinner.
+Edit score is :  0.549749252357948
+PUZZLE: A man tells his boss, "Don't take your planned flight today!  I had a dream last night that if you do, your plane will crash and you'll die."  The boss fires the man. What happened?
+* Did the boss believe the man?
+* No.
+* The boss thinks the man is a loony and doesn't want to risk his life on a hunch.
+Edit score is :  0.6602063334436722
+PUZZLE: A man finishes getting dressed, lies down and dies. What happened?
+* Did the man have a heart attack?
+* No.
+* The man was electrocuted while getting dressed. He touched a metal object that was electrically charged, causing his heart to stop.
+Edit score is :  0.599410020970005
+* Did the man die of natural causes?
+* No.
+* The man was electrocuted while getting dressed. He was touching both a live wire and the metal frame of the bed at the same time.
+Edit score is :  0.6088646868289842
+* Was the man poisoned?
+* Yes.
+* The man was poisoned by the gas from the newly dry-cleaned suit he was wearing.
+Edit score is :  0.5704771762313213
+* Did the man know he was going to die?
+* No.
+* The man was poisoned by the gas from the clothes he was wearing. He died because he was unable to remove the clothes in time.
+Edit score is :  0.6232049017267446
+* Did the man die of a disease?
+* No.
+* The man committed suicide.
+Edit score is :  0.4996782560162842
+PUZZLE: Every day a man drinks his breakfast and drinks his lunch.  When his boss finds out, he is immediately fired.  The man moves to another job and begins doing the same thing; this time, when his boss finds out, the boss jokingly tells him that he'll be fired if he stops. What happened?
+* Did the boss know what the man was doing?
+* Yes.
+* The man was drinking alcohol.
+Edit score is :  0.5843817955886922
+* Did the man's new boss know about his previous job?
+* No.
+* The man was a alcoholic and was fired from his first job because his boss found out. He then got another job, and his new boss was okay with it because he didn't know about his previous job.
+Edit score is :  0.8245544518648891
+PUZZLE: A car without a driver moves; a man dies. What happened?
+* Was the car moving when the man died?
+* Yes.
+* The man was a carjacker and was attempting to carjack the car when he was hit by the car and killed.
+Edit score is :  0.59862842434271
+* Was the man inside the car when he died?
+* No.
+* The man was hit by the car as it was moving.
+Edit score is :  0.581550578062206
+* Did the man die because he was hit by the car?
+* Yes.
+* The man was hit by the car as it was moving and died as a result.
+Edit score is :  0.5837794525294525
+* Did the man die instantly?
+* No.
+* The man was hit by a car that was driving itself. He died later as a result of his injuries.
+Edit score is :  0.5997606301954128
+* 
+* No.
+* The man was a pedestrian who was hit by a hit-and-run driver.
+Edit score is :  0.5676479202180785
+PUZZLE: A man gets onto an elevator.  When the elevator stops, he knows his wife is dead. What happened?
+* Did the man get off the elevator?
+* Yes.
+* The man's wife was on the same elevator, but she got off before him.
+Edit score is :  0.5755578933013842
+* Did the man's wife die before he got on the elevator?
+* No.
+* The man's wife died while he was on the elevator.
+Edit score is :  0.5287325669160513
+* Did the man's wife die while he was on the elevator?
+* No.
+* The man's wife was on the elevator with him when she died.
+Edit score is :  0.554061816583015
+* Did the man's wife die after he got off the elevator?
+* Yes.
+* The man's wife was on the elevator with him, but she died before the elevator reached his floor.
+Edit score is :  0.5807693830680288
+* Did the man's wife die while the elevator was moving?
+* No.
+* The man's wife was on the elevator when it stopped. The man knew she was dead because she was not moving.
+Edit score is :  0.5885349986989331
+PUZZLE: The music stops and a woman dies. What happened?
+* Did the woman die of a heart attack?
+* No.
+* The woman was a dancer and she died when the music stopped playing.
+Edit score is :  0.6994044652269918
+PUZZLE: A man lives in a high-rise apartment building in the city.  One day, as usual, he gets up, has breakfast, showers, dresses, kisses his wife good-bye, and leaves for work.  He walks down the corridor to the elevator. After standing there for a minute or so, he realizes his wife is dead. Why?
+* Did his wife die that morning?
+* No.
+* He had been on an elevator that stopped on his floor. When he got out, he walked down the corridor to his apartment, and realized he had never left his apartment that morning.
+Edit score is :  0.6990704422816713
+PUZZLE: A man is killed on a train.  He is found to have written "elf" on the floor in his own blood.  What happened?
+* Was the man elf?
+* Irrelevant.
+* The man was killed by an elf.
+Edit score is :  0.5735944245072034
+* Did the man die on the train?
+* Yes.
+* The man was killed by an elf.
+Edit score is :  0.5735944245072034
+* Was the man's death planned?
+* Yes.
+* The man was a victim of a murder. The killer wanted to make it look like a suicide, but the man managed to write "elf" in his own blood before he died, indicating that he was killed.
+Edit score is :  0.6456388951431912
+* Did the man die by accident?
+* No.
+* The man was murdered. The killer wanted to make it look like a suicide, but they made a mistake by writing "elf" instead of "self."
+Edit score is :  0.5910013010488987
+* Did the man die by murder?
+* Yes.
+* The man was killed by an elf who snuck onto the train and stabbed him. The man wrote "elf" in his own blood to warn others before he died.
+Edit score is :  0.6045150912562408
+PUZZLE: A man lies dead next to a feather. What happened?
+* Did the man die of a natural death?
+* No.
+* The man was killed by a pillow fight.
+Edit score is :  0.625684618788067
+* Did the man die of a heart attack?
+* No.
+* The man was killed by a pillow.
+Edit score is :  0.6273478468139202
+* Did the man die of a gunshot wound?
+* No.
+* The man was killed by a feather.
+Edit score is :  0.6060344827586207
+* Did the man die of a stabbing?
+* No.
+* The man was killed by a feather that was dropped from a great height.
+Edit score is :  0.6594301807429619
+PUZZLE: A man ran into a fire, and lived.  A man stayed where there was no fire, and died. What happened?
+* Was there a fire?
+* Yes.
+* The man ran into a burning building to save someone and lived. The man who died was a smoker and stayed where there was no fire to smoke, and died of lung cancer.
+Edit score is :  0.6891155628629667
+PUZZLE: Four people are on a grass-covered island.  A fire burns from one end of the island to the other, but no one gets severely burnt. Why?
+* Is the island big?
+* Irrelevant.
+* The people are ducks.
+Edit score is :  0.5575576238687762
+* Are the people on the island?
+* No.
+* The people are on a boat.
+Edit score is :  0.5578318329821873
+* Are the people on the island?
+* No.
+* The people are birds.
+Edit score is :  0.5575576238687762
+* Did the people jump in the water?
+* No.
+* The fire is on the moon.
+Edit score is :  0.6324645129711208
+* Are the people on the island?
+* No.
+* The people are birds.
+Edit score is :  0.5575576238687762
+PUZZLE: A flash of light, a man dies. Why?
+* Did the light come from a gun?
+* No.
+* The man was an astronaut who was hit by a meteor.
+Edit score is :  0.6261498077491866
+* Did the man die instantly?
+* No.
+* The man was an astronaut who was hit by a meteor.
+Edit score is :  0.6261498077491866
+* Did the man die of natural causes?
+* No.
+* The man was an astronaut who was outside of his space suit when a flash of light hit him, killing him instantly.
+Edit score is :  0.829250700280112
+PUZZLE: He couldn't find a chair, so he died. Why?
+* Did he die of thirst?
+* Irrelevant.
+* He was a goldfish.
+Edit score is :  0.859059829059829
+PUZZLE: A man is running along a corridor with a piece of paper in his hand. The lights flicker and the man drops to his knees and cries out, "Oh no!" What happened?
+* Did the man drop the piece of paper?
+* No.
+* The man was Crying because he realized he left his presentation in the printer.
+Edit score is :  0.8204054901228476
+PUZZLE: Mr. Browning is glad the car ran out of gas.  Why?
+* Did Mr. Browning have a bad day?
+* Yes.
+* Mr. Browning ran out of gas on his way to work. He was having a bad day and was glad that he didn't have to go to work.
+Edit score is :  0.5961953969458121
+* Did Mr. Browning's car break down?
+* No.
+* Mr. Browning ran out of gas on his way to work. He was glad because he was able to spend the day with his family instead.
+Edit score is :  0.5994342887028017
+* Why didn't Mr. Browning want his car to run out of gas?
+* Irrelevant.
+* Mr. Browning is a pyromaniac.
+Edit score is :  0.5730633579457513
+* Is Mr. Browning happy the car ran out of gas?
+* No.
+* Mr. Browning was on his way to visit his sick wife in the hospital. When his car ran out of gas, he was forced to walk the rest of the way. Although he was tired and his feet were sore, he was glad he was able to walk because it gave him time to think about what he was going to say to his wife.
+Edit score is :  0.8242003902341166
+PUZZLE: A dying man gives another man a gift, and then the dying man dies. Shortly after that the second man dies. What happened?
+* Did the man die from the same thing the first man did?
+* No.
+* The first man gave the second man a bomb.
+Edit score is :  0.5658550223172972
+* Did the man die because he was given the gift?
+* No.
+* The first man gave the second man a bomb.
+Edit score is :  0.5658550223172972
+* Did the first man die because he gave the gift?
+* No.
+* The first man gave the second man a bomb.
+Edit score is :  0.5658550223172972
+* Did the second man die because he received the gift?
+* No.
+* The gift was a bomb.
+Edit score is :  0.5502596053997922
+* Did the second man die because the first man died?
+* Yes.
+* The first man died of a terminal illness. The second man died of a broken heart.
+Edit score is :  0.6399052271715823
+PUZZLE: A man is lying dead in a room.  There is a large pile of gold and jewels on the floor, a chandelier attached to the ceiling, and a large open window. What happened?
+* Did the man die of natural causes?
+* No.
+* The man was killed by a chandelier falling on his head. The chandelier was attached to the ceiling, and the open window indicates that there was no one else in the room at the time of the murder.
+Edit score is :  0.6900968312733019
+PUZZLE: A man is lying dead in a room.  There is a large pile of gold and jewels on the floor, a chandelier attached to the ceiling, and a large window through which rays are coming.
+* Is the man's body blocking the window?
+* Irrelevant.
+* The man was killed by a laser beam from a satellite outside the window.
+Edit score is :  0.6990993866198583
+PUZZLE: A man enters the elevator of a high rise apartment building, takes off one glove, and pushes the button for the tenth floor.  The next day, the same man enters the elevator, "puts on" one glove, and pushes the button for the tenth floor. Why?
+* Why did the man take off his glove?
+* Irrelevant.
+* The man is a doctor. On the first day, he was coming from the operating room and had to wash his hands before he could put on a new glove. On the second day, he was coming from the delivery room and had to put on a new glove before he could wash his hands.
+Edit score is :  0.6484396008020097
+* Did the man take the elevator to the tenth floor both days?
+* Yes.
+* The man has a tattoo on his hand that he does not want anyone to see.
+Edit score is :  0.5759641676379817
+* Did the man put his glove back on before leaving the elevator?
+* No.
+* The man has a severe itch on his left hand, and the glove is to prevent him from scratching it.
+Edit score is :  0.5724068104591379
+* Did the man put his glove back on before leaving the elevator?
+* No.
+* The man has a tattoo on his hand that he does not want people to see.
+Edit score is :  0.5814418265165124
+* Did the man put his glove back on before leaving the elevator?
+* No.
+* The man is a doctor and was carrying a jar of leeches. He took off his glove to put them on a patient on the tenth floor. The next day he "put on" one glove to hide the fact that he was carrying leeches again.
+Edit score is :  0.6169209753587998
+PUZZLE: A woman came home with a bag of groceries, got the mail, and walked into the house.  On the way to the kitchen, she went through the living room and looked at her husband, who had blown his brains out.  She then continued to the kitchen, put away the groceries, and made dinner. Why?
+* Did she know her husband was dead?
+* Yes.
+* The woman was deaf.
+Edit score is :  0.5668913901025241
+* Did she call the police?
+* No.
+* The woman was deaf.
+Edit score is :  0.5668913901025241
+* Why didn't she call the police?
+* Irrelevant.
+* The woman was deaf.
+Edit score is :  0.5668913901025241
+* Why did she make dinner?
+* Irrelevant.
+* The woman was deaf.
+Edit score is :  0.5668913901025241
+* 
+* Irrelevant.
+* The woman was deaf.
+Edit score is :  0.5668913901025241
+PUZZLE: The king dies and two men both claim to be his long-lost son.  One of the king's advisors proposes a test to determine the identity of the true heir.  One claimant agrees to the test; the other refuses.  The one who agreed is sent packing; the one who refused is identified as the rightful heir.  Why?
+* Why did the one who agreed to the test fail?
+* Irrelevant.
+* The one who agreed to the test was the impostor; the one who refused was the true heir. The true heir knew that he would be recognized as the king's son without having to take a test, while the impostor did not want to risk failing the test.
+Edit score is :  0.8407880527839264
+PUZZLE: An old man gets the hiccups.  Soon, he is rushed to the hospital. Why?
+* Did the old man have a heart attack?
+* No.
+* The old man was rushed to the hospital because he had the hiccups for over a week and was starting to dehydrate.
+Edit score is :  0.6622425492481989
+PUZZLE: A man is found dead outside a large building with a hole in him. What happened?
+* Did the man die from the fall?
+* No.
+* The man was shot and the bullet went through him and lodged in the building.
+Edit score is :  0.8347588172581102
+PUZZLE: A man is found dead outside a large marble building with three holes in him. What happened?
+* Was the man shot?
+* No.
+* The man fell from the building and landed on a spiked fence.
+Edit score is :  0.5794117647058824
+* Did the man die from a fall?
+* No.
+* The man was killed by a lion. The lion jumped through one of the holes in the building, landed on the man, and killed him.
+Edit score is :  0.6872650444866789
+PUZZLE: A man dies in his own home. What happened?
+* Did the man die of natural causes?
+* No.
+* The man was poisoned.
+Edit score is :  0.5458994708994709
+* Did the man die of a gunshot wound?
+* No.
+* The man was poisoned.
+Edit score is :  0.5458994708994709
+* Did the man die of a heart attack?
+* No.
+* The man was poisoned.
+Edit score is :  0.5458994708994709
+* Did the man die of poisoning?
+* No.
+* The man was electrocuted.
+Edit score is :  0.5499999999999999
+* Did the man die of a knife wound?
+* No.
+* The man was killed by his own pet llama.
+Edit score is :  0.5810483870967742
+PUZZLE: A man dies of thirst in his own home. What happened?
+* Could he have reached the water?
+* No.
+* The man's house was on fire, and the only source of water was in his backyard. Unfortunately, he was unable to escape the house in time and died of thirst.
+Edit score is :  0.6765026192445548
+PUZZLE: A body is discovered in a park in Chicago in the middle of summer. It has a fractured skull and many other broken bones, but the cause of death was hypothermia. What happened?
+* Was the body discovered in the water?
+* No.
+* The person probably fell from a great height onto a hard surface, causing all the broken bones. Then, they were left in the park overnight during a cold snap and died from hypothermia.
+Edit score is :  0.6919041891483637
+PUZZLE: A man is lying drowned in a dead forest. What happened?
+Traceback (most recent call last):
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 1321, in getresponse
+    response.begin()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 265, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/requests/adapters.py", line 499, in send
+    timeout=timeout,
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 1321, in getresponse
+    response.begin()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 265, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/http_client.py", line 221, in request
+    **kwargs,
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/requests/adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./demo.py", line 147, in <module>
+    ditem["question_list"].append(generated_question)
+  File "./demo.py", line 57, in get_response
+    stop=["\n\n"]
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_resources/completion.py", line 31, in create
+    return super().create(*args, **kwargs)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 67, in create
+    "post", url, params, headers, stream=stream
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_requestor.py", line 127, in request
+    method.lower(), url, params, headers, stream=stream
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_requestor.py", line 322, in request_raw
+    method, abs_url, headers, post_data, stream=stream
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/http_client.py", line 87, in request_with_retries
+    raise connection_error
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/http_client.py", line 58, in request_with_retries
+    response = self.request(method, url, headers, post_data, stream=stream)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/http_client.py", line 246, in request
+    self._handle_request_error(e)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/http_client.py", line 306, in _handle_request_error
+    raise error.APIConnectionError(msg, should_retry=should_retry)
+openai.error.APIConnectionError: Unexpected error communicating with OpenAI.  If this problem persists,
+let us know at support@openai.com.
+
+(Network error: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) (url=https://api.openai.com/v1/completions))

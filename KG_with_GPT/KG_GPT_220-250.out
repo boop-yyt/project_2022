@@ -1,0 +1,676 @@
+nohup: ignoring input
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/feature_extraction/image.py:167: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dtype=np.int):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/feature_extraction/text.py:17: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  from collections import Mapping, defaultdict
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:35: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:597: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:836: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:862: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, positive=False):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1074: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=1, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1306: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=1, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1442: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, positive=False):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:152: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  precompute=False, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:318: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, random_state=None,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:575: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=4 * np.finfo(np.float).eps, n_jobs=1,
+PUZZLE: A clergyman was exasperated at having to sweep up vast amounts of confetti from the front of his church after every wedding. He decreed that in the future, if people insisted on throwing something at the married couple they throw something else. What did he suggest?
+* Is it a place where people live?
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/transformers/models/t5/tokenization_t5_fast.py:166: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  FutureWarning,
+# ::snt Is it a place where people live?
+(p / place
+      :polarity (a / amr-unknown)
+      :location-of (l / live-01
+            :ARG0 (p2 / person)))
+* No.
+* He suggested that they throw rice.
+Edit score is :  0.6680038172597845
+PUZZLE: A manufacturer states that if middle-aged people told the truth more often he would sell a great deal more of his products. What does he manufacture?
+* Does he manufacture products that require honesty?
+# ::snt Does he manufacture products that require honesty?
+(m / manufacture-01
+      :polarity (a / amr-unknown)
+      :ARG0 (h / he)
+      :ARG1 (p / product
+            :ARG0-of (r / require-01
+                  :ARG1 (h2 / honesty))))
+* Irrelevant.
+* He manufactures lie detectors.
+Edit score is :  0.8248383500557412
+PUZZLE: In a sports shop there is a soccer ball containing a quantity of dried peas. Why are they there?
+* The man asked for water in an offensive way.
+# ::snt The man asked for water in an offensive way.
+(a / ask-02
+      :ARG0 (m / man)
+      :ARG1 (w / water)
+      :manner (o / offense-02))
+* No.
+* The soccer ball was used as a doorstop. The dried peas were there to weigh it down. The man had hiccups and the bartender decided to scare him in order to get rid of the hiccups.
+Edit score is :  0.6574282147315855
+PUZZLE: A mother told her six-year-old daughter that her pet dog had been hit by a car and killed. The little girl burst into tears. Half an hour later, the mother said that the dog was quite well and that it was all a mistake. Why did she do this?
+* 
+* No.
+* 
+Edit score is :  0.0
+* Was the man's original request unreasonable?
+# ::snt Was the man's original request unreasonable?
+(r / reasonable-02
+      :polarity -
+      :ARG1 (r2 / request-01
+            :ARG0 (m / man)
+            :mod (o / original))
+      :polarity (a / amr-unknown))
+* No.
+* The man was the little girl's father. The mother wanted to test her daughter's reaction to bad news in order to see if she would be able to handle it if something bad happened to her father.
+Edit score is :  0.8089250100202336
+PUZZLE: Tom cannot read or write or tie his shoes. He has never worked a day in his life. Despite these shortcomings, Tom is given an extremely important, prestigious, and well- paid job. How come?
+* Is Tom very intelligent?
+# ::snt Is Tom very intelligent?
+(ii / intelligent-01
+      :ARG1 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :polarity (a / amr-unknown)
+      :degree (v / very))
+* No.
+* 
+Edit score is :  0.0
+* Did Tom go to school?
+# ::snt Did Tom go to school?
+(g / go-02
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG4 (s / school)
+      :polarity (a / amr-unknown))
+* No.
+* Tom is a fireman.
+Edit score is :  0.6292980960500142
+* 
+* No.
+* Tom was hired as a lifeguard.
+Edit score is :  0.5854387621004312
+* Is Tom related to the boss?
+# ::snt Is Tom related to the boss?
+(r / relate-01
+      :ARG1 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG2 (p2 / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (b / boss)))
+      :polarity (a / amr-unknown))
+* No.
+* Tom was hired as a rain tester.
+Edit score is :  0.5950444132772325
+* Did they fly across?
+# ::snt Did they fly across?
+(f / fly-01
+      :polarity (a / amr-unknown)
+      :ARG1 (t / they)
+      :path (a2 / across))
+* Irrelevant.
+* Tom was hired as a lifeguard.
+Edit score is :  0.5854387621004312
+PUZZLE: A woman who was driving on her own pulled into a filling station and bought some gasoline. As she drove off she noticed a stranger in a car following her. She tried to shake him o by turning, accelerating, slowing down, etc. Finally she turned into a police station, but she was shocked to see him follow her in. He was not a policeman and there were no mechanical faults with her car. Why did he follow her?
+* Was the money counterfeit?
+# ::snt Was the money counterfeit?
+(c / counterfeit-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / money))
+* Irrelevant.
+* The stranger was a parking meter attendant who had observed her putting money into the meter. He followed her in order to give her a ticket for expired parking.
+Edit score is :  0.7337169794925269
+PUZZLE: A bank messenger, carrying a bag containing one thousand $100 bills, was robbed at gunpoint by a masked man. The man took the bag home and, without looking inside, he burnt it. Why?
+* Was the patient a bank teller?
+# ::snt Was the patient a bank teller?
+(p / person
+      :polarity (a / amr-unknown)
+      :ARG0-of (t / teller-01
+            :ARG1 (b / bank))
+      :domain (p2 / patient))
+* Irrelevant.
+* The patient was a bank robber. The serial numbers of the bills in the messenger's bag would have led the police to the robber.
+Edit score is :  0.623925959083309
+* Did the robber know that the bag contained $100 bills?
+# ::snt Did the robber know that the bag contained $100 bills?
+(k / know-01
+      :ARG0 (p / person
+            :ARG0-of (r / rob-01))
+      :ARG1 (c / contain-01
+            :ARG0 (b / bag)
+            :ARG1 (b2 / bill
+                  :mod (m / monetary-quantity
+                        :quant 100
+                        :unit (d / dollar))))
+      :polarity (a / amr-unknown))
+* No.
+* The patient was a bank robber. The bills were marked, and the robber wanted to destroy the evidence.
+Edit score is :  0.5996148815020006
+* Did the robber know the amount of money in the bag?
+# ::snt Did the robber know the amount of money in the bag?
+(k / know-01
+      :ARG0 (p / person
+            :ARG0-of (r / rob-01))
+      :ARG1 (a / amount
+            :quant-of (m / money
+                  :location (b / bag)))
+      :polarity (a2 / amr-unknown))
+* Irrelevant.
+* The robber was the patient's husband. He knew that his wife kept her savings in $100 bills, so he robbed the bank messenger in order to get the money to pay for his wife's operation.
+Edit score is :  0.6598829245224916
+PUZZLE: A banker was kidnapped and held tied up and blindfolded by a single kidnapper for several days. During this time he 18
+* 
+* No.
+* 
+Edit score is :  0.0
+* 
+* No.
+* The banker was being held for ransom. The kidnapper needed the money to pay for his son's medical treatment.
+Edit score is :  0.6380288142192904
+* 
+* No.
+* The banker was being held for ransom. The kidnapper demanded a large sum of money be deposited into a specific bank account. The messenger was sent to deliver the ransom note to the banker's wife.
+Edit score is :  0.838511378731159
+PUZZLE: In a factory in Buckinghamshire, England, in the nineteenth century, a bungling employee ruined an entire batch of the factory output. However, his employer was very pleased. Why?
+* 
+* No.
+* The bungling employee was a worker in a teabag factory. The ruined batch of tea was actually a new and improved method of manufacturing tea bags, which the employer was very pleased with.
+Edit score is :  0.8525041058552023
+PUZZLE: In the eighteenth century, long before the invention of the train or the motorcar, people delivered urgent messages
+* 
+* No.
+* The employee was rewarded for accidentally ruining a batch of paper, as the company was able to sell it as "authentic antique parchment."
+Edit score is :  0.6674504159480811
+PUZZLE: A man hired seven employees to work for him. After a few weeks he noticed that only six were ever at work on any day and that on each day a different one failed to show up for work. Why?
+* 
+* No.
+* He was a farmer and he hired the seven men to work for him for one day. The next day he only had six men working for him because one of them died overnight.
+Edit score is :  0.6753357753357753
+PUZZLE: Chuck was an American on holiday in Ireland. His rental car broke down while he was in a little village and he was able to pull into a garage. There he asked how he could find someone to drive him back to Dublin. The man at the garage said, haven't been here long but I am sure that Milligan is your man. He lives in the big white house at the end of the village/'	Chuck went up to the house and Milligan answered the door. "Can you drive me to Dublin?,/ asked Chuck. "No," answered Milligan and explained that in his old car he never drove outside the vicinity. However, as it was late he offered Chuck a room for the night. When Chuck awoke the next morning, he was shocked to see a huge golden eagle on the top of his wardrobe gazing down at him. Why did the man at the garage direct Chuck to Milligan?
+* Did they have the same religion?
+# ::snt Did they have the same religion?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (t / they)
+      :ARG1 (r / religion
+            :ARG1-of (s / same-01)))
+* Irrelevant.
+* Each employee had to work every other day and they had different days off. The man at the garage directed Chuck to Milligan because he was the only person in the village who could drive him to Dublin.
+Edit score is :  0.6968954248366014
+PUZZLE: A man met a beautiful woman in a bar. After a few drinks they agreed to go back to her apartment. In the morning he awoke in an alleyway having been drugged. He checked his wallet, watch and credit cards and found that none were missing. A few minutes later he discovered something which gave him a terrible shock. What was it?
+* 
+* No.
+* Milligan is a taxidermist.
+Edit score is :  0.5299145299145299
+* Is the man in the puzzle the same man from the first puzzle?
+# ::snt Is the man in the puzzle the same man from the first puzzle?
+(s / same-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man
+            :location (p / puzzle-01))
+      :ARG2 (m2 / man
+            :location (p2 / puzzle-01
+                  :ord (o / ordinal-entity
+                        :value 1))))
+* Irrelevant.
+* The woman was a prostitute and the man woke up to find that his penis had been removed.
+Edit score is :  0.602610153256705
+* 
+* No.
+* The woman was a prostitute and the man had been robbed and left in the alley. The shock came when he realized that his penis had been surgically removed.
+Edit score is :  0.68275476670907
+PUZZLE: A strong woman is about to start her cleaning job when she collapses in a faint. Why?
+* Was the new thing a tattoo?
+# ::snt Was the new thing a tattoo?
+(t / tattoo-01
+      :polarity (a / amr-unknown)
+      :domain (t2 / thing
+            :ARG1-of (n / new-01)))
+* No.
+* The woman had been cleaning houses all day and was exhausted. When she got home, she found her husband in bed with another woman.
+Edit score is :  0.6575767408964839
+PUZZLE: An expert sailor was killed while sailing his boat. He had suffered a heavy blow to the head. How had it happened?
+* Was the body in the water?
+# ::snt Was the body in the water?
+(b / be-located-at-91
+      :polarity (a / amr-unknown)
+      :ARG1 (b2 / body)
+      :ARG2 (w / water))
+* No.
+* She was cleaning the deck of a ship and found a body.
+Edit score is :  0.6430872779432858
+* Could the expert sailor have been saved if he had received medical attention sooner?
+# ::snt Could the expert sailor have been saved if he had received medical attention sooner?
+(p / possible-01
+      :ARG1 (s / save-02
+            :ARG1 (p2 / person
+                  :ARG0-of (s2 / sail-01)
+                  :ARG1-of (e / expert-01)))
+      :condition (r / receive-01
+            :ARG0 p2
+            :ARG1 (a / attend-02
+                  :ARG1 p2
+                  :mod (m / medicine))
+            :time (s3 / soon
+                  :ARG2-of (h / have-degree-91
+                        :ARG1 r
+                        :ARG3 (m2 / more))))
+      :polarity (a2 / amr-unknown))
+* No.
+* The expert sailor was killed by a falling mast.
+Edit score is :  0.5713947990543735
+* Was the expert sailor killed by the blow to the head?
+# ::snt Was the expert sailor killed by the blow to the head?
+(k / kill-01
+      :polarity (a / amr-unknown)
+      :ARG0 (b / blow-01
+            :ARG2 (h / head))
+      :ARG1 (p / person
+            :ARG0-of (s / sail-01)
+            :ARG1-of (e / expert-01)))
+* No.
+* The expert sailor was killed by a falling mast. The blow to the head was only a contributing factor.
+Edit score is :  0.6417094017094017
+* Was the expert sailor wearing a life jacket?
+# ::snt Was the expert sailor wearing a life jacket?
+(w / wear-01
+      :polarity (a / amr-unknown)
+      :ARG0 (p / person
+            :ARG0-of (s / sail-01)
+            :ARG1-of (e / expert-01))
+      :ARG1 (j / jacket
+            :mod (l / life)))
+* No.
+* The expert sailor was killed by a falling mast.
+Edit score is :  0.5713947990543735
+* Was the expert sailor killed by something else?
+# ::snt Was the expert sailor killed by something else?
+(k / kill-01
+      :ARG0 (s / something
+            :mod (e / else))
+      :ARG1 (p / person
+            :ARG0-of (s2 / sail-01)
+            :ARG1-of (e2 / expert-01))
+      :polarity (a / amr-unknown))
+* No.
+* The expert sailor was killed by the mast of his boat which fell and hit him on the head.
+Edit score is :  0.659521687462864
+PUZZLE: Two workmen were doing a major renovation job on an old English house. They could not believe their luck when they came upon a cask of excellent Jamaican rum. They indulged in a glass or two of this rum every day until finally it ran out. They then got a nasty surprise. What was it?
+* Did he die instantly?
+# ::snt Did he die instantly?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (h / he)
+      :manner (ii / instant))
+* Irrelevant.
+* The workmen got food poisoning from the rum.
+Edit score is :  0.5575974846165797
+* 
+* No.
+* The workmen died of rum poisoning.
+Edit score is :  0.5505923736519489
+* 
+* No.
+* He was killed by a coconut falling out of a palm tree.
+Edit score is :  0.5485567782905376
+* Was the rum poisonous?
+# ::snt Was the rum poisonous?
+(p / poisonous
+      :polarity (a / amr-unknown)
+      :domain (r / rum))
+* No.
+* The workmen had been drinking rum which had been stored in a lead cask, and as a result, they suffered from lead poisoning.
+Edit score is :  0.6303274880239099
+* Was the cask of rum sealed?
+# ::snt Was the cask of rum sealed?
+(s / seal-01
+      :polarity (a / amr-unknown)
+      :ARG1 (c / cask
+            :consist-of (r / rum)))
+* No.
+* The workmen had been drinking rum laced with rat poison.
+Edit score is :  0.5677720841458861
+PUZZLE: A man is found dead in a field. He is clutching a broken match. What happened?
+* 
+* No.
+* The cask contained a snake. The snake bit the man, and he died. The man then used the match to light a fire and burn the snake.
+Edit score is :  0.673176664473805
+PUZZLE: A man is peeling potatoes when he cuts his finger. He immediately puts his hand into water and leaves it there for 30 seconds. However, when he pulls his hand out the cut has entirely disappeared. How can this have happened?
+* Did the man cut his finger with the knife he was using to peel the potatoes?
+# ::snt Did the man cut his finger with the knife he was using to peel the potatoes?
+(c / cut-01
+      :ARG0 (m / man
+            :part (f / finger))
+      :ARG1 f
+      :ARG2 (k / knife
+            :ARG1-of (u / use-01
+                  :ARG0 m
+                  :ARG2 (p / peel-01
+                        :ARG0 m
+                        :ARG1 (p2 / potato))))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The man had a severe cut on his finger which he put into water to clean. The water pressure caused the cut to disappear.
+Edit score is :  0.7680374365120127
+PUZZLE: The music stopped. She died. Explain.
+* Was the water clear?
+# ::snt Was the water clear?
+(c / clear-06
+      :polarity (a / amr-unknown)
+      :ARG1 (w / water))
+* Irrelevant.
+* He was electrocuted while trying to fix a broken outdoor light.
+Edit score is :  0.5610444505903186
+* Was the man stabbed?
+# ::snt Was the man stabbed?
+(s / stab-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man))
+* No.
+* He was at a concert and was clapping along with the music. When the music stopped, he realized that he had been clapping along with the music and that his hands were wet from the water he had been holding.
+Edit score is :  0.6562450958792619
+PUZZLE: A woman came home to find her dog choking in the hall. She rushed the dog to a nearby vet and went home while he examined the dog. When she arrived home the phone was ringing. It was the vet warning her to get out of the house at once. Why?
+* Did she have time to save the dog?
+# ::snt Did she have time to save the dog?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (s / she)
+      :ARG1 (t / time
+            :purpose (s2 / save-02
+                  :ARG0 s
+                  :ARG1 (d / dog))))
+* Irrelevant.
+* The woman was a drug dealer and the vet had found drugs in the dog's system. The vet called the police and the woman was arrested.
+Edit score is :  0.8278940263005635
+PUZZLE: Tom and Joe went to a movie. There were many other people there. During a quiet scene, Tom drew a gun. Joe screamed, Don't shoot! but Tom shot him. Tom then left. Many people saw Tom leave and they restrained him. The police arrived and quickly released Tom. Why?
+* Did Tom have a gun?
+# ::snt Did Tom have a gun?
+(h / have-03
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (g / gun)
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* Joe was at a movie with Tom. Tom shot Joe during a quiet scene. The police released Tom because Joe was a guard dog and the vet found no evidence of poison or gas.
+Edit score is :  0.7510710317652012
+PUZZLE: A man was the proud owner of a beautiful and expensive Mercedes sports car. One day he drove it to an isolated parking area and then smashed the window, scratched the doors, and ripped out the radio. Why?
+* Was the man trying to commit insurance fraud?
+# ::snt Was the man trying to commit insurance fraud?
+(t / try-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (c / commit-02
+            :ARG0 m
+            :ARG1 (d / defraud-01
+                  :ARG0 m
+                  :ARG1 (ii / insure-02))))
+* Irrelevant.
+* The man was trying to make it look like his car had been vandalized so that he could collect insurance money.
+Edit score is :  0.6414848655902307
+* Was the man trying to commit insurance fraud?
+# ::snt Was the man trying to commit insurance fraud?
+(t / try-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (c / commit-02
+            :ARG0 m
+            :ARG1 (d / defraud-01
+                  :ARG0 m
+                  :ARG1 (ii / insure-02))))
+* Irrelevant.
+* The man wanted to get arrested so that he could go to jail and get away from his nagging wife.
+Edit score is :  0.5971334241693742
+* Did the man have a mental breakdown?
+# ::snt Did the man have a mental breakdown?
+(b / breakdown-02
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (m2 / mental))
+* Irrelevant.
+* The man wanted to get arrested.
+Edit score is :  0.5488969225064887
+* Did the man have a mental breakdown?
+# ::snt Did the man have a mental breakdown?
+(b / breakdown-02
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (m2 / mental))
+* Irrelevant.
+* The man was trying to collect on his car insurance.
+Edit score is :  0.5591154412364113
+* Why did the man smash his own car?
+# ::snt Why did the man smash his own car?
+(s / smash-01
+      :ARG0 (m / man)
+      :ARG1 (c / car
+            :poss m)
+      :ARG1-of (c2 / cause-01
+            :ARG0 (a / amr-unknown)))
+* Irrelevant.
+* The man had just found out his wife was cheating on him with the man who sold him the car.
+Edit score is :  0.6103721948549534
+PUZZLE: A man is lying severely injured in the road. He had quite deliberately stepped out from the sidewalk in front of a motorcyclist who had hit him. Why had the man done this?
+* 
+* No.
+* The man's car had broken down and he was trying to flag down a passing motorist for help.
+Edit score is :  0.6054232908165492
+* Was he trying to commit suicide?
+# ::snt Was he trying to commit suicide?
+(t / try-01
+      :polarity (a / amr-unknown)
+      :ARG0 (h / he)
+      :ARG1 (c / commit-02
+            :ARG0 h
+            :ARG1 (s / suicide)))
+* Irrelevant.
+* The man's car had broken down and he was trying to wave down the motorcyclist to ask for help.
+Edit score is :  0.6140564518224093
+* 
+* No.
+* The man was trying to avoid being drafted into the army.
+Edit score is :  0.5982628482628481
+* Was he trying to hurt the motorcyclist?
+# ::snt Was he trying to hurt the motorcyclist?
+(t / try-01
+      :polarity (a / amr-unknown)
+      :ARG0 (h / he)
+      :ARG1 (h2 / hurt-01
+            :ARG0 h
+            :ARG1 (m / motorcyclist)))
+* Irrelevant.
+* The man was trying to avoid being hit by a car. He knew that if he stepped out in front of the motorcycle, the motorcycle would hit him and he would be injured, but he would not be killed.
+Edit score is :  0.8225653898257292
+PUZZLE: Deep in the forest, a forest ranger found the body of man dressed only in swimming trunks, snorkel, and facemask. The nearest lake was 8 miles away and the sea was 100 miles away. How did he die?
+* Was the man a professional motorcyclist?
+# ::snt Was the man a professional motorcyclist?
+(p / professional
+      :polarity (a / amr-unknown)
+      :domain (m / man)
+      :topic (m2 / motorcyclist))
+* No.
+* The man was a deliveryman for a florist. He was delivering flowers to a funeral.
+Edit score is :  0.6131522406384285
+* Did the man die instantly?
+# ::snt Did the man die instantly?
+(d / die-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / man)
+      :manner (ii / instant))
+* Irrelevant.
+* The man was a stuntman. He was rehearsing a scene for a movie where his character is hit by a motorcycle and killed.
+Edit score is :  0.6698662993195285
+PUZZLE: A man walked into a small, dark room in a large building. After a few minutes he emerged from the dark room and left the building. A man then walked up to him and shot.why?
+* Did the man who shot him know him?
+# ::snt Did the man who shot him know him?
+(k / know-01
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man
+            :ARG0-of (s / shoot-02
+                  :ARG1 (h / he)))
+      :ARG1 h)
+* Irrelevant.
+* The man who shot him was the lifeguard at the swimming pool. The man who was shot had been swimming in the pool and was wet. The lifeguard thought he was a burglar.
+Edit score is :  0.6751677096321848
+PUZZLE: In a bizarre accident, two identical vans simultaneously plunged over a dockside and into thirty feet of water. They both landed upright. Each van had a driver who was fit, uninjured by the fall, and conscious. One drowned but the other easily escaped. Why?
+* Did the man who drowned have his seatbelt on?
+# ::snt Did the man who drowned have his seatbelt on?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man
+            :ARG1-of (d / drown-01))
+      :ARG1 (s / seatbelt
+            :poss m))
+* Irrelevant.
+* The man who drowned had been driving with his windows up; the other man had his windows down.
+Edit score is :  0.6071736862124442
+* Did the other man have his seatbelt on?
+# ::snt Did the other man have his seatbelt on?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man
+            :mod (o / other))
+      :ARG1 (s / seatbelt
+            :poss m))
+* Irrelevant.
+* The van that landed in the water was filled with holes, while the other van was not.
+Edit score is :  0.627999519191229
+* Could they have both survived if they had not been wearing seatbelts?
+# ::snt Could they have both survived if they had not been wearing seatbelts?
+(p / possible-01
+      :ARG1 (s / survive-01
+            :ARG0 (t / they
+                  :mod (b / both)))
+      :condition (w / wear-01
+            :polarity -
+            :ARG0 t
+            :ARG1 (s2 / seatbelt))
+      :polarity (a / amr-unknown))
+* No.
+* The van with the driver who drowned had its windows open, while the other van's windows were closed.
+Edit score is :  0.6264099280045021
+* Could they have both survived if they had not been wearing seatbelts?
+# ::snt Could they have both survived if they had not been wearing seatbelts?
+(p / possible-01
+      :ARG1 (s / survive-01
+            :ARG0 (t / they
+                  :mod (b / both)))
+      :condition (w / wear-01
+            :polarity -
+            :ARG0 t
+            :ARG1 (s2 / seatbelt))
+      :polarity (a / amr-unknown))
+* No.
+* The van that drowned had its windows open, while the other van's windows were closed.
+Edit score is :  0.61676687632189
+* Could they have both survived if they had not been wearing seatbelts?follow_up_A:No.
+# ::snt Could they have both survived if they had not been wearing seatbelts?follow_up_A:No.
+(m / multi-sentence
+      :snt1 (p / possible-01
+            :ARG1 (s / survive-01
+                  :ARG0 (t / they
+                        :mod (b / both)))
+            :condition (w / wear-01
+                  :polarity -
+                  :ARG0 t
+                  :ARG1 (s2 / seatbelt))
+            :polarity (a / amr-unknown))
+      :snt2 (f / follow-up-03
+            :ARG1 (n / no)))
+* No.
+* The van that drowned had its windows open; the other van's windows were closed.
+Edit score is :  0.6133349851458332
+PUZZLE: A man wakes up in a dark room. He switches on the light.why?
+* If the van had been on fire, would the outcome have been different?
+# ::snt If the van had been on fire, would the outcome have been different?
+(d / differ-02
+      :polarity (a / amr-unknown)
+      :ARG1 (o / outcome)
+      :condition (o2 / on-fire-08
+            :ARG1 (v / van)))
+* Irrelevant.
+* The man was in a dark room because he was in a movie theater. He switched on the light because the movie had ended and the lights were off.
+Edit score is :  0.6560589820712366
+PUZZLE: Susan watched as her husband boarded the 8:15 PM Air Canada flight from Toronto to Chicago. She then drove home from the airport and proceeded to watch a movie. About one hour into the movie there was a news flash; the 8:15 PM Air Canada flight from Toronto to Chicago had crashed with no survivors. Susan did not react. She just continued to watch the movie. Why?
+* Was it a mental hospital?
+# ::snt Was it a mental hospital?
+(h / hospital
+      :polarity (a / amr-unknown)
+      :mod (m / mental)
+      :domain (ii / it))
+* No.
+* The house was on fire and he realized he was the only one left in the house.
+Edit score is :  0.6924494905044104
+PUZZLE: A man woke up on a beautiful summer morning. He went to the window, looked out in horror, and then shot himself. Why?
+* 
+* No.
+* The man woke up to a news flash that a plane had crashed, killing all passengers onboard. He realized that his wife had been on the plane and killed herself out of grief.
+Edit score is :  0.8262596177711592
+PUZZLE: A man walked up a hill carrying a blanket. Because of this, one hundred people died. How?
+* 
+* No.
+* The man is a serial killer who murders people in their sleep. The blanket is used to muffle the sound of their screams.
+Edit score is :  0.6498476583615903
+* Did the man have a mental illness?
+# ::snt Did the man have a mental illness?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (ii / ill-01
+            :ARG1 m
+            :mod (m2 / mental)))
+* Irrelevant.
+* The man was a serial killer who woke up feeling good about himself and decided to go on a killing spree. The blanket was to keep himself warm while he waited for his victims.
+Edit score is :  0.6475392986549173
+* Was the man carrying the blanket because he was cold?
+# ::snt Was the man carrying the blanket because he was cold?
+(c / cause-01
+      :ARG0 (c2 / cold-01
+            :ARG1 (m / man))
+      :ARG1 (c3 / carry-01
+            :ARG0 m
+            :ARG1 (b / blanket))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The man was a firefighter.
+Edit score is :  0.5357648887060652
+* 
+* No.
+* The man was a doctor, and the blanket was full of money. He was carrying it to pay for a patient's surgery.
+Edit score is :  0.7272530978630676
+PUZZLE: A woman gave a man something to eat. It caused him to die. It was not poisoned or poisonous. Why did he die?
+* Could the man have been sick?
+# ::snt Could the man have been sick?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (s / sick-05
+            :ARG1 (m / man)))
+* Irrelevant.
+* The man was a serial killer. The woman gave him food that made him die because it was poisoned.
+Edit score is :  0.691464911604012

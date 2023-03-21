@@ -1,0 +1,512 @@
+nohup: ignoring input
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/feature_extraction/image.py:167: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dtype=np.int):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/feature_extraction/text.py:17: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  from collections import Mapping, defaultdict
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:35: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:597: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:836: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:862: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, positive=False):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1074: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=1, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1306: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=1, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1442: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, positive=False):
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:152: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  precompute=False, eps=np.finfo(np.float).eps,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:318: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, random_state=None,
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/randomized_l1.py:575: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=4 * np.finfo(np.float).eps, n_jobs=1,
+PUZZLE: One night the vicar noticed that the old clock in the church tower struck 13 times at midnight. It did the same thing the following night so he had the mechanism investigated. It was found to be in perfect order, yet the clock struck 13 again that night. Why?
+* Did the blind beggar have a guide dog?
+/data/yangyueting/anaconda3/lib/python3.7/site-packages/transformers/models/t5/tokenization_t5_fast.py:166: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  FutureWarning,
+# ::snt Did the blind beggar have a guide dog?
+(h / have-03
+      :ARG0 (p / person
+            :ARG0-of (b / beg-01)
+            :ARG1-of (b2 / blind-02))
+      :ARG1 (d / dog
+            :ARG0-of (g / guide-01))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The clock was correct, but the vicar had forgotten that the time had changed and it was now daylight saving time.
+Edit score is :  0.790984556250043
+PUZZLE: When this book first came out it was read only by a handful of very rich people. Now almost everyone has a copy and reads it frequently. But you cannot buy it in a bookstore or borrow it from a library. Why?
+* Did the truck driver have a chance to avoid the police officer?
+# ::snt Did the truck driver have a chance to avoid the police officer?
+(c / chance-02
+      :polarity (a / amr-unknown)
+      :ARG0 (p / person
+            :ARG0-of (d / drive-01
+                  :ARG1 (t / truck)))
+      :ARG1 (a2 / avoid-01
+            :ARG0 p
+            :ARG1 (p2 / person
+                  :ARG0-of (h / have-org-role-91
+                        :ARG1 (p3 / police)
+                        :ARG2 (o / officer)))))
+* Irrelevant.
+* The book is the Bible.
+Edit score is :  0.8694652406417112
+PUZZLE: A man came to a river carrying a fox, a duck, and a bag of corn. There was a boat in which he could ferry one of the three items across the river at any one time. He could not leave the fox alone with the duck, nor the duck alone with the corn, so how did he get all three across?
+* Can the man leave the fox with the duck while he takes the corn across?
+# ::snt Can the man leave the fox with the duck while he takes the corn across?
+(p / possible-01
+      :ARG1 (l / leave-15
+            :ARG0 (m / man)
+            :ARG1 (f / fox
+                  :accompanier (d / duck))
+            :time (t / take-01
+                  :ARG0 m
+                  :ARG1 (c / corn)
+                  :ARG2 (a / across)))
+      :polarity (a2 / amr-unknown))
+* Irrelevant.
+* The man took the duck over first, came back alone, took the fox over, and finally took the corn over.
+Edit score is :  0.6233714906923763
+* 
+* No.
+* The man took the duck over first, then came back and took the fox over. He left the fox and the duck on the other side while he took the corn over. Finally, he went back and took the duck over.
+Edit score is :  0.7404185284453769
+PUZZLE: This time the man reached the river with a fox, a duck, and a bag of corn, but this fox ate corn as well as ducks! There was the same boat as before in which he could take only one of the three with him. He could not leave the fox with either the corn or the duck, and, of course, the duck would gladly eat the corn if they were left together. How did he get all three across?
+* Was the christening taking place in a river?
+# ::snt Was the christening taking place in a river?
+(c / christen-01
+      :polarity (a / amr-unknown)
+      :location (r / river))
+* No.
+* The priest was old and feeble, and the mother was afraid he would drop the baby during the christening. So she held onto the baby and let the priest christen her.
+Edit score is :  0.8514274691358025
+PUZZLE: A man wishes to cross a wide, deep river. There is no bridge, no boat, and he cannot swim. How does he get across?
+* Could he build a raft?
+# ::snt Could he build a raft?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (b / build-01
+            :ARG0 (h / he)
+            :ARG1 (r / raft)))
+* Irrelevant.
+* The man walks upstream a short distance until he finds a place where the river narrows and he can step across.
+Edit score is :  0.5715221286649858
+* Could he fly across?
+# ::snt Could he fly across?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (f / fly-01
+            :ARG1 (h / he)
+            :path (a2 / across)))
+* Irrelevant.
+* The man walks upstream until he finds a place where the river is shallow enough to cross.
+Edit score is :  0.6052549109531453
+* Could he walk around the river?
+# ::snt Could he walk around the river?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (w / walk-01
+            :ARG0 (h / he)
+            :ARG2 (a2 / around
+                  :op1 (r / river))))
+* Irrelevant.
+* The man can walk across the river on a tightrope.
+Edit score is :  0.6666666666666666
+PUZZLE: Bill and Ben are identical twins. They are physically very alike, fit and healthy. They are both good runners and always run at the same speed. Each runs against the clock on the same track under the same conditions. Yet Ben takes ten times longer to finish than Bill. Why?
+* Did they have to stop at any point?
+# ::snt Did they have to stop at any point?
+(o / obligate-01
+      :polarity (a / amr-unknown)
+      :ARG1 (t / they)
+      :ARG2 (s / stop-01
+            :ARG0 t
+            :time (p / point
+                  :mod (a2 / any))))
+* Irrelevant.
+* Bill was riding a unicycle while Ben was on a normal bicycle.
+Edit score is :  0.6048461768017867
+* Did one of them have a head start?
+# ::snt Did one of them have a head start?
+(s / start-01
+      :polarity (a / amr-unknown)
+      :ARG0 (o / one
+            :ARG1-of (ii / include-91
+                  :ARG2 (t / they)))
+      :mod (h / head))
+* Irrelevant.
+* Bill was running on a treadmill while Ben was running around the block.
+Edit score is :  0.6104667712049631
+* Did one of them have a tail wind?
+# ::snt Did one of them have a tail wind?
+(w / wind-01
+      :polarity (a / amr-unknown)
+      :ARG1 (o / one
+            :ARG1-of (ii / include-91
+                  :ARG2 (t / they)))
+      :mod (t2 / tail))
+* Irrelevant.
+* Bill was riding a bicycle and Ben was running.
+Edit score is :  0.5817251327602028
+* Did one of them travel on a different surface?
+# ::snt Did one of them travel on a different surface?
+(t / travel-01
+      :ARG0 (o / one
+            :ARG1-of (ii / include-91
+                  :ARG2 (t2 / they)))
+      :ARG4 (s / surface
+            :ARG1-of (d / differ-02))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* Bill ran on a treadmill while Ben ran on the ground.
+Edit score is :  0.5978052735018679
+* Did one of them have a lead?
+# ::snt Did one of them have a lead?
+(l / lead-02
+      :polarity (a / amr-unknown)
+      :ARG0 (o / one
+            :ARG1-of (ii / include-91
+                  :ARG2 (t / they))))
+* Irrelevant.
+* Bill was riding a bicycle and Ben was running.
+Edit score is :  0.5817251327602028
+PUZZLE: A small plane was flying from Albany to New York some years ago. Seated beside each other were a grumpy old man smoking a foul pipe and a grumpy old lady with a noisy pet duck on her lap. Each spent most of the journey complaining about the other. Finally a compromise was reached. The old man agreed to throw his pipe out of the window if the old lady would throw her duck out. This was done. Just as the plane was about to land, the lady was pleased to see the duck flying alongside the plane. What did the duck have in its mouth?
+* Was the duck carrying the old man's pipe in its mouth?
+# ::snt Was the duck carrying the old man's pipe in its mouth?
+(c / carry-01
+      :ARG0 (d / duck
+            :part (m / mouth))
+      :ARG1 (p / pipe
+            :poss (m2 / man
+                  :mod (o / old)))
+      :polarity (a / amr-unknown)
+      :location m)
+* No.
+* The old man's pipe had fallen out of his pocket when he threw it out of the window, and the duck had picked it up.
+Edit score is :  0.6086847061155715
+* Was the duck carrying the old lady's pet duck in its mouth?
+# ::snt Was the duck carrying the old lady's pet duck in its mouth?
+(c / carry-01
+      :ARG0 (d / duck
+            :part (m / mouth))
+      :ARG1 (d2 / duck
+            :mod (p / pet)
+            :poss (l / lady
+                  :mod (o / old)))
+      :polarity (a / amr-unknown)
+      :location m)
+* Yes.
+* The old lady's pet duck was carrying the old man's pipe in its mouth.
+Edit score is :  0.6628026292179069
+PUZZLE: A small plane was flying from Albany to New York some years ago. Seated beside each other were a grumpy old man smoking a foul pipe and a grumpy old lady with a noisy pet duck on her lap. Each spent most of the journey complaining about the other. Finally a compromise was reached. The old man agreed to throw his pipe out of the window if the old lady would throw her duck out. This was done. Just as the plane was about to land, the lady was pleased to see the duck flying alongside the plane. What did the duck have in its mouth?
+* Did the old man agree to throw his pipe out of the window?
+# ::snt Did the old man agree to throw his pipe out of the window?
+(a / agree-01
+      :polarity (a2 / amr-unknown)
+      :ARG0 (m / man
+            :mod (o / old))
+      :ARG1 (t / throw-01
+            :ARG0 m
+            :ARG1 (p / pipe
+                  :poss m)
+            :ARG2 (o2 / out-06
+                  :ARG1 p
+                  :ARG2 (w / window))))
+* Irrelevant.
+* The duck had the pipe in its mouth.
+Edit score is :  0.87
+PUZZLE: A keen stamp collector who specialized in U.S. stamps saw an advertisement offering a complete set of early U.S. stamps for a fraction of what it was worth. He quickly bought it. Although it was a genuine, splendid collection and a real bargain, he was angry, not pleased. What was going on?
+* So the collector was angry because he thought he was cheated?
+# ::snt So the collector was angry because he thought he was cheated?
+(c / cause-01
+      :polarity (a / amr-unknown)
+      :ARG0 (t / think-01
+            :ARG0 (p / person
+                  :ARG0-of (c2 / collect-01))
+            :ARG1 (c3 / cheat-03
+                  :ARG1 p))
+      :ARG1 (a2 / anger-01
+            :ARG1 p))
+* No.
+* The collector was angry because he realized that he had been duped: the stamps were all forgeries.
+Edit score is :  0.6569353146490501
+PUZZLE: On a cold winter's day, drivers found that sheep from the fields nearby kept coming onto the road. There was no snow and the road was not warmer than the fields but whenever the sheep were ushered back to the fields they quickly returned to the road. Why?
+* Did the sheep have something wrong with them?
+# ::snt Did the sheep have something wrong with them?
+(w / wrong-02
+      :polarity (a / amr-unknown)
+      :ARG1 (s / something)
+      :ARG2 (s2 / sheep))
+* Irrelevant.
+* 
+Edit score is :  0.0
+* Was there something on the road that the sheep wanted?
+# ::snt Was there something on the road that the sheep wanted?
+(s / something
+      :polarity (a / amr-unknown)
+      :location (r / road)
+      :ARG1-of (w / want-01
+            :ARG0 (s2 / sheep)))
+* No.
+* 
+Edit score is :  0.0
+* Did the sheep like being on the road?
+# ::snt Did the sheep like being on the road?
+(l / like-01
+      :ARG0 (s / sheep)
+      :ARG1 (b / be-located-at-91
+            :ARG1 s
+            :ARG2 (r / road))
+      :polarity (a / amr-unknown))
+* Irrelevant.
+* The road was salted and the sheep were attracted to the salt.
+Edit score is :  0.6630284105693942
+PUZZLE: Pete challenged Jim to a tennis match for a large bet. Jim won the first set easily (6-1). Pete then offered to raise the stakes to ten times the amount. Jim readily agreed but lost the next two sets to Pete 6-1, 6-1. Pete tried hard throughout the match and never threw away a point. How did he manage to suddenly beat Jim easily?
+* Did Jim's chances of winning increase when Pete raised the stakes?
+# ::snt Did Jim's chances of winning increase when Pete raised the stakes?
+(ii / increase-01
+      :ARG1 (c / chance-02
+            :ARG0 (p / person
+                  :name (n / name
+                        :op1 "Jim"))
+            :ARG1 (w / win-01
+                  :ARG0 p))
+      :polarity (a / amr-unknown)
+      :time (r / raise-01
+            :ARG0 (p2 / person
+                  :name (n2 / name
+                        :op1 "Pete"))
+            :ARG1 (s / stake)))
+* No.
+* Pete was a left-handed player but had been playing with a right-handed racket. He switched rackets after the first set.
+Edit score is :  0.8684197397099769
+PUZZLE: A man was on the run from the police. He was relaxing, watching a play in a crowded theatre. Suddenly he noticed that detectives were closing in on him from all directions and were covering all exits. How did he escape?
+* Did he have a weapon?
+# ::snt Did he have a weapon?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (h2 / he)
+      :ARG1 (w / weapon))
+* Irrelevant.
+* He simply stood up and walked out.
+Edit score is :  0.5450313396560861
+* Did he climb over the seats?
+# ::snt Did he climb over the seats?
+(c / climb-01
+      :polarity (a / amr-unknown)
+      :ARG0 (h / he)
+      :ARG1 (o / over
+            :op1 (s / seat)))
+* Irrelevant.
+* He simply walked out with the crowd when the play was finished.
+Edit score is :  0.5906367406367407
+* Did he use the emergency exit?
+# ::snt Did he use the emergency exit?
+(u / use-01
+      :polarity (a / amr-unknown)
+      :ARG0 (h / he)
+      :ARG1 (e / exit-01
+            :mod (e2 / emergency)))
+* Irrelevant.
+* He was sitting in the seat next to the only exit.
+Edit score is :  0.5831623032619709
+* Did he use a disguise?
+# ::snt Did he use a disguise?
+(u / use-01
+      :polarity (a / amr-unknown)
+      :ARG0 (h / he)
+      :ARG1 (d / disguise-01))
+* Irrelevant.
+* He was not actually in the theatre, but was watching the play from outside through the window.
+Edit score is :  0.6507364338333604
+PUZZLE: Bernard was the president of a major Wall Street bank. One morning when he got on a crowded train he was extremely worried. When the train stopped and he alighted, he felt very sick but he was not worried anymore. Why not?
+* Was the man's fear rational?
+# ::snt Was the man's fear rational?
+(r / rational
+      :polarity (a / amr-unknown)
+      :domain (f / fear-01
+            :ARG0 (m / man)))
+* No.
+* The man was on a roller coaster.
+Edit score is :  0.6074404761904763
+* 
+* No.
+* The man was on a roller coaster.
+Edit score is :  0.6074404761904763
+* 
+* No.
+* The man was worried that he would be late for work, but when he got off the train he realized that he had left his briefcase at home.
+Edit score is :  0.8333855280402842
+PUZZLE: If you liked this place you would rather stay for a day than a year, but if you hated it you would rather stay for a year than a day. Why?
+* Is there a time limit on how long you can stay in this place?
+# ::snt Is there a time limit on how long you can stay in this place?
+(l / limit-01
+      :polarity (a / amr-unknown)
+      :ARG1 (t / time)
+      :ARG2 (t2 / temporal-quantity
+            :duration-of (s / stay-01
+                  :ARG1 (y / you)
+                  :location (p / place
+                        :mod (t3 / this))
+                  :ARG1-of (p2 / possible-01))))
+* No.
+* This place is a prison.
+Edit score is :  0.5966451959205582
+* Is there a difference between liking and hating this place?
+# ::snt Is there a difference between liking and hating this place?
+(d / differ-02
+      :ARG1 (l / like-01
+            :ARG1 (p / place
+                  :mod (t / this)))
+      :ARG2 (h / hate-01
+            :ARG1 p)
+      :polarity (a / amr-unknown))
+* Yes.
+* This is a cemetery.
+Edit score is :  0.5779727095516569
+* 
+* No.
+* This place is a prison.
+Edit score is :  0.5966451959205582
+* So if you liked the place, you would rather stay for a day than a year, and if you hated the place, you would rather stay for a year than a day?
+# ::snt So if you liked the place, you would rather stay for a day than a year, and if you hated the place, you would rather stay for a year than a day?
+(a / and
+      :op1 (p / prefer-01
+            :ARG0 (y / you)
+            :ARG1 (s / stay-01
+                  :ARG1 y
+                  :duration (t / temporal-quantity
+                        :quant 1
+                        :unit (d / day)))
+            :condition (l / like-01
+                  :ARG0 y
+                  :ARG1 (p2 / place)))
+      :op2 (p3 / prefer-01
+            :ARG0 y
+            :ARG1 (s2 / stay-01
+                  :ARG1 y
+                  :duration (t2 / temporal-quantity
+                        :quant 1
+                        :unit (y2 / year)))
+            :condition (h / hate-01
+                  :ARG0 y
+                  :ARG1 p2))
+      :polarity (a2 / amr-unknown))
+* No.
+* The place is a prison.
+Edit score is :  0.8258922558922559
+PUZZLE: A boy at boarding school ran short of money so he wrote to his grandmother asking for a small contribution. The response was a letter containing a lecture on the evils of extravagance but no money of any kind. The boy was very pleased. Why?
+* 
+* No.
+* The boy's grandmother had died.
+Edit score is :  0.6976764306019033
+PUZZLE: During a wedding reception the father of the bride found that his wallet was missing. How did he find out who had taken it?
+* Did he ask everyone at the reception if they had seen his wallet?
+# ::snt Did he ask everyone at the reception if they had seen his wallet?
+(a / ask-01
+      :ARG0 (h / he)
+      :ARG1 (t / truth-value
+            :polarity-of (s / see-01
+                  :ARG0 (e / everyone
+                        :location (r / reception))
+                  :ARG1 (w / wallet
+                        :poss h)))
+      :ARG2 e
+      :polarity (a2 / amr-unknown))
+* Irrelevant.
+* The father of the bride put an advertisement in the newspaper asking the person who had taken his wallet to return it and he would not press charges. The next day the wallet was returned with the stamp collection intact and a note that read "Thanks for the wedding present."
+Edit score is :  0.7600874312297046
+PUZZLE: A man went to a builder with plans for an extension to his house. They had never met before but the builder agreed to build the extension at no charge to the man. Why?
+* 
+* No.
+* The man was a sheep farmer and the builder was a sheepdog.
+Edit score is :  0.6207517596261903
+* 
+* No.
+* The man was a sheepdog.
+Edit score is :  0.6261590474059712
+* 
+* No.
+* The man was a sheepdog and the builder was a farmer. The extension was for a sheep pen.
+Edit score is :  0.6493140203407427
+* Did the man have the money to pay for the extension?
+# ::snt Did the man have the money to pay for the extension?
+(h / have-03
+      :polarity (a / amr-unknown)
+      :ARG0 (m / man)
+      :ARG1 (m2 / money
+            :ARG1-of (p / pay-01
+                  :ARG0 m
+                  :ARG3 (e / extend-01))))
+* Irrelevant.
+* The man had a bag of wool and the builder needed wool to stuff a mattress he was making.
+Edit score is :  0.6586521201483905
+PUZZLE: In wartime, an army had to cross a wide river. There were no boats and only one bridge, which was very narrow. Crossing the bridge would have made them sitting ducks for enemy gunfire. How did the entire army cross the river in relative safety?
+* Did he change his grip?
+# ::snt Did he change his grip?
+(c / change-01
+      :polarity (a / amr-unknown)
+      :ARG0 (h / he)
+      :ARG1 (g / grip-01
+            :ARG0 h))
+* Irrelevant.
+* Pete Sampras was playing tennis against Jim Courier.
+Edit score is :  0.596689158794422
+* Did he stop using a backhand?
+# ::snt Did he stop using a backhand?
+(s / stop-01
+      :polarity (a / amr-unknown)
+      :ARG0 (h / he)
+      :ARG1 (u / use-01
+            :ARG0 h
+            :ARG1 (b / backhand)))
+* Irrelevant.
+* Pete Sampras played three sets of tennis with Jim Courier, each set going to a tiebreaker.
+Edit score is :  0.6671814187068423
+PUZZLE: While digging a garden, a woman unearthed a large metal box filled with money and jewelry. For seven years, she died.why?
+* Did the woman keep the money and jewelry?
+# ::snt Did the woman keep the money and jewelry?
+(k / keep-01
+      :ARG0 (w / woman)
+      :ARG1 (a / and
+            :op1 (m / money)
+            :op2 (j / jewelry))
+      :polarity (a2 / amr-unknown))
+* Irrelevant.
+* The man was a fugitive and the woman helped him escape by hiding him in the box.
+Edit score is :  0.6822704081632653
+PUZZLE: A patient on the operating table is coming round after an operation. Suddenly he jumps up and strikes the surgeon as hard as he can. Why does he do this?
+* 
+* No.
+* The nephew was the surgeon.
+Edit score is :  0.5579688861475803
+* Was there anything strange about the way the other passengers were behaving?
+# ::snt Was there anything strange about the way the other passengers were behaving?
+(s / strange
+      :polarity (a / amr-unknown)
+      :domain (a2 / anything)
+      :topic (w / way
+            :manner-of (b / behave-01
+                  :ARG0 (p / passenger
+                        :mod (o / other)))))
+* No.
+* The patient had just had an operation to remove his appendix. The surgeon was wearing a name tag which said "Dr. Smith". The patient thought he was being attacked by a different doctor.
+Edit score is :  0.8476214593818665

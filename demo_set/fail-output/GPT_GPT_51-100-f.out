@@ -1,0 +1,548 @@
+nohup: ignoring input
+PUZZLE: A man is lying dead in a room.  There is a large pile of gold and jewels on the floor, a chandelier attached to the ceiling, and a large window through which rays are coming.
+* Is the man's death due to the chandelier?
+* No.
+* The man committed suicide by jumping out the window. The jewels and gold are his life savings.
+Edit score is :  0.5849564422053288
+* Is the man's death due to the large pile of gold and jewels?
+* No.
+* The man's death is due to the rays coming in through the window. The rays are from the sun, and the man is a vampire.
+Edit score is :  0.622133997286996
+* Is the man's death due to the large window?
+* No.
+* The man committed suicide.
+Edit score is :  0.5583258795468098
+* Did the man die of natural causes?
+* No.
+* The man was killed by a sniper who was shooting through the window.
+Edit score is :  0.6454471826911953
+* Was the man's death due to foul play?
+* Yes.
+* The man was killed by a sniper who shot him through the window.
+Edit score is :  0.6565030146425496
+PUZZLE: A man enters the elevator of a high rise apartment building, takes off one glove, and pushes the button for the tenth floor.  The next day, the same man enters the elevator, "puts on" one glove, and pushes the button for the tenth floor. Why?
+* Did the man take the glove off before pushing the button?
+* Yes.
+* The man is a doctor.  He was scrubbing in for surgery and had to remove his gloves.  The next day he was on his way to see a patient.
+Edit score is :  0.5895140896338883
+* Why?
+* Irrelevant.
+* The man is a doctor and was wearing a latex glove. He took it off before pushing the button so as not to contaminate it with the bacteria on the button.
+Edit score is :  0.5937087914525819
+* 
+* Irrelevant.
+* The man has eczema on his hand and the glove was to prevent him from scratching.
+Edit score is :  0.5610349143353696
+* Why?
+* Irrelevant.
+* The man is a doctor and was wearing a latex glove. He took it off to avoid contaminating the elevator button with bacteria, and put it back on to avoid contaminating himself.
+Edit score is :  0.6058218277717503
+* 
+* Irrelevant.
+* The man has a skin condition and is embarrassed about it.
+Edit score is :  0.5551473524478875
+PUZZLE: A woman came home with a bag of groceries, got the mail, and walked into the house.  On the way to the kitchen, she went through the living room and looked at her husband, who had blown his brains out.  She then continued to the kitchen, put away the groceries, and made dinner. Why?
+* Why didn't she call the police?
+* Irrelevant.
+* The woman was deaf.
+Edit score is :  0.5668913901025241
+* Did she know her husband was dead?
+* Yes.
+* The woman was deaf.
+Edit score is :  0.5668913901025241
+* Was the woman happy?
+* No.
+* The woman was in shock.
+Edit score is :  0.5521603684139239
+* Why didn't she react when she saw her husband's dead body?
+* Irrelevant.
+* The woman was in shock.
+Edit score is :  0.5521603684139239
+* The woman must have been in shock. Would that be a reasonable assumption?
+* Yes.
+* The woman was in shock.
+Edit score is :  0.5521603684139239
+PUZZLE: The king dies and two men both claim to be his long-lost son.  One of the king's advisors proposes a test to determine the identity of the true heir.  One claimant agrees to the test; the other refuses.  The one who agreed is sent packing; the one who refused is identified as the rightful heir.  Why?
+* Why did the one who agreed to the test fail?
+* Irrelevant.
+* The king's true heir would have no reason not to trust the king's advisor and would have agreed to the test.
+Edit score is :  0.6736781571060461
+PUZZLE: An old man gets the hiccups.  Soon, he is rushed to the hospital. Why?
+* Was the old man's hiccuping harmful?
+* No.
+* The old man's hiccups were caused by a tumor on his brain. The hiccuping was a symptom of the tumor.
+Edit score is :  0.641137155908162
+* Did the old man's hiccuping annoy other people?
+* No.
+* The old man's hiccups were caused by an underlying medical condition and he was rushed to the hospital for treatment.
+Edit score is :  0.6571566632599132
+PUZZLE: A man is found dead outside a large building with a hole in him. What happened?
+* Did the man jump out of the building?
+* No.
+* The man was shot with a gun from the inside of the building.
+Edit score is :  0.8487443541102078
+PUZZLE: A man is found dead outside a large marble building with three holes in him. What happened?
+* Was the man shot?
+* No.
+* The man committed suicide by jumping out of the building and landing on a spiked fence.
+Edit score is :  0.6300015025167155
+* Did the man fall from the building?
+* No.
+* The man was killed by a lion. The lion dragged the man to the building, where it ate him and left three holes in his body.
+Edit score is :  0.8263302260795029
+PUZZLE: A man dies in his own home. What happened?
+* Did someone kill him?
+* No.
+* He committed suicide.
+Edit score is :  0.5081349206349206
+* Did he die of natural causes?
+* No.
+* The man committed suicide.
+Edit score is :  0.5157388663967611
+* Did he die of a self-inflicted injury?
+* No.
+* The man was poisoned.
+Edit score is :  0.5458994708994709
+* Did he die of an accident?
+* Yes.
+* The man died in a house fire.
+Edit score is :  0.5994916003536693
+* Did he die of a heart attack?
+* No.
+* The man died in a house fire.
+Edit score is :  0.5994916003536693
+PUZZLE: A man dies of thirst in his own home. What happened?
+* Did he have any water in his house?
+* No.
+* He had no water in his house.
+Edit score is :  0.6289819376026272
+* Did he have any money to buy water?
+* No.
+* The man was a hermit who never left his house and didn't have any water or money to buy water.
+Edit score is :  0.7446555217831814
+PUZZLE: A body is discovered in a park in Chicago in the middle of summer. It has a fractured skull and many other broken bones, but the cause of death was hypothermia. What happened?
+* Could the body have been moved after death?
+* No.
+* The victim was a marathon runner who died after being knocked unconscious in a robbery attempt and left in the park overnight during a cold snap.
+Edit score is :  0.6369442525783847
+* Was the body found in water?
+* No.
+* The victim was a homeless person who was asleep in the park. A severe thunderstorm rolled in during the night, and the victim's body was frozen by the time morning came.
+Edit score is :  0.6795993681884503
+PUZZLE: A man is lying drowned in a dead forest. What happened?
+* Could the man hear the forest?
+* No.
+* The man committed suicide.
+Edit score is :  0.5141915704678678
+* Did the man ask for water in an offensive way?
+* No.
+* The man was lost in the forest and died of thirst.
+Edit score is :  0.5789605734767025
+* Did the man die of thirst?
+* No.
+* The man was lying in a pool of water.
+Edit score is :  0.552834516544194
+* 
+* No.
+* The man was lost in the forest and died of starvation.
+Edit score is :  0.5663697378593014
+* 
+* No.
+* The man was lost and died of starvation.
+Edit score is :  0.5519524617996604
+PUZZLE: Three men die.  On the pavement are pieces of ice and broken glass. What happened?
+* Could the glass have been from a car?
+* No.
+* The men were in a fight and one of them was hit over the head with a bottle.
+Edit score is :  0.5493483709273183
+* Did the men die from the fall?
+* Yes.
+* The men were climbing a mountain and fell off.
+Edit score is :  0.529151138716356
+* Did the men die from the cold?
+* No.
+* The men fell off a roof while ice skating.
+Edit score is :  0.535873015873016
+* Did the men die from the ice?
+* No.
+* The men were climbing a mountain and fell off the cliff. The ice was from their water bottles and the glass was from their sunglasses.
+Edit score is :  0.5812224591329069
+* Did the men die from the glass?
+* No.
+* The men were on a plane that crashed.
+Edit score is :  0.5311325611325611
+PUZZLE: If he had wanted chocolate ice cream, his brother would be alive today. What happened?
+* Did he want chocolate ice cream?
+* No.
+* He wanted vanilla ice cream but his brother, who was eating chocolate at the time, said that vanilla was the lesser flavor and that he should get chocolate instead. So he did, and his brother died as a result of food poisoning.
+Edit score is :  0.60374261941555
+* Why would chocolate ice cream have saved his brother's life?
+* Irrelevant.
+* The man's brother was very sick and the only thing that would have saved his life was a transfusion of blood from the man. However, the man is afraid of needles and refused to give his brother the transfusion, resulting in his death.
+Edit score is :  0.6109297261774642
+* 
+* Irrelevant.
+* The man's brother was killed in a car accident. Had he wanted chocolate ice cream instead of vanilla, he would have been in the car with his brother and would have also died.
+Edit score is :  0.5730319250775595
+* 
+* Irrelevant.
+* The man's brother was killed in a car accident. If he had wanted chocolate ice cream instead of vanilla, he would have been in the car with his brother and would have also been killed.
+Edit score is :  0.5830062406715272
+* 
+* Irrelevant.
+* The man's brother was killed in a car accident. If he had wanted chocolate ice cream, he would have gone to the store with his brother and would not have been in the car when the accident happened.
+Edit score is :  0.586270054304976
+PUZZLE: A man kills his wife, then goes inside his house and kills himself. What happened?
+* Did the man kill his wife first?
+* Yes.
+* The man was having an affair with his wife's best friend. He killed his wife so that he could be with her.
+Edit score is :  0.5872231257885946
+* Did the man kill himself second?
+* Yes.
+* The man was distraught after killing his wife and chose to kill himself as well.
+Edit score is :  0.5801276403663338
+* Did the man use a gun to kill his wife?
+* No.
+* The man killed his wife with a knife, then went inside and killed himself with a gun.
+Edit score is :  0.5823032060395348
+* Did the man use a gun to kill himself?
+* No.
+* The man killed his wife with a knife, then went inside and killed himself with the same knife.
+Edit score is :  0.5904723802034653
+* Did the man use a knife to kill his wife?
+* No.
+* The man killed his wife by poisoning her food. He then killed himself by eating the poisoned food.
+Edit score is :  0.5874881778507047
+PUZZLE: If he'd turned on the light, he'd have lived. What happened?
+* Was there a power outage?
+* No.
+* The man was in a dark room and accidentally shot himself when he reached for what he thought was the light switch.
+Edit score is :  0.5835119694516527
+* Did he trip?
+* No.
+* He was in the bathroom with the door closed. He reached for the light switch, but instead grabbed the handle of the toilet and flushed it.
+Edit score is :  0.5966356107660455
+* Did he get stabbed?
+* No.
+* He was going to the bathroom in the middle of the night and was shot by a burglar.
+Edit score is :  0.5610046457607433
+* 
+* No.
+* He was in the closet.
+Edit score is :  0.5363095238095238
+* Did he get shot?
+* Yes.
+* The man was in the dark and got shot by a burglar.
+Edit score is :  0.5395068027210884
+PUZZLE: A man is found dead on the floor in the living room. What happened?
+* Was he shot?
+* No.
+* The man committed suicide by jumping out the window.
+Edit score is :  0.5898876545251374
+* Was he stabbed?
+* No.
+* The man had a heart attack.
+Edit score is :  0.6135231870525988
+* Did he die of natural causes?
+* No.
+* The man was poisoned.
+Edit score is :  0.6068160597572362
+* 
+* No.
+* The man was poisoned.
+Edit score is :  0.6068160597572362
+* Did he die of a heart attack?
+* No.
+* The man was electrocuted.
+Edit score is :  0.6174692485689929
+PUZZLE: A man went into a restaurant, had a large meal, and paid nothing for it. What happened?
+* Did the man eat for free?
+* Yes.
+* The man was a beggar who had been given a free meal by the restaurant owner.
+Edit score is :  0.6143757540080524
+* Did the man steal the food?
+* No.
+* The man was a beggar who was given a free meal by the restaurant owner.
+Edit score is :  0.61059218200629
+* Did the man have a coupon?
+* No.
+* The man was a very famous and well-known athlete.The restaurant was happy to have him eat there and gave him the meal for free.
+Edit score is :  0.6719055700245763
+PUZZLE: A U.S. Navy sailor on the deck of a cruiser noticed an explosive mine in the water directly in the path of the ship.  With no time to communicate the situation to the captain of the ship, the sailor saved the lives of the crew and the ship. What happened?
+* Did the sailor just let the ship hit the mine?
+* No.
+* The sailor used his body to push the mine out of the way, sacrificing himself in the process.
+Edit score is :  0.6297593101071758
+* Did the sailor warn the other sailors before he took action?
+* No.
+* The sailor jumped into the water and pulled the mine underneath the ship, sacrificing his life.
+Edit score is :  0.6409331657373686
+* So the sailor just saved the ship and crew all by himself?
+* Yes.
+* The sailor jumped into the water and swam under the ship, pushing the mine away from the hull with his body.
+Edit score is :  0.6528315010022867
+PUZZLE: A man leaves a motel room, goes to his car, and honks the horn. What happened?
+* Did the man check out of the motel room?
+* Irrelevant.
+* The man's wife/girlfriend was in the car.
+Edit score is :  0.5449664578612999
+* Did the man pay for the room?
+* Irrelevant.
+* The man forgot his keys and needed help getting into his room.
+Edit score is :  0.5583759327810095
+* Did the man stay in the room for the entire time he paid for?
+* Yes.
+* The man had sex with a prostitute in the room and then left.
+Edit score is :  0.5679525176746627
+* Did the man honk the horn as soon as he left the room?
+* No.
+* The man had sex with a prostitute in the room, and honked the horn to signal that he was finished.
+Edit score is :  0.6038414238998512
+* Did the man honk the horn before he got in his car?
+* No.
+* The man forgot his keys in the room.
+Edit score is :  0.5369025934599705
+PUZZLE: As I drive to work on my motorcycle, there is one corner which I go around at a certain speed whether it's rainy or sunny.  If it's cloudy but not raining, however, I usually go faster. What happened?
+* Is the corner more slippery when it's cloudy but not raining?
+* No.
+* The corner is more slippery when it's rainy.
+Edit score is :  0.5393461947227303
+* Is the corner more slippery when it's raining?
+* Yes.
+* The corner is more slippery when it's raining because the road is wet.
+Edit score is :  0.5814463719573209
+* Why do you go around the corner at a different speed when it's cloudy but not raining?
+* Irrelevant.
+* The sun is in my eyes when I go around the corner, so I go faster when it's cloudy so I can see better.
+Edit score is :  0.6386124300191339
+* Why do you go around the corner at a different speed when it's cloudy but not raining?
+* Irrelevant.
+* The sun is usually out when it's cloudy but not raining, and the sun makes the pavement dry and grippy. When it's raining, however, the pavement is wet and slippery.
+Edit score is :  0.6489619430312862
+* 
+* Irrelevant.
+* I can see the corner better when it's cloudy but not raining.
+Edit score is :  0.5679529784534728
+PUZZLE: A man opens his mouth and dies shortly afterwards. What happened?
+* Was he poisoned?
+* No.
+* He was a sword swallower and the sword went through his head.
+Edit score is :  0.5949168339269624
+* Did a bee fly into his mouth?
+* Yes.
+* The man was stung by a bee inside his mouth and died as a result.
+Edit score is :  0.6554469442012514
+PUZZLE: A married couple goes to a movie.  During the movie the husband strangles the wife.  He is able to get her body home without attracting attention. What happened?
+* Could he have taken her out in a wheelchair?
+* Yes.
+* The couple went to see a 3D movie.
+Edit score is :  0.6676343264578559
+PUZZLE: Music stops and a woman dies. What happened?
+* Did the woman have an allergy to music?
+* Irrelevant.
+* The woman was a musician and she died when her instrument failed.
+Edit score is :  0.5828006088280061
+* Did the woman have a heart condition?
+* No.
+* The woman was a musician who was playing the violin when she was electrocuted by a faulty microphone.
+Edit score is :  0.5994698373946984
+* Was the woman shot?
+* No.
+* The woman was a musician and was playing the violin when she suddenly died.
+Edit score is :  0.5859665144596652
+* Was the woman stabbed?
+* No.
+* The woman was a drummer in a band, and she died when her drum set was hit by a meteor.
+Edit score is :  0.594145339987965
+* Did the woman die of natural causes?
+* No.
+PUZZLE: A woman is murdered in front of hundreds of people, but they all think it's an accident. What happened?
+* Did anyone see the woman get murdered?
+* No.
+* Did the woman commit suicide?
+* No.
+* Was the woman pushed?
+* No.
+* The woman was hit by a bullet fired into the air as part of a celebration.
+Edit score is :  0.6161641944156785
+* Did the woman die instantly?
+* No.
+* The woman was hit by a train.
+Edit score is :  0.6190551513234208
+* Did the woman die from a head injury?
+* Yes.
+* The woman was hit by a bullet fired into the air during a celebration.
+Edit score is :  0.6026794815785642
+PUZZLE: Charlie died when the music stopped. What happened?
+* Was the music being played loudly?
+* Irrelevant.
+* Charlie was an electrician. He was electrocuted when he touched a live wire while working on a power line.
+Edit score is :  0.8201485735119862
+PUZZLE: Abel walks out of the ocean.  Cain asks him who he is, and Abel answers.  Cain kills Abel. What happened?
+* Did Abel have any identifying marks on him?
+* No.
+*  Abel was Cain's twin brother, and they were identical.
+Edit score is :  0.5301684743591397
+* Did Abel know Cain?
+* No.
+* Abel was a stranger who Cain didn't know, and he killed him for no reason.
+Edit score is :  0.5455997350734193
+* Did Cain kill Abel because Abel was a threat to him?
+* Yes.
+* Cain killed Abel because he was jealous of Abel's relationship with God.
+Edit score is :  0.530272576867004
+* Did Abel do anything to provoke Cain?
+* No.
+* Cain killed Abel because he was jealous of Abel.
+Edit score is :  0.5309078856561694
+*  Did Cain kill Abel out of jealousy?
+* Yes.
+* Cain was jealous of Abel because Abel was favored by God.
+Edit score is :  0.5342151675485008
+PUZZLE: A man is riding a subway.  He meets a one-armed man, who pulls out a gun and shoots him. What happened?
+* Did the one-armed man have a motive?
+* Yes.
+* The one-armed man was a pickpocket. The man on the subway caught him in the act and was shot to keep him quiet.
+Edit score is :  0.5744914589679933
+* Did the one-armed man know the man?
+* No.
+* The one-armed man was a mugger.
+Edit score is :  0.5406311866775358
+* Did the one-armed man know the man?
+* No.
+* The one-armed man was a mugger.
+Edit score is :  0.5406311866775358
+* Did the one-armed man have a gun?
+* No.
+* The one-armed man was a pickpocket and was trying to steal the man's wallet.
+Edit score is :  0.5474070555449997
+* Did the one-armed man have a knife?
+* No.
+* The one-armed man was a pickpocket. He saw the man on the subway and decided to rob him. When the man resisted, the one-armed man stabbed him with a knife.
+Edit score is :  0.5980005934781493
+PUZZLE: A man sends a package to someone in Europe and gets a note back saying "Thank you.  I received it." What happened?
+* Did the package arrive safely?
+* Irrelevant.
+* The man sent a bill to someone in Europe and got a note back saying "Thank you. I received it."
+Edit score is :  0.5764582937488124
+* Is the man in Europe?
+* No.
+* The man sent a thank you note to the person who sent him the package.
+Edit score is :  0.5632553759221471
+* Is the person who sent the note the man's friend?
+* No.
+* The man sent a letter, not a package.
+Edit score is :  0.5357758480502163
+* Did the person who sent the note send the package?
+* No.
+* The man sent a package to himself and received a note back from the post office.
+Edit score is :  0.5623537677649316
+* 
+* No.
+* The man sent a letter, not a package.
+Edit score is :  0.5357758480502163
+PUZZLE: Variant wording: Two men throw a box off of a cliff. What happened?
+* Did the box land on someone?
+* Yes.
+* Did they hear it hit the ground?
+* Yes.
+* The box was filled with feathers.
+Edit score is :  0.549467599275388
+* Did they hear it hit the ground before they saw it hit the ground?
+* No.
+* The box was filled with feathers.
+Edit score is :  0.549467599275388
+Traceback (most recent call last):
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 1321, in getresponse
+    response.begin()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/data/yangyueting/anaconda3/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/data/yangyueting/anaconda3/lib/python3.7/ssl.py", line 1049, in recv_into
+    return self.read(nbytes, buffer)
+  File "/data/yangyueting/anaconda3/lib/python3.7/ssl.py", line 908, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/requests/adapters.py", line 499, in send
+    timeout=timeout,
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 1321, in getresponse
+    response.begin()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "/data/yangyueting/anaconda3/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/data/yangyueting/anaconda3/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/data/yangyueting/anaconda3/lib/python3.7/ssl.py", line 1049, in recv_into
+    return self.read(nbytes, buffer)
+  File "/data/yangyueting/anaconda3/lib/python3.7/ssl.py", line 908, in read
+    return self._sslobj.read(len, buffer)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/http_client.py", line 221, in request
+    **kwargs,
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/requests/adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./demo.py", line 146, in <module>
+    generated_question, _ = get_response(question_generation_prompt)
+  File "./demo.py", line 57, in get_response
+    stop=["\n\n"]
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_resources/completion.py", line 31, in create
+    return super().create(*args, **kwargs)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 67, in create
+    "post", url, params, headers, stream=stream
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_requestor.py", line 127, in request
+    method.lower(), url, params, headers, stream=stream
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/api_requestor.py", line 322, in request_raw
+    method, abs_url, headers, post_data, stream=stream
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/http_client.py", line 87, in request_with_retries
+    raise connection_error
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/http_client.py", line 58, in request_with_retries
+    response = self.request(method, url, headers, post_data, stream=stream)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/http_client.py", line 246, in request
+    self._handle_request_error(e)
+  File "/data/yangyueting/anaconda3/lib/python3.7/site-packages/openai/http_client.py", line 306, in _handle_request_error
+    raise error.APIConnectionError(msg, should_retry=should_retry)
+openai.error.APIConnectionError: Unexpected error communicating with OpenAI.  If this problem persists,
+let us know at support@openai.com.
+
+(Network error: ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) (url=https://api.openai.com/v1/completions))

@@ -1,0 +1,3 @@
+,cos-sem-score,bert-score
+text_score,0.46708387,tensor(0.8704)
+kg_score,0.4599194,tensor(0.8700)

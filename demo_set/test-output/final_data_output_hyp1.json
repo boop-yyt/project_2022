@@ -1,0 +1,30 @@
+[
+    {
+        "puzzle": "A man is lying  dead face down in the desert wearing a backpack, and the man's shoelaces is untied. What happend?",
+        "question_list": [
+            "Did the man die of thirst?",
+            "Did the man die of a snake bite?",
+            "Did the man die of a heart attack?",
+            "Did the man die of a gunshot wound?"
+        ],
+        "answer_list": [
+            "Irrelevant.",
+            "Irrelevant.",
+            "No.",
+            "No."
+        ],
+        "final_answer": "He pulled his shoelace instead of the ripcord.",
+        "solution_list": [
+            "The man was hiking in the desert when he died. Most likely, he died of thirst, but it is irrelevant to the puzzle. The fact that his shoelaces are untied means that he probably died quickly and didn't have time to tie them.",
+            "The man was hiking in the desert when he died. Most likely, he died of thirst. However, the cause of death is not relevant to the puzzle.",
+            "The man was hiking in the desert when he had a heart attack and fell over. His shoelaces became untied as he fell, and he died face down in the sand.",
+            "The man tripped on his untied shoelaces and died."
+        ],
+        "edit_score": [
+            0.5891558399357191,
+            0.5705120067703374,
+            0.5595557516707352,
+            0.6999968024812745
+        ]
+    }
+]
